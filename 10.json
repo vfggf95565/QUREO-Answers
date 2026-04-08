@@ -1,0 +1,180 @@
+{
+  "level": 10,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أدخل نفس البرنامج كما هو موضّح أدناه بعد السطر الثالث.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (numberOfPeople >= 2 && fee >= 3000) { 　console.log(\"Free mug\"); }",
+            "full_code": "let numberOfPeople = 2;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000) { 　console.log(\"Free mug\"); }"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما هو موضّح أدناه بعد السطر الخامس.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else if (numberOfPeople >= 2 || fee >= 3000) {console.log(\"Complimentary cookie\");}",
+            "full_code": "let numberOfPeople = 2;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000) {\nconsole.log(\"Free mug\");\n} else if (numberOfPeople >= 2 || fee >= 3000) {\nconsole.log(\"Complimentary cookie\");\n}",
+            "note": "كتابه السطر الخامس هكذا"
+          },
+          "label": "الثانى"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" بدون تعديل البرنامج.\nاضغط تشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يطبع كلمة \"silk\" عشر مرات.\nأدخل نفس البرنامج كما هو مبيّن أدناه.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "( let count = 0; count < 10; count = count + 1 )",
+            "full_code": "for ( let count = 0; count < 10; count = count + 1 )\n{\nconsole.log(\"silk\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n1. اطبع كلمة \"deer\" عشر مرات في وحدة التحكم (console).\n2. يجب أن يكون البرنامج مكوّنًا من 3 أسطر.\n3. اسم المتغيّر يجب أن يكون count.",
+          "answer": {
+            "type": "code",
+            "value": "for (let count = 0; count < 10; count = count + 1) {\nconsole.log(\"deer\");\n}"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n1. اطبع \"campus\" عشر مرات في وحدة التحكم.\n2. يجب أن يكون البرنامج كله مكوّناً من 3 أسطر.\n3. اسم المتغيّر يجب أن يكون count.",
+          "answer": {
+            "type": "code",
+            "value": "for (let count = 0; count < 10; count = count + 1) {\nconsole.log(\"campus\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "كامبَس: campas,كامبَس: campas,كامبَس: campas...\nماذا تستخدم لقياس الزوايا؟",
+          "answer": {
+            "type": "text",
+            "value": "Protractor"
+          }
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n1. اطبع \"campus\" عشر مرات في وحدة التحكم.\n• يجب أن يكون اسم المتغيّر count.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let count = 0; count < 10; count = count + 1",
+            "full_code": "for (let count = 0; count < 10; count = count + 1) {\nconsole.log(\"campus\");",
+            "note": "}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنا أُنشئ برنامجًا يَعرض \"campus\" عشر مرات في وحدة التحكم.\nأدخل نفس البرنامج كما هو مبيَّن أدناه.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let count = 0; count < 10; count++",
+            "full_code": "for (let count = 0; count < 10; count++) {\nconsole.log(\"campus\");",
+            "note": "}"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما هو مبيَّن أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 10; i++) { console.log(\"genius\"); }"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "\"أدخل نفس البرنامج كما هو مبيَّن أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 3; i++) { console.log(\"Red lorry, yellow lorry\"); }"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما هو مبيَّن أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 1; i < 3; i++) { console.log(\"Red lorry, yellow lorry\"); }"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n1. اعرض \"Red lorry, yellow lorry\" مئة مرة في وحدة التحكم.\n2. يجب أن يتكوّن البرنامج بالكامل من 3 أسطر.\n3. اسم المتغيّر يجب أن يكون i.\n4. استخدم عامل الزيادة (increment operator).",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 100; i++) {\nconsole.log(\"Red lorry, yellow lorry\");\n}"
+          },
+          "label": "الثالث"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر أول شيء ستكتبه في برنامج يمثّل \"إخراج الكلمة apple إلى وحدة التحكم 10 مرات متتالية\".",
+        "answer": {
+          "type": "text",
+          "value": "for"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح لإضافة 1 إلى المتغيّر i.",
+        "answer": {
+          "type": "text",
+          "value": "i++"
+        },
+        "label": "الثانى"
+      },
+      "3": {
+        "question": "يرجى اختيار الإجابة الصحيحة للبرنامج الذي يكرّر العملية المحدّدة 10 مرات.",
+        "answer": {
+          "type": "code",
+          "value": "for (let i=0; i<10; i++) {\nSpecified process\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجك كما يلي.\n1. أخرج \"Hello\" إلى وحدة التحكم 5 مرات.\n*اسم المتغيّر i وأعطه القيمة 0 في البداية.\n*استخدم عامل الزيادة (increment operator).",
+        "answer": {
+          "type": "partial",
+          "answer_code": "let i = 0; i < 5; i++",
+          "full_code": "for (let i = 0; i < 5; i++ ) {\nconsole.log(\"Hello\");\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجك كما يلي.\n1. أخرج \"Hello\" إلى وحدة التحكم 7 مرات.\n*اسم المتغيّر i وأعطه القيمة 0 في البداية.\n*استخدم عامل الزيادة (increment operator).",
+        "answer": {
+          "type": "code",
+          "value": "for (let i = 0; i < 7; i++ ) {\nconsole.log(\"Hello\");\n}"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

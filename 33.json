@@ -1,0 +1,146 @@
+{
+  "level": 33,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "سننشئ دالة تجمع القيم الزمنية للأنواع الثلاثة.\n① أنشئ دالة باسم sum بوسائط freestyle وbreaststroke وbackstroke\n② أسند freestyle + breaststroke + backstroke إلى المتغير result\n③ أعد المتغير result",
+          "answer": {
+            "type": "code",
+            "value": "function sum(freestyle, breaststroke, backstroke) {\nlet result = freestyle + breaststroke + backstroke;\nreturn result;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ دالة تجمع القيم الزمنية للأنواع الثلاثة.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);",
+            "full_code": "function sum(freestyle, breaststroke,backstroke) {\nlet result = freestyle + breaststroke +backstroke;\nreturn result;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);",
+            "note": "الكود الكامل"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سنستدعي دالة تجمع ثلاث قيم عددية.\nلننشئ برنامجًا ابتداءً من السطر 7 كما يلي:\n① أعلن المتغير teamBlue وأسند إليه الدالة sum، ولكن مرّر القيم 40 و62 و58 إلى الدالة sum.\n② اعرض قيمة المتغير teamBlue في وحدة التحكم\n③ أعلن المتغير teamGreen وأسند إليه الدالة sum، ولكن مرّر القيم 41 و59.5 و60 إلى الدالة sum.\n④ اعرض قيمة المتغير teamGreen في وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
+            "full_code": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سنطبع أسرع زمن إجمالي بين الفرق الثلاثة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "Math.min(teamRed, teamBlue, teamGreen)"
+            ],
+            "template": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);\nconsole.log(\"The fastest time is\" + ___);",
+            "full_code": "Math.min(teamRed, teamBlue, teamGreen)"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "اطبع جميع القيم الموجودة في المصفوفة.\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "let day of volunteerList"
+            ],
+            "template": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nfor (___) {\nconsole.log(day);\n}",
+            "full_code": "let day of volunteerList"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "سننشئ برنامجًا يحسب ويطبع عدد مرات \"Yes\" في المصفوفة.\nلنُدخل البرنامج نفسه كما يلي ابتداءً من السطر الرابع.",
+          "answer": {
+            "type": "code",
+            "value": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nlet count = 0;\nfor (let day of volunteerList) {\nif (day == \"Yes\") {\ncount++;\n}\n}\nconsole.log(count);"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "سننشئ برنامجًا بناءً على المخطط الانسيابي.\n① إذا كانت قيمة المتغير \"weather\" هي \"sunny\"، فاطبع \"exercise\"، وإلا فاطبع \"read a book\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (weather == \"sunny\") {\nconsole.log(\"exercise\");\n} else {\nconsole.log(\"read a book\");\n}",
+            "full_code": "let weather = \"sunny\";\nif (weather == \"sunny\") {\nconsole.log(\"exercise\");\n} else {\nconsole.log(\"read a book\");\n}",
+            "note": "الكود بالكامل"
+          },
+          "label": "السابع"
+        },
+        "8": {
+          "question": "إذا كانت الشطيرة من النوع المالح، سننشئ برنامجًا يطبع \"Exchange with Cody\" إذا كانت من نوع التونة، وإلا يطبع \"Eat ham sandwich\".\nلننشئ البرنامج ابتداءً من السطر 4 كما يلي:\n① إذا كانت قيمة المتغير savory هي \"tuna\"، فاطبع \"Exchange with Cody\" في وحدة التحكم، وإلا فاطبع \"Eat ham sandwich\"",
+          "answer": {
+            "type": "code",
+            "value": "let sandwichType = \"savory\";\nlet savory = \"tuna\";\nif (sandwichType == \"savory\") {\nif (savory == \"tuna\") {\nconsole.log(\"Exchange with Cody\");\n} else {\nconsole.log(\"Eat ham sandwich\");\n}\n} else {\nconsole.log(\"Eat strawberry jam sandwich\");\n}"
+          },
+          "label": "الثامن"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح الذي يمرّر الوسائط الثلاثة 3 و5 و10 إلى الدالة calc3 ويعرض الناتج في وحدة التحكم.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(calc3(3, 5, 10));"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "سننشئ برنامجًا عند عرض قيمة المتغير num1 في وحدة التحكم، تظهر نفس القيمة الناتجة عن عملية الحساب في الدالة calc3.\nدون حذف البرنامج الأصلي، أنشئ البرنامج في السطر الخامس كما يلي:\n① أعلن المتغير num1، وأسند إليه ناتج الدالة calc3.\nيرجى تمرير القيم 5 و10 و15 كوسائط إلى الدالة.",
+        "answer": {
+          "type": "code",
+          "value": "function calc3(a, b, c) {\nlet result = a * b * c;\nreturn result;\n}\nlet num1 = calc3(5, 10, 15);\nconsole.log(num1);"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "سننشئ برنامجًا عند عرض قيمة المتغير num2 في وحدة التحكم، تظهر نفس القيمة الناتجة عن عملية الحساب في الدالة calc3.\nدون حذف البرنامج الأصلي، أنشئ البرنامج ابتداءً من السطر السابع كما يلي:\n① أعلن المتغير num2، وأسند إليه ناتج الدالة calc3.\nيرجى تمرير القيم 4 و4 و4 كوسائط إلى الدالة.\n② اعرض قيمة المتغير num2 في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "function calc3(a, b, c) {\nlet result = a * b * c;\nreturn result;\n}\nlet num1 = calc3(5, 10, 15);\nconsole.log(num1);\nlet num2 = calc3(4, 4, 4);\nconsole.log(num2);"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "دالة Math.min تُرجع أصغر قيمة من بين الوسائط المُمرَّرة إليها.\nيرجى اختيار البرنامج الذي يعرض أصغر قيمة من بين المتغيرات num1 وnum2 وnum3.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(Math.min(num1, num2, num3));"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يرجى اختيار ناتج الإخراج الصحيح للبرنامج أدناه:",
+        "answer": {
+          "type": "text",
+          "value": "80 88 92"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "يرجى كتابة برنامج يعرض فقط القيم من المتغير height التي تساوي أو تزيد عن 150.\nلا تحذف البرنامج الأصلي.",
+        "answer": {
+          "type": "code",
+          "value": "let heightList = [154, 138, 140, 180, 170];\n\nfor (let height of heightList) {\n  if (height >= 150) {\n    console.log(height);\n  }\n}"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "يُستخدم المخطط الانسيابي أدناه لتحديد ما إذا كان الشخص يستطيع ركوب الأفعوانية أم لا.\nمن بين الخيارات أدناه، اختر العبارة الخاطئة بناءً على ما يمكن استنتاجه من هذا المخطط الانسيابي.",
+        "answer": {
+          "type": "text",
+          "value": "إذا كان عمرك 12 سنة أو أكثر وكان طولك 140 سم أو أكثر، يمكنك الركوب بمفردك."
+        },
+        "label": "السابع"
+      }
+    }
+  }
+}

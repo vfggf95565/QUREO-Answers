@@ -1,0 +1,103 @@
+{
+  "level": 32,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "اطبع جميع القيم الموجودة في المصفوفة.\nأدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "let day of volunteerList"
+            ],
+            "template": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nfor (___) {\n  console.log(day);\n}",
+            "full_code": "let day of volunteerList"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يحسب ويطبع عدد المرات التي تحتوي فيها المصفوفة على القيمة \"Yes\".\nلنُدخل البرنامج نفسه كما هو موضح أدناه ابتداءً من السطر الرابع.",
+          "answer": {
+            "type": "code",
+            "value": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nlet count = 0;\nfor (let day of volunteerList) {\nif (day == \"Yes\") {\ncount++;\n}\n}\nconsole.log(count);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "تأكد من أن نص المسألة والبرنامج في المحرر متطابقان.\n\"سننشئ برنامجًا يحسب ويطبع عدد المرات التي تحتوي فيها المصفوفة على القيمة \"No\".\nلننشئ البرنامج ابتداءً من السطر الرابع كما يلي:\n① إذا كانت قيمة المتغير day هي \"No\"، أضف 1 إلى المتغير count.\nومع ذلك، استخدم عملية الزيادة (increment) لإضافة 1 إلى المتغير count.",
+          "answer": {
+            "type": "code",
+            "value": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nlet count = 0;\nfor (let day of volunteerList) {\nif (day == \"No\") {\ncount++;\n}\n}\nconsole.log(count);"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:\nوإلا فاطبع \"كُل شطيرة المربى بالفراولة\".",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (sandwichType == \"savory\") {\nconsole.log(\"Check what's inside the sandwich\");\n} else {\nconsole.log(\"Eat strawberry jam sandwich\");\n}",
+            "full_code": "let sandwichType = \"strawberry jam\";\nif (sandwichType == \"savory\") {\nconsole.log(\"Check what's inside the sandwich\");\n} else {\nconsole.log(\"Eat strawberry jam sandwich\");\n}",
+            "note": "الكود الكامل النهائي"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "بما أن هذا برنامج من نوع \"إذا حدث كذا، افعل ○○، وإلا افعل △△\"، نستخدم جملة if-else.\n\"إذا كانت الشطيرة من النوع المالح، سننشئ برنامجًا يطبع \"\"بدّل مع كودي\"\" إذا كانت تونة،\nوإلا يطبع \"كُل شطيرة لحم\".\nلننشئ البرنامج ابتداءً من السطر الرابع كما يلي:\n① إذا كانت قيمة المتغير savory هي \"tuna\"، اطبع \"بدّل مع كودي\" في وحدة التحكم،\nوإلا اطبع \"كُل شطيرة لحم\".",
+          "answer": {
+            "type": "code",
+            "value": "let sandwichType = \"savory\";\nlet savory = \"tuna\";\nif (sandwichType == \"savory\") {\nif (savory == \"tuna\") {\nconsole.log(\"Exchange with Cody\");\n} else {\nconsole.log(\"Eat ham sandwich\");\n}\n} else {\nconsole.log(\"Eat strawberry jam sandwich\");\n}"
+          },
+          "label": "الثاني"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "البرنامج أدناه يعرض القيم الموجودة في المتغير scoreList بالترتيب. يرجى اختيار التعبير المناسب لكتابته داخل القوسين في جملة for من بين الخيارات أدناه.",
+        "answer": {
+          "type": "text",
+          "value": "let score of scoreList"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار ناتج الإخراج الصحيح للبرنامج أدناه.",
+        "answer": {
+          "type": "text",
+          "value": "80 88 92"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى كتابة برنامج يعرض فقط القيم من المتغير height التي تساوي أو تزيد عن 150.\nلا تحذف البرنامج الأصلي.",
+        "answer": {
+          "type": "code",
+          "value": "let heightList = [154, 138, 140, 180, 170];\n\nfor (let height of heightList) {\n  if (height >= 150) {\n    console.log(height);\n  }\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يُستخدم المخطط الانسيابي أدناه لتحديد ما إذا كان الشخص يستطيع ركوب الأفعوانية أم لا. من بين الخيارات أدناه، اختر العبارة غير الصحيحة بناءً على ما يمكن استنتاجه من هذا المخطط الانسيابي.",
+        "answer": {
+          "type": "text",
+          "value": "إذا كان طولك 140 سم أو أكثر، يمكنك الركوب بمفردك."
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يرجى إنشاء برنامج متداخل يحتوي على جمل if داخل if بناءً على المخطط الانسيابي.\nاستخدم المتغير height للطول والمتغير age للعمر.\nإذا كان العمر 12 سنة أو أكثر، فاعرض \"\"يمكنك الركوب بمفردك\"\"،\nوإلا فاعرض \"\"يُرجى الركوب مع شخص يبلغ 18 سنة أو أكثر\"\".",
+        "answer": {
+          "type": "code",
+          "value": "let height = 148;\nlet age = 14;\n\nif (height >= 140) {\n  if (age >= 12) {\n    console.log(\"You can ride alone\");\n  } else {\n    console.log(\"Please ride with someone who is 18 years or older\");\n  }\n} else {\n  console.log(\"You cannot ride\");\n}"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "level": 14,
+  "lessons": {
+    "main": {
+      "questions": {
+        "1": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) قرّب 5.7 باستخدام الدالة ‎Math.round وأخرج النتيجة في الـ console.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.round(5.7));"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) مرِّر الوسيط 5.5 إلى الدالة ‎Math.round وأخرج النتيجة في الـ console.\n(2) مرِّر الوسيط 5.5 إلى الدالة ‎Math.floor وأخرج النتيجة في الـ console.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.round(5.5));\nconsole.log(Math.floor(5.5));"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) مرِّر الوسيطين 10 و 20 إلى الدالة ‎Math.max وأخرج النتيجة في الـ console.\n(2) مرِّر الوسيطين 10 و 20 إلى الدالة ‎Math.min وأخرج النتيجة في الـ console.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.max(10,20));\nconsole.log(Math.min(10,20));"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) استدعِ الدالة ‎Math.random وأخرج النتيجة في الـ console.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.random());"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ دالة بحيث عند تمرير المبلغ الكلي لها تُرجع القيمة مقسومة على 4.\nأنشئ البرنامج كما يلي:\n(1) أنشئ دالة باسم ‎split4 واسم وسيطها ‎total.\n(2) صرّح عن متغير باسم ‎result وأسند إليه المعادلة ‎total / 4.\n(3) أرجع قيمة المتغير ‎result.\n(4) مرّر الوسيط 1200 إلى الدالة ‎split4 وأخرج النتيجة في الـ console.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "function split4(total) {\nlet result = total / 4;",
+            "full_code": "console.log(split4(1200));",
+            "note": "return result;\n}"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر الدالة الصحيحة للتقريب.",
+        "answer": {
+          "type": "text",
+          "value": "Math.round(1.8)"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "100"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر البرنامج الصحيح لإخراج القيم العددية العشوائية.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(Math.random());"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "12"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يعيد عددًا صحيحًا عشوائيًا كما يلي.\n(1) استخدم الدالة Math.random لإرجاع قيمة عددية عشوائية.\n(2) اضرب القيمة العددية العشوائية المُعادة في 10.\n(3) استخدم الدالة Math.floor لإرجاع عدد صحيح.\n*البرنامج في سطر واحد.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(Math.floor(Math.random() * 10 ));",
+          "note": "Math.floor(Math.random() * 10 )"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اختر البرنامج الصحيح لإنشاء دالة يكون اسمها sum واسم الوسيط num",
+        "answer": {
+          "type": "code",
+          "value": "function sum(num) {",
+          "note": "processing\n}"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "أضف برنامجًا يُرجع قيمة المتغيّر result إلى البرنامج الموصوف.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "function calc(num) {\nlet result = num * 7;",
+          "full_code": "console.log(calc(10));",
+          "note": "يكتب في السطر الثالث\nreturn result\nreturn result\n}"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "أضف برنامجًا يستدعي الدالة calc.\nأدخل 7 كوسيط.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "function calc(num) {\nlet result = num * 5;",
+          "full_code": "console.log(calc(7));",
+          "note": "يكتب في السطر الخامس في المكان المخصص\ncalc(7)\nreturn result;\n}"
+        },
+        "label": "الثامن"
+      }
+    }
+  }
+}

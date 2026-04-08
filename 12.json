@@ -1,0 +1,234 @@
+{
+  "level": 12,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "9.8\n\n10.3\n\n9.2",
+            "full_code": "console.log(Math.round(9.8));\nconsole.log(Math.round(10.3));\nconsole.log(Math.round(9.2));",
+            "note": "تعبئه الاماكن الفارغه بالنواقص"
+          },
+          "label": "الاول"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.round(10.6));"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n1. قرّب العدد 9.7 باستخدام الدالة Math.round واطبعه في وحدة التحكم (console).",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.round(9.7));"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما هو موضّح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.max(5,10,50));"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أدخل نفس البرنامج كما هو موضّح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Math.min(5,10,50));"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "دعنا نشغّل البرنامج دون تعديله.\nنضغط تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "function split3(total) { }"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let result = total / 3;",
+            "full_code": "function split3(total) {\nlet result = total / 3;"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.\nreturn result;",
+          "answer": {
+            "type": "code",
+            "value": "function split3(total) {\nlet result = total / 3;",
+            "note": "return result;\nreturn result;\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(split3(2800));",
+            "note": "return result;\n}"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n1. أنشئ دالة باسم split5 وبوسيط باسم total.",
+          "answer": {
+            "type": "code",
+            "value": "function split5(total)"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ دالة باسم split5 وبوسيط باسم total.\nأنشئ برنامجك كما يلي:\n1. صرّح عن المتغيّر result واكتب فيه صيغة الحساب total / 5.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let result = total / 5;",
+            "full_code": "function split5(total) {\nlet result = total / 5;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ دالة باسم split5 وبوسيط باسم total.\nأنشئ برنامجك كما يلي:\n1. أعد قيمة المتغيّر result.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "return result;",
+            "full_code": "function split5(total) {\nlet result = total / 5;\nreturn result;\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ دالة باسم split5 وبوسيط باسم total.\nأنشئ برنامجك كما يلي:\n1. مرّر الوسيط 12500 إلى الدالة split5 وأخرج الناتج في وحدة التحكم.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(split5(12500));",
+            "full_code": "function split5(total) {\nlet result = total / 5;\nreturn result;\n}\nconsole.log(split5(12500));"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجك كما يلي.\n1. أنشئ دالة باسم calc5 ووسيط باسم num.",
+          "answer": {
+            "type": "code",
+            "value": "function calc5(num)"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الثاني، أدخل البرنامج الذي أنشأته كما يلي:\n1. صرّح عن المتغير result وأسنِد إليه صيغة الحساب num * 5",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let result = num * 5;",
+            "full_code": "function calc5(num) {\nlet result = num * 5;\n}",
+            "note": "الكود الكامل"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي:\n1. أعد قيمة المتغير result",
+          "answer": {
+            "type": "partial",
+            "answer_code": "return result;",
+            "full_code": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}"
+          },
+          "label": "السابع"
+        },
+        "8": {
+          "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الخامس، أدخل البرنامج الذي أنشأته كما يلي:\n1. مرّر الوسيط 10 إلى الدالة calc5 وأخرجه في وحدة التحكم.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(calc5(10));",
+            "full_code": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}\nconsole.log(calc5(10));"
+          },
+          "label": "الثامن"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لإنشاء دالة يكون اسمها calc واسم معاملها num.",
+        "answer": {
+          "type": "code",
+          "value": "function calc(num) { 　　processing }"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر الدالة الصحيحة للتقريب.",
+        "answer": {
+          "type": "text",
+          "value": "Math.round(1.8)"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "60"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "15"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "الرجاء إضافة برنامج يستدعي الدالة calc.\nضع 3 كقيمة للمعامل.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "calc(3)",
+          "full_code": "function calc(num) {\nlet result = num * 5;\nreturn result;\n}\nconsole.log(calc(3));"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "الرجاء إضافة برنامج يعيد قيمة المتغيّر result إلى البرنامج الموصوف.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "return result",
+          "full_code": "function calc(num) {\nlet result = num * 7;\nreturn result }\nconsole.log(calc(10));"
+        },
+        "label": "السادس"
+      }
+    }
+  }
+}

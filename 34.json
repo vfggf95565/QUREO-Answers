@@ -1,0 +1,196 @@
+{
+  "level": 34,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامج بطولة رياضية. أولاً، فلنُظهر العنوان.\nأدخل ما يلي في المحرر:\nSports Tournament Program",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Sports Tournament Program</h1>"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامج بطولة رياضية. فلنضف عنوان الأحداث.\nأدخل ما يلي في السطر الثاني من المحرر:\nEvents",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Sports Tournament Program</h1>\n<p>Events</p>"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامج بطولة رياضية. فلنضف قائمة بالأحداث.\nأدخل ما يلي في المحرر ابتداءً من السطر الثالث:",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Sports Tournament Program</h1>\n<p>Events</p>\n<ul>\n  <li>Frisbee</li>\n  <li>Softball</li>\n  <li>Bread-eating race</li>\n</ul>"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ برنامج بطولة رياضية. وأخيرًا فلنضف صورة.\nأدخل ما يلي في السطر الثامن:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<img src=\"sports.png\">",
+            "full_code": "<h1>Sports Tournament Program</h1>\n<p>Events</p>\n<ul>\n  <li>Frisbee</li>\n  <li>Softball</li>\n  <li>Bread-eating race</li>\n</ul>\n<img src=\"sports.png\">"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "انقر على تشغيل الكود دون إجراء أي تغييرات.\nاضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على تشغيل الكود دون إجراء أي تغييرات.\nاضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "انقر على تشغيل الكود دون إجراء أي تغييرات.\nاضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سنُغيّر لون كلمة sea في السطر الأول إلى اللون الأزرق.\n* يحتوي ملف CSS بالفعل على إعداد يجعل لون النص أزرق.\nأدخل ما يلي في المحرر:\nLet's go to the sea",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "<span>",
+              "</span>"
+            ],
+            "template": "<p>Let's go to the ___sea___</p>\n<p class=\"mountain\">Let's go to the mountains</p>",
+            "full_code": "<span>\n\n</span>"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "سنُغيّر لون كلمة sea إلى الأزرق، وmountain إلى الأخضر.\n* يحتوي CSS على إعدادات لتغيير ألوان النصوص.\nأدخل ما يلي في المحرر:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "class=\"sea\"",
+              "class=\"mountain\""
+            ],
+            "template": "<p>Let's go to the <span ___>sea</span></p>\n<p>Let's go to the <span ___>mountain</span></p>",
+            "full_code": "class=\"sea\"\n\nclass=\"mountain\""
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "سنُغيّر لون كلمة Apple إلى الأحمر، وGiraffe إلى الأصفر، وLight blue sneakers إلى الأزرق الفاتح.\n* يحتوي CSS على إعدادات لتغيير الألوان.\nأدخل ما يلي في المحرر:\n① أحط كلمة Apple بعنصر span وأضف خاصية class بقيمة \"apple\"\n② أحط كلمة Giraffe بعنصر span وأضف خاصية class بقيمة \"giraffe\"\n③ أحط عبارة Light blue sneakers بعنصر span وأضف خاصية class بقيمة \"sneaker\"",
+          "answer": {
+            "type": "code",
+            "value": "<p>My favorite fruit is <span class=\"apple\">Apple</span></p>\n<p>My favorite animal is <span class=\"giraffe\">Giraffe</span></p>\n<p>Today's shoes are <span class=\"sneaker\">Light blue sneakers</span></p>"
+          },
+          "label": "السادس"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على تشغيل الكود دون إجراء أي تغييرات.\nاضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ استبيانًا. أولاً، فلنُظهر حقل إدخال الرأي.\nأدخل ما يلي في السطر الثالث من المحرر:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<input type=\"text\">",
+            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">",
+            "note": "الكود الكامل"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ استبيانًا. فلنُظهر زرًّا بجانب حقل إدخال الرأي.\nأدخل ما يلي في السطر الرابع من المحرر:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<input type=\"button\">",
+            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\">",
+            "note": "الكود الكامل"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ استبيانًا. فلنُظهر زر الإرسال بجانب حقل إدخال الرأي.\nعدّل السطر الرابع كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n\n<input type=\"button\" value=\"Submit\">"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "سننشئ استبيانًا. فلنُظهر حقل إدخال رأي وزر إرسال.\n① استخدم وسم input لإظهار حقل نصي\n② استخدم وسم input لإظهار زر مكتوب عليه Submit",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
+            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
+            "note": "الكود الكامل"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أنشئ قائمة نقطية باستخدام وسوم ul تتضمن العناصر: Hamburger، وPizza، وSandwich أسفل عرض كلمة Menu.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>",
+          "full_code": "<p>Menu</p>\n<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>",
+          "note": "الكود الكامل"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار كود الـ HTML الصحيح الذي يعرض صورة باسم الملف cody.png.",
+        "answer": {
+          "type": "text",
+          "value": "<img src=\"cody.png\">"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى اختيار النتيجة الصحيحة عند تنفيذ كود الـ HTML وCSS التاليين:\nHTML\nCSS",
+        "answer": {
+          "type": "text",
+          "value": "يتم عرض النص \"Tomato\" باللون الأحمر"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى اختيار كود الـ HTML الذي سيُعرض كما هو موضّح في الصورة أدناه.",
+        "answer": {
+          "type": "text",
+          "value": "<p>Phone Number</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Enter\">"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يرجى إضافة السمة value إلى كود الـ HTML المكتوب.\nاضبط القيمة لتكون \"Submit\".",
+        "answer": {
+          "type": "code",
+          "value": "<input type=\"button\" value=\"Submit\">"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

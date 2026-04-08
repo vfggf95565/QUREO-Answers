@@ -1,0 +1,103 @@
+{
+  "level": 4,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n1 اكتب الجملة Write the program on the line below. كتعليق\n2 اطبع \"Good evening\" في الـ console",
+          "answer": {
+            "type": "code",
+            "value": "//Write the program on the line below.\nconsole.log(\"Good evening\");"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n1 اطبع \"Bread and coffee for 350 codycoins\" في الـ console.\n(لاحظ أن الرقم 350 يجب أن يُحسب بواسطة الكمبيوتر كـ 200+150 (سعر الخبز والقهوة).)",
+          "answer": {
+            "type": "code",
+            "value": "console.log(\"Bread and coffee for \" + (200 + 150) + \" codycoins\");",
+            "note": "🟩 الاجابه نكتب قي النواقص\n+ (200 + 150) +"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n1 أعلن المتغيّر num\n2 أسند القيمة 2 إلى num\n3 أسند قيمة num مضافًا إليها 8\n4 اطبع قيمة num في الـ console.",
+          "answer": {
+            "type": "code",
+            "value": "let num;\nnum = 2;\nnum = num + 8;\nconsole.log(num);"
+          },
+          "label": "الثالث"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لإخراج \"Hello\" على الـ console.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(\"Hello\");"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "لإخراج \"Hello\" على الـ console.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(\"Hello\");"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجك كما يلي\nغيّر \"Leave this text.\" إلى تعليق.\n*عند تنفيذ البرنامج سيُخرج \"Make the first line a comment.",
+        "answer": {
+          "type": "code",
+          "value": "//Leave this text.\nconsole.log(\"Make the first line a comment.\");",
+          "note": "🟩 الاجابه اضافه شارتتين مايلين قبل اول سطر ليصبح الكود هكذا"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر البرنامج الصحيح الذي يجعل الحاسوب يحسب \"5+7\" ويُخرج نتيجة العملية الحسابية على الـ console.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(5 + 7);"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر الرمز الصحيح للضرب المستخدم في البرنامج.",
+        "answer": {
+          "type": "text",
+          "value": "*"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "دع الحاسوب يحسب \"3*5\" ويُخرج \"The answer is 15.\" على الـ console.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(\"The answer is \" + ( 3 * 5) + \".\");"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اختر التصريح الصحيح (declaration) للمتغير number.",
+        "answer": {
+          "type": "text",
+          "value": "let number;"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "\"أنشئ برنامجك كما يلي\n1 صرّح عن المتغيّر num.\n2 أسند القيمة 5 إلى num\n3 أخرج قيمة num على الـ console\"",
+        "answer": {
+          "type": "code",
+          "value": "let num;\nnum = 5;\nconsole.log(num);"
+        },
+        "label": "الثامن"
+      }
+    }
+  }
+}

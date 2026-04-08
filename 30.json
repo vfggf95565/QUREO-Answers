@@ -1,0 +1,108 @@
+{
+  "level": 30,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا يطبع جميع قيم درجات الحرارة السبعة على وحدة التحكم.\nأدخل البرنامج كما يلي:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "for (let degree of degreeList) {\nconsole.log(degree);\n}",
+            "full_code": "let degreeList = [8, 6, 11, 10, 9, 7, 12];\nfor (let degree of degreeList) {\nconsole.log(degree);\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع جميع قيم المتغيّر wordList على وحدة التحكم.\nالسلاسل النصية التي ستضاف إلى wordList: tomato، carrot، onion\nاستخدم for...of لطباعة جميع قيم المتغيّر wordList.\nولكن، يجب أن يكون المتغيّر الذي تسند إليه القيم المجتلبة من المتغيّر wordList هو word.",
+          "answer": {
+            "type": "code",
+            "value": "let wordList = [\"tomato\", \"carrot\", \"onion\"];\nfor (let word of wordList) {\nconsole.log(word);\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"Big catch\" وعدد الأسماك الكبيرة المصطادة كـ \"Big fish counter\" إذا كان حجم السمكة المصطادة 50 سم أو أكبر.\nأدخل برنامجًا مشابهًا لما يلي:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "big = big + 1;\nconsole.log(\"Big fish counter:\" + big);",
+            "full_code": "let fish = 50;\nlet big = 0;\nif (fish >= 50) {\nconsole.log(\"Big catch!！\");\nbig = big + 1;\nconsole.log(\"Big fish counter:\" + big);\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا يطبع \"Buy bread and have a picnic\" إذا كان الجو مشمسًا والمخبز مفتوحًا (OPEN)، وإلا يقوم بـ \"Lunch at home\".\nنصرّح عن متغيّر يسمى weather، ونسند إليه القيمة \"sunny\".\nلنكمل البرنامج كما يلي:\n① في السطر 2، صرّح عن المتغيّر shop وأسنِد إليه القيمة \"OPEN\"\n② في حالة الجو المشمس، إذا كان المتغيّر shop هو OPEN، اطبع \"Buy bread and have a picnic\" على وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let shop = \"OPEN\";\n\n  if (shop == \"OPEN\") {\n    console.log(\"Buy bread and have a picnic\");\n  }",
+            "full_code": "let weather = \"sunny\";\nlet shop = \"OPEN\";\n\nif (weather == \"sunny\") {\n  if (shop == \"OPEN\") {\n    console.log(\"Buy bread and have a picnic\");\n  }\n} else {\n  console.log(\"Lunch at home\");\n}"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "سننشئ برنامجًا يطبع \"Destination is the zoo\" إذا كان الجو مشمسًا وفي المجموعة A، و \"Destination is the museum\" إذا لم يكن في المجموعة A، و \"Field trip canceled\" إذا كان الجو ممطرًا.\nتم إسناد قيمة المتغيّر group إلى \"Group A\".\nلنكمل البرنامج كما يلي:\n(1) إذا كان الجو مشمسًا، وإذا كان المتغيّر group هو Group A، اطبع \"Destination is the zoo\" على وحدة التحكم\n(2) إذا كان الجو مشمسًا، وإذا كان المتغيّر group هو Group B، اطبع \"Destination is the museum\" على وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else if (group == \"Group B\") {\n    console.log(\"Destination is the museum\");\n  } else {\n    console.log(\"Destination is the art museum\");\n  }",
+            "full_code": "let weather = \"sunny\";\nlet group = \"Group B\";\n\nif (weather == \"sunny\") {\n  if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else if (group == \"Group B\") {\n    console.log(\"Destination is the museum\");\n  } else {\n    console.log(\"Destination is the art museum\");\n  }\n} else {\n  console.log(\"Field trip canceled\");\n}"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "5\n6\n7"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "سننشئ برنامجًا يطبع جميع قيم المتغيّر numList على وحدة التحكم.\nأنشئ برنامجًا كما يلي:\n① استخدم for...of لطباعة جميع قيم المتغيّر numList\nولكن، يجب أن يكون المتغيّر الذي تسند إليه القيم المجتلبة من المتغيّر numList هو num.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "for (let num of numList) {\nconsole.log(num);\n}",
+          "full_code": "let numList = [2, 4, 6, 8];\nfor (let num of numList) {\nconsole.log(num);\n}"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "سننشئ برنامجًا يطبع جميع قيم المتغيّر wordList على وحدة التحكم.\nنحن نضيف سلاسل نصية إلى wordList.\nاستخدم for...of لطباعة جميع قيم المتغيّر wordList\nولكن، يجب أن يكون المتغيّر الذي تسند إليه القيم المجتلبة من المتغيّر wordList هو word.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "for (let word of wordList) {\nconsole.log(word);\n}",
+          "full_code": "let wordList = [\"Good morning\", \"Good night\", \"Hello\"];\nfor (let word of wordList) {\nconsole.log(word);\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "100"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "Destination is the amusement park"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "لِنُنشئ برنامجًا يغير الوجهة بناءً على الوقت من اليوم إذا كان الطقس ممطرًا (rain)، ويذهب في نزهة إذا لم يكن ممطرًا.\nبالنسبة للطقس الممطر، الوجهات هي: السينما في الصباح، والمكتبة في الظهيرة، والبقاء في المنزل في الحالات الأخرى.\nأكمل البرنامج باتباع هذه الخطوات:\n① معالجة متفرعة بناءً على ما إذا كان المتغيّر weather هو rain أو شيء آخر\n② أنشئ برنامجًا للحالة التي يكون فيها الطقس rain\n・إذا كان المتغيّر time هو morning، اطبع \"Let's go to the movie theater\"\n・إذا كان المتغيّر time هو noon، اطبع \"Let's go to the library\"\n・في الحالات الأخرى، اطبع \"Let's stay at home\"\n③ إذا لم يكن المتغيّر weather هو rain، اطبع \"Let's go for a walk\"",
+        "answer": {
+          "type": "partial",
+          "answer_code": "if (time == \"morning\") {\nconsole.log(\"Let's go to the movie theater\");\n} else if (time == \"noon\") {\nconsole.log(\"Let's go to the library\");\n} else {\nconsole.log(\"Let's stay at home\");\n}\n\nconsole.log(\"Let's go for a walk\");",
+          "full_code": "let weather = \"rain\";\nlet time = \"morning\";\n\nif (weather == \"rain\") {\nif (time == \"morning\") {\nconsole.log(\"Let's go to the movie theater\");\n} else if (time == \"noon\") {\nconsole.log(\"Let's go to the library\");\n} else {\nconsole.log(\"Let's stay at home\");\n}\n} else {\nconsole.log(\"Let's go for a walk\");\n}"
+        },
+        "label": "السادس"
+      }
+    }
+  }
+}

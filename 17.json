@@ -1,0 +1,160 @@
+{
+  "level": 17,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(typeof 500);\nconsole.log(typeof \"500codycoins\");"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(1 === \"1\");"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Number(\"5\"));\nconsole.log(String(10));"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "درجة الحرارة هي 10°، 15°، 13°، 16°، 14°، 12°، و 17°.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "let tempList = [10, 15, 13, 16, 14, 12, 17];\nconsole.log(tempList[2]);"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "درجة الحرارة هي 5°، 8°، 7°، 10°، 6°، و 9°.\nأنشئ برنامجك كما يلي.\n(1) أسند مصفوفة إلى المتغير tempList.\nضع القيم العددية للحرارة في المصفوفة.",
+          "answer": {
+            "type": "code",
+            "value": "let tempList = [5, 8, 7, 10, 6, 9];"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "أنشئ برنامجًا لإخراج متوسط ​​درجة الحرارة خلال فترة 6 أيام.\nأنشئ برنامجك كما يلي.\n(1) صرّح عن متغير total وأسند إليه 0.\n(2) كرّر total = total + tempList[i] ست مرات.\n(3) اطبع على وحدة التحكم القيمة العددية الناتجة عن قسمة total على عدد الأيام.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let total = 0;\nfor (let i = 0; i < 6; i++) {\n  total = total + tempList[i];\n}\nconsole.log(total / 6);",
+            "full_code": "let tempList = [5, 8, 7, 10, 6, 9];\nlet total = 0;\nfor (let i = 0; i < 6; i++) {\n  total = total + tempList[i];\n}\nconsole.log(total / 6);"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "أنشئ برنامجًا لإخراج عدد القيم في المصفوفة.\nأدخل البرنامج كما يلي.\n(1) اطبع طول المصفوفة على وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "tempList.length"
+            ],
+            "template": "let tempList = [5, 8, 7, 10, 6, 9, 10, 7, 6, 11, 13, 8, 8, 7];\nconsole.log(___);",
+            "full_code": "tempList.length"
+          },
+          "label": "السابع"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر نوع البيانات الصحيح أدناه.",
+        "answer": {
+          "type": "text",
+          "value": "String"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح الذي يُخرج \"string\".",
+        "answer": {
+          "type": "text",
+          "value": "console.log(typeof \"50\");"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "false"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "NaN"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ البرنامج كما يلي:\n1. الحاسوب يحدد نوع البيانات 100 ويطبعه في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(typeof 100)"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "10, 50, 100, 150\nلن يظهر أي مخرجات عند التنفيذ.",
+        "answer": {
+          "type": "code",
+          "value": "let num = [10, 50, 100, 150 ];",
+          "note": "نكتب بين القوسين المكتوبين\n10, 50, 100, 150"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "20"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "اطبع جميع القيم في المصفوفة إلى وحدة التحكم.\nلا تدخل القيم مباشرة.\nلا تحذف البرنامج المكتوب، بل أضف برنامجًا في console.log.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "num"
+          ],
+          "template": "let num = [2, 4, 6, 8, 10];\nconsole.log(___);",
+          "full_code": "num"
+        },
+        "label": "الثامن"
+      },
+      "9": {
+        "question": "sum = sum + num[i];\n}",
+        "answer": {
+          "type": "text",
+          "value": "12"
+        },
+        "label": "التاسع"
+      },
+      "10": {
+        "question": "اطبع طول المصفوفة إلى وحدة التحكم.\nلا تدخل الطول العددي مباشرة.",
+        "answer": {
+          "type": "code",
+          "value": "let num = [2, 4, 6, 8, 10];\nconsole.log(num.length );",
+          "note": "num.length"
+        },
+        "label": "العاشر"
+      }
+    }
+  }
+}

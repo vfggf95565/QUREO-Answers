@@ -1,0 +1,190 @@
+{
+  "level": 29,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "لِنُنشئ برنامجًا كما يلي:\n(1) صرّح عن المتغيّر score وأسنِد إليه القيمة 100\n(2) إذا كان score يساوي 100، اطبع \"Reward is steak\" على وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let score = 100;\nif (score == 100) {\nconsole.log(\"Reward is steak\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"Reward is steak\" إذا كانت درجة الاختبار 100، و \"Reward is cake\" إذا كانت 80 أو أعلى.\nتم تعيين درجة الاختبار على \"85\" نقطة.\nمن السطر 4 فصاعدًا، لِنُنشئ برنامجًا كما يلي:\n(1) كشرط ثانٍ، إذا كان المتغيّر score أكبر من أو يساوي 80، اطبع \"Reward is cake\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else if (score >= 80) {\nconsole.log(\"Reward is cake\");\n}",
+            "full_code": "let score = 85;\nif (score == 100) {\nconsole.log(\"Reward is steak\");\n} else if (score >= 80) {\nconsole.log(\"Reward is cake\");\n}",
+            "note": "الكود الكامل"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"Reward is steak\" إذا كانت درجة الاختبار 100، و \"Reward is cake\" إذا كانت 80 أو أعلى، و \"No games for a week\" في الحالات الأخرى.\nدرجة الاختبار هي 62 نقطة.\nمن السطر 6 فصاعدًا، لِنُنشئ برنامجًا كما يلي:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else {\nconsole.log(\"No games for a week\");\n}",
+            "full_code": "let score = 62;\nif (score == 100) {\nconsole.log(\"Reward is steak\");\n} else if (score >= 80) {\nconsole.log(\"Reward is cake\");\n} else {\nconsole.log(\"No games for a week\");\n}",
+            "note": "الكود الكامل"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا يطبع \"Big catch!\" إذا كان حجم السمكة المصطادة 50 سم أو أكبر.\n(1) صرّح عن المتغيّر fish وأسنِد إليه القيمة 50\n(2) إذا كان fish أكبر من أو يساوي 50، اطبع \"!Big catch\" على وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let fish = 50;\nif (fish >= 50) {\nconsole.log(\"Big catch!\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"Big catch\" وعدد الأسماك الكبيرة المصطادة كـ \"Big fish counter\" إذا كان حجم السمكة المصطادة 50 سم أو أكبر.\nأدخل برنامجًا كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "let fish = 50;\nlet  count = 0;\nif (fish >= 50) {\nconsole.log(\"Big catch!\");\ncount =  count + 1;\nconsole.log(\"Big fish counter:\" +  count);\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"Super big catch!\" وعدد الأسماك الكبيرة جدًا المصطادة كـ \"Super big fish counter\" إذا كان حجم السمكة المصطادة 100 سم أو أكبر.\nلِنُنشئ برنامجًا كما يلي:\n(1) إذا كان fish أكبر من أو يساوي 100، اطبع \"Super big catch!\" على وحدة التحكم\n(2) عندما تصطاد سمكة حجمها 100 سم أو أكبر، أسنِد count+1 إلى المتغيّر count\n(3) اطبع \"Super big fish counter: قيمة count\" على وحدة التحكم\nولكن، يرجى إدخال برنامجي (2) و (3) داخل عبارة if الشرطية من (1).",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (fish >= 100) {\nconsole.log(\"Super big catch!\");\ncount =  count + 1;\nconsole.log(\"Super big fish counter:\" +  count);\n}",
+            "full_code": "let fish = 120;\nlet  count = 0;\nif (fish >= 100) {\nconsole.log(\"Super big catch!\");\ncount =  count + 1;\nconsole.log(\"Super big fish counter:\" +  count);\n}",
+            "note": "نكمل الكود من السطر الثاني الي السابع\nالكود الكامل"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا يقوم بنزهة في الحديقة إذا كان الجو مشمسًا، وإلا يتناول الغداء في المنزل.\nنصرّح عن متغيّر يسمى weather، ونسند إليه القيمة \"sunny\".\n(1) إذا كان المتغيّر weather هو \"sunny\"، اطبع \"Picnic in the park\" على وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (weather == \"sunny\") {\nconsole.log(\"Picnic in the park\");\n} else {\nconsole.log(\"Lunch at home\");\n}",
+            "full_code": "let weather = \"sunny\";\nif (weather == \"sunny\") {\nconsole.log(\"Picnic in the park\");\n} else {\nconsole.log(\"Lunch at home\");\n}",
+            "note": "الكود الكامل"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"Let's buy bread and go for a picnic\" إذا كان الجو مشمسًا والمخبز مفتوحًا (OPEN)، وإلا يقوم بـ \"Lunch at home\".\nنصرّح عن متغيّر يسمى weather، ونسند إليه القيمة \"sunny\".\nلنكمل البرنامج كما يلي:\n① صرّح عن المتغيّر shop وأسنِد إليه القيمة \"OPEN\"\n② إذا كان المتغيّر shop هو OPEN، اطبع \"Let's buy bread and go for a picnic\" على وحدة التحكم",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "let shop = \"OPEN\";",
+              "shop == \"OPEN\""
+            ],
+            "template": "let weather = \"sunny\";\n___\n\nif (weather == \"sunny\") {\n  if (___) {\n    console.log(\"Let's buy bread and go for a picnic\");\n  }\n} else {\n  console.log(\"Lunch at home\");\n}",
+            "full_code": "let shop = \"OPEN\";\nshop == \"OPEN\""
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"Let's buy bread and go for a picnic\" إذا كان الجو مشمسًا والمخبز مفتوحًا (OPEN)، و\"Let's buy apple and go for a picnic\" إذا لم يكن مفتوحًا، و\"Lunch at home\" إذا كان الجو ممطرًا.\nتم إسناد قيمة المتغيّر shop إلى \"CLOSED\".\nلنكمل البرنامج كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "else {",
+              "console.log(\"Let's buy apple and go for a picnic\");",
+              "}"
+            ],
+            "template": "let weather = \"sunny\";\nlet shop = \"CLOSED\";\nif (weather == \"sunny\") {\nif (shop == \"OPEN\") {\nconsole.log(\"Let's buy bread and go for a picnic\");\n  } ___\n    ___\n  ___\n} else {\nconsole.log(\"Lunch at home\");\n}",
+            "full_code": "else {\nconsole.log(\"Let's buy apple and go for a picnic\");\n}"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا يطبع \"Let's go on the field trip\" إذا كان الجو مشمسًا، وإلا \"Field trip canceled\".\nنصرّح عن متغيّر يسمى weather، ونسند إليه القيمة \"sunny\".\n① إذا كان المتغيّر weather مشمسًا، اطبع \"Let's go on the field trip\" على وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (weather == \"sunny\") {\nconsole.log(\"Let's go on the field trip\");\n} else {\nconsole.log(\"Field trip canceled\");\n}",
+            "full_code": "let weather = \"sunny\";\nif (weather == \"sunny\") {\nconsole.log(\"Let's go on the field trip\");\n} else {\nconsole.log(\"Field trip canceled\");\n}",
+            "note": "الكود بالكامل"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"Destination is the zoo\" إذا كان الجو مشمسًا وفي المجموعة A، و\"Destination is the museum\" إذا لم يكن في المجموعة A، و\"Field trip canceled\" إذا كان الجو ممطرًا.\nتم إسناد قيمة المتغيّر group إلى \"Group A\".\nلنكمل البرنامج كما يلي:\n① إذا كان الجو مشمسًا، وإذا كان المتغيّر group هو Group A، اطبع \"Destination is the zoo\" على وحدة التحكم\n② إذا لم يتحقق الشرط، اطبع \"Destination is the museum\" على وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else {\n    console.log(\"Destination is the museum\");\n  }",
+            "full_code": "let weather = \"sunny\";\nlet group = \"Group A\";\n\nif (weather == \"sunny\") {\n  if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else {\n    console.log(\"Destination is the museum\");\n  }\n} else {\n  console.log(\"Field trip canceled\");\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"Destination is the zoo\" إذا كان الجو مشمسًا وفي المجموعة A، و\"Destination is the museum\" إذا كان في المجموعة B، و\"Destination is the art museum\" إذا كان في المجموعة C، و\"Field trip canceled\" إذا كان الجو ممطرًا.\nتم إسناد قيمة المتغيّر group إلى \"Group C\".\nلنكمل البرنامج كما يلي:\n① إذا كان الجو مشمسًا، وإذا كان المتغيّر group هو Group B، اطبع \"Destination is the museum\" على وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else if (group == \"Group B\") {\n    console.log(\"Destination is the museum\");\n  } else {\n    console.log(\"Destination is the art museum\");\n  }",
+            "full_code": "let weather = \"sunny\";\nlet group = \"Group C\";\n\nif (weather == \"sunny\") {\n  if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else if (group == \"Group B\") {\n    console.log(\"Destination is the museum\");\n  } else {\n    console.log(\"Destination is the art museum\");\n  }\n} else {\n  console.log(\"Field trip canceled\");\n}"
+          },
+          "label": "الثالث"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أضف شرطًا ثانيًا إلى البرنامج المكتوب:\nإذا كانت A أصغر من B، اطبع 'B is bigger' على وحدة التحكم.\nتعبير الشرط الثاني هو 'A < B'.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "else if (A < B) {\n  console.log(\"B is bigger\");\n}",
+          "full_code": "let A = 5;\nlet B = 10;\nif (A > B) {\n  console.log(\"A is bigger\");\n} else if (A < B) {\n  console.log(\"B is bigger\");\n}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "100"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "Destination is the amusement park"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجًا كما يلي:\n① إذا كان الجو مشمسًا، وإذا كان المتجر مفتوحًا (OPEN)، اطبع 'Go to the shop' على وحدة التحكم\n※أنشئ برنامجًا متداخلاً.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "if (shop == \"OPEN\") {\n    console.log(\"Go to the shop\");\n  }",
+          "full_code": "let weather = \"sunny\";\nlet shop = \"OPEN\";\n\nif (weather == \"sunny\") {\n  if (shop == \"OPEN\") {\n    console.log(\"Go to the shop\");\n  }\n} else {\n  console.log(\"Staying at home\");\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "لِنُنشئ برنامجًا يغير الوجهة بناءً على الوقت من اليوم إذا كان الطقس ممطرًا (rain)، ويذهب في نزهة إذا لم يكن ممطرًا.\nبالنسبة للطقس الممطر، الوجهات هي: السينما في الصباح، والمكتبة في الظهيرة، والبقاء في المنزل في الحالات الأخرى.\nأكمل البرنامج باتباع هذه الخطوات:\n① معالجة متفرعة بناءً على ما إذا كان المتغيّر weather هو rain أو شيء آخر\n② أنشئ برنامجًا للحالة التي يكون فيها الطقس rain\n・إذا كان المتغيّر time هو morning، اطبع \"Let's go to the movie theater\"\n・إذا كان المتغيّر time هو noon، اطبع \"Let's go to the library\"\n・في الحالات الأخرى، اطبع \"Let's stay at home\"\n③ إذا لم يكن المتغيّر weather هو rain، اطبع \"Let's go for a walk\"",
+        "answer": {
+          "type": "partial",
+          "answer_code": "if (time == \"morning\") {\n    console.log(\"Let's go to the movie theater\");\n  } else if (time == \"noon\") {\n    console.log(\"Let's go to the library\");\n  } else {\n    console.log(\"Let's stay at home\");\n  }",
+          "full_code": "let weather = \"rain\";\nlet time = \"morning\";\n\nif (weather == \"rain\") {\n  if (time == \"morning\") {\n    console.log(\"Let's go to the movie theater\");\n  } else if (time == \"noon\") {\n    console.log(\"Let's go to the library\");\n  } else {\n    console.log(\"Let's stay at home\");\n  }\n} else {\n  console.log(\"Let's go for a walk\");\n}",
+          "extra_codes": [
+            "console.log(\"Let's go for a walk\");"
+          ]
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

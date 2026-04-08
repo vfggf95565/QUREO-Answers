@@ -1,0 +1,208 @@
+{
+  "level": 15,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير fee وأسند له القيمة 1000.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let fee = 1000;",
+            "full_code": "let fee = 1000;\nif (fee == 1000) {\nconsole.log(\"50 codycoins off\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير fee وأسند له القيمة \"1000 codycoins\".",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let fee = \"1000 codycoins\";",
+            "full_code": "let fee = \"1000 codycoins\";\nif (fee == \"1000 codycoins\") {\nconsole.log(\"50 codycoins off\");\n}"
+          },
+          "label": "الثاني"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "سلسلة نصية",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "القيمة العددية",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سلسلة نصية",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nاضغط تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nاضغط تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(typeof 500);\nconsole.log(typeof \"500 codycoins\");"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) على الكمبيوتر أن يحدد نوع البيانات لـ \"100\" ويخرج النتيجة إلى الكونسول.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(typeof \"100\");"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nاضغط تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nاضغط تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(1 === 1);",
+            "note": "نكتب الناقص في الكود\n1 === 1"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "(انتبه لعدد علامات =).",
+          "answer": {
+            "type": "text",
+            "value": "true"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "(انتبه لعدد علامات =).",
+          "answer": {
+            "type": "text",
+            "value": "false"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "(انتبه لعدد علامات =).",
+          "answer": {
+            "type": "text",
+            "value": "true"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "(انتبه لعدد علامات =).",
+          "answer": {
+            "type": "text",
+            "value": "false"
+          },
+          "label": "السابع"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nاضغط تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(Number(\"10\"));\nconsole.log(String(500));"
+          },
+          "label": "الثاني"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر نوع البيانات الصحيح أدناه.",
+        "answer": {
+          "type": "text",
+          "value": "String"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح الذي يُخرج **string**.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(typeof \"1\");"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "false"
+        },
+        "label": "الثاث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "NaN"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجك كما يلي.\n(1) حدد نوع البيانات لـ `\"7\"` في الحاسوب واطبعه في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(typeof\"7\")"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

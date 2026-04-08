@@ -1,0 +1,135 @@
+{
+  "level": 27,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا يحسب ‎7×7×7×7×7×7×7‎.\nلننشئ البرنامج كما يلي:\n1. صرّح عن المتغيّر ‎num‎ وأسنِد إليه القيمة ‎1‎\n2. كرّر العملية ‎num = num * 7‎ عدد ‎7‎ مرات\n* اسنِد ‎0‎ إلى المتغيّر ‎i‎، واجعل الشرط بحيث إذا كان ‎i‎ أقل من ‎7‎ فقم بزيادة ‎i‎\n3. اطبع قيمة المتغيّر ‎num‎ إلى وحدة التحكم (الكونسول)",
+          "answer": {
+            "type": "code",
+            "value": "let num = 1;\nfor (let i = 0; i < 7; i++) {\nnum = num * 7;\n}\nconsole.log(num);"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يحسب ‎1×2×3×4×5‎.\nأدخل البرنامج كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "let num = 1;\nfor (let i = 1; i <= 5; i++) {\nnum = num * i;\n}\nconsole.log(num);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يضرب الأعداد من ‎1‎ إلى ‎15‎ على التوالي.\nلننشئ البرنامج كما يلي:\n1. صرّح عن المتغيّر ‎num‎ وأسنِد إليه القيمة ‎1‎\n2. كرّر إسناد العملية ‎num * i‎ إلى المتغيّر ‎num‎ عدد ‎15‎ مرة\n* اسنِد ‎1‎ إلى المتغيّر ‎i‎، واجعل الشرط بحيث إذا كان ‎i‎ أقل من أو يساوي ‎15‎ فقم بزيادة ‎i‎\n3. اطبع قيمة المتغيّر ‎num‎ إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let num = 1;\nfor (let i = 1; i <= 15; i++) {\nnum = num * i;\n}\nconsole.log(num);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "ما النتيجة التي ستظهر عند تنفيذ هذا البرنامج؟",
+          "answer": {
+            "type": "text",
+            "value": "36.8"
+          }
+        },
+        "5": {
+          "question": "سننشئ برنامجًا يطبع القيمة ‎36.4‎ من المتغيّر ‎tempList‎ إلى وحدة التحكم.\nلننشئ البرنامج كما يلي:\n1. استخرج القيمة ‎36.4‎ من المتغيّر ‎tempList‎ وأخرجها إلى وحدة التحكم\nى يُرجى عدم إدخال ‎36.4‎ مباشرة.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(tempList[4]);",
+            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4];\nconsole.log(tempList[4]);"
+          },
+          "label": "الرابع"
+        },
+        "6": {
+          "question": "سننشئ برنامجًا يطبع متوسّط درجة الحرارة من بيانات درجات الحرارة في المتغيّر ‎tempList‎.\nلعدد مرات التكرار في الجمع، وكذلك لعدد الأيام المقسوم عليها في النهاية،\nلنُدخل ‎variableName.length‎.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "tempList.length",
+              "tempList.length"
+            ],
+            "template": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < ___; i++){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / ___);",
+            "full_code": "tempList.length\n\ntempList.length",
+            "note": "السطر الأول"
+          },
+          "label": "الخامس"
+        },
+        "7": {
+          "question": "سننشئ برنامجًا يطبع «لنكن حذرين!» إذا وُجدت درجة حرارة ‎37.0°C‎ أو أعلى بين بيانات درجات الحرارة.\nلننشئ البرنامج كما يلي:\n(1) حلقة ‎for‎ تتكرّر بعدد القيم في المتغيّر ‎tempList‎\n* اسنِد ‎0‎ إلى المتغيّر ‎i‎.\n(2) كعملية متكرّرة في (1)، إذا كانت القيمة ذات الترتيب ‎i‎ في المتغيّر ‎tempList‎ أكبر من أو تساوي ‎37.0°C‎، فاطبع «لنكن حذرين!» إلى وحدة التحكم",
+          "answer": {
+            "type": "partial",
+            "answer_code": "for (let i = 0; i < tempList.length; i++) {\nif (tempList[i] >= 37.0) {\nconsole.log(\"Be careful!\");\n}\n}",
+            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nfor (let i = 0; i < tempList.length; i++) {\nif (tempList[i] >= 37.0) {\nconsole.log(\"Be careful!\");\n}\n}",
+            "note": "الكود الكامل"
+          },
+          "label": "السادس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "سننشئ برنامجًا يحسب '9×9×9'.\nلِنُنشئ برنامجًا كما يلي:\n① صرّح عن المتغيّر num وأسنِد إليه القيمة 1\n② كرّر العملية الحسابية 'num = num * 9' ثلاث مرات\n*أسنِد 0 إلى المتغيّر i، وعيّن الشرط بحيث إذا كان i أصغر من 3، قم بزيادة i.\n③ اطبع قيمة المتغيّر num على وحدة التحكم مرة واحدة فقط في النهاية",
+        "answer": {
+          "type": "code",
+          "value": "let num = 1;\nfor (let i = 0; i < 3; i++) {\nnum = num * 9;\n}\nconsole.log(num);"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "1→2→3→4"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "سننشئ برنامجًا يحسب '5040÷1÷2÷3÷4÷5'.\nلِنُنشئ برنامجًا كما يلي:\n① صرّح عن المتغيّر num وأسنِد إليه القيمة 5040\n② كرّر 'إسناد العملية الحسابية num / i إلى المتغيّر num' خمس مرات\nولكن، بالنسبة لشرط الحلقة، أسنِد 1 إلى المتغيّر i، وعيّن الشرط بحيث إذا كان i أصغر من أو يساوي 5، قم بزيادة i.\n③ اطبع قيمة المتغيّر num على وحدة التحكم مرة واحدة فقط في النهاية",
+        "answer": {
+          "type": "code",
+          "value": "let num = 5040;\nfor (let i = 1; i <= 5; i++) {\nnum = num / i;\n}\nconsole.log(num);"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجًا يجلب '63' من المتغيّر scoreList ويطبعه على وحدة التحكم.\nولكن، يرجى عدم إدخال '63' مباشرةً.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "scoreList[4]"
+          ],
+          "template": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(___);",
+          "full_code": "scoreList[4]"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أدخل برنامجًا يطبع عدد القيم في المتغيّر scoreList على وحدة التحكم.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "scoreList.length"
+          ],
+          "template": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(___);",
+          "full_code": "scoreList.length",
+          "note": "الكود الكامل"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "سننشئ برنامجًا يطبع 'Pass' إذا كانت الدرجة 80 أو أعلى.\nأنشئ برنامجًا كما يلي:\n① حلقة for تكرارية تتكرر لعدد القيم في المتغيّر scoreList\n② كعملية متكررة في ①، إذا كانت القيمة i للمتغيّر scoreList أكبر من أو تساوي 80، اطبع 'Pass' على وحدة التحكم",
+        "answer": {
+          "type": "partial",
+          "answer_code": "for (let i = 0; i < scoreList.length; i++) {\nif (scoreList[i] >= 80) {\nconsole.log(\"Pass\");\n}\n}",
+          "full_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nfor (let i = 0; i < scoreList.length; i++) {\nif (scoreList[i] >= 80) {\nconsole.log(\"Pass\");\n}\n}"
+        },
+        "label": "السادس"
+      }
+    }
+  }
+}

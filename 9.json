@@ -1,0 +1,109 @@
+{
+  "level": 9,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يطبع \"20% off\" إذا كان المتغيّر numberOfPeople أكبر من أو يساوي 2 والمتغيّر fee أكبر من أو يساوي 3000.\nأدخل نفس البرنامج كما هو موضح أدناه.\nnumberOfPeople >= 2 && fee >= 3000",
+          "answer": {
+            "type": "code",
+            "value": "let numberOfPeople = 3;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"20% off\");}",
+            "note": "numberOfPeople >= 2 && fee >= 3000"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يطبع \"20% off\" إذا كان المتغيّر numberOfPeople أكبر من أو يساوي 2 والمتغيّر fee أكبر من أو يساوي 3000.\nأدخل نفس البرنامج كما هو موضح أدناه.\nnumberOfPeople >= 2 && fee >= 3000",
+          "answer": {
+            "type": "code",
+            "value": "let numberOfPeople = 3;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"20% off\");}",
+            "note": "numberOfPeople >= 2 && fee >= 3000"
+          },
+          "label": "الثانى"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "“الشرط 1 and الشرط 2\" يُكتب هكذا “Condition 1 && Condition 2\"، لكن ماذا تُسمّى علامة “&\"؟",
+          "answer": {
+            "type": "text",
+            "value": "ampersand"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "“الشرط 1 or الشرط 2\" يُكتب هكذا “Condition 1 || Condition 2\"، لكن ماذا تُسمّى علامة “|\"؟",
+          "answer": {
+            "type": "text",
+            "value": "Vertical bar"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n1 اعلن المتغير numberOfPeople وأسند له 2.\n2 اعلن المتغير fee وأسند له 3500.\n3 إذا كان المتغير numberOfPeople أكبر من أو يساوي 2 وكان المتغير fee أكبر من أو يساوي 3000، يتم إخراج \"Free mug\" إلى وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "let numberOfPeople = 2;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"Free mug\");}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي.\n1 اعلن المتغير age وأسند له 15.\n2 إذا كان المتغير age أقل من أو يساوي 12 أو أكبر من أو يساوي 65، يتم إخراج \"30% off\" إلى وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "let age = 15;\nif (age <= 12 || age >= 65){console.log(\"30% off\");}"
+          },
+          "label": "الرابع"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر برنامجًا يعني \"A and B\".",
+        "answer": {
+          "type": "text",
+          "value": "A && B"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر برنامجًا يعني \"A or B\".",
+        "answer": {
+          "type": "text",
+          "value": "A || B"
+        },
+        "label": "الثانى"
+      },
+      "3": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "السعر العادي"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "الرجاء إنشاء برنامج كما يلي.\n1. إذا كان المتغيّر a يساوي 5 أو b يساوي 10، اطبع \"Condition met\".\n*أدخل التعبير الشرطي فقط.",
+        "answer": {
+          "type": "code",
+          "value": "let a = 5;\nlet b = 10;\nif (a == 5 || b == 10){console.log(\"Condition met\");}",
+          "note": "المطلوب نكتب في المكان المخصص للاجابه\na == 5 || b == 10"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "الرجاء إنشاء برنامج كما يلي.\n1. إذا كان المتغيّر a أكبر من أو يساوي 2 و b أكبر من أو يساوي 3، اطبع \"Condition met\".\n*أدخل التعبير الشرطي فقط",
+        "answer": {
+          "type": "code",
+          "value": "let a = 4;\nlet b = 3;\nif (a >= 2 && b >= 3){console.log(\"Condition met\");}",
+          "note": "المطلوب نكتب في المكان المخصص للاجابه\na >= 2 && b >= 3"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

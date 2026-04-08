@@ -1,0 +1,170 @@
+{
+  "level": 6,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير science وأسند له القيمة 100.\n(2) إذا كان المتغير science يساوي 100، أخرج \"Increased allowance!\"",
+          "answer": {
+            "type": "code",
+            "value": "let science = 100;\nif (science == 100){console.log(\"Increased allowance!\");}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أسند 80 إلى المتغير science وأخرج \"Increased allowance!\" إذا كان المتغير science يساوي 100.\nإذا لم يكن science يساوي 100، يخرج البرنامج \"Weeding the garden\".\nأدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else {console.log(\"Weeding the garden\");}",
+            "full_code": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}\nelse {console.log(\"Weeding the garden\");}",
+            "note": "🟩 الاجابه نضيف هذا السطر في المكان المخصص له"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) إذا لم تكن قيمة المتغير math تساوي 100، أخرج \"No reward\".",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else {console.log(\"No reward\");}",
+            "full_code": "let math = 80;\nif (math == 100){console.log(\"Get reward\");}\nelse {console.log(\"No reward\");}",
+            "note": "🟩 الاجابه نضيف هذا السطر في المكان المخصص له"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يخرج \"Let's go buy some.\" إذا كان المتغير egg يساوي 0، وإلا يخرج \"I still have some.\"\nأدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "let egg = 10;\nif (egg == 0){console.log(\"Let's go buy some.\");}\nelse {console.log(\"I still have some.\");}",
+            "note": "🟩 الاجابه نكتب النواقص في المكان المخصص لها\nif (egg == 0)\nelse"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير num وأسند له القيمة 777.\n(2) إذا كان المتغير num يساوي 777، أخرج \"lucky\".\n(3) إذا لم يكن كذلك، أخرج \"better luck next time\".",
+          "answer": {
+            "type": "code",
+            "value": "let num = 777;\nif (num == 777){console.log(\"lucky\");}\nelse {console.log(\"better luck next time\");}"
+          },
+          "label": "الثاني"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nنضفط تشغيل بدون اي تعديل",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يخرج \"Add homework\" إذا كانت قيمة المتغير math أقل من أو تساوي 50، وإلا \"No homework!\".\nلنعدّل البرنامج ليكون كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "let math = 30;\nif (math <= 50){console.log(\"Add homework\");}\nelse {console.log(\"No homework!\");}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير word أكبر من أو تساوي 70، أخرج \"pass\"، وإلا \"fail\".",
+          "answer": {
+            "type": "code",
+            "value": "let word = 60;\nif (word >= 70){console.log(\"pass\");}\nelse {console.log(\"fail\");}",
+            "note": "🟩 الاجابه نكتب في النواقص\nword >= 70"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أكبر من 130، أخرج \"Can ride\"، وإلا \"Cannot ride\".",
+          "answer": {
+            "type": "code",
+            "value": "let height = 91;\nif (height > 130){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}",
+            "note": "🟩 الاجابه نكتب في النواقص\nheight > 130"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أقل من 80، يخرج البرنامج \"Cannot ride\"، وإلا \"Can ride\".\nالإخراج",
+          "answer": {
+            "type": "code",
+            "value": "let height = 91;\nif (height < 80){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}",
+            "note": "🟩 الاجابه نكتب في النواقص\nheight < 80"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يخرج \"No entry\" إذا كان المتغير age أقل من أو يساوي 16، وإلا \"Entry allowed\".\nأدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "let age = 15;\nif (age <= 16){console.log(\"No entry\");}\nelse {console.log(\"Entry allowed\");}",
+            "note": "🟩 الاجابه نكتب الكود هكذا"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير age وأسند له 15.\n(2) إذا كان المتغير age أكبر من أو يساوي 60، أخرج \"Cannot jump\".\n(3) إذا لم يكن كذلك، أخرج \"Can jump\".",
+          "answer": {
+            "type": "code",
+            "value": "let age = 15;\nif (age >= 60){console.log(\"Cannot jump\");}\nelse {console.log(\"Can jump\");}"
+          },
+          "label": "الرابع"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر برنامجًا يقول إذا كان الشرط ~ فافعل A، وإلا فافعل B.",
+        "answer": {
+          "type": "text",
+          "value": "if (conditional){A}\nelse{B}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "أنشئ برنامجك كما يلي.\n١) صرّح عن المتغيّر num وأسنِد له القيمة 5.\n٢) إذا كان المتغيّر num يساوي 10، أخرج \"Win\".\n٣) وإلا، أخرج \"Lose\".",
+        "answer": {
+          "type": "code",
+          "value": "let num = 5\nif(num == 10){console.log(\"Win\")}\nelse {console.log(\"Lose\")}"
+        },
+        "label": "الثانى"
+      },
+      "3": {
+        "question": "اختر برنامجًا يحتوي على التعبير الشرطي \"قيمة المتغيّر num أصغر من أو تساوي 80\".",
+        "answer": {
+          "type": "text",
+          "value": "num <= 80"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر برنامجًا يحتوي على الشرط \"قيمة المتغيّر num أكبر من 30\".",
+        "answer": {
+          "type": "text",
+          "value": "num > 30"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجك كما يلي.\n١) إذا كانت قيمة المتغيّر score أكبر من أو تساوي 60، أخرج \"Pass\"؛ وإلا أخرج \"Fail\".\nرجاءً لا تحذف البرنامج المكتوب مسبقًا، وأدخل فقط جزء التعبير الشرطي.",
+        "answer": {
+          "type": "code",
+          "value": "let score = 80;\nif (score >= 60){console.log(\"Pass\");}\nelse {console.log(\"Fail\");}",
+          "note": "🟩 الاجابه نكتب في النواقص\nscore >= 60"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

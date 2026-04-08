@@ -1,0 +1,241 @@
+{
+  "level": 16,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" بدون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "اضغط على \"تشغيل الكود\" بدون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "let tempList = [36, 36, 26, 27, 28, 33, 36];"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(tempList[2]);"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36];\n___",
+            "full_code": "console.log(tempList[2]);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) استخرج 33 المسندة إلى المتغير tempList وأخرجها إلى وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(tempList[5]);"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36];\n___",
+            "full_code": "console.log(tempList[5]);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) أخرج قيمة المتغير tempList إلى وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(tempList);"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36];\n___",
+            "full_code": "console.log(tempList);"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "let tempList = [36, 36, 26, 27, 28, 33, 36];"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما يلي.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let total = 0;\nfor(let i = 0; i < 7; i++){\ntotal = total + tempList[i];\n}\nconsole.log(total);",
+            "full_code": "let tempList = [36, 36, 26, 27, 28, 33, 36];\nlet total = 0;\nfor(let i = 0; i < 7; i++){\ntotal = total + tempList[i];\n}\nconsole.log(total);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "total / 7"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36];\nlet total = 0;\nfor(let i = 0; i < 7; i++){\ntotal = total + tempList[i];\n}\nconsole.log(___);",
+            "full_code": "total / 7",
+            "note": "نضع الكود في اخر سطر في المكان المخصص له"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "المسافات المقطوعة هي 5 كم، 2 كم، 4 كم، 1 كم، 3 كم، و3 كم.\nأنشئ برنامجك كما يلي.\n(1) أسند مصفوفة إلى المتغير runLogs.\n*أدخل القيم العددية للمسافات في المصفوفة.",
+          "answer": {
+            "type": "code",
+            "value": "let runLogs = [5, 2, 4, 1, 3, 3];"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا لحساب متوسط مسافة الجري.\nأدخل نفس البرنامج كما يلي في السطور 2 إلى 5.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let total = 0;\nfor (let i = 0; i < 6; i++) {\ntotal = total + runLogs[i];\n}",
+            "full_code": "let runLogs = [5, 2, 4, 1, 3, 3];\nlet total = 0;\nfor (let i = 0; i < 6; i++) {\ntotal = total + runLogs[i];\n}\nconsole.log(total);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا لحساب متوسط مسافة الجري.\nأدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(total / 6);"
+            ],
+            "template": "let runLogs = [5, 2, 4, 1, 3, 3];\nlet total = 0;\nfor (let i = 0; i < 6; i++) {\n  total = total + runLogs[i];\n}\n___",
+            "full_code": "console.log(total / 6);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا لحساب متوسط عدد الخطوات خلال مدة 6 أيام.\nأنشئ برنامجك كما يلي.\n*أنشئه بعد السطر الثاني.\n(1) صرّح عن المتغير total وأسند إليه 0.\n(2) كرر total = total + steps[i] ست مرات.\n(3) أخرج إلى وحدة التحكم القيمة العددية الناتجة من قسمة المتغير tota على عدد الأيام",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let total = 0;\nfor (let i = 0; i < 6; i++) {\ntotal = total + steps[i];\n}\nconsole.log(total / 6);",
+            "full_code": "let steps = [16000, 12000, 14605, 9920, 13805, 14500];\nlet total = 0;\nfor (let i = 0; i < 6; i++) {\ntotal = total + steps[i];\n}\nconsole.log(total / 6);"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) أضف قيمًا إلى المصفوفة\nالقيم المطلوب إضافتها: 30، 28، 29",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "30, 28, 29"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36, ___];",
+            "full_code": "30, 28, 29"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(tempList.length);"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36, 30, 28, 29];\n___",
+            "full_code": "console.log(tempList.length);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n(1) أخرج طول المصفوفة إلى وحدة التحكم",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(tempList.length);"
+            ],
+            "template": "let tempList = [36, 36, 26, 27, 28, 33, 36, 30, 28, 29, 26, 30, 31, 28];\n___",
+            "full_code": "console.log(tempList.length);"
+          },
+          "label": "الثالث"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "5، 10، 15\n*لن يتم إخراج أي شيء عند التنفيذ.",
+        "answer": {
+          "type": "code",
+          "value": "let num = [5, 10, 15];",
+          "note": "يكتب ماداخل الاقواس وهذا الشكل النهائي للكود"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "15"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اطبع جميع القيم في المصفوفة على وحدة التحكم.\n*لا تدخل القيم مباشرة.\n*لا تحذف البرنامج المكتوب، بل أضف البرنامج داخل console.log.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "num"
+          ],
+          "template": "let num = [5, 10, 15, 20, 25];\nconsole.log(___);",
+          "full_code": "num",
+          "note": "الكتابه في المكان المخصص"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر ناتج تنفيذ البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "6"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اطبع طول المصفوفة على وحدة التحكم.\n*لا تدخل القيمة العددية للطول مباشرة.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "num.length"
+          ],
+          "template": "let num = [5, 10, 15, 20, 25];\nconsole.log(___);",
+          "full_code": "num.length"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

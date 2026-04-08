@@ -1,0 +1,113 @@
+{
+  "level": 8,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "\"أنشئ برنامجك كما يلي:\n1. أعلن المتغيّر science وأسند له 100 (في سطر واحد).\n2. إذا كانت قيمة science هي 100، اعرض \"The reward is a cake\".",
+          "answer": {
+            "type": "code",
+            "value": "let science = 100;\nif (science == 100){console.log(\"The reward is a cake\");}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "",
+          "answer": {
+            "type": "text",
+            "value": "false"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "إذا كانت قيمة المتغيّر science هي 100، سيعرض البرنامج \"The reward is a cake\".\nفي السطر الثالث، أدخل برنامجك كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "let science = 80;\nif (science == 100){console.log(\"The reward is a cake\");}\nelse {console.log(\"No reward\");}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا يعرض \"Homework\" إذا كانت قيمة المتغيّر test أصغر من أو تساوي 50، وإلا يعرض \"No homework\".\nأنشئ برنامجك كما يلي:\n1. إذا كانت قيمة المتغيّر test أصغر من أو تساوي 50، اعرض \"Homework\".",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (test <= 50){console.log(\"Homework\");}",
+            "full_code": "let test = 30;\nif (test <= 50){console.log(\"Homework\");}else {console.log(\"No homework\");}",
+            "note": "🟩 الاجابه نكتب السطر الثاني هكذا"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجك كما يلي:\n1. أعلن المتغيّر test وأسند له 77.\n2. إذا كان المتغيّر test = 100، اعرض \"Perfect score\".\n3. وإلا، إذا كان المتغيّر test ≥ 75، اعرض \"Pass\".",
+          "answer": {
+            "type": "code",
+            "value": "let test = 77;\nif (test == 100){console.log(\"Perfect score\");}\nelse if (test >= 75){console.log(\"Pass\");}\nelse{console.log(\"Make-up exam\");}"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أنشئ برنامجك كما يلي:\n(1) صرّح عن المتغيّر num وأعطه القيمة 7.\n(2) إذا كان المتغيّر num يساوي 7، اطبع \"Correct\".",
+        "answer": {
+          "type": "code",
+          "value": "let num = 7\nif (num == 7){console.log(\"Correct\")}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "true"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "في السطر الثاني، أدخل البرنامج الذي أنشأته كما يلي:\n(1) إذا كانت قيمة المتغيّر score أكبر من أو تساوي 60، اطبع \"Pass\"، وإلا اطبع \"Fail\".\n*أدخل فقط العبارة الشرطية.",
+        "answer": {
+          "type": "code",
+          "value": "let score = 70;\nif(score >= 60){console.log(\"Pass\");}\nelse{console.log(\"Fail\");}",
+          "note": "🟩 الاجابه نكتب في المكان الفارغ\nscore >= 60"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر برنامجًا بالعبارة الشرطية: \"قيمة المتغيّر num أصغر من 20\".",
+        "answer": {
+          "type": "text",
+          "value": "num < 20"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجك كما يلي:\n(1) صرّح عن المتغيّر num وأعطه القيمة 100.\n(2) إذا كان المتغيّر num يساوي 100، اطبع \"correct\".\n(3) إذا لم يكن كذلك، اطبع \"miss\".",
+        "answer": {
+          "type": "code",
+          "value": "let num = 100\nif (num == 100){console.log(\"correct\")}\nelse {console.log(\"miss\")}"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "So close"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "أنشئ برنامجًا كما يلي:\n(1) إذا كان المتغيّر num أصغر من أو يساوي 3، اطبع \"A\".\n(2) إذا لم يكن كذلك، وإذا كان num أكبر من أو يساوي 6، اطبع \"B\".\n(3) إذا لم يكن كذلك، اطبع \"C\".",
+        "answer": {
+          "type": "code",
+          "value": "let num = 4;\nif (num <= 3){console.log(\"A\");}\nelse if (num >= 6){console.log(\"B\");}\nelse {console.log(\"C\");}",
+          "note": "نكتب النواقص في الاسطر هكذا بالترتيب\nnum <= 3\nnum >= 6\nelse"
+        },
+        "label": "السابع"
+      }
+    }
+  }
+}

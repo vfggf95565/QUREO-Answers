@@ -1,0 +1,130 @@
+{
+  "level": 7,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "في السطر الثالث، أدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else if (num == 2){console.log(\"Pair of tickets to the aquarium\");}",
+            "full_code": "let num = 2;\nif (num == 1){console.log(\"New bicycle\");}\nelse if (num == 2){console.log(\"Pair of tickets to the aquarium\");}",
+            "note": "🟩 الاجابه نكتب هذا الكود في السطر الثالث بعد السطرين المكتوبين"
+          },
+          "label": "الاول"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "إذا كانت قيمة المتغيّر num هي 1، يعرض البرنامج \"New bicycle\"، وإذا لم يكن كذلك وكانت قيمة num هي 2، يعرض البرنامج \"Pair of tickets to the aquarium\" في وحدة التحكم.\nفي السطر الرابع، أدخل برنامجك كما يلي.\nإذا لم يكن كذلك، وإذا كانت قيمة المتغيّر num هي 3، اعرض \"10 bags of potato chips\".",
+          "answer": {
+            "type": "code",
+            "value": "let num = 3;\nif (num == 1){console.log(\"New bicycle\");}\nelse if (num == 2){console.log(\"Pair of tickets to the aquarium\");}\nelse if (num == 3){console.log(\"10 bags of potato chips\");}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "إذا كان المتغيّر num يساوي 1، يعرض البرنامج \"New bicycle\"، وإذا لم يكن كذلك وكانت قيمة num هي 2 أو 3، يعرض البرنامج في وحدة التحكم على التوالي.\nفي السطر الخامس، أدخل برنامجك كما يلي.\nإذا لم يكن كذلك، وإذا كانت قيمة المتغيّر num هي 4، اعرض \"Illustrated book of sea creatures\".",
+          "answer": {
+            "type": "code",
+            "value": "let num = 4;\nif (num == 1){console.log(\"New bicycle\");}\nelse if (num == 2){console.log(\"Pair of tickets to the aquarium\");}\nelse if (num == 3){console.log(\"10 bags of potato chips\");}\nelse if (num == 4){console.log(\"Illustrated book of sea creatures\");}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "إذا كان المتغيّر num يساوي 1، إذن \"New bicycle\"... وإذا لم يكن كذلك، فقد أنشأت برنامجًا لعرض المخرجات في وحدة التحكم إذا كانت قيمة المتغيّر num تساوي 2 أو 3 أو 4 على التوالي.\nفي السطر السادس، أدخل برنامجك كما يلي.\n*تم بالفعل كتابة برنامج لإسناد 10 إلى المتغيّر num.",
+          "answer": {
+            "type": "code",
+            "value": "let num = 10;\nif (num == 1){console.log(\"New bicycle\");}\nelse if (num == 2){console.log(\"Pair of tickets to the aquarium\");}\nelse if (num == 3){console.log(\"10 bags of potato chips\");}\nelse if (num == 4){console.log(\"Illustrated book of sea creatures\");}\nelse{console.log(\"Stickers\");}"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يعرض \"10% off\" إذا كان المتغيّر people = 2، و\"20% off\" إذا كان المتغيّر people أكبر من أو يساوي 3، و\"retail price\" في غير ذلك.\nأدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "let people = 3;\nif (people == 2){console.log(\"10% off\");}\nelse if (people >= 3){console.log(\"20% off\");}\nelse {console.log(\"retail price\");}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يعرض \"I have to go buy more eggs\" إذا كان المتغيّر egg = 0، ويعرض \"I'm almost out of eggs\" إذا لم يكن كذلك، ويعرض \"I still have eggs\" إذا كانت قيمة egg أكبر من 3.\nأنشئ برنامجك كما يلي.\nإذا كان المتغيّر egg أصغر من أو يساوي 3، اعرض \"I'm almost out of eggs\".",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else if (egg <= 3){console.log(\"I'm almost out of eggs\");}",
+            "full_code": "let egg = 2;\nif (egg == 0){console.log(\"I have to go buy more eggs\");}\nelse if (egg <= 3){console.log(\"I'm almost out of eggs\");}\nelse {console.log(\"I still have eggs\");}",
+            "note": "الشكل النهائى للكود"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "عند تشغيل هذا البرنامج، ما النتيجة التي ستحصل عليها؟",
+          "answer": {
+            "type": "text",
+            "value": "تم عرض \"Less than or equal to 10\"."
+          }
+        },
+        "4": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر برنامجًا يقول \"If ~, do A; if not, do B.\"",
+        "answer": {
+          "type": "code",
+          "value": "if (conditional){A}\nelse if (conditional){B}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "في السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي.\n1. إذا لم يكن كذلك، وإذا كانت قيمة المتغيّر num هي 2، اعرض \"Two\".",
+        "answer": {
+          "type": "partial",
+          "answer_code": "else if (num == 2){console.log(\"Two\")};",
+          "full_code": "let num = 2;\nif (num == 1){console.log(\"One\");}\nelse if (num == 2){console.log(\"Two\")};",
+          "note": "🟩 الاجابه المطلوب اضافه هذا السطر الثالث"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "في السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي.\n1. إذا لم يكن كذلك، وإذا كانت قيمة المتغيّر score أكبر من أو تساوي 80، اعرض \"Pass\".",
+        "answer": {
+          "type": "partial",
+          "answer_code": "else if (score >= 80){console.log(\"Pass\")}",
+          "full_code": "let score = 82;\nif (score == 100){console.log(\"Perfect score\");}\nelse if (score >= 80){console.log(\"Pass\")}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "Pass"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجك كما يلي.\n1. أعلن المتغيّر egg وأسند له 5.\n2. إذا كان المتغيّر egg يساوي 0، اعرض \"No stock\".\n3. إذا لم يكن كذلك، وإذا كان المتغيّر egg أقل من أو يساوي 3، اعرض \"Low stock\".\n4. إذا لم يكن كذلك، اعرض \"In stock\".",
+        "answer": {
+          "type": "code",
+          "value": "let egg = 5;\nif (egg == 0){console.log(\"No stock\");}\nelse if (egg <= 3){console.log(\"Low stock\");}\nelse{console.log(\"In stock\");}"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

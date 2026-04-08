@@ -1,0 +1,150 @@
+{
+  "level": 40,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سنُسند القيمة 3 إلى المتغير num، ثم نُعيد إسناد 5 إليه ونطبع النتيجة في وحدة التحكم (console).\nلنستخدم let في تعريف المتغير.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "let"
+            ],
+            "template": "___ num = 3;\nnum = 5;\nconsole.log(num);",
+            "full_code": "let"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سنُسند القيمة 3 إلى الثابت num، ثم نحاول إعادة إسناد 5 إليه ونطبع النتيجة في وحدة التحكم.\nلنستخدم const في تعريف الثابت.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const"
+            ],
+            "template": "___ num = 3;\nnum = 5;\nconsole.log(num);",
+            "full_code": "const"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أيٌّ مما يلي هو تعريف ثابت؟",
+          "answer": {
+            "type": "text",
+            "value": "const"
+          }
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "3": {
+          "question": "سنُنشئ برنامجًا يطبع عدد الأيام في الأسبوع.\nفي السطر الأول، باستخدام const أو let،\nأعلِن عن المتغير day وامنحه القيمة 7.\n*اكتب البرنامج في سطر واحد.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const day = 7;"
+            ],
+            "template": "___\nconsole.log(\"One week is \" + day + \" days\");",
+            "full_code": "const day = 7;"
+          },
+          "label": "الثاني"
+        },
+        "4": {
+          "question": "سنُنشئ برنامجًا يطبع عدد أيام الشهر الحالي.\nفي السطر الأول، باستخدام const أو let،\nأعلِن عن المتغير day وامنحه القيمة 30.\n*اكتب البرنامج في سطر واحد.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "let day = 30;"
+            ],
+            "template": "___\nconsole.log(\"September has \" + day + \" days\");\nday = 31;\nconsole.log(\"October has \" + day + \" days\");",
+            "full_code": "let day = 30;"
+          },
+          "label": "الثالث"
+        },
+        "5": {
+          "question": "سنُنشئ برنامجًا يطبع تاريخ الميلاد.\nفي السطر الأول، باستخدام const أو let،\nأعلِن عن الثابت myBirthday وامنحه القيمة September 1st.\n*اكتب البرنامج في سطر واحد.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const myBirthday = \"September 1st\";"
+            ],
+            "template": "___\nconsole.log(\"My birthday is \" + myBirthday);",
+            "full_code": "const myBirthday = \"September 1st\";"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "سنُنشئ برنامجًا يطبع \"Play soccer\" في وحدة التحكم إذا لم تكن قيمة الثابت weather هي \"Rainy\".\nالقيمة المعطاة لـ weather هي Cloudy.\nيرجى إدخال العبارة الشرطية في السطر 3 كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "const weather = \"Cloudy\";\n\nif (weather != \"Rainy\"){\n  console.log(\"Play soccer\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سنُنشئ برنامجًا يطبع \"Aim for a perfect score!\" إذا لم تكن درجتك 100 نقطة.\nيُعرّف متغير الدرجة كثابت باسم myScore.\nفي السطر الثالث، أدخل العبارة الشرطية التي تعني إذا لم تكن قيمة الثابت myScore مساوية لـ 100.",
+          "answer": {
+            "type": "code",
+            "value": "const myScore = 90;\n\nif (myScore != 100){\n  console.log(\"Aim for a perfect score!\");\n}"
+          },
+          "label": "الثاني"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى اختيار طريقة الإعلان (declaration) التي يجب استخدامها عندما تكون هناك حاجة لإعادة الإسناد (reassignment).",
+        "answer": {
+          "type": "text",
+          "value": "let"
+        },
+        "label": "الثاني"
+      },
+      "2": {
+        "question": "قم بتشغيل البرنامج وتأكيد أن هناك خطأ يظهر.\nبعد التأكيد، يرجى إعادة كتابة طريقة الإعلان في السطر 1 بشكلٍ صحيح.",
+        "answer": {
+          "type": "code",
+          "value": "let num;\nnum = 3;\nnum = 5;\nconsole.log(num);"
+        },
+        "label": "الثالث"
+      },
+      "3": {
+        "question": "يرجى اختيار تعبير الشرط الذي يعني أن قيمة a ليست مساوية لـ 100 من بين الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "a != 100"
+        },
+        "label": "الرابع"
+      },
+      "4": {
+        "question": "يرجى كتابة تعبير الشرط لبرنامج يطبع:\n\"فلنراجع مرة أخرى!\" عندما تكون قيم answer1 و answer2 مختلفة،\nولكن استخدم الرمز !=.",
+        "answer": {
+          "type": "code",
+          "value": "const answer1 = 1023;\nconst answer2 = 1024;\n\nif (answer1 != answer2) {\n  console.log(\"Let's review once more!\");\n}"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

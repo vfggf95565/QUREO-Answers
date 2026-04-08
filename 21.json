@@ -1,0 +1,255 @@
+{
+  "level": 21,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا كما يلي:\n① أعلن متغيّرًا باسم science وأسند إليه 100\n② إذا كان \"science يساوي 100\"، فاطبع \"Reward: steak\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let science = 100;\nif (science == 100) {\nconsole.log(\"Reward: steak\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "يرجى إنشاء برنامج يطبع \"Reward: steak\" إذا كانت قيمة science تساوي 100، و\"Reward: ice cream\" إذا كانت science أكبر من أو تساوي 80، وإلا فاطبع \"No games for 1 week.\"\nبدءًا من السطر 4، أنشئ برنامجًا كما يلي:\n① وإلا، إذا كان \"المتغيّر science أكبر من أو يساوي 80\" فاطبع \"Reward: ice cream\"\n② وإلا فاطبع \"No games for 1 week.\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "} else if ( science >= 80 ){\nconsole.log(\"Reward: ice cream\");\n} else {\nconsole.log(\"No games for 1 week.\");\n}",
+            "full_code": "let science = 80;\nif (science == 100) {\n  console.log(\"Reward: steak\");\n} else if ( science >= 80 ){\n  console.log(\"Reward: ice cream\");\n} else {\n  console.log(\"No games for 1 week.\");\n}",
+            "note": "نكتب من السطر الرابع الي السطر الثامن هذا الكود"
+          },
+          "label": "الثاني"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أدخل الشرط: إذا كان المتغيّر score أكبر من أو يساوي 80.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "score >= 80",
+            "full_code": "let score = 100;\nif (score >= 80) {\nconsole.log(\"Pass\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل الشرط: إذا كان المتغيّر score أصغر من أو يساوي 40.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "score <= 40",
+            "full_code": "let score = 30;\nif (score <= 40) {\nconsole.log(\"Retest\");\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل الشرط: إذا كان numberOfPeople أكبر من أو يساوي 3 AND والمبلغ الإجمالي يساوي 3333 codycoins.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "numberOfPeople >= 3 && total == 3333",
+            "full_code": "let numberOfPeople = 3;\nlet total = 3333;\nif (numberOfPeople >= 3 && total == 3333) {\nconsole.log(\"30% discount\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أدخل الشرط: إذا كان numberOfPeople أكبر من أو يساوي 10 OR وكان المبلغ الإجمالي أكبر من أو يساوي 12000 codycoins.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "numberOfPeople >= 10 || total >= 12000",
+            "full_code": "let numberOfPeople = 4;\nlet total = 13500;\nif (numberOfPeople >= 10 || total >= 12000) {\nconsole.log(\"Small Gift Present\");\n}"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "النتيجة: لا ينتج عنه خطأ"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "النتيجة: ينتج عنه خطأ"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "انقر \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "النتيجة: ينتج عنه خطأ"
+          },
+          "label": "السادس"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "هذا البرنامج يطبع \"Test Passed\" إذا كان المتغيّر score أكبر من أو يساوي 80، ومن بين تلك الحالات، إذا كان المتغيّر rank يساوي 1، يطبع \"Trophy Acquired\".",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "لنتحقق من المخرجات عند تغيير المتغيّر rank من 1 إلى 3.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "لنتحقق من المخرجات عند تغيير المتغيّر score من 90 إلى 75 وإرجاع المتغيّر rank إلى 1.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا كما يلي:\n(1) أعلن متغيّرًا باسم score وأسند إليه 90\n(2) إذا كان المتغيّر score أكبر من أو يساوي 80، فاطبع \"Test Passed\" إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let score = 90;\nif (score >= 80) {\nconsole.log(\"Test Passed\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"Test Passed\" إذا كان المتغيّر score أكبر من أو يساوي 80، ومن بين تلك الحالات، إذا كان المتغيّر rank يساوي 1، يطبع \"Trophy Acquired\".\nأدخل البرنامج كما يلي، مع الانتباه لمواضع عبارات if:",
+          "answer": {
+            "type": "code",
+            "value": "let score = 90;\nlet rank = 1;\nif (score >= 80) {\nconsole.log(\"Test Passed\");\nif (rank == 1) {\nconsole.log(\"Trophy Acquired\");\n}\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا كما يلي:\n① أعلن متغيّرًا باسم rank وأسند إليه 1\n② إذا كان المتغيّر rank يساوي 1، فاطبع \"Regional Champion\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let rank = 1;\nif (rank == 1) {\nconsole.log(\"Regional Champion\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا كما يلي:\n① في السطر 2، أعلن متغيّرًا باسم fishCaught وأسند إليه 27\n② إذا كان المتغيّر fishCaught أكبر من أو يساوي 30، فاطبع \"New Tournament Record\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "let rank = 1;\nlet fishCaught = 27;\nif (rank == 1) {\nconsole.log(\"Regional Champion\");\nif (fishCaught >= 30) {\nconsole.log(\"New Tournament Record\");\n}\n}"
+          },
+          "label": "الرابع"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر التعبير الصحيح للشرط \"المتغيّر score يساوي 50\".",
+        "answer": {
+          "type": "text",
+          "value": "score == 50"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "أضف شرطًا ثانيًا إلى البرنامج المكتوب:\nإذا كان A أصغر من B، اطبع \"B is larger\" في وحدة التحكم (console).",
+        "answer": {
+          "type": "partial",
+          "answer_code": "else if(A < B)",
+          "full_code": "let A = 5\nlet B = 10\nif (A > B) {\nconsole.log(\"A is larger\");\n} else if(A < B) {\nconsole.log(\"B is larger\");\n}"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر التعبير الصحيح للشرط \"A أصغر من B\".",
+        "answer": {
+          "type": "text",
+          "value": "A < B"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر البرنامج الذي يمثّل الشرط \"المتغيّر score أكبر من أو يساوي 50\".",
+        "answer": {
+          "type": "text",
+          "value": "score >= 50"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر العامل (operator) الصحيح الذي يمثّل \"تحقّق عدّة شروط في الوقت نفسه\" (AND).",
+        "answer": {
+          "type": "text",
+          "value": "&&"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اختر العامل (operator) الصحيح الذي يمثّل \"تحقّق شرط واحد على الأقل من عدّة شروط\" (OR).",
+        "answer": {
+          "type": "text",
+          "value": "||"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اكتب شرطًا ينص على أن \"عدد الأشخاص أصغر من أو يساوي 10\" أو \"الوزن الكلي أصغر من أو يساوي 800kg\".\nالمتغيّر لعدد الأشخاص هو numberOfPeople، والمتغيّر للوزن الكلي هو weight.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "numberOfPeople <= 10 || weight <= 800",
+          "full_code": "let numberOfPeople = 8;\nlet weight = 400;\nif (numberOfPeople <= 10 || weight <= 800) {\nconsole.log(\"You can ride the elevator\");\n}"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "ينتج عنه خطأ"
+        },
+        "label": "الثامن"
+      },
+      "9": {
+        "question": "أنشئ برنامجًا يطبع \"Math is 100 points\" إذا كان math يساوي 100 نقطة، ومن بين هذه الحالات، إذا كان science أيضًا يساوي 100 نقطة، يطبع \"Math and science are 100 points\" في وحدة التحكم (console).\nولكن لا تستخدم \"&&\" التي تعني AND.",
+        "answer": {
+          "type": "code",
+          "value": "let math = 100;\nlet science = 100;\nif (math == 100) {\n  console.log(\"Math is 100 points\");\n  if (science == 100) {\n    console.log(\"Math and science are 100 points\");\n  }\n}"
+        },
+        "label": "التاسع"
+      }
+    }
+  }
+}

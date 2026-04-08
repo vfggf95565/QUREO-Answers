@@ -1,0 +1,169 @@
+{
+  "level": 23,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "ننشئ دالة تقسم البيتزا إلى 6 أجزاء متساوية.\nلننشئ البرنامج التالي:\n(1) أنشئ دالة بالاسم divide6 ومعامل total\n(2) أسند total ÷ 6 إلى المتغير per\n(3) أرجع المتغير per\n*سندخل البرنامج لاستدعائه في الخطوة التالية.",
+          "answer": {
+            "type": "code",
+            "value": "function divide6(total) {\nlet per = total / 6;\nreturn per;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ننشئ دالة تقسم 72 قطعة بيتزا إلى 6 أجزاء متساوية.\n① استدعِ الدالة divide6 بالوسيط 72 وأخرج الناتج إلى وحدة التحكم.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(divide6(72));",
+            "full_code": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}\nconsole.log(divide6(72));"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ننشئ دالة تقسم تكلفة البولينج الكلية على 5 أشخاص.\n① أنشئ دالة باسم split5 ومعامل total\n② أسند total ÷ 5 إلى المتغير per\n③ أرجع قيمة المتغير per\n④ استدعِ الدالة split5 بالوسيط 6250 وأخرج الناتج إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "function split5(total) {\nlet per = total / 5;\nreturn per;\n}\nconsole.log(split5(6250));"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "اضغط \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ماذا نسمّي النطاق الذي تكون فيه المتغيّرات قابلة للاستخدام؟",
+          "answer": {
+            "type": "text",
+            "value": "Scope"
+          }
+        },
+        "3": {
+          "question": "هل ستؤدي هذه الشيفرة إلى حدوث خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "تؤدي إلى حدوث خطأ"
+          }
+        },
+        "4": {
+          "question": "هل ستؤدي هذه الشيفرة إلى خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "لا تؤدي إلى خطأ"
+          }
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "اضغط \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ننشئ دالة تُخرج \"Good morning!\".\n① أنشئ دالة باسم goodMorning بدون معاملات\n② أسند \"Good morning!\" إلى المتغير greeting\n③ أرجع المتغير greeting\n④ استدعِ الدالة goodMorning وأخرج الناتج إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "function goodMorning() {\nlet greeting = \"Good morning!\";\nreturn greeting;\n}\nconsole.log(goodMorning());"
+          },
+          "label": "الثاني"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "ننشئ دالة تجمع عددين.\n(1) أنشئ دالة بالاسم sum وبمعاملين num1 و num2\n(2) أسند num1 + num2 إلى المتغير result\n(3) أرجع المتغير result",
+          "answer": {
+            "type": "code",
+            "value": "function sum(num1, num2) {\nlet result = num1 + num2;\nreturn result;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ننشئ دالة تجمع عددين.\n① استدعِ الدالة sum بالوسيطين 50 و 100 وأخرج الناتج إلى وحدة التحكم.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(sum(50, 100));",
+            "full_code": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}\nconsole.log(sum(50, 100));"
+          },
+          "label": "الثاني"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لإنشاء دالة باسم move بدون معاملات.",
+        "answer": {
+          "type": "text",
+          "value": "function move() {\nProgram to Run\n}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر المخرجات الصحيحة عند تنفيذ البرنامج التالي:",
+        "answer": {
+          "type": "text",
+          "value": "55"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر المخرجات الصحيحة عند تنفيذ البرنامج التالي:",
+        "answer": {
+          "type": "text",
+          "value": "30"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "تم إنشاء دالة باسم divide5 تقوم بالقسمة على 5، لذا يرجى الإخراج إلى وحدة التحكم بتمرير القيمة 35 إلى الدالة divide5.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "console.log(divide5(35));",
+          "full_code": "function divide5(total) {\n    let num = total / 5;\n    return num;\n}\nconsole.log(divide5(35));",
+          "note": "تعديل السطر الاخير من الكود ليصبح هكذا"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر نتيجة تنفيذ البرنامج التالي من الخيارات أدناه:",
+        "answer": {
+          "type": "text",
+          "value": "ينتج عنه خطأ"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "أنشئ برنامجًا كما يلي يقوم بإخراج **Good night!** عند استدعاء الدالة goodNight:\n① أنشئ دالة باسم goodNight بدون معاملات\n② أسند النص \"Good night!\" إلى المتغير greeting\n③ أرجع قيمة المتغير greeting\n④ استدعِ الدالة goodNight وقم بالإخراج إلى وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "function goodNight() {\n  let greeting = \"Good night!\";\n  return greeting;\n}\nconsole.log(goodNight());"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "يوجد برنامج مكتوب لدالة تقوم بالضرب عند تمرير معاملين.\nأدخل برنامجًا يستدعي الدالة mul، ويمرر المعاملين **9** و **7**، ويخرج النتيجة إلى وحدة التحكم.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "console.log(mul(9, 7));",
+          "full_code": "function mul(num1, num2) {\n  let answer = num1 * num2;\n  return answer;\n}\nconsole.log(mul(9, 7));"
+        },
+        "label": "السابع"
+      }
+    }
+  }
+}

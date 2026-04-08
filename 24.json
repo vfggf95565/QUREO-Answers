@@ -1,0 +1,154 @@
+{
+  "level": 24,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "لِنُنشِئ برنامجًا كما يلي:\n(1) اعلن عن المتغيّر score وأسنِد إليه 82\n(2) إذا كان المتغيّر score يساوي 100 فاطبع \"Perfect Score\"\n(3) وإلا، إذا كان المتغيّر score أكبر من أو يساوي 75 فاطبع \"Pass\"\n(4) إن لم ينطبق أيٌّ منهما فاطبع \"Retest\"",
+          "answer": {
+            "type": "code",
+            "value": "let score = 82;\nif (score == 100) {\nconsole.log(\"Perfect Score\");\n} else if (score >= 75) {\nconsole.log(\"Pass\");\n} else {\nconsole.log(\"Retest\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "ينتج عنه خطأ"
+          }
+        },
+        "3": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "لا ينتج عنه خطأ"
+          }
+        },
+        "4": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "ينتج عنه خطأ"
+          }
+        },
+        "5": {
+          "question": "سوف ننشئ برنامجًا يطبع \"Test Passed\" إذا كان score أكبر من أو يساوي 80، ومن بين هؤلاء، إذا كانت قيمة rank هي 1 فسيطبع \"Trophy Acquired\".\nأنشِئ البرنامج كما يلي:\n(1) اعلن عن المتغيّر score وأسنِد إليه 90\n(2) اعلن عن المتغيّر rank وأسنِد إليه 1\n(3) إذا كان المتغيّر score أكبر من أو يساوي 80 فاطبع \"Test Passed\" إلى وحدة التحكم\n(4) إذا كان المتغيّر rank يساوي 1 فاطبع \"Trophy Acquired\"\n* على أن لا تستخدم AND (&&)",
+          "answer": {
+            "type": "code",
+            "value": "let score = 90;\nlet rank = 1;\nif (score >= 80) {\nconsole.log(\"Test Passed\");\nif (rank == 1) {\nconsole.log(\"Trophy Acquired\");\n}\n}"
+          },
+          "label": "الثاني"
+        },
+        "6": {
+          "question": "سننشئ برنامجًا يطبع \"Apple, Apple, Banana, Apple\".\nأنشِئ البرنامج كما يلي:\n① استخدم حلقة for لطباعة \"Apple\" إلى وحدة التحكم 3 مرات\n* أعلن عن المتغيّر باسم i\n② عند طباعة \"Apple\" للمرة الثانية، اطبع \"Banana\" إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 3; i++) {\nconsole.log(\"Apple\");\nif (i == 1) {\nconsole.log(\"Banana\");\n}\n}"
+          },
+          "label": "الثالث"
+        },
+        "7": {
+          "question": "سننشئ دالة تطبع \"Good night!\".\nأنشِئ البرنامج كما يلي:\n① أنشِئ دالة بالاسم goodNight وبدون معاملات\n② أَسنِد \"Good night!\" إلى المتغيّر greeting\n③ أَعِد المتغيّر greeting\n④ استدعِ الدالة goodNight واطبع إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "function goodNight(){\nlet greeting = \"Good night!\";\nreturn greeting;\n}\nconsole.log(goodNight());"
+          },
+          "label": "الرابع"
+        },
+        "8": {
+          "question": "سننشئ دالة تضرب رقمين.\nأنشِئ البرنامج كما يلي:\n① أنشِئ دالة بالاسم calc وبمعاملين num1 و num2\n② أَسنِد ناتج num1 × num2 إلى المتغيّر result\n③ أَعِد المتغيّر result\n④ استدعِ الدالة calc بالوسيطين 55 و 75 واطبع إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "function calc(num1, num2) {\nlet result = num1 * num2;\nreturn result;\n}\nconsole.log(calc(55, 75));"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أضِف شرطًا ثانيًا إلى البرنامج المكتوب:\nإذا كان A أصغر من B، فاطبع في وحدة التحكم ‘B is larger’.\nسيُكتب الشرط الثاني على النحو ‘A < B’.",
+        "answer": {
+          "type": "code",
+          "value": "let A = 5\nlet B = 10\nif (A > B) {\n  console.log(\"A is larger\");\n} else if (A < B) {\n  console.log(\"B is larger\");\n}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار المعامل الصحيح الذي يمثّل \"تحقُّق عدّة شروط في الوقت نفسه\" (AND).",
+        "answer": {
+          "type": "text",
+          "value": "&&"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجًا يطبع ‘Science is 100 points’ إذا كانت درجة Science هي 100 نقطة، ومن بين تلك الحالات، إذا كانت درجة Math أيضًا 100 نقطة، فليطبع ‘Science and Math are 100 points’ إلى وحدة التحكم.\nعلى أن لا تستخدم ‘&&’ التي تعني AND.",
+        "answer": {
+          "type": "code",
+          "value": "let science = 100;\nlet math = 100;\nif (science == 100) {\n  console.log(\"Science is 100 points\");\n  if (math == 100) {\n    console.log(\"Science and Math are 100 points\");\n  }\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجًا كما يلي:\n① اطبع ‘Good morning’ في وحدة التحكم 7 مرات\n* استخدم اسم المتغيّر ‘i’ واجعل قيمته الابتدائية 0.\n* استخدم معامل الزيادة.",
+        "answer": {
+          "type": "code",
+          "value": "for (let i=0 ; i < 7 ; i++){\nconsole.log(\"Good morning\");\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر نتيجة تنفيذ البرنامج التالي من الخيارات:",
+        "answer": {
+          "type": "text",
+          "value": "ينتج عنه خطأ"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "",
+        "answer": {
+          "type": "text",
+          "value": "00010"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "يرجى اختيار إعادة كتابة البرنامج لـ \"i = i + 5\".",
+        "answer": {
+          "type": "text",
+          "value": "i += 5"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "تم إنشاء دالة \"divide3\" التي تقسم على 3، لذا رجاءً اطبع إلى وحدة التحكم بتمرير القيمة \"12345\" إلى divide3",
+        "answer": {
+          "type": "code",
+          "value": "function divide3(num) {\n    let result = num / 3;\n    return result;\n}\nconsole.log(divide3(12345));"
+        },
+        "label": "الثامن"
+      },
+      "9": {
+        "question": "يرجى اختيار البرنامج الصحيح لإنشاء دالة move بلا معاملات.",
+        "answer": {
+          "type": "text",
+          "value": "function move() {\nProgram to Run\n}"
+        },
+        "label": "التاسع"
+      },
+      "10": {
+        "question": "أنشئ دالة mul بوسيطين.\n① أنشئ دالة بالاسم \"mul\" وبالمعاملين \"num1\" و\"num2\"\n② أسند \"num1 × num2\" إلى المتغيّر \"result\"\n③ أعد المتغيّر \"result\"\n④ استدعِ الدالة mul بالوسيطين \"9\" و\"7\" واطبع إلى وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "function mul(num1,num2) {\nlet result = num1 * num2;\nreturn result;\n}\nconsole.log(mul(9,7));"
+        },
+        "label": "العاشر"
+      }
+    }
+  }
+}

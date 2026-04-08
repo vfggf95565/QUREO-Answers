@@ -1,0 +1,190 @@
+{
+  "level": 37,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سوف نقوم بإنشاء برنامج للتنبؤ بالحظ حسب فصيلة الدم.\nلنضف برنامجًا يعرض \"حظك اليوم جيد\" إذا كانت فصيلة الدم A.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة A له.\nلننشئ البرنامج من السطر الثالث كما يلي:\n① إذا كانت قيمة المتغير bloodType هي A، فاعرض \"حظك اليوم جيد\" في وحدة التحكم.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n}",
+            "full_code": "let bloodType = \"A\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم.\nلنضف برنامجًا يعرض نتائج مختلفة إذا كانت فصيلة الدم B أو O أو AB بدلاً من A.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة \"B\" له.\nلننشئ البرنامج من السطر الخامس باستخدام \"else if\" كما يلي:\n① إذا كانت فصيلة الدم B، فاعرض \"حظك اليوم رائع!\"\n② إذا كانت فصيلة الدم O، فاعرض \"يبدو أن حظك اليوم جيد!\"\n③ إذا كانت فصيلة الدم AB، فاعرض \"قد لا يكون حظك اليوم جيدًا…\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n}",
+            "full_code": "let bloodType = \"B\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة \"Unknown\" له.\nلننشئ البرنامج من السطر 11 كما يلي:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "else {\n  console.log(\"Let's find out your blood type!\");\n}",
+            "full_code": "let bloodType = \"Unknown\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n} else {\n  console.log(\"Let's find out your blood type!\");\n}"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "تم تعيين القيمة C للمتغير bloodType.\nاضغط \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سنقوم بإنشاء برنامج للتنبؤ بالحظ حسب فصيلة الدم باستخدام عبارة switch.\nلنُكمل البرنامج ليعرض نتائج مختلفة حسب فصيلة الدم.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة B له.\nلنكتب البرنامج كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "switch",
+              "case",
+              "break"
+            ],
+            "template": "let bloodType = \"B\";\n___ (bloodType) {\n ___ \"A\":\n  console.log(\"Today's fortune is decent\");\n  ___;\n case \"B\":\n  console.log(\"Today's fortune is excellent!\");\n  break;\n case \"O\":\n  console.log(\"Today's fortune looks good!\");\n  break;\n case \"AB\":\n  console.log(\"Today's fortune might not be so good...\");\n  break;\n default:\n  console.log(\"Let's find out your blood type!\");\n  break;\n}",
+            "full_code": "switch\ncase\nbreak"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض نتائج مختلفة حسب فصيلة الدم.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة C له.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "default",
+              "break"
+            ],
+            "template": "let bloodType = \"C\";\nswitch (bloodType) {\n case \"A\":\n  console.log(\"Today's fortune is decent\");\n  break;\n case \"B\":\n  console.log(\"Today's fortune is excellent!\");\n  break;\n case \"O\":\n  console.log(\"Today's fortune looks good!\");\n  break;\n case \"AB\":\n  console.log(\"Today's fortune might not be so good...\");\n  break;\n ___:\n  console.log(\"Let's find out your blood type!\");\n  ___;\n}",
+            "full_code": "default\n\nbreak"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض \"حظك اليوم جيد\" إذا كانت فصيلة الدم A.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة A له.\nلنكتب البرنامج كما يلي:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "switch\n case \"A\":\n    \n  break;",
+            "full_code": "let bloodType = \"A\";\n\nswitch (bloodType) {\n case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض \"حظك اليوم رائع!\" إذا كانت فصيلة الدم B.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة B له.\nلنكتب نفس الكود في السطرين 7 و9:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "case \"B\":\n\n    break;",
+            "full_code": "let bloodType = \"B\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض نتائج مختلفة لفصائل الدم O وAB.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة AB له.\nلننشئ البرنامج كما يلي:\n① من السطر 10، إذا كانت فصيلة الدم O، فاعرض \"يبدو أن حظك اليوم جيد!\".\n② من السطر 13، إذا كانت فصيلة الدم AB، فاعرض \"قد لا يكون حظك اليوم جيدًا…\".",
+          "answer": {
+            "type": "code",
+            "value": "let bloodType = \"AB\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  case \"O\":\n    console.log(\"Today's fortune looks good!\");\n    break;\n  case \"AB\":\n    console.log(\"Today's fortune might not be so good...\");\n    break;\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض \"دعنا نعرف فصيلة دمك!\" عندما لا تتطابق أي من الشروط.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة \"Unknown\" له.\nلننشئ البرنامج من السطر 16 كما يلي:\n① إذا لم تتطابق أي من الشروط، فاعرض \"دعنا نعرف فصيلة دمك!\" في وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "let bloodType = \"Unknown\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  case \"O\":\n    console.log(\"Today's fortune looks good!\");\n    break;\n  case \"AB\":\n    console.log(\"Today's fortune might not be so good...\");\n    break;\n  default:\n    console.log(\"Let's find out your blood type!\");\n    break;\n}"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "سننشئ برنامجًا باستخدام switch يعرض الجدول اليومي حسب اليوم.\nاليوم محدد بالمتغير day، وتم تعيين القيمة \"Sunday\" له.\nاكمل البرنامج كما يلي:\n① إذا كان اليوم \"Saturday\"، اعرض \"اذهب إلى الدروس\".\n② إذا كان اليوم \"Sunday\"، اعرض \"اذهب للتسوق\".\n③ إذا لم يتطابق أي شيء، اعرض \"اذهب إلى المدرسة\".",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "switch",
+              "day",
+              "case",
+              "break",
+              "case",
+              "break",
+              "default",
+              "break"
+            ],
+            "template": "let day = \"Sunday\";\n\n___ (___) {\n ___ \"Saturday\":\n  console.log(\"Go to lessons\");\n  ___;\n ___ \"Sunday\":\n  console.log(\"Go shopping\");\n  ___;\n ___:\n  console.log(\"Go to school\");\n  ___;\n}",
+            "full_code": "switch  day\ncase\n\nbreak\ncase\n\nbreak\ndefault\n\nbreak"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "هذا برنامج يُخرج الكلمة \"Red\" إذا كانت السلسلة النصية المُسندة إلى المتغير color هي \"red\".\n① إذا كان المتغير color يساوي \"blue\"، أخرج \"Blue\" في وحدة التحكم (console)\n② إذا كان المتغير color يساوي \"green\"، أخرج \"Green\" في وحدة التحكم (console)\nومع ذلك، يُرجى كتابة البرنامج باستخدام else if.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "else if (color == \"blue\") {\n  console.log(\"Blue\");\n} else if (color == \"green\") {\n  console.log(\"Green\");\n}",
+          "full_code": "let color = \"green\";\n\nif (color == \"red\") {\n  console.log(\"Red\");\n} else if (color == \"blue\") {\n  console.log(\"Blue\");\n} else if (color == \"green\") {\n  console.log(\"Green\");\n}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "في أي الحالات يتم تنفيذ العملية المكتوبة في قسم default من عبارة switch؟ يُرجى اختيار الإجابة الصحيحة.",
+        "answer": {
+          "type": "text",
+          "value": "عندما لا تتطابق القيمة مع أيٍّ من الحالات (cases)"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "البرنامج أدناه يُخرج الفترة الزمنية بناءً على الحقبة التاريخية المُدخلة في المتغير era.\nيُرجى اختيار النتيجة الصحيحة للإخراج.",
+        "answer": {
+          "type": "text",
+          "value": "500~1500"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى إنشاء برنامج باستخدام عبارة switch بحيث يتغير الإخراج بناءً على قيمة المتغير letter.\n① إذا كانت القيمة A، أخرج \"Well done!\" إلى وحدة التحكم\n② إذا كانت القيمة B، أخرج \"Keep up the good work\" إلى وحدة التحكم\n③ إذا كانت القيمة C، أخرج \"Let's try a little harder\" إلى وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "let letter = \"B\";\n\nswitch (letter) {\n  case \"A\":\n    console.log(\"Well done!\");\n    break;\n  case \"B\":\n    console.log(\"Keep up the good work\");\n    break;\n  case \"C\":\n    console.log(\"Let's try a little harder\");\n    break;\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "\"لقد أنشأنا برنامجًا باستخدام عبارة switch بحيث يتغير الإخراج بناءً على قيمة المتغير letter.\nيرجى إضافة البرنامج التالي:\n① إذا لم تتطابق أي من الحالات (cases) مع القيم، أخرج \"The notation is incorrect\" إلى وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "let letter = \"D\";\n\nswitch (letter) {\n  case \"A\":\n    console.log(\"Well done!\");\n    break;\n  case \"B\":\n    console.log(\"Keep up the good work\");\n    break;\n  case \"C\":\n    console.log(\"Let's try a little harder\");\n    break;\n  default:\n    console.log(\"The notation is incorrect\");\n   break;\n}"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

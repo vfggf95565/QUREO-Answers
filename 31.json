@@ -1,0 +1,154 @@
+{
+  "level": 31,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "سننشئ دالة تجمع بين قيمتين عدديتين.\n① أنشئ دالة بالاسم sum ومعها المتغيران freestyle وbreaststroke\n② أسند قيمة freestyle + breaststroke إلى المتغير result\n③ أعد المتغير result",
+          "answer": {
+            "type": "code",
+            "value": "function sum(freestyle, breaststroke) {\nlet result = freestyle + breaststroke;\nreturn result;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ دالة تجمع أزمنة السباحة الحرة وسباحة الصدر.\nأدخل البرنامج كما يلي:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(sum(39.5, 60.5));",
+            "full_code": "function sum(freestyle, breaststroke) {\nlet result = freestyle + breaststroke;\nreturn result;\n}\nconsole.log(sum(39.5, 60.5));"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ دالة تجمع أزمنة السباحة الحرة وسباحة الصدر.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let teamRed = sum(39.5, 60.5);\nconsole.log(teamRed);",
+            "full_code": "function sum(freestyle, breaststroke) {\nlet time = freestyle + breaststroke;\nreturn time;\n}\n//Write your program below.\nlet teamRed = sum(39.5, 60.5);\nconsole.log(teamRed);",
+            "note": "الكود بالكامل"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "سننشئ دالة تجمع أزمنة السباقات الثلاثة.\nأنشئ المعامل backstroke وأضفه إلى مجموع المعاملات.\nمرّر القيمة 58.5 كوسيط عند استدعاء الدالة sum.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "backstroke",
+              "backstroke",
+              "58.5"
+            ],
+            "template": "function sum(freestyle, breaststroke, ___) {\nlet time = freestyle + breaststroke + ___;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, ___);\nconsole.log(teamRed);",
+            "full_code": "backstroke\n\nbackstroke\n\n58.5",
+            "note": "السطر الأول"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "\"سوف نستدعي الدالة التي تجمع ثلاث قيم عددية.\n(1) أعلن المتغير teamBlue وأسند إليه الدالة sum.\nولكن مرّر القيم 40، 62، و58 إلى الدالة sum.\n(2) اعرض قيمة المتغير teamBlue في وحدة التحكم (console).\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);",
+            "full_code": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);",
+            "note": "الكود بالكامل"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "\"سوف نستدعي الدالة التي تجمع ثلاث قيم عددية.\n(1) أعلن المتغير teamGreen وأسند إليه الدالة sum.\nولكن مرّر القيم 41، 59.5، و60 إلى الدالة sum.\n(2) اعرض قيمة المتغير teamGreen في وحدة التحكم (console).\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "let teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
+            "full_code": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
+            "note": "الكود بالكامل"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سوف نعرض أسرع وقت بين المجموع الكلي لأزمنة الفرق الثلاثة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "Math.min(158.5, 160, 160.5)"
+            ],
+            "template": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);\nconsole.log(\"The fastest time is\" + ___);",
+            "full_code": "Math.min(158.5, 160, 160.5)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سوف نعرض أسرع وقت بين المجموع الكلي لأزمنة الفرق الثلاثة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "Math.min(teamRed, teamBlue, teamGreen)"
+            ],
+            "template": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);\nconsole.log(\"The fastest time is\" + ___);",
+            "full_code": "Math.min(teamRed, teamBlue, teamGreen)"
+          },
+          "label": "الثالث"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "سننشئ دالة باسم calculation3 تقوم بضرب ثلاث قيم a وb وc (أي a×b×c).\nيرجى إنشاء الدالة calculation3 كما يلي:\n(1) أنشئ الدالة calculation3 بالمعاملات a وb وc.\n(2) اضرب قيم المعاملات a وb وc (a×b×c)، وأسند الناتج إلى المتغير result.",
+        "answer": {
+          "type": "code",
+          "value": "function calculation3(a, b, c){\n  let result = a * b * c;\n  return result;\n}\nconsole.log(calculation3(2, 3, 4));"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح الذي يمرر الوسائط الثلاثة 3 و5 و10 إلى الدالة calculation3 ويعرض الناتج في وحدة التحكم.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(calculation3(3, 5, 10));"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "سننشئ برنامجًا عند عرض قيمة المتغير num1 في وحدة التحكم، تظهر نفس القيمة الناتجة عن عملية حساب الدالة calculation3.\nدون حذف البرنامج الأصلي، أنشئ البرنامج في السطر الخامس كما يلي:\n(1) أعلن المتغير num1، وأسند إليه ناتج الدالة calculation3.\nيرجى تمرير القيم 5 و10 و15 كوسائط إلى الدالة.",
+        "answer": {
+          "type": "code",
+          "value": "function calculation3(a, b, c) {\n  let result = a * b * c;\n  return result;\n}\nlet num1 = calculation3(5, 10, 15);\nconsole.log(num1);"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "سننشئ برنامجًا عند عرض قيمة المتغير num2 في وحدة التحكم، تظهر نفس القيمة الناتجة عن عملية حساب الدالة calculation3.\nدون حذف البرنامج الأصلي، أنشئ البرنامج ابتداءً من السطر السابع كما يلي:\n(1) أعلن المتغير num2، وأسند إليه ناتج الدالة calculation3.\nيرجى تمرير القيم 4 و4 و4 كوسائط إلى الدالة.\n(2) اعرض قيمة المتغير num2 في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "function calculation3(a, b, c) {\n  let result = a * b * c;\n  return result;\n}\nlet num1 = calculation3(5, 10, 15);\nconsole.log(num1);\nlet num2 = calculation3(4, 4, 4);\nconsole.log(num2);"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "دالة Math.min تُرجع أصغر قيمة من بين الوسائط المُمرَّرة إليها.\nيرجى اختيار البرنامج الذي يعرض أصغر قيمة من بين المتغيرات num1 وnum2 وnum3.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(Math.min(num1, num2, num3));"
+        },
+        "label": "الخامس"
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "level": 20,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "اكتب HTML كما يلي.\n(1) استخدم وسم h1 لعرض Travel Itinerary\n(2) استخدم وسم h2 لعرض Packing List",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Travel Itinerary</h1>\n<h2>Packing List</h2>"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ خطة سفر واعرضها في متصفحك.\nاكتب HTML كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Travel Itinerary</h1>\n<h2>Packing List</h2>\n<p>Wallet<br>\nHat<br>\nHandkerchief</p>"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "أنشئ خطة سفر واعرضها في متصفحك.\nاكتب HTML كما يلي ابتداءً من السطر الثالث.\nTravel Itinerary\nPacking List",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Travel Itinerary</h1>\n<h2>Packing List</h2>\n<ul>\n<li>Wallet</li>\n<li>Hat</li>\n<li>Handkerchief</li>\n</ul>"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ قائمة مُرقّمة لطريقة عمل حساء الطماطم واعرضها في المتصفح.\nلنستخدم وسمي ol و li لإنشاء قائمة مُرقّمة للعناصر المكتوبة من السطر الثالث وما بعده.",
+          "answer": {
+            "type": "code",
+            "value": "<h1>How to Make Tomato Soup</h1>\n<ol>\n<li>Boil water</li>\n<li>Add ingredients</li>\n<li>Adjust the seasoning</li>\n</ol>"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "اعرض صورة كودي في متصفحك.\nاكتب في المحرّر تمامًا كما يلي في السطر الثالث.",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Cody's Page</h1>\n<p>My name is Cody.</p>\n<img src=\"cody.png\">"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "اعرض صورة كودي في متصفحك.\nاكتب في المحرّر تمامًا كما يلي في السطر الثالث.",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Cody's Page</h1>\n<p>My name is Cody.</p>\n<img src=\"miss.png\" alt=\"Cody's striking pose\">"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "غيّر لون النص داخل وسم h1 إلى الأحمر.\nلنكتب CSS بالطريقة نفسها.\nh1{ color: red; }",
+          "answer": {
+            "type": "code",
+            "value": "h1{ color: red; }"
+          },
+          "label": "السابع"
+        },
+        "8": {
+          "question": "غيّر لون خلفية وسم h1 إلى الأصفر واجعل نص وسم p عريضًا (bold).\nاكتب CSS كما هو مطلوب.\n(1) حدّد yellow لقيمة خاصية background-color في h1\n(2) اجعل قيمة خاصية font-weight في p هي bold.\n*لا تحذف CSS المكتوب أصلاً.",
+          "answer": {
+            "type": "code",
+            "value": "h1 {\ncolor: red;\nbackground-color: yellow;\n}\np {\nfont-weight: bold;\n}"
+          },
+          "label": "الثامن"
+        },
+        "9": {
+          "question": "حدّد اسم صنف (class) داخل وسم p.\nاكتب اسم الصنف في HTML كما يلي ابتداءً من السطر الثاني.\nKonnichiwa\nHello\nBonjour",
+          "answer": {
+            "type": "code",
+            "value": "<h1>Greetings of the World</h1>\n<p class=\"japanese\">Konnichiwa</p>\n<p class=\"english\">Hello</p>\n<p class=\"french\">Bonjour</p>"
+          },
+          "label": "التاسع"
+        },
+        "10": {
+          "question": "مكنك تغيير لون كل سطر عبر تحديد اسم الصنف في المُحدِّد (selector).\nاكتب CSS بالطريقة نفسها ابتداءً من السطر 8.\n.japanese{\ncolor: lime;\n}\n.english{\ncolor: purple;\n}\n.french{\ncolor: navy;\n}",
+          "answer": {
+            "type": "partial",
+            "answer_code": ".japanese{\ncolor: lime;\n}\n.english{\ncolor: purple;\n}\n.french{\ncolor: navy;\n}",
+            "full_code": "h1 {\ncolor: red;\nbackground-color: yellow;\n}\np {\nfont-weight: bold;\n}\n.japanese{\ncolor: lime;\n}\n.english{\ncolor: purple;\n}\n.french{\ncolor: navy;\n}"
+          },
+          "label": "العاشر"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "من فضلك ضع النص المكتوب داخل وسم p.",
+        "answer": {
+          "type": "code",
+          "value": "<p>Good morning</p>"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر الوسم المناسب لاستخدامه عند كسر السطر.",
+        "answer": {
+          "type": "text",
+          "value": "br tag"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر الوسم المناسب لعرض صورة باسم \"image.png\".",
+        "answer": {
+          "type": "text",
+          "value": "<img src=\"image.png\">"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى اختيار نوع العرض الذي تريده.\nstrawberry\ncherry\norange",
+        "answer": {
+          "type": "text",
+          "value": "strawberry・\ncherry・\norange・"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "حدد القيمة \"yellow\".\nلن يتم عرض أي شيء في المتصفح.",
+        "answer": {
+          "type": "code",
+          "value": "h1 {\ncolor:yellow\n}"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اختر الوصف الصحيح لخاصية \"background-color\".",
+        "answer": {
+          "type": "text",
+          "value": "تغيير لون الخلفية"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اختر الوصف الصحيح لقيمة خاصية \"font-weight\" عندما تكون \"bold\".",
+        "answer": {
+          "type": "text",
+          "value": "يصبح الخط عريضًا"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "حدد المُنتقِي (selector) كـ h3.\nلن يتم عرض أي شيء في المتصفح.",
+        "answer": {
+          "type": "code",
+          "value": "h3{\ncolor: red;\n}"
+        },
+        "label": "الثامن"
+      },
+      "9": {
+        "question": "تم تحديد اسم الصنف كما يلي. من فضلك اكتب CSS لجعل كلمة \"fish\" باللون الأزرق.\nHTML\nFish\nMeat",
+        "answer": {
+          "type": "code",
+          "value": ".fish{\ncolor: blue;\n}"
+        },
+        "label": "التاسع"
+      }
+    }
+  }
+}

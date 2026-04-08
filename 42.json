@@ -1,0 +1,108 @@
+{
+  "level": 42,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أيٌّ منها هو تعريف ثابت (constant)؟",
+          "answer": {
+            "type": "text",
+            "value": "const"
+          }
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يُظهر الفصل الحالي.\nفي السطر 1، باستخدام const أو let،\nقم بتعريف المتغير season.\n* يُرجى كتابة البرنامج في سطر واحد.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "let"
+            ],
+            "template": "___ season = \"spring\";\nconsole.log(\"The current season is \" + season);\nseason = \"summer\";\nconsole.log(\"The next season is \" + season);",
+            "full_code": "let"
+          },
+          "label": "الاول"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يُظهر عدد الأيام في الأسبوع.\nفي السطر 1، باستخدام const أو let،\nقم بتعريف المتغير day وأسند إليه القيمة 7.\n* يُرجى كتابة البرنامج في سطر واحد.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const day = 7;"
+            ],
+            "template": "___\nconsole.log(\"One week is \" + day + \" days\");",
+            "full_code": "const day = 7;"
+          },
+          "label": "الثاني"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا يُظهر \"Play soccer\" في وحدة التحكم إذا كانت قيمة الثابت weather لا تساوي Rainy.\nوقد أُسنِدت القيمة Cloudy إلى weather.\nيُرجى إدخال تعبير الشرط في السطر 3 كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "const weather = \"Cloudy\";\n\nif (weather != \"Rainy\"){\n  console.log(\"Play soccer\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "5": {
+          "question": "سننشئ برنامجًا يُكرر عملية الادخار في كل مرة حتى يصل المال إلى المبلغ المستهدف،\nويُظهر عدد المرات التي تحتاج فيها إلى المساعدة.\nيُعرَّف المال الذي نملكه بالمتغير money،\nويُعرَّف عدد المرات بالمتغير count.\nفي السطر 3، يُرجى إدخال عبارة while التي تُكرر العملية طالما أن money < 3800.",
+          "answer": {
+            "type": "code",
+            "value": "let money = 520;\nlet count = 0;\nwhile (money < 3800) {\n  count ++;\n  money += 450;\n}\nconsole.log(\"Save for \" + count + \" times\");"
+          },
+          "label": "الرابع"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى اختيار طريقة التعريف التي تُستخدم عندما تكون هناك حاجة إلى إعادة الإسناد.",
+        "answer": {
+          "type": "text",
+          "value": "let"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "شغّل البرنامج وتأكد من أن هناك خطأ يحدث.\nبعد التأكيد، يُرجى إعادة كتابة طريقة التعريف في السطر 1 بشكلٍ صحيح.",
+        "answer": {
+          "type": "code",
+          "value": "let num;\nnum = 3;\nnum = 5;\nconsole.log(num);"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى اختيار تعبير الشرط الذي يُمثِّل أن قيمة a لا تساوي 100 من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "a != 100"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "",
+        "answer": {
+          "type": "code",
+          "value": "while ( condition ) {\n  process;\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يرجى اختيار الوصف الصحيح للبرنامج الذي يُكرر عمليةً طالما أن الشرط متحقق.\nلقد أنشأنا برنامجًا للتحقق من عدد الوجبات الخفيفة التي يمكن شراؤها بالمبلغ المتاح.\nيُعرَّف المال الذي نملكه بالمتغير money وتُسنَد إليه القيمة 1000.\nويُعرَّف سعر الوجبات الخفيفة بالثابت snacks وتُسنَد إليه القيمة 230.\nيرجى إنشاء برنامج باستخدام عبارة while يُكرر العملية طالما أن المال الذي نملكه أكبر من سعر الوجبات الخفيفة.",
+        "answer": {
+          "type": "code",
+          "value": "let money = 1000;\nconst snacks = 230;\nwhile (money > snacks) {\n  money = money - snacks;\n  console.log(money);\n}"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "سننشئ برنامجًا يُظهر عدد الأشهر المطلوبة للادخار للوصول إلى المبلغ المستهدف 4000 كودي كوين.\nيُعرَّف المال الذي نملكه بالمتغير money وتُسنَد إليه القيمة 600.\nويُعرَّف عدد الأشهر بالمتغير month وتُسنَد إليه القيمة 0.\nيرجى إنشاء برنامج باستخدام عبارة while يُكرر العملية طالما أن المال الذي نملكه أقل من المبلغ المستهدف 4000.",
+        "answer": {
+          "type": "code",
+          "value": "let money = 600;\nlet month = 0;\nwhile (money < 4000) {\n  month ++;\n  money += 800;\n}\nconsole.log(\"Save for \" + month + \" months\");"
+        },
+        "label": "السادس"
+      }
+    }
+  }
+}

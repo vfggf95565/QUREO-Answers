@@ -1,0 +1,102 @@
+{
+  "level": 39,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام جملة switch. لنُكمل البرنامج الذي يُظهر نتائج مختلفة بناءً على فصيلة الدم.\nتم تعريف فصيلة الدم في المتغير ‎bloodType‎، وتم إسناد القيمة ‎Unknown‎ إليه.\nلنُكمل البرنامج بإضافة ما يلي في المحرر:\n① إذا كانت القيمة A، اطبع في وحدة التحكم: \"Today’s fortune is decent\"\n② إذا كانت القيمة B، اطبع في وحدة التحكم: \"Today’s fortune is excellent!\"\n③ إذا لم تتطابق أي من القيم، اطبع في وحدة التحكم: \"Let’s find out your blood type!\"",
+          "answer": {
+            "type": "code",
+            "value": "let bloodType = \"Unknown\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n    default:\n    console.log(\"Let's find out your blood type!\");\n    break;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يُخرج باقي القسمة (modulo) عند قسمة 20 قطعة بسكويت على 3 أشخاص.\nتم تعريف عدد البسكويت في المتغير ‎cookies‎، وتم إسناد القيمة ‎20‎ إليه.\nلنُدخل البرنامج كما يلي:\n① أخرج باقي القسمة (modulo) عند قسمة المتغير ‎cookies‎ على 3",
+          "answer": {
+            "type": "partial",
+            "answer_code": "cookies % 3",
+            "full_code": "let cookies = 20;\nconsole.log(cookies % 3);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا يطبع \"Cody gets it\" إذا كان باقي القسمة عند تقسيم 20 قطعة بسكويت على 3 أشخاص أكبر من 0.\nتم تعريف عدد البسكويت في المتغير ‎cookies‎، وتم إسناد القيمة ‎20‎ إليه.\nلنُدخل البرنامج في عبارة الشرط في السطر 2 كما يلي:\n① إذا كان باقي القسمة (modulo) عند قسمة المتغير ‎cookies‎ على 3 أكبر من 0، اطبع في وحدة التحكم \"Cody gets it\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "cookies % 3 > 0",
+            "full_code": "let cookies = 20;\nif (cookies % 3 > 0) {\n  console.log(\"Cody gets it\");\n}"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "سننشئ برنامجًا يقسم 85 برتقالة على 3 أشخاص ويُظهر رسائل مختلفة حسب باقي القسمة (modulo).\nيرجى إضافة البرامج التي تُظهر النتائج عندما يكون الباقي 1 أو عندما يكون 2.\nتم تعريف عدد البرتقالات في المتغير ‎orange‎، وتم إسناد القيمة ‎85‎ إليه.\nلنُدخل البرنامج كما يلي:\n① قيمة الشرط هي الـ modulo عند قسمة المتغير ‎orange‎ على 3\n② من السطر 7، إذا كان الـ modulo يساوي 1، اطبع في وحدة التحكم \"Give it to Grandma\"\n③ من السطر 10، إذا كان الـ modulo يساوي 2، اطبع في وحدة التحكم \"Give it to the neighbors\"",
+          "answer": {
+            "type": "code",
+            "value": "let orange = 85;\n\nswitch (orange % 3) {\n  case 0:\n    console.log(\"They were divided equally\");\n    break;\n  case 1:\n    console.log(\"Give it to Grandma\");\n    break;\n  case 2:\n    console.log(\"Give it to the neighbors\");\n    break;\n}"
+          },
+          "label": "الخامس"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "في أي الحالات يتم تنفيذ العملية المكتوبة في قسم default من جملة switch؟ يُرجى اختيار الإجابة الصحيحة.",
+        "answer": {
+          "type": "text",
+          "value": "عندما لا تتطابق القيمة مع أي من الحالات"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يعرض البرنامج أدناه الفترة الزمنية بناءً على الحقبة التاريخية المُدخلة في المتغير era.\nيُرجى اختيار الناتج الصحيح.",
+        "answer": {
+          "type": "text",
+          "value": "500~1500"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يُرجى إنشاء برنامج باستخدام جملة switch بحيث يتغيّر الناتج حسب قيمة المتغير letter.\n① إذا كانت القيمة A، اطبع في وحدة التحكم \"Well done!\"\n② إذا كانت القيمة B، اطبع في وحدة التحكم \"Keep up the good work\"\n③ إذا كانت القيمة C، اطبع في وحدة التحكم \"Let's try a little harder\"",
+        "answer": {
+          "type": "code",
+          "value": "let letter = \"B\";\n\nswitch (letter) {\n  case \"A\":\n    console.log(\"Well done!\");\n    break;\n  case \"B\":\n    console.log(\"Keep up the good work\");\n    break;\n  case \"C\":\n    console.log(\"Let's try a little harder\");\n    break;\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يُرجى اختيار ناتج الإخراج للبرنامج أدناه:",
+        "answer": {
+          "type": "text",
+          "value": "1"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يُرجى إنشاء برنامج باستخدام جملة if يطبع \"Let's eat a hamburger!\" إذا كان باقي قسمة قيمة المتغير dayCount على 7 يساوي 0.",
+        "answer": {
+          "type": "code",
+          "value": "let dayCount = 14;\n\nif (dayCount % 7 == 0) {\n  console.log(\"Let's eat a hamburger!\");\n}"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "يُرجى إنشاء برنامج يطبع \"Group A\" إذا كان باقي قسمة المتغير number على 3 يساوي 0، و\"Group B\" إذا كان الباقي 1، و\"Group C\" إذا كان الباقي 2.\nومع ذلك، استخدم جملة switch.",
+        "answer": {
+          "type": "code",
+          "value": "let number = 20;\n\nswitch (number % 3) {\n  case 0:\nconsole.log(\"Group A\");\n    break;\n  case 1:\n    console.log(\"Group B\");\n    break;\n  case 2:\n    console.log(\"Group C\");\n    break;\n}"
+        },
+        "label": "السادس"
+      }
+    }
+  }
+}

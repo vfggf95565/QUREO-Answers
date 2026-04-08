@@ -1,0 +1,111 @@
+{
+  "level": 11,
+  "lessons": {
+    "main": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي.\n1. صرّح عن المتغير age وأعطه القيمة 15.\n2. صرّح عن المتغير numberOfPeople وأعطه القيمة 7.\n3. إذا كان المتغير age أقل من أو يساوي 18 وكان المتغير numberOfPeople أكبر من أو يساوي 5، اطبع على وحدة التحكم \"Student group discount\".",
+          "answer": {
+            "type": "code",
+            "value": "let age = 15;\nlet numberOfPeople = 7;\nif (age <= 18 && numberOfPeople >= 5) {\nconsole.log(\"Student group discount\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي.\n1. صرّح عن المتغير age وأعطه القيمة 15.\n2. إذا كان المتغير age أقل من أو يساوي 15 أو أكبر من أو يساوي 70، اطبع على وحدة التحكم \"Discounts available\".",
+          "answer": {
+            "type": "code",
+            "value": "let age = 15;\nif (age <= 15 || age >= 70) {\nconsole.log(\"Discounts available\");\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي.\n1. اطبع \"Good morning\" عشر مرات على وحدة التحكم.\nيجب أن يكون البرنامج كله في ثلاث سطور.\nيكون اسم المتغير i.\nاستخدم معامل الزيادة.",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 10; i++) {\nconsole.log(\"Good morning\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي.\n1. اطبع \"Go for it\" خمس مرات على وحدة التحكم.\nيجب أن يكون البرنامج كله ثلاث سطور.\nيكون اسم المتغير i.\nاستخدم معامل الزيادة.",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 5; i++) {\nconsole.log(\"Go for it\");\n}"
+          },
+          "label": "الرابع"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الذي يعني \"A أو B\".",
+        "answer": {
+          "type": "text",
+          "value": "A || B"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "الرجاء اختيار ناتج تشغيل البرنامج أقل من أو يساوي",
+        "answer": {
+          "type": "text",
+          "value": "A"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر البرنامج الصحيح لإضافة 1 إلى المتغير i.",
+        "answer": {
+          "type": "text",
+          "value": "i++"
+        },
+        "label": "الثاث"
+      },
+      "4": {
+        "question": "اختر الإجابة الصحيحة للبرنامج الذي يكرر المعالجة 10 مرات.",
+        "answer": {
+          "type": "code",
+          "value": "for (let i=0; i<10; i++) {\nProcess\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "الرجاء اختيار ناتج تشغيل البرنامج أقل من أو يساوي",
+        "answer": {
+          "type": "text",
+          "value": "Hello\nHello"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اكتب برنامجك كما يلي أقل من أو يساوي\n1. اطبع \"Good morning\" عشر مرات في وحدة التحكم.\n*اسم المتغير هو i وعيّن له القيمة 0 في البداية.\n*استخدم معامل الزيادة (increment operator).",
+        "answer": {
+          "type": "code",
+          "value": "for (let i = 0; i < 10; i++) {\nconsole.log(\"Good morning\");\n}"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اكتب برنامجك كما يلي أقل من أو يساوي\n1. إذا كان المتغير a أكبر من أو يساوي 2 و b أكبر من أو يساوي 3، اطبع \"Condition met\".\n*أدخل التعبير الشرطي فقط.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "a >= 2 && b >= 3",
+          "full_code": "let a = 4;\nlet b = 3;\nif (a >= 2 && b >= 3) {\nconsole.log(\"Condition met\");\n}"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "اكتب برنامجك كما يلي أقل من أو يساوي\n1. اطبع \"Hello\" ثلاث مرات على وحدة التحكم.\n*اسم المتغير يجب أن يكون i وقم بإسناد 0 له في البداية.\nاستخدم عامل الزيادة (increment operator).",
+        "answer": {
+          "type": "partial",
+          "answer_code": "for\nlet i = 0; i < 3 ; i++",
+          "full_code": "for (let i = 0; i < 3 ; i++) {\nconsole.log(\"Hello\");\n}"
+        },
+        "label": "الثامن"
+      }
+    }
+  }
+}

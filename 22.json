@@ -1,0 +1,253 @@
+{
+  "level": 22,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nتشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"She sells seashells by the seashore.\" عدد 3 مرات.\nأدخل البرنامج كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for ( let i = 0; i < 3; i++ )"
+            ],
+            "template": "___ {\n    console.log(\"She sells seashells by the seashore.\");\n}",
+            "full_code": "for ( let i = 0; i < 3; i++ )"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "استخدم حلقة for لطباعة \"Six slippery snails slid slowly seaward.\" في وحدة التحكم 3 مرات.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "for ( let i = 0; i < 3; i++ )",
+            "full_code": "for ( let i = 0; i < 3; i++ ) {\nconsole.log(\"Six slippery snails slid slowly seaward.\");\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "استخدم حلقة for لطباعة \"silk\" في وحدة التحكم 10 مرات.",
+          "answer": {
+            "type": "code",
+            "value": "for ( let i = 0; i < 10; i++ ) {\nconsole.log(\"silk\");\n}"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nتشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nتشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ماذا نسمّي “النطاق الذي يمكن الوصول فيه إلى المتغير\"؟",
+          "answer": {
+            "type": "text",
+            "value": "Scope"
+          }
+        },
+        "4": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "ينتج عنه خطأ"
+          }
+        },
+        "5": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "لا ينتج عنه خطأ"
+          }
+        },
+        "6": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "answer": {
+            "type": "text",
+            "value": "لا ينتج عنه خطأ"
+          }
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "ما العادة اليومية التي بدأ ريكي مؤخرًا؟",
+          "answer": {
+            "type": "text",
+            "value": "تمارين البطن"
+          }
+        },
+        "2": {
+          "question": "اضغط على \"تشغيل الكود\" دون تعديل البرنامج.\nتشغيل الكود",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"situp, situp, situp, running, situp, situp\".\nأنشئ برنامجًا كما يلي:\n(1) استخدم حلقة for لطباعة \"situp\" في وحدة التحكم 5 مرات\n*أعلن المتغيّر باسم i",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"sit-up\");\n}"
+          },
+          "label": "الثاني"
+        },
+        "4": {
+          "question": "سننشئ برنامجًا يطبع \"situp, situp, situp, running, situp, situp\".\nأدخل البرنامج كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"situp\");\n  if (i == 2) {\n    console.log(\"running\");\n  }\n}"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "سننشئ برنامجًا يطبع \"lunch box, lunch box, library book, lunch box, lunch box, lunch box\".\nأنشئ برنامجًا كما يلي:\n(1) استخدم حلقة for لطباعة \"lunch box\" في وحدة التحكم 5 مرات\n* أعلن المتغيّر باسم i",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"lunch box\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع \"lunch box, lunch box, library book, lunch box, lunch box, lunch box\".\nأَنشِئ وأدخِل البرنامج في السطر 3 كما يلي:\n① إذا كان المتغيّر i يساوي 1، اطبع \"library book\" إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"lunch box\");\n  if (i == 1) {\n    console.log(\"library book\");\n  }\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سننشئ برنامجًا يطبع \"lunch box, lunch box, lunch box, lunch box, fruit, lunch box\".\nأنشئ برنامجًا كما يلي:\n① استخدم حلقة for لطباعة \"lunch box\" في وحدة التحكم 5 مرات\n* أعلن المتغيّر باسم i\n② بعد طباعة \"lunch box\" للمرة الرابعة، اطبع \"fruit\" إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"lunch box\");\n  if (i == 3) {\n    console.log(\"fruit\");\n  }\n}"
+          },
+          "label": "الثالث"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "let i = 0;\ni += 3;\nconsole.log(i);"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سننشئ برنامجًا يطبع المتغيّر num.\nأنشئ برنامجًا في السطر 2 كما يلي:\n(1) أَسنِد 5 إلى المتغيّر num\n* ولكن اكتب برنامجًا غير num = num + 5.",
+          "answer": {
+            "type": "code",
+            "value": "let num = 0;\nnum += 5;\nconsole.log(num);"
+          },
+          "label": "الثاني"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "الرجاء اختيار ما يجب كتابته في بداية البرنامج الذي يعبّر عن: تكرار طباعة \"apple\" على وحدة التحكم 10 مرات.",
+        "answer": {
+          "type": "text",
+          "value": "for"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "الرجاء اختيار البرنامج الصحيح لإضافة 1 إلى المتغيّر i.",
+        "answer": {
+          "type": "text",
+          "value": "i++"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "الرجاء اختيار البرنامج الصحيح لتكرار عملية محددة 10 مرات.",
+        "answer": {
+          "type": "text",
+          "value": "for (let i = 0; i < 10; i++) {\nspecified process;\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اكتب برنامجًا كما يلي:\n① اطبع \"Programming\" على وحدة التحكم 3 مرات\n* استخدم اسم المتغيّر i وأعطه في البداية القيمة 0.\n* استخدم عامل الزيادة (increment operator).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "let i = 0; i < 3; i++"
+          ],
+          "template": "for (___) {\n  console.log(\"Programming\");\n}",
+          "full_code": "let i = 0; i < 3; i++"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اكتب برنامجًا كما يلي:\n① اطبع \"Good morning\" على وحدة التحكم 7 مرات\n* استخدم اسم المتغيّر i وأعطه في البداية القيمة 0.\n* استخدم عامل الزيادة (increment operator).",
+        "answer": {
+          "type": "code",
+          "value": "for (let i=0 ; i < 7 ; i++){\n console.log(\"Good morning\");\n}"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اختر ناتج التنفيذ للبرنامج التالي من الخيارات:",
+        "answer": {
+          "type": "text",
+          "value": "يؤدي إلى خطأ"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "أضف برنامجًا إلى البرنامج المكتوب بحيث يطبع \"End\" عندما تكون قيمة المتغيّر i مساوية لـ 4.",
+        "answer": {
+          "type": "code",
+          "value": "for (let i = 0; i < 5; i++) {\n    console.log(\"sit-ups\");\n    if (i == 4) {\n        console.log(\"End\");\n    }\n}"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "اختر ناتج التنفيذ للبرنامج التالي من الخيارات:",
+        "answer": {
+          "type": "text",
+          "value": "AABA"
+        },
+        "label": "الثامن"
+      },
+      "9": {
+        "question": "الرجاء اختيار البرنامج المعاد كتابته للتعبير عن: i = i + 2.",
+        "answer": {
+          "type": "text",
+          "value": "i += 2"
+        },
+        "label": "التاسع"
+      }
+    }
+  }
+}

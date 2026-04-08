@@ -1,0 +1,271 @@
+{
+  "level": 19,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "تشغيل الكود فقط دون تغير اي شي\nقم بتشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "تشغيل الكود فقط دون تغير اي شي\nقم بتشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "\"غيّر لون النص داخل وسم h1 إلى الأحمر.\nاكتب CSS كما يلي.\nh1{\ncolor: red;\n}",
+          "answer": {
+            "type": "code",
+            "value": "h1{\ncolor: red;\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "غيّر لون النص في وسم h1 إلى الأزرق.\nلنُعيد كتابة القيم بالطريقة نفسها.\nh1{\ncolor: blue;\n}",
+          "answer": {
+            "type": "code",
+            "value": "h1{\ncolor: blue;\n}"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "غيّر لون نص وسم p إلى الأحمر.\nاكتب CSS بالطريقة نفسها بدءًا من السطر الرابع.\np{\ncolor: red;\n}",
+          "answer": {
+            "type": "partial",
+            "answer_code": "p{\ncolor: red;\n}",
+            "full_code": "h1{\ncolor: blue;\n}\np{\ncolor: red;\n}"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "غيّر لون خلفية وسم h1 إلى الأصفر.\nاكتب CSS كما يلي.\nbackground-color: yellow;",
+          "answer": {
+            "type": "partial",
+            "answer_code": "background-color: yellow;",
+            "full_code": "h1{\ncolor: blue;\nbackground-color: yellow;\n}\np{\ncolor: red;\n}",
+            "note": "اكتب في السطر الثالث في المكان المخصص الاتي"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "غيّر لون خلفية وسم p إلى البرتقالي.\nاكتب CSS كما يلي.\nbackground-color: orange;",
+          "answer": {
+            "type": "partial",
+            "answer_code": "background-color: orange;",
+            "full_code": "h1{\ncolor: red;\nbackground-color: yellow;\n}\np{\ncolor: blue;\nbackground-color: orange;\n}"
+          },
+          "label": "السابع"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "تشغيل الكود فقط دون تغير اي شي\nقم بتشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "\"اكتب CSS كما يلي.\np {\nfont-weight: bold;\n}",
+          "answer": {
+            "type": "code",
+            "value": "p {\nfont-weight: bold;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "اجعل حروف وسم p بسُمك عادي.\nأعد كتابة القيمة إلى normal\np {\nfont-weight: normal;\n}",
+          "answer": {
+            "type": "code",
+            "value": "p {\nfont-weight: normal;\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أدخل أي قيمة رقمية تريدها لمعرفة مدى سُمك الخط.\nأدخل 900 للمتابعة.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "900",
+            "full_code": "p {\nfont-weight: 900;\n}",
+            "note": "اكتب في الخانه الفارغه"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "صغّر حجم النص داخل وسم p.\nاكتب CSS كما يلي.\np {\nfont-size : 10px;\n}",
+          "answer": {
+            "type": "code",
+            "value": "p {\nfont-size : 10px;\n}"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "كبّر حجم النص داخل وسم p.\nاكتب CSS كما يلي.\np {\nfont-size : 50px;\n}",
+          "answer": {
+            "type": "code",
+            "value": "p {\nfont-size : 50px;\n}"
+          },
+          "label": "السادس"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "تشغيل الكود فقط دون تغير اي شي\nقم بتشغيل الكود فقط",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ليكن لون نص وسم p أزرق وأخضر.\nاكتب CSS كما يلي.\np{\ncolor: blue;\n}\np{\ncolor: green;\n}",
+          "answer": {
+            "type": "code",
+            "value": "p{\ncolor: blue;\n}\np{\ncolor: green;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أضف اسم صنف (class) لوسم p.\nاكتب اسم الصنف في الـ HTML كما يلي.\nLet's go to the sea.\nLet's go to the mountains.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "class=\"sea\"\nclass=\"mountains\"",
+            "full_code": "<p class=\"sea\">Let's go to the sea.</p>\n<p class=\"mountains\">Let's go to the mountains.</p>",
+            "note": "اكتب في الخانات الفارغه"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "ليكن لون نص وسم p أزرق وأخضر.\nاكتب أسماء الأصناف بالطريقة نفسها:\n.sea{\ncolor: blue;\n}\n.mountains{\ncolor: green;\n}",
+          "answer": {
+            "type": "partial",
+            "answer_code": ".sea\n.mountains",
+            "full_code": ".sea{\ncolor: blue;\n}\n.mountains{\ncolor: green;\n}"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أضف اسم صنف (class) لوسم p.\nلنسمِّ الأصناف كما يلي:\n(1) Apple has the class name \"apple\"\n(2) Watermelon is named by the class \"watermelon\"",
+          "answer": {
+            "type": "partial",
+            "answer_code": "class=\"apple\"\nclass=\"watermelon\"",
+            "full_code": "<p class=\"apple\">Apple</p>\n<p class=\"watermelon\">Watermelon</p>"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "غيّر لون الصنفين apple وwatermelon.\nاكتب CSS كما يلي.\n.apple{\ncolor:red;\n}\n.watermelon{\ncolor:green;\n}",
+          "answer": {
+            "type": "code",
+            "value": ".apple{\ncolor:red;\n}\n.watermelon{\ncolor:green;\n}"
+          },
+          "label": "السادس"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أضِف تعليقًا في المحرّر.\nاكتب CSS كما يلي.\n/* Change the color of the text of the h1 tag to red. */",
+          "answer": {
+            "type": "partial",
+            "answer_code": "/*\n\n*/",
+            "full_code": "/* Change the color of the text of the h1 tag to red. */\nh1{\ncolor: red;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ينبغي أن يكون السطر الأول من نص HTML تعليقًا.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<!--\n-->",
+            "full_code": "<!-- Let's give a class name -->\n<p class=\"apple\">Apple</p>\n<p class=\"watermelon\">Watermelon</p>"
+          },
+          "label": "الثاني"
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "حدد الـ selector كـ \"h1\".\nلن يتم عرض أي شيء في المتصفح.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "h1",
+          "full_code": "h1{\n  color: red;\n}",
+          "note": "او نمسح او نعدل الكود ليصبح هكذا"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "حدد القيمة \"blue.\"\nلن يتم عرض أي شيء في المتصفح.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "blue;",
+          "full_code": "h1 {\ncolor:blue;\n}",
+          "note": "او نمسح او نعدل الكود ليصبح هكذا"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر الوصف الصحيح لخاصية color.",
+        "answer": {
+          "type": "text",
+          "value": "تغيير لون النص"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر الوصف الصحيح لخاصية background-color.",
+        "answer": {
+          "type": "text",
+          "value": "تغيير لون الخلفية"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر الوصف الصحيح لقيمة خاصية font-weight عند كتابتها كـ bold.",
+        "answer": {
+          "type": "text",
+          "value": "يصبح النص عريضًا"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اختر القيمة الصحيحة لخاصية font-size.",
+        "answer": {
+          "type": "text",
+          "value": "font-size: 10px;"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "\"يُحدد اسم الـ class كما يلي. اكتب CSS لتغيير كلمة \"Dog\" إلى اللون الأزرق.\nHTML\nDog\nCat",
+        "answer": {
+          "type": "partial",
+          "answer_code": ".dog",
+          "full_code": ".dog{\ncolor: blue;\n}"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "اترك تعليقًا في السطر الأول من النص.\n*لن ترى أي شيء في متصفحك عند تشغيله.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "/*\n\n*/",
+          "full_code": "/* Change the text color to navy. */\np {\ncolor: navy;\n}"
+        },
+        "label": "الثامن"
+      }
+    }
+  }
+}

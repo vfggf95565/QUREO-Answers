@@ -1,0 +1,215 @@
+{
+  "level": 1,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "(انضم إلى ريكي في محادثة! أجب عن أسئلة ريكي.)\nلنلعب على الكمبيوتر لاحقًا!\nأريد أن ألعب به!\nالبرمجة تتيح لك إنشاء الألعاب والمواقع والتطبيقات وغيرها.",
+          "answer": {
+            "type": "text",
+            "value": "أريد أن ألعب به!"
+          },
+          "label": "الاول"
+        }
+      }
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "كم عدد لغات البرمجة الموجودة في العالم؟",
+          "answer": {
+            "type": "text",
+            "value": "أكثر من 100 نوع"
+          },
+          "label": "الاول"
+        }
+      }
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "console.log(\"\");",
+            "full_code": "console.log(\"Hello\");"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(\"Good morning\");"
+          },
+          "label": "الثانى"
+        }
+      }
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "ماذا تُسمى الشاشة السوداء التي تكتب فيها برنامجك؟",
+          "answer": {
+            "type": "text",
+            "value": "المحرر"
+          }
+        },
+        "2": {
+          "question": "أدخل نفس البرنامج كما في الأسفل.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(\"Good evening\");"
+          },
+          "label": "الاول"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n1. اعرض \"Good night\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "console.log(\"Good night\");"
+          },
+          "label": "الثانى"
+        },
+        "4": {
+          "question": "ابحث عن الأخطاء في برنامجك.\nبمجرد أن تجد الخطأ، اضغط على \"تشغيل الكود\".",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        },
+        "5": {
+          "question": "أنشئ برنامجك كما يلي:\n1. اعرض \"Good luck\" في وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "\"",
+              "\""
+            ],
+            "template": "console.log(___Good luck___)",
+            "full_code": "console.log(\"Good luck\")"
+          },
+          "label": "الرابع"
+        }
+      }
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "لنعدّل السطر الأول ليصبح نفس البرنامج كما في الأسفل:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "//"
+            ],
+            "template": "___When executed, the text is output to the console.\nconsole.log(\"Hello\");",
+            "full_code": "//When executed, the text is output to the console.\nconsole.log(\"Hello\");"
+          },
+          "label": "الثانى"
+        }
+      }
+    },
+    "6": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:\n1. ضع تعليقًا بالجملة \"Greetings for the day\".",
+          "answer": {
+            "type": "code",
+            "value": "[FILL]//[FILL]Greetings for the day.\nconsole.log(\"Good morning\");\nconsole.log(\"Hello\");\nconsole.log(\"Good evening\");"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "لنعدّل السطر الثاني ليصبح نفس البرنامج كما في الأسفل:",
+          "answer": {
+            "type": "code",
+            "value": "console.log(\"Eggs\");\n[FILL]//[FILL]console.log(\"Apple\");\nconsole.log(\"Milk\");"
+          },
+          "label": "الثانى"
+        },
+        "3": {
+          "question": "عدّل برنامجك كما يلي:\n1. علّق البرنامج الذي يعرض \"Fish\" في وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "console.log(\"Lion\");\n[FILL]//[FILL]console.log(\"Fish\");\nconsole.log(\"Elephant\");\nconsole.log(\"Giraffe\");"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "هل يبدو كل شي جيدا حتي الان",
+          "answer": {
+            "type": "text",
+            "value": "نعم، ممتاز."
+          }
+        }
+      }
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لعرض \"Hello\" في وحدة التحكم.",
+        "answer": {
+          "type": "text",
+          "value": "console.log(\"Hello\");"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "أنشئ برنامجك كما يلي:\n1. اعرض \"Good morning\" في وحدة التحكم.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "(\"Good morning\");"
+          ],
+          "template": "console.log___",
+          "full_code": "console.log(\"Good morning\");"
+        },
+        "label": "الثانى"
+      },
+      "3": {
+        "question": "أنشئ برنامجك كما يلي:\n1. اعرض \"Programming\" في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(\"Programming\");"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجك كما يلي:\n1. اعرض \"Hello\" في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "console.log(\"Hello\");"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يرجى اختيار الطريقة الصحيحة لكتابة التعليق.",
+        "answer": {
+          "type": "text",
+          "value": "//Write your comments here."
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "علّق البرنامج بحيث تكون المخرجات كما يلي:",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "//"
+          ],
+          "template": "console.log(\"Hello.\");\nconsole.log(\"My name is\");\n___console.log(\"Rick.\");\nconsole.log(\"Cody.\");",
+          "full_code": "console.log(\"Hello.\");\nconsole.log(\"My name is\");\n//console.log(\"Rick.\");\nconsole.log(\"Cody.\");"
+        },
+        "label": "السادس"
+      }
+    }
+  }
+}
