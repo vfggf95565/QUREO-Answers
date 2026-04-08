@@ -294,11 +294,7 @@
         "question": "اختر ما سيتم عرضه:",
         "answer": {
           "type": "text",
-          "value": [
-      "1.Cut ingredients",
-      "2.Stir-fry",
-      "3.Add seasonings"
-    ]
+          "value": "1.Cut ingredients\n2.Stir-fry\n3.Add seasonings"
         },
         "label": "الخامس"
       },
