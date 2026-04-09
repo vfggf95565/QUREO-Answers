@@ -125,14 +125,14 @@
         "question": "\"أنشئ برنامجك كما يلي.\n1 أعلن المتغيّر num وأسند له القيمة 5.\n2 اطبع قيمة المتغيّر num في وحدة التحكم.\nمع ذلك، يجب أن يُكتب البرنامج كاملًا في سطرين (يُكتب التصريح وإسناد القيمة الأولية في سطر واحد).\n(يجب أن يُكتب التصريح وإسناد القيمة الأولية في سطر واحد).",
         "answer": {
           "type": "code",
-          "value": "let num = 5\nconsole.log(num)"
+          "value": "let num = 5\nconsole.log(num);"
         },
         "label": "الاول"
       },
       "2": {
         "question": "اختر برنامجًا يقول: \"إذا ~، إذن ________.\"",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "if (conditional){processing}"
         },
         "label": "الثاني"
@@ -149,7 +149,7 @@
         "question": "أنشئ برنامجك كما يلي\n1 أعلن المتغيّر num وأسند له 100.\n2 إذا كان المتغيّر num يساوي 100، اطبع \"Correct\".",
         "answer": {
           "type": "code",
-          "value": "let num = 100\nif (num == 100){console.log(\"Correct\")};"
+          "value": "let num = 100\nif (num == 100){console.log(\"Correct\");}"
         },
         "label": "الرابع"
       },

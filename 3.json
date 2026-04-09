@@ -59,7 +59,7 @@
       "1": {
         "question": "اختر البرنامج الصحيح لإعلان المتغيّر score.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "let score;"
         },
         "label": "الاول"
@@ -67,7 +67,7 @@
       "2": {
         "question": "اختر البرنامج الصحيح لعرض قيمة المتغيّر score في وحدة التحكم.\nتم بالفعل إعلان المتغيّر score وإسناد قيمة له.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "console.log(score);"
         },
         "label": "الثانى"
@@ -76,7 +76,7 @@
         "question": "أنشئ برنامجك كما يلي:\n1. أعلن المتغيّر number\n\\*إذا ضغطت على \"Run Code\"، فلن يكون هناك أي مخرجات في وحدة التحكم.\nلذلك، بعد الإعلان، اضغط على \"Answer\".",
         "answer": {
           "type": "code",
-          "value": "let number"
+          "value": "let number;"
         },
         "label": "الثالث"
       },
@@ -84,8 +84,8 @@
         "question": "في السطر الثاني، أدخل البرنامج الذي أنشأته كما يلي:\n1. أسند 100 إلى المتغيّر number\n\\*إذا ضغطت على \"Run Code\"، فلن يكون هناك أي مخرجات في وحدة التحكم.\nلذلك، بعد الإسناد، اضغط على \"Answer\".",
         "answer": {
           "type": "partial",
-          "answer_code": "number = 100",
-          "full_code": "let number;\nnumber = 100",
+          "answer_code": "number = 100;",
+          "full_code": "let number;\nnumber = 100;",
           "note": "🟩 الاجابه نضيف هذا السطر"
         },
         "label": "الرابع"
@@ -94,8 +94,8 @@
         "question": "في السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي:\n1. اعرض قيمة المتغيّر number في وحدة التحكم\nأنشئ برنامجًا لعرض قيمة number في وحدة التحكم.",
         "answer": {
           "type": "partial",
-          "answer_code": "console.log(number)",
-          "full_code": "let number;\nnumber = 10;\nconsole.log(number)",
+          "answer_code": "console.log(number);",
+          "full_code": "let number;\nnumber = 10;\nconsole.log(number);",
           "note": "🟩 الاجابه نضيف هذا السطر"
         },
         "label": "الخامس"
@@ -104,8 +104,8 @@
         "question": "بعد السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي:\n1. أسند قيمة المتغيّر number مضافًا إليها 10\n2. اعرض قيمة المتغيّر number في وحدة التحكم.",
         "answer": {
           "type": "partial",
-          "answer_code": "number = number +10\nconsole.log(number)",
-          "full_code": "let number;\nnumber = 3;\nnumber = number +10\nconsole.log(number)",
+          "answer_code": "number = number +10;\nconsole.log(number);",
+          "full_code": "let number;\nnumber = 3;\nnumber = number +10;\nconsole.log(number);",
           "note": "🟩 الاجابه اضافة السطرين للكود"
         },
         "label": "السادس"

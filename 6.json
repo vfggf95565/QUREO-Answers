@@ -88,8 +88,7 @@
           "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أكبر من 130، أخرج \"Can ride\"، وإلا \"Cannot ride\".",
           "answer": {
             "type": "code",
-            "value": "let height = 91;\nif (height > 130){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}",
-            "note": "🟩 الاجابه نكتب في النواقص\nheight > 130"
+            "value": "let height = 91;\nif (height > 130){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}"
           },
           "label": "الاول"
         },
@@ -97,8 +96,7 @@
           "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أقل من 80، يخرج البرنامج \"Cannot ride\"، وإلا \"Can ride\".\nالإخراج",
           "answer": {
             "type": "code",
-            "value": "let height = 91;\nif (height < 80){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}",
-            "note": "🟩 الاجابه نكتب في النواقص\nheight < 80"
+            "value": "let height = 91;\nif (height < 80){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}"
           },
           "label": "الثاني"
         },
@@ -136,7 +134,7 @@
         "question": "أنشئ برنامجك كما يلي.\n١) صرّح عن المتغيّر num وأسنِد له القيمة 5.\n٢) إذا كان المتغيّر num يساوي 10، أخرج \"Win\".\n٣) وإلا، أخرج \"Lose\".",
         "answer": {
           "type": "code",
-          "value": "let num = 5\nif(num == 10){console.log(\"Win\")}\nelse {console.log(\"Lose\")}"
+          "value": "let num = 5;\nif (num == 10){console.log(\"Win\");}\nelse {console.log(\"Lose\");}"
         },
         "label": "الثانى"
       },
@@ -159,9 +157,12 @@
       "5": {
         "question": "أنشئ برنامجك كما يلي.\n١) إذا كانت قيمة المتغيّر score أكبر من أو تساوي 60، أخرج \"Pass\"؛ وإلا أخرج \"Fail\".\nرجاءً لا تحذف البرنامج المكتوب مسبقًا، وأدخل فقط جزء التعبير الشرطي.",
         "answer": {
-          "type": "code",
-          "value": "let score = 80;\nif (score >= 60){console.log(\"Pass\");}\nelse {console.log(\"Fail\");}",
-          "note": "🟩 الاجابه نكتب في النواقص\nscore >= 60"
+          "type": "fill",
+          "blanks": [
+            "score >= 60"
+          ],
+          "template": "let score = 80;\nif (___){console.log(\"Pass\");}\nelse {console.log(\"Fail\");}",
+          "full_code": "let score = 80;\nif (score >= 60){console.log(\"Pass\");}\nelse {console.log(\"Fail\");}"
         },
         "label": "الخامس"
       }
