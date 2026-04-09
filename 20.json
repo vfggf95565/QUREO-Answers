@@ -117,7 +117,7 @@
         "question": "يرجى اختيار نوع العرض الذي تريده.\nstrawberry\ncherry\norange",
         "answer": {
           "type": "text",
-          "value": "strawberry・\ncherry・\norange・"
+          "value": "・strawberry\n・cherry\n・orange"
         },
         "label": "الرابع"
       },

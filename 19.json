@@ -149,8 +149,7 @@
               "class=\"mountains\""
             ],
             "template": "<p ___>Let's go to the sea.</p>\n<p ___>Let's go to the mountains.</p>",
-            "full_code": "class=\"sea\"\nclass=\"mountains\"",
-            "note": "اكتب في الخانات الفارغه"
+            "full_code": "<p  class=\"sea\">Let's go to the sea.</p>\n<p  class=\"mountains\">Let's go to the mountains.</p>"
           },
           "label": "الثالث"
         },
@@ -176,7 +175,7 @@
               "class=\"watermelon\""
             ],
             "template": "<p ___>Apple</p>\n<p ___>Watermelon</p>",
-            "full_code": "class=\"apple\"\nclass=\"watermelon\""
+            "full_code": "<p class=\"apple\">Apple</p>\n<p class=\"watermelon\">Watermelon</p>"
           },
           "label": "الخامس"
         },

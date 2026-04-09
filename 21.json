@@ -28,36 +28,48 @@
         "1": {
           "question": "أدخل الشرط: إذا كان المتغيّر score أكبر من أو يساوي 80.",
           "answer": {
-            "type": "partial",
-            "answer_code": "score >= 80",
-            "full_code": "let score = 100;\nif (score >= 80) {\nconsole.log(\"Pass\");\n}"
+            "type": "fill",
+            "blanks": [
+              "score >= 80"
+            ],
+            "template": "let score = 100;\nif (___) {\n  console.log(\"Pass\");\n}",
+            "full_code": "let score = 100;\nif (score >= 80) {\n  console.log(\"Pass\");\n}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أدخل الشرط: إذا كان المتغيّر score أصغر من أو يساوي 40.",
           "answer": {
-            "type": "partial",
-            "answer_code": "score <= 40",
-            "full_code": "let score = 30;\nif (score <= 40) {\nconsole.log(\"Retest\");\n}"
+            "type": "fill",
+            "blanks": [
+              "score <= 40"
+            ],
+            "template": "let score = 30;\nif (___) {\n  console.log(\"Retest\");\n}",
+            "full_code": "let score = 30;\nif (score <= 40) {\n  console.log(\"Retest\");\n}"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "أدخل الشرط: إذا كان numberOfPeople أكبر من أو يساوي 3 AND والمبلغ الإجمالي يساوي 3333 codycoins.",
           "answer": {
-            "type": "partial",
-            "answer_code": "numberOfPeople >= 3 && total == 3333",
-            "full_code": "let numberOfPeople = 3;\nlet total = 3333;\nif (numberOfPeople >= 3 && total == 3333) {\nconsole.log(\"30% discount\");\n}"
+            "type": "fill",
+            "blanks": [
+              "numberOfPeople >= 3 && total == 3333"
+            ],
+            "template": "let numberOfPeople = 3;\nlet total = 3333;\nif (___) {\n  console.log(\"30% discount\");\n}",
+            "full_code": "let numberOfPeople = 3;\nlet total = 3333;\nif (numberOfPeople >= 3 && total == 3333) {\n  console.log(\"30% discount\");\n}"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "أدخل الشرط: إذا كان numberOfPeople أكبر من أو يساوي 10 OR وكان المبلغ الإجمالي أكبر من أو يساوي 12000 codycoins.",
           "answer": {
-            "type": "partial",
-            "answer_code": "numberOfPeople >= 10 || total >= 12000",
-            "full_code": "let numberOfPeople = 4;\nlet total = 13500;\nif (numberOfPeople >= 10 || total >= 12000) {\nconsole.log(\"Small Gift Present\");\n}"
+            "type": "fill",
+            "blanks": [
+              "numberOfPeople >= 10 || total >= 12000"
+            ],
+            "template": "let numberOfPeople = 4;\nlet total = 13500;\nif (___) {\n  console.log(\"Small Gift Present\");\n}",
+            "full_code": "let numberOfPeople = 4;\nlet total = 13500;\nif (numberOfPeople >= 10 || total >= 12000) {\n  console.log(\"Small Gift Present\");\n}"
           },
           "label": "الرابع"
         }
@@ -84,31 +96,28 @@
           "answer": {
             "type": "text",
             "value": "النتيجة: لا ينتج عنه خطأ"
-          },
-          "label": "الثالث"
+          }
         },
         "4": {
           "question": "هل سينتج عن هذا البرنامج خطأ؟",
           "answer": {
             "type": "text",
             "value": "النتيجة: ينتج عنه خطأ"
-          },
-          "label": "الرابع"
+          }
         },
         "5": {
           "question": "انقر \"تشغيل الكود\" دون تعديل البرنامج.\nنضغط علي تشغيل الكود فقط",
           "answer": {
             "type": "action"
           },
-          "label": "الخامس"
+          "label": "الثالث"
         },
         "6": {
           "question": "هل سينتج عن هذا البرنامج خطأ؟",
           "answer": {
             "type": "text",
             "value": "النتيجة: ينتج عنه خطأ"
-          },
-          "label": "السادس"
+          }
         }
       }
     },
