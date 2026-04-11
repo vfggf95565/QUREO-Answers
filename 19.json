@@ -191,14 +191,14 @@
     },
     "4": {
       "questions": {
-        "1": {
+        "u1": {
           "question": "ماذا تود أن تصنع في المستقبل؟",
           "answer": {
             "type": "text",
             "value": "موقع إلكتروني"
           }
         },
-        "2": {
+        "1": {
           "question": "أضِف تعليقًا في المحرّر.\nاكتب CSS كما يلي.\n/* Change the color of the text of the h1 tag to red. */",
           "answer": {
             "type": "fill",
@@ -207,11 +207,11 @@
               "*/"
             ],
             "template": "___ Change the color of the text of the h1 tag to red. ___\nh1{\n  color: red;\n}",
-            "full_code": "/*\n\n*/"
+            "full_code": "/* Change the color of the text of the h1 tag to red. */\nh1{\n  color: red;\n}"
           },
           "label": "الاول"
         },
-        "3": {
+        "2": {
           "question": "ينبغي أن يكون السطر الأول من نص HTML تعليقًا.",
           "answer": {
             "type": "fill",
@@ -220,7 +220,7 @@
               "-->"
             ],
             "template": "___ Let's give a class name ___\n<p class=\"apple\">Apple</p>\n<p class=\"watermelon\">Watermelon</p>",
-            "full_code": "<!--\n-->"
+            "full_code": "<!-- Let's give a class name -->\n<p class=\"apple\">Apple</p>\n<p class=\"watermelon\">Watermelon</p>"
           },
           "label": "الثاني"
         }
@@ -281,7 +281,7 @@
         "question": "\"يُحدد اسم الـ class كما يلي. اكتب CSS لتغيير كلمة \"Dog\" إلى اللون الأزرق.\nHTML\nDog\nCat\n*لن يتم عرض أي شيء في المتصفح عند تشغيله.",
         "answer": {
           "type": "code",
-          "value": ".dog{\n  color: blue;\n}"
+          "value": ".dog {\n  color: blue;\n}"
         },
         "label": "السابع"
       },
