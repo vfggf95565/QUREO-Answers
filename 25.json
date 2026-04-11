@@ -54,9 +54,12 @@
         "3": {
           "question": "سننشئ برنامجًا يحسب ‎4×4×4×4‎.\nأدخل نفس البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "let i = 1; i <= 4; i++",
-            "full_code": "let num = 1;\nfor (let i = 1; i <= 4; i++) {\nnum = num * 4;\n}\nconsole.log(num);"
+            "type": "fill",
+            "blanks": [
+              "let i = 1; i <= 4; i++"
+            ],
+            "template": "let num = 1;\nfor (___) {\n  num = num * 4;\n}\nconsole.log(num);",
+            "full_code": "let num = 1;\nfor (let i = 1; i <= 4; i++) {\n  num = num * 4;\n}\nconsole.log(num);"
           },
           "label": "الثالث"
         }
@@ -104,7 +107,7 @@
         "question": "سننشئ برنامجًا يحسب ‘7×7×7×7×7’.\nلننشئ البرنامج كما يلي:\n① صرّح عن المتغيّر num وأسنِد له القيمة 1\n② كرّر العملية num = num * 7 خمس مرات\n* أسند 0 للمتغيّر i، وضع الشرط بحيث إذا كان i أصغر من 5 يزداد بمقدار 1\n③ اطبع قيمة المتغيّر num إلى وحدة التحكم مرة واحدة فقط في النهاية",
         "answer": {
           "type": "code",
-          "value": "let num = 1;\nfor(let i = 0; i < 5; i++){\nnum = num * 7;\n}\nconsole.log(num);"
+          "value": "let num = 1;\nfor(let i = 0; i < 5; i++){\n  num = num * 7;\n}\nconsole.log(num);"
         },
         "label": "الثاني"
       },
@@ -120,7 +123,7 @@
         "question": "سننشئ برنامجًا يحسب ‘0+1+2+3+4+5’.\nلننشئ البرنامج كما يلي:\n① صرّح عن المتغيّر num وأسنِد له القيمة 0\n② كرّر العملية إسناد نتيجة (num + i) إلى المتغيّر num ست مرات\n* أسند 0 للمتغيّر i، وضع الشرط بحيث إذا كان i أصغر من 6 يزداد بمقدار 1\n③ اطبع قيمة المتغيّر num إلى وحدة التحكم مرة واحدة فقط في النهاية",
         "answer": {
           "type": "code",
-          "value": "let num = 0;\nfor (let i = 0; i < 6; i++) {\nnum = num + i;\n}\nconsole.log(num);"
+          "value": "let num = 0;\nfor (let i = 0; i < 6; i++) {\n  num = num + i;\n}\nconsole.log(num);"
         },
         "label": "الرابع"
       },
@@ -128,7 +131,7 @@
         "question": "سننشئ برنامجًا يحسب ‘5040÷1÷2÷3÷4÷5’.\nلننشئ البرنامج كما يلي:\n① صرّح عن المتغيّر num وأسنِد له القيمة 5040\n② كرّر العملية إسناد نتيجة (num / i) إلى المتغيّر num خمس مرات\n* للشرط في الحلقة، أسند 1 للمتغيّر i، وضع الشرط بحيث إذا كان i أصغر من أو يساوي 5 يزداد بمقدار 1\n③ اطبع قيمة المتغيّر num إلى وحدة التحكم مرة واحدة فقط في النهاية",
         "answer": {
           "type": "code",
-          "value": "let num = 5040;\nfor(let i = 1; i <= 5; i++){\nnum = num / i;\n}\nconsole.log(num);"
+          "value": "let num = 5040;\nfor(let i = 1; i <= 5; i++){\n  num = num / i;\n}\nconsole.log(num);"
         },
         "label": "الخامس"
       }

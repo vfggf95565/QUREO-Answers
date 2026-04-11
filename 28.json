@@ -31,10 +31,12 @@
         "4": {
           "question": "لِنُنشئ برنامجًا يطبع جميع قيم المتغيّر degreeList بالترتيب.\nأدخل البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "degreeList.length",
-            "full_code": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < degreeList.length; i++) {\nconsole.log(degreeList[i]);\n}",
-            "note": "كتابة الكود في المكان المخصص لكتابة الكود"
+            "type": "fill",
+            "blanks": [
+              "degreeList.length"
+            ],
+            "template": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < ___; i++) {\n  console.log(degreeList[i]);\n}",
+            "full_code": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < degreeList.length; i++) {\n  console.log(degreeList[i]);\n}"
           },
           "label": "الثالث"
         }

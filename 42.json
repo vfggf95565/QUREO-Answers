@@ -18,7 +18,7 @@
               "let"
             ],
             "template": "___ season = \"spring\";\nconsole.log(\"The current season is \" + season);\nseason = \"summer\";\nconsole.log(\"The next season is \" + season);",
-            "full_code": "let"
+            "full_code": "let season = \"spring\";\nconsole.log(\"The current season is \" + season);\nseason = \"summer\";\nconsole.log(\"The next season is \" + season);"
           },
           "label": "الاول"
         },
@@ -30,7 +30,7 @@
               "const day = 7;"
             ],
             "template": "___\nconsole.log(\"One week is \" + day + \" days\");",
-            "full_code": "const day = 7;"
+            "full_code": "const day = 7;\nconsole.log(\"One week is \" + day + \" days\");"
           },
           "label": "الثاني"
         },

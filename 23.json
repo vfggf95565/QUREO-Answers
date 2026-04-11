@@ -158,8 +158,11 @@
       "7": {
         "question": "يوجد برنامج مكتوب لدالة تقوم بالضرب عند تمرير معاملين.\nأدخل برنامجًا يستدعي الدالة mul، ويمرر المعاملين **9** و **7**، ويخرج النتيجة إلى وحدة التحكم.",
         "answer": {
-          "type": "partial",
-          "answer_code": "console.log(mul(9, 7));",
+          "type": "fill",
+          "blanks": [
+            "console.log(mul(9, 7));"
+          ],
+          "template": "function mul(num1, num2) {\n  let answer = num1 * num2;\n  return answer;\n}\n___",
           "full_code": "function mul(num1, num2) {\n  let answer = num1 * num2;\n  return answer;\n}\nconsole.log(mul(9, 7));"
         },
         "label": "السابع"

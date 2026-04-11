@@ -52,8 +52,7 @@
               "tempList.length"
             ],
             "template": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < ___; i++){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / ___);",
-            "full_code": "tempList.length\n\ntempList.length",
-            "note": "السطر الأول"
+            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < tempList.length; i++){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / tempList.length);"
           },
           "label": "الخامس"
         },

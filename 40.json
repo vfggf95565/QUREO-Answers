@@ -60,7 +60,7 @@
               "const day = 7;"
             ],
             "template": "___\nconsole.log(\"One week is \" + day + \" days\");",
-            "full_code": "const day = 7;"
+            "full_code": "const day = 7;\nconsole.log(\"One week is \" + day + \" days\");"
           },
           "label": "الثاني"
         },

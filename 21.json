@@ -196,9 +196,12 @@
       "2": {
         "question": "أضف شرطًا ثانيًا إلى البرنامج المكتوب:\nإذا كان A أصغر من B، اطبع \"B is larger\" في وحدة التحكم (console).",
         "answer": {
-          "type": "partial",
-          "answer_code": "else if(A < B)",
-          "full_code": "let A = 5\nlet B = 10\nif (A > B) {\nconsole.log(\"A is larger\");\n} else if(A < B) {\nconsole.log(\"B is larger\");\n}"
+          "type": "fill",
+          "blanks": [
+            "else if (A < B)"
+          ],
+          "template": "let A = 5\nlet B = 10\nif (A > B) {\n  console.log(\"A is larger\");\n} ___ {\n  console.log(\"B is larger\");\n}",
+          "full_code": "let A = 5\nlet B = 10\nif (A > B) {\n  console.log(\"A is larger\");\n} else if (A < B) {\n  console.log(\"B is larger\");\n}"
         },
         "label": "الثاني"
       },
@@ -237,9 +240,12 @@
       "7": {
         "question": "اكتب شرطًا ينص على أن \"عدد الأشخاص أصغر من أو يساوي 10\" أو \"الوزن الكلي أصغر من أو يساوي 800kg\".\nالمتغيّر لعدد الأشخاص هو numberOfPeople، والمتغيّر للوزن الكلي هو weight.",
         "answer": {
-          "type": "partial",
-          "answer_code": "numberOfPeople <= 10 || weight <= 800",
-          "full_code": "let numberOfPeople = 8;\nlet weight = 400;\nif (numberOfPeople <= 10 || weight <= 800) {\nconsole.log(\"You can ride the elevator\");\n}"
+          "type": "fill",
+          "blanks": [
+            "numberOfPeople <= 10 || weight <= 800"
+          ],
+          "template": "let numberOfPeople = 8;\nlet weight = 400;\nif (___) {\n  console.log(\"You can ride the elevator\");\n}",
+          "full_code": "let numberOfPeople = 8;\nlet weight = 400;\nif (numberOfPeople <= 10 || weight <= 800) {\n  console.log(\"You can ride the elevator\");\n}"
         },
         "label": "السابع"
       },

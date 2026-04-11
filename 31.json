@@ -14,19 +14,20 @@
         "2": {
           "question": "سننشئ دالة تجمع أزمنة السباحة الحرة وسباحة الصدر.\nأدخل البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(sum(39.5, 60.5));",
-            "full_code": "function sum(freestyle, breaststroke) {\nlet result = freestyle + breaststroke;\nreturn result;\n}\nconsole.log(sum(39.5, 60.5));"
+            "type": "fill",
+            "blanks": [
+              "console.log(sum(39.5, 60.5));"
+            ],
+            "template": "function sum(freestyle, breaststroke) {\n  let result = freestyle + breaststroke;\n  return result;\n}\n___",
+            "full_code": "function sum(freestyle, breaststroke) {\n  let result = freestyle + breaststroke;\n  return result;\n}\nconsole.log(sum(39.5, 60.5));"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "سننشئ دالة تجمع أزمنة السباحة الحرة وسباحة الصدر.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let teamRed = sum(39.5, 60.5);\nconsole.log(teamRed);",
-            "full_code": "function sum(freestyle, breaststroke) {\nlet time = freestyle + breaststroke;\nreturn time;\n}\n//Write your program below.\nlet teamRed = sum(39.5, 60.5);\nconsole.log(teamRed);",
-            "note": "الكود بالكامل"
+            "type": "code",
+            "value": "function sum(freestyle, breaststroke) {\n  let time = freestyle + breaststroke;\n  return time;\n}\n//Write your program below.\nlet teamRed = sum(39.5, 60.5);\nconsole.log(teamRed);"
           },
           "label": "الثالث"
         }
@@ -43,29 +44,24 @@
               "backstroke",
               "58.5"
             ],
-            "template": "function sum(freestyle, breaststroke, ___) {\nlet time = freestyle + breaststroke + ___;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, ___);\nconsole.log(teamRed);",
-            "full_code": "backstroke\n\nbackstroke\n\n58.5",
-            "note": "السطر الأول"
+            "template": "function sum(freestyle, breaststroke, ___) {\n  let time = freestyle + breaststroke + ___;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, ___);\nconsole.log(teamRed);",
+            "full_code": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);"
           },
           "label": "الاول"
         },
         "2": {
           "question": "\"سوف نستدعي الدالة التي تجمع ثلاث قيم عددية.\n(1) أعلن المتغير teamBlue وأسند إليه الدالة sum.\nولكن مرّر القيم 40، 62، و58 إلى الدالة sum.\n(2) اعرض قيمة المتغير teamBlue في وحدة التحكم (console).\"",
           "answer": {
-            "type": "partial",
-            "answer_code": "let teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);",
-            "full_code": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);",
-            "note": "الكود بالكامل"
+            "type": "code",
+            "value": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "\"سوف نستدعي الدالة التي تجمع ثلاث قيم عددية.\n(1) أعلن المتغير teamGreen وأسند إليه الدالة sum.\nولكن مرّر القيم 41، 59.5، و60 إلى الدالة sum.\n(2) اعرض قيمة المتغير teamGreen في وحدة التحكم (console).\"",
           "answer": {
-            "type": "partial",
-            "answer_code": "let teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
-            "full_code": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
-            "note": "الكود بالكامل"
+            "type": "code",
+            "value": "function sum(freestyle, breaststroke, backstroke) {\nlet time = freestyle + breaststroke + backstroke;\nreturn time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);"
           },
           "label": "الثالث"
         }

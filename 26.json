@@ -87,18 +87,26 @@
         "2": {
           "question": "سننشئ برنامجًا يعرض متوسط درجة حرارة الجسم خلال ١٤ يومًا من البيانات المخزنة في المتغيّر tempList.\nأدخل البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "14\n\n14",
-            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor (let i = 0; i < 14; i++) {\nsum = sum + tempList[i];\n}\nconsole.log(sum / 14);"
+            "type": "fill",
+            "blanks": [
+              "14",
+              "14"
+            ],
+            "template": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor (let i = 0; i < ___; i++) {\n  sum = sum + tempList[i];\n}\nconsole.log(sum / ___);",
+            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor (let i = 0; i < 14; i++) {\n  sum = sum + tempList[i];\n}\nconsole.log(sum / 14);"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "سننشئ برنامجًا يعرض متوسط درجة حرارة الجسم خلال ١٤ يومًا من البيانات في المتغيّر tempList.\nأدخل البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "let i = 0; i < tempList.length; i++\ntempList.length",
-            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < tempList.length; i++ ){\nsum = sum + tempList[i];\nconsole.log(sum / tempList.length);"
+            "type": "fill",
+            "blanks": [
+              "let i = 0; i < tempList.length; i++",
+              "tempList.length"
+            ],
+            "template": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(___){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / ___);",
+            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < tempList.length; i++ ){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / tempList.length);"
           },
           "label": "الثالث"
         }

@@ -110,8 +110,8 @@
       "3": {
         "question": "يرجى إنشاء برنامج باستخدام جملة if يقوم بإخراج \"Let's eat a hamburger!\" إذا كان الباقي عند قسمة قيمة dayCount على 7 يساوي 0.",
         "answer": {
-          "type": "text",
-          "value": "[CODE]\nlet dayCount = 14;\nif (dayCount % 7 == 0) {\nconsole.log(\"Let's eat a hamburger!\");\n}\n[CODE]"
+          "type": "code",
+          "value": "let dayCount = 14;\n\nif (dayCount % 7 == 0) {\n  console.log(\"Let's eat a hamburger!\");\n}"
         },
         "label": "الثالث"
       },
