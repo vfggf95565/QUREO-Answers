@@ -19,7 +19,7 @@
               "console.log(divide6(72));"
             ],
             "template": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}\n___",
-            "full_code": "console.log(divide6(72));"
+            "full_code": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}\nconsole.log(divide6(72));"
           },
           "label": "الثاني"
         },
@@ -110,10 +110,13 @@
           "label": "الاول"
         },
         "2": {
-          "question": "ننشئ دالة تجمع عددين.\n① استدعِ الدالة sum بالوسيطين 50 و 100 وأخرج الناتج إلى وحدة التحكم.",
+          "question": "ننشئ دالة تجمع عددين.\nلننشئ البرنامج التالي:\n① استدعِ الدالة sum بالوسيطين 50 و 100 وأخرج الناتج إلى وحدة التحكم.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(sum(50, 100));",
+            "type": "fill",
+            "blanks": [
+              "console.log(sum(50, 100));"
+            ],
+            "template": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}\n___",
             "full_code": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}\nconsole.log(sum(50, 100));"
           },
           "label": "الثاني"
