@@ -25,9 +25,12 @@
         "3": {
           "question": "استخدم حلقة for لطباعة \"Six slippery snails slid slowly seaward.\" في وحدة التحكم 3 مرات.",
           "answer": {
-            "type": "partial",
-            "answer_code": "for ( let i = 0; i < 3; i++ )",
-            "full_code": "for ( let i = 0; i < 3; i++ ) {\nconsole.log(\"Six slippery snails slid slowly seaward.\");\n}"
+            "type": "fill",
+            "blanks": [
+              "for ( let i = 0; i < 3; i++ )"
+            ],
+            "template": "___ {\n    console.log(\"Six slippery snails slid slowly seaward.\");\n}",
+            "full_code": "for ( let i = 0; i < 3; i++ )"
           },
           "label": "الثالث"
         },
@@ -126,10 +129,10 @@
           "label": "الثاني"
         },
         "3": {
-          "question": "سننشئ برنامجًا يطبع \"situp, situp, situp, running, situp, situp\".\nأدخل البرنامج كما يلي:",
+          "question": "سننشئ برنامجًا يطبع \"sit-up, sit-up, sit-up, running, sit-up, sit-up\".\nأدخل البرنامج كما يلي:",
           "answer": {
             "type": "code",
-            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"situp\");\n  if (i == 2) {\n    console.log(\"running\");\n  }\n}"
+            "value": "for (let i = 0; i < 5; i++) {\n  console.log(\"sit-up\");\n  if (i == 2) {\n    console.log(\"running\");\n  }\n}"
           },
           "label": "الثالث"
         }
