@@ -14,9 +14,12 @@
         "2": {
           "question": "ننشئ دالة تقسم 72 قطعة بيتزا إلى 6 أجزاء متساوية.\n① استدعِ الدالة divide6 بالوسيط 72 وأخرج الناتج إلى وحدة التحكم.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(divide6(72));",
-            "full_code": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}\nconsole.log(divide6(72));"
+            "type": "fill",
+            "blanks": [
+              "console.log(divide6(72));"
+            ],
+            "template": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}\n___",
+            "full_code": "console.log(divide6(72));"
           },
           "label": "الثاني"
         },
