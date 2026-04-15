@@ -210,8 +210,8 @@
       "1": {
         "question": "اختر البرنامج الصحيح لإنشاء دالة يكون اسمها calc واسم معاملها num.",
         "answer": {
-          "type": "code",
-          "value": "function calc(num) { 　　processing }"
+          "type": "text",
+          "value": "function calc(num) {\nprocessing\n}"
         },
         "label": "الاول"
       },
