@@ -76,9 +76,12 @@
       "3": {
         "question": "في السطر الثاني، أدخل البرنامج الذي أنشأته كما يلي:\n(1) إذا كانت قيمة المتغيّر score أكبر من أو تساوي 60، اطبع \"Pass\"، وإلا اطبع \"Fail\".\n*أدخل فقط العبارة الشرطية.",
         "answer": {
-          "type": "code",
-          "value": "let score = 70;\nif(score >= 60){console.log(\"Pass\");}\nelse{console.log(\"Fail\");}",
-          "note": "🟩 الاجابه نكتب في المكان الفارغ\nscore >= 60"
+          "type": "fill",
+          "blanks": [
+            "score >= 60"
+          ],
+          "template": "let score = 70;\nif(___){console.log(\"Pass\");}\nelse{console.log(\"Fail\");}",
+          "full_code": "let score = 70;\nif(score >= 60){console.log(\"Pass\");}\nelse{console.log(\"Fail\");}"
         },
         "label": "الثالث"
       },

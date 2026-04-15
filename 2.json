@@ -176,7 +176,7 @@
       "1": {
         "question": "اختر البرنامج الصحيح لعرض نتيجة حساب 50+100 في وحدة التحكم.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "console.log(50 + 100);"
         },
         "label": "الاول"
@@ -193,7 +193,7 @@
         "question": "اجعل الكمبيوتر يحسب\n19+40\nويعرض نتيجة الحساب في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "console.log(19+40);"
+          "value": "console.log(19 + 40);"
         },
         "label": "الثالث"
       },
@@ -201,7 +201,7 @@
         "question": "اجعل الكمبيوتر يحسب\n7-2\nويعرض نتيجة الحساب في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "console.log(7-2);"
+          "value": "console.log(7 - 2);"
         },
         "label": "الرابع"
       },
@@ -209,14 +209,14 @@
         "question": "اجعل الكمبيوتر يحسب\n15 ÷ 5\nويعرض نتيجة الحساب في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "console.log(15/5);"
+          "value": "console.log(15 / 5);"
         },
         "label": "الخامس"
       },
       "6": {
         "question": "اختر البرنامج الصحيح لعرض \"Today is the 17th. 7 days ago was the 10th.\" في وحدة التحكم.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "console.log(\"Today is the 17th.7 days ago was the \" + (17 - 7) + \"th.\");"
         },
         "label": "السادس"
@@ -225,7 +225,7 @@
         "question": "اجعل الكمبيوتر يحسب\n2*5\nويعرض\n\"The answer is 10.\" في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "console.log(\"The answer is \" + (2*5) + \".\");"
+          "value": "console.log(\"The answer is \" + (2 * 5) + \".\");"
         },
         "label": "السابع"
       }
