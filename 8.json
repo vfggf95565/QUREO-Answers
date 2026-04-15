@@ -112,9 +112,14 @@
       "7": {
         "question": "أنشئ برنامجًا كما يلي:\n(1) إذا كان المتغيّر num أصغر من أو يساوي 3، اطبع \"A\".\n(2) إذا لم يكن كذلك، وإذا كان num أكبر من أو يساوي 6، اطبع \"B\".\n(3) إذا لم يكن كذلك، اطبع \"C\".",
         "answer": {
-          "type": "code",
-          "value": "let num = 4;\nif (num <= 3){console.log(\"A\");}\nelse if (num >= 6){console.log(\"B\");}\nelse {console.log(\"C\");}",
-          "note": "نكتب النواقص في الاسطر هكذا بالترتيب\nnum <= 3\nnum >= 6\nelse"
+          "type": "fill",
+          "blanks": [
+            "num <= 3",
+            "num >= 6",
+            "else "
+          ],
+          "template": "let num = 4;\nif (___){console.log(\"A\");}\nelse if (___){console.log(\"B\");}\n___{console.log(\"C\");}",
+          "full_code": "let num = 4;\nif (num <= 3){console.log(\"A\");}\nelse if (num >= 6){console.log(\"B\");}\nelse {console.log(\"C\");}"
         },
         "label": "السابع"
       }
