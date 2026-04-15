@@ -242,18 +242,24 @@
       "5": {
         "question": "الرجاء إضافة برنامج يستدعي الدالة calc.\nضع 3 كقيمة للمعامل.",
         "answer": {
-          "type": "partial",
-          "answer_code": "calc(3)",
-          "full_code": "function calc(num) {\nlet result = num * 5;\nreturn result;\n}\nconsole.log(calc(3));"
+          "type": "fill",
+          "blanks": [
+            "calc(3)"
+          ],
+          "template": "function calc(num) {\n  let result = num * 5;\n  return result;\n}\nconsole.log(___);",
+          "full_code": "function calc(num) {\n  let result = num * 5;\n  return result;\n}\nconsole.log(calc(3));"
         },
         "label": "الخامس"
       },
       "6": {
         "question": "الرجاء إضافة برنامج يعيد قيمة المتغيّر result إلى البرنامج الموصوف.",
         "answer": {
-          "type": "partial",
-          "answer_code": "return result",
-          "full_code": "function calc(num) {\nlet result = num * 7;\nreturn result }\nconsole.log(calc(10));"
+          "type": "fill",
+          "blanks": [
+            "return result"
+          ],
+          "template": "function calc(num) {\n  let result = num * 7;\n  ___ }\nconsole.log(calc(10));",
+          "full_code": "function calc(num) {\n  let result = num * 7;\n  return result }\nconsole.log(calc(10));"
         },
         "label": "السادس"
       }
