@@ -157,10 +157,8 @@
       "4": {
         "question": "تم إنشاء دالة باسم divide5 تقوم بالقسمة على 5، لذا يرجى الإخراج إلى وحدة التحكم بتمرير القيمة 35 إلى الدالة divide5.",
         "answer": {
-          "type": "partial",
-          "answer_code": "console.log(divide5(35));",
-          "full_code": "function divide5(total) {\n    let num = total / 5;\n    return num;\n}\nconsole.log(divide5(35));",
-          "note": "تعديل السطر الاخير من الكود ليصبح هكذا"
+          "type": "code",
+          "value": "function divide5(total) {\n    let num = total / 5;\n    return num;\n}\nconsole.log(divide5(35));"
         },
         "label": "الرابع"
       },
