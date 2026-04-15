@@ -256,10 +256,10 @@
         "answer": {
           "type": "fill",
           "blanks": [
-            "return result"
+            "return result;"
           ],
-          "template": "function calc(num) {\n  let result = num * 7;\n  ___ }\nconsole.log(calc(10));",
-          "full_code": "function calc(num) {\n  let result = num * 7;\n  return result }\nconsole.log(calc(10));"
+          "template": "function calc(num) {\n  let result = num * 7;\n  ___\n}\nconsole.log(calc(10));",
+          "full_code": "function calc(num) {\n  let result = num * 7;\n  return result;\n}\nconsole.log(calc(10));"
         },
         "label": "السادس"
       }
