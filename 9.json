@@ -99,8 +99,12 @@
       "4": {
         "question": "الرجاء إنشاء برنامج كما يلي.\n1. إذا كان المتغيّر a يساوي 5 أو b يساوي 10، اطبع \"Condition met\".\n*أدخل التعبير الشرطي فقط.",
         "answer": {
-          "type": "code",
-          "value": "let a = 5;\nlet b = 10;\nif (a == 5 || b == 10){console.log(\"Condition met\");}",
+          "type": "fill",
+          "blanks": [
+            "a == 5 || b == 10"
+          ],
+          "template": "let a = 5;\nlet b = 10;\nif (___){console.log(\"Condition met\");}",
+          "full_code": "let a = 5;\nlet b = 10;\nif (a == 5 || b == 10){console.log(\"Condition met\");}",
           "note": "المطلوب نكتب في المكان المخصص للاجابه\na == 5 || b == 10"
         },
         "label": "الرابع"
@@ -108,8 +112,12 @@
       "5": {
         "question": "الرجاء إنشاء برنامج كما يلي.\n1. إذا كان المتغيّر a أكبر من أو يساوي 2 و b أكبر من أو يساوي 3، اطبع \"Condition met\".\n*أدخل التعبير الشرطي فقط",
         "answer": {
-          "type": "code",
-          "value": "let a = 4;\nlet b = 3;\nif (a >= 2 && b >= 3){console.log(\"Condition met\");}",
+          "type": "fill",
+          "blanks": [
+            "a >= 2 && b >=3"
+          ],
+          "template": "let a = 4;\nlet b = 3;\nif (___){console.log(\"Condition met\");}",
+          "full_code": "let a = 4;\nlet b = 3;\nif (a >= 2 && b >=3){console.log(\"Condition met\");}",
           "note": "المطلوب نكتب في المكان المخصص للاجابه\na >= 2 && b >= 3"
         },
         "label": "الخامس"

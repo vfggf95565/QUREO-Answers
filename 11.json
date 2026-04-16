@@ -73,7 +73,7 @@
       "4": {
         "question": "اختر الإجابة الصحيحة للبرنامج الذي يكرر المعالجة 10 مرات.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "for (let i=0; i<10; i++) {\nProcess\n}"
         },
         "label": "الرابع"
@@ -97,8 +97,11 @@
       "7": {
         "question": "اكتب برنامجك كما يلي أقل من أو يساوي\n1. إذا كان المتغير a أكبر من أو يساوي 2 و b أكبر من أو يساوي 3، اطبع \"Condition met\".\n*أدخل التعبير الشرطي فقط.",
         "answer": {
-          "type": "partial",
-          "answer_code": "a >= 2 && b >= 3",
+          "type": "fill",
+          "blanks": [
+            "a >= 2 && b >= 3"
+          ],
+          "template": "let a = 4;\nlet b = 3;\nif (___) {\nconsole.log(\"Condition met\");\n}",
           "full_code": "let a = 4;\nlet b = 3;\nif (a >= 2 && b >= 3) {\nconsole.log(\"Condition met\");\n}"
         },
         "label": "السابع"
@@ -106,9 +109,13 @@
       "8": {
         "question": "اكتب برنامجك كما يلي أقل من أو يساوي\n1. اطبع \"Hello\" ثلاث مرات على وحدة التحكم.\n*اسم المتغير يجب أن يكون i وقم بإسناد 0 له في البداية.\nاستخدم عامل الزيادة (increment operator).",
         "answer": {
-          "type": "partial",
-          "answer_code": "for\nlet i = 0; i < 3 ; i++",
-          "full_code": "for (let i = 0; i < 3 ; i++) {\nconsole.log(\"Hello\");\n}"
+          "type": "fill",
+          "blanks": [
+            "for",
+            "let i = 0; i < 3 ; i++"
+          ],
+          "template": "___ (___) {\n console.log(\"Hello\");\n}",
+          "full_code": "for (let i = 0; i < 3 ; i++) {\n console.log(\"Hello\");\n}"
         },
         "label": "الثامن"
       }

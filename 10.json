@@ -177,16 +177,15 @@
         "question": "يرجى اختيار الإجابة الصحيحة للبرنامج الذي يكرّر العملية المحدّدة 10 مرات.",
         "answer": {
           "type": "code",
-          "value": "for (let i=0; i<10; i++) {\nSpecified process\n}"
+          "value": "for (let i=0; i<10; i++) {\n　Specified process\n}"
         },
         "label": "الثالث"
       },
       "4": {
         "question": "أنشئ برنامجك كما يلي.\n1. أخرج \"Hello\" إلى وحدة التحكم 5 مرات.\n*اسم المتغيّر i وأعطه القيمة 0 في البداية.\n*استخدم عامل الزيادة (increment operator).",
         "answer": {
-          "type": "partial",
-          "answer_code": "let i = 0; i < 5; i++",
-          "full_code": "for (let i = 0; i < 5; i++ ) {\nconsole.log(\"Hello\");\n}"
+          "type": "code",
+          "value": "for (let i=0 ; i < 5 ; i++) {\nconsole.log(\"Hello\");\n}"
         },
         "label": "الرابع"
       },

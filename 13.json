@@ -184,10 +184,10 @@
         "answer": {
           "type": "fill",
           "blanks": [
-            "Math.random() >= 0.5)"
+            "Math.random() >= 0.5"
           ],
-          "full_code": "Math.random() >= 0.5",
-          "note": "if ( {\nconsole.log(\"Excellent luck\");\n} else {\nconsole.log(\"Bad luck\");\n}\n[/CODE]"
+          "template": "if (___) {\n  console.log(\"Excellent luck\");\n} else {\n  console.log(\"Bad luck\");\n}",
+          "full_code": "if (Math.random() >= 0.5) {\n  console.log(\"Excellent luck\");\n} else {\n  console.log(\"Bad luck\");\n}"
         },
         "label": "الخامس"
       },
