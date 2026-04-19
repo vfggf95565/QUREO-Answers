@@ -6,18 +6,16 @@
         "1": {
           "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير fee وأسند له القيمة 1000.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let fee = 1000;",
-            "full_code": "let fee = 1000;\nif (fee == 1000) {\nconsole.log(\"50 codycoins off\");\n}"
+            "type": "code",
+            "value": "let fee = 1000;\nif (fee == 1000) {\nconsole.log(\"50 codycoins off\");\n}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير fee وأسند له القيمة \"1000 codycoins\".",
           "answer": {
-            "type": "partial",
-            "answer_code": "let fee = \"1000 codycoins\";",
-            "full_code": "let fee = \"1000 codycoins\";\nif (fee == \"1000 codycoins\") {\nconsole.log(\"50 codycoins off\");\n}"
+            "type": "code",
+            "value": "let fee = \"1000 codycoins\";\nif (fee == \"1000 codycoins\") {\nconsole.log(\"50 codycoins off\");\n}"
           },
           "label": "الثاني"
         }

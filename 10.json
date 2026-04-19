@@ -176,8 +176,8 @@
       "3": {
         "question": "يرجى اختيار الإجابة الصحيحة للبرنامج الذي يكرّر العملية المحدّدة 10 مرات.",
         "answer": {
-          "type": "code",
-          "value": "for (let i=0; i<10; i++) {\n　Specified process\n}"
+          "type": "text",
+          "value": "for (let i=0; i<10; i++) {\nSpecified process\n}"
         },
         "label": "الثالث"
       },

@@ -21,38 +21,32 @@
         "3": {
           "question": "سنقوم بإنشاء قائمة الواجبات المنزلية.\nلنجعل لون الخلفية للعنوان Homework List ورديًا.\n* كود HTML مكتوب بالفعل.\nbackground-color: pink;",
           "answer": {
-            "type": "partial",
-            "answer_code": "background-color: pink;",
-            "full_code": "h1 {\n  color: red;\n  background-color: pink;\n}"
+            "type": "code",
+            "value": "h1 {\n  color: red;\n  background-color: pink;\n}"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "سننشئ قائمة الواجبات المنزلية.\nلنغيّر حجم النص وسمكه لعناصر القائمة.\n* كود HTML مكتوب بالفعل.\nli {\nfont-size: 24px;\nfont-weight: 900;\n}",
           "answer": {
-            "type": "partial",
-            "answer_code": "li {\n  font-size: 24px;\n  font-weight: 900;\n}",
-            "full_code": "h1 {\n  color: red;\n  background-color: pink;\n}\nli {\n  font-size: 24px;\n  font-weight: 900;\n}",
-            "note": "كتابة الكود من السطر الخامس الي الثامن"
+            "type": "code",
+            "value": "h1 {\n  color: red;\n  background-color: pink;\n}\nli {\n  font-size: 24px;\n  font-weight: 900;\n}"
           },
           "label": "الرابع"
         },
         "5": {
           "question": "سننشئ قائمة الواجبات المنزلية.\nلنغيّر لون نص عنصر Math Practice فقط في القائمة إلى اللون الأزرق.\nأولًا، أضف سمة class إلى كود HTML.\nعدّل السطر الرابع كما يلي:\nMath Practice",
           "answer": {
-            "type": "partial",
-            "answer_code": "<li class=\"blue\">Math Practice</li>",
-            "full_code": "<h1>Homework List</h1>\n<ul>\n  <li>History Study</li>\n  <li class=\"blue\">Math Practice</li>\n  <li>Essay</li>\n</ul>"
+            "type": "code",
+            "value": "<h1>Homework List</h1>\n<ul>\n  <li>History Study</li>\n  <li class=\"blue\">Math Practice</li>\n  <li>Essay</li>\n</ul>"
           },
           "label": "الخامس"
         },
         "6": {
           "question": "سننشئ قائمة الواجبات المنزلية.\nلنغيّر لون نص Math Practice فقط إلى اللون الأزرق.\n* كود HTML مكتوب بالفعل.\n.blue {\ncolor: blue;\n}",
           "answer": {
-            "type": "partial",
-            "answer_code": ".blue {\n  color: blue;\n}",
-            "full_code": "h1 {\n  color: red;\n  background-color: pink;\n}\nli {\n  font-size: 24px;\n  font-weight: 900;\n}\n.blue {\n  color: blue;\n}",
-            "note": "كتابة الكود بعد الاكواد المكتوبة من السطر التاسع\nالكود الكامل"
+            "type": "code",
+            "value": "h1 {\n  color: red;\n  background-color: pink;\n}\nli {\n  font-size: 24px;\n  font-weight: 900;\n}\n.blue {\n  color: blue;\n}"
           },
           "label": "السادس"
         }
@@ -90,17 +84,15 @@
               "background-color: aqua;"
             ],
             "template": ".btn1 {\n  ___\n}",
-            "full_code": "background-color: aqua;"
+            "full_code": ".btn1 {\n  background-color: aqua;\n}"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "سننشئ صفحة تصويت.\nلنجعل زر التصويت Second one يتحول إلى اللون الأصفر فقط عند تمرير الفأرة عليه.\n* كود HTML مكتوب بالفعل.\n.btn2:hover {\nbackground-color: yellow;\n}",
           "answer": {
-            "type": "partial",
-            "answer_code": ".btn2:hover {\n  background-color: yellow;\n}",
-            "full_code": ".btn1 {\n  background-color: aqua;\n}\n.btn2:hover {\n  background-color: yellow;\n}",
-            "note": "نكتب من السطر الرابع الكود الاتي"
+            "type": "code",
+            "value": ".btn1 {\n  background-color: aqua;\n}\n.btn2:hover {\n  background-color: yellow;\n}"
           },
           "label": "الرابع"
         },
@@ -148,9 +140,8 @@
         "4": {
           "question": "سنزيّن أزرار صفحة التصويت.\nلنجعل زر التصويت Second one يتحول إلى اللون الأصفر تدريجيًا خلال خمس ثوانٍ عند تمرير الفأرة عليه.\n* كود HTML مكتوب بالفعل.\ntransition: 5s;",
           "answer": {
-            "type": "partial",
-            "answer_code": "transition: 5s;",
-            "full_code": ".btn1:hover {\n  background-color: lime;\n  transition: 2s;\n}\n.btn2:hover {\n  background-color: yellow;\n  transition: 5s;\n}"
+            "type": "code",
+            "value": ".btn1:hover {\n  background-color: lime;\n  transition: 2s;\n}\n.btn2:hover {\n  background-color: yellow;\n  transition: 5s;\n}"
           },
           "label": "الرابع"
         }
@@ -181,18 +172,16 @@
         "3": {
           "question": "لنزيّن قائمة الأمتعة.\nلنضف خطًا واحدًا كإطار حول العنوان Packing List.\n* كود HTML مكتوب بالفعل.\nborder: solid;",
           "answer": {
-            "type": "partial",
-            "answer_code": "border: solid;",
-            "full_code": "h1 {\n  border: solid;\n}"
+            "type": "code",
+            "value": "h1 {\n  border: solid;\n}"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "لنزيّن قائمة الأمتعة.\nلنضف إطارًا مزدوج الخطوط حول العنوان Packing List.\n* كود HTML مكتوب بالفعل.\nborder: double;",
           "answer": {
-            "type": "partial",
-            "answer_code": "border: double;",
-            "full_code": "h1 {\n  border: double;\n}"
+            "type": "code",
+            "value": "h1 {\n  border: double;\n}"
           },
           "label": "الرابع"
         },
@@ -204,7 +193,7 @@
               "10px"
             ],
             "template": "h1 {\n  border: ___ double;\n}",
-            "full_code": "10px"
+            "full_code": "h1 {\n  border: 10px double;\n}"
           },
           "label": "الخامس"
         },
@@ -216,17 +205,15 @@
               "blue"
             ],
             "template": "h1 {\n  border: 10px double ___;\n}",
-            "full_code": "blue"
+            "full_code": "h1 {\n  border: 10px double blue;\n}"
           },
           "label": "السادس"
         },
         "7": {
           "question": "لنزيّن قائمة الأمتعة.\nلنجعل الإطار بخط أحمر واحد حول العنوان Packing List.\n* كود HTML مكتوب بالفعل.\nأضف خاصية border في السطر الثاني.\nحدد القيم كما يلي: النوع solid، السُمك 5px، اللون red.\n* يُرجى تحديد القيم بترتيب سُمك الإطار، النوع، اللون.",
           "answer": {
-            "type": "partial",
-            "answer_code": "border: 5px solid red;",
-            "full_code": "h1 {\n  border: 5px solid red;\n}",
-            "note": "الكود بالكامل"
+            "type": "code",
+            "value": "h1 {\n  border: 5px solid red;\n}"
           },
           "label": "السابع"
         }

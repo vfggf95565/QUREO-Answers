@@ -22,37 +22,32 @@
         "3": {
           "question": "سنُنشئ استبيانًا. لنُظهر خانة لإدخال الرأي وزر إرسال.\nيرجى كتابة كود HTML من السطر الثالث كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
-            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
-            "note": "كتابة الكود في السطرين الثالث والرابع"
+            "type": "code",
+            "value": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "سوف نزيّن نص قائمة الواجبات (Homework List).\n* ملف HTML مكتوب مسبقًا.\n① لتغيير لون خلفية الوسم h1، استخدم الخاصية background-color، والقيمة pink\n② لتغيير وزن الخط لعناصر li، استخدم الخاصية font-weight، والقيمة bold\n③ لتغيير لون النص للعنصر ذي الفئة red، استخدم الخاصية color، والقيمة red",
           "answer": {
-            "type": "partial",
-            "answer_code": "background-color: pink;\n\nfont-weight: bold;\n\ncolor: red;",
-            "full_code": "h1 {\n  background-color: pink;\n}\nli {\nfont-weight: bold;\n}\n.red {\n  color: red;\n}"
+            "type": "code",
+            "value": "h1 {\n  background-color: pink;\n}\nli {\nfont-weight: bold;\n}\n.red {\n  color: red;\n}"
           },
           "label": "الرابع"
         },
         "5": {
           "question": "لنزيّن أزرار التصويت.\nعندما تلمس الفأرة زر First one، يجب أن يتحول إلى اللون الأصفر المخضر،\nوعندما تلمس زر Second one، يجب أن يتحول إلى الأصفر خلال ثانيتين.\n* ملف HTML مكتوب مسبقًا.\nيرجى إدخال الكود التالي في المحرر:",
           "answer": {
-            "type": "partial",
-            "answer_code": ":hover {\nbackground-color: lime;\n\n:hover {\nbackground-color: yellow;\ntransition: 2s;",
-            "full_code": ".btn1:hover {\n  background-color: lime;\n}\n.btn2:hover {\n  background-color: yellow;\n  transition: 2s;\n}"
+            "type": "code",
+            "value": ".btn1:hover {\n  background-color: lime;\n}\n.btn2:hover {\n  background-color: yellow;\n  transition: 2s;\n}"
           },
           "label": "الخامس"
         },
         "6": {
           "question": "\"لنُحيط عنوان Packing List بإطار.\n* ملف HTML مكتوب مسبقًا.\nيرجى إدخال الكود التالي في السطر الثاني من المحرر:",
           "answer": {
-            "type": "partial",
-            "answer_code": "border: 10px double red;",
-            "full_code": "h1 {\n  border: 10px double red;\n}"
+            "type": "code",
+            "value": "h1 {\n  border: 10px double red;\n}"
           },
           "label": "السادس"
         }
@@ -72,9 +67,8 @@
       "1": {
         "question": "أنشئ قائمة نقطية باستخدام وسم ul تعرض العناصر \"Hamburger\" و \"Pizza\" و \"Sandwich\" أسفل العنوان \"Menu\".",
         "answer": {
-          "type": "partial",
-          "answer_code": "<ul>\n<li>Hamburger</li>\n<li>Pizza</li>\n<li>Sandwich</li>\n</ul>",
-          "full_code": "<p>Menu</p>\n<ul>\n<li>Hamburger</li>\n<li>Pizza</li>\n<li>Sandwich</li>\n</ul>"
+          "type": "code",
+          "value": "<p>Menu</p>\n<ul>\n<li>Hamburger</li>\n<li>Pizza</li>\n<li>Sandwich</li>\n</ul>"
         },
         "label": "الاول"
       },

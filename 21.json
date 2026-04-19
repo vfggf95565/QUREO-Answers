@@ -14,10 +14,8 @@
         "2": {
           "question": "يرجى إنشاء برنامج يطبع \"Reward: steak\" إذا كانت قيمة science تساوي 100، و\"Reward: ice cream\" إذا كانت science أكبر من أو تساوي 80، وإلا فاطبع \"No games for 1 week.\"\nبدءًا من السطر 4، أنشئ برنامجًا كما يلي:\n① وإلا، إذا كان \"المتغيّر science أكبر من أو يساوي 80\" فاطبع \"Reward: ice cream\"\n② وإلا فاطبع \"No games for 1 week.\"",
           "answer": {
-            "type": "partial",
-            "answer_code": "} else if ( science >= 80 ){\nconsole.log(\"Reward: ice cream\");\n} else {\nconsole.log(\"No games for 1 week.\");\n}",
-            "full_code": "let science = 80;\nif (science == 100) {\n  console.log(\"Reward: steak\");\n} else if ( science >= 80 ){\n  console.log(\"Reward: ice cream\");\n} else {\n  console.log(\"No games for 1 week.\");\n}",
-            "note": "نكتب من السطر الرابع الي السطر الثامن هذا الكود"
+            "type": "code",
+            "value": "let science = 80;\nif (science == 100) {\n  console.log(\"Reward: steak\");\n} else if ( science >= 80 ){\n  console.log(\"Reward: ice cream\");\n} else {\n  console.log(\"No games for 1 week.\");\n}"
           },
           "label": "الثاني"
         }

@@ -19,8 +19,7 @@
               "money > comics"
             ],
             "template": "let money = 7500;\nconst comics = 425;\n___ (___) {\n  money = money - comics;\n  console.log(money);\n}",
-            "full_code": "while\n\nmoney > comics",
-            "note": "كتابة الاكواد في الاماكن المخصصة"
+            "full_code": "let money = 7500;\nconst comics = 425;\nwhile (money > comics) {\n  money = money - comics;\n  console.log(money);\n}"
           },
           "label": "الثاني"
         }
@@ -36,7 +35,7 @@
           "question": "ماذا يجب أن نأكل؟",
           "answer": {
             "type": "text",
-            "value": "اختار ما يناسبك علي سبيل المثال\nهامبرغر"
+            "value": "هامبرغر"
           }
         },
         "1": {

@@ -22,18 +22,16 @@
         "3": {
           "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم.\nلنضف برنامجًا يعرض نتائج مختلفة إذا كانت فصيلة الدم B أو O أو AB بدلاً من A.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة \"B\" له.\nلننشئ البرنامج من السطر الخامس باستخدام \"else if\" كما يلي:\n① إذا كانت فصيلة الدم B، فاعرض \"حظك اليوم رائع!\"\n② إذا كانت فصيلة الدم O، فاعرض \"يبدو أن حظك اليوم جيد!\"\n③ إذا كانت فصيلة الدم AB، فاعرض \"قد لا يكون حظك اليوم جيدًا…\"",
           "answer": {
-            "type": "partial",
-            "answer_code": "else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n}",
-            "full_code": "let bloodType = \"B\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n}"
+            "type": "code",
+            "value": "let bloodType = \"B\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n}"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة \"Unknown\" له.\nلننشئ البرنامج من السطر 11 كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "else {\n  console.log(\"Let's find out your blood type!\");\n}",
-            "full_code": "let bloodType = \"Unknown\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n} else {\n  console.log(\"Let's find out your blood type!\");\n}"
+            "type": "code",
+            "value": "let bloodType = \"Unknown\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n} else {\n  console.log(\"Let's find out your blood type!\");\n}"
           },
           "label": "الرابع"
         }
@@ -71,7 +69,7 @@
               "break"
             ],
             "template": "let bloodType = \"B\";\n___ (bloodType) {\n ___ \"A\":\n  console.log(\"Today's fortune is decent\");\n  ___;\n case \"B\":\n  console.log(\"Today's fortune is excellent!\");\n  break;\n case \"O\":\n  console.log(\"Today's fortune looks good!\");\n  break;\n case \"AB\":\n  console.log(\"Today's fortune might not be so good...\");\n  break;\n default:\n  console.log(\"Let's find out your blood type!\");\n  break;\n}",
-            "full_code": "switch\ncase\nbreak"
+            "full_code": "let bloodType = \"B\";\nswitch (bloodType) {\n case \"A\":\n  console.log(\"Today's fortune is decent\");\n  break;\n case \"B\":\n  console.log(\"Today's fortune is excellent!\");\n  break;\n case \"O\":\n  console.log(\"Today's fortune looks good!\");\n  break;\n case \"AB\":\n  console.log(\"Today's fortune might not be so good...\");\n  break;\n default:\n  console.log(\"Let's find out your blood type!\");\n  break;\n}"
           },
           "label": "الثالث"
         },
@@ -84,7 +82,7 @@
               "break"
             ],
             "template": "let bloodType = \"C\";\nswitch (bloodType) {\n case \"A\":\n  console.log(\"Today's fortune is decent\");\n  break;\n case \"B\":\n  console.log(\"Today's fortune is excellent!\");\n  break;\n case \"O\":\n  console.log(\"Today's fortune looks good!\");\n  break;\n case \"AB\":\n  console.log(\"Today's fortune might not be so good...\");\n  break;\n ___:\n  console.log(\"Let's find out your blood type!\");\n  ___;\n}",
-            "full_code": "default\n\nbreak"
+            "full_code": "let bloodType = \"C\";\nswitch (bloodType) {\n case \"A\":\n  console.log(\"Today's fortune is decent\");\n  break;\n case \"B\":\n  console.log(\"Today's fortune is excellent!\");\n  break;\n case \"O\":\n  console.log(\"Today's fortune looks good!\");\n  break;\n case \"AB\":\n  console.log(\"Today's fortune might not be so good...\");\n  break;\n default:\n  console.log(\"Let's find out your blood type!\");\n  break;\n}"
           },
           "label": "الرابع"
         }
@@ -101,18 +99,16 @@
         "1": {
           "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض \"حظك اليوم جيد\" إذا كانت فصيلة الدم A.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة A له.\nلنكتب البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "switch\n case \"A\":\n    \n  break;",
-            "full_code": "let bloodType = \"A\";\n\nswitch (bloodType) {\n case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n}"
+            "type": "code",
+            "value": "let bloodType = \"A\";\n\nswitch (bloodType) {\n case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "سننشئ برنامجًا للتنبؤ بالحظ حسب فصيلة الدم باستخدام switch.\nلنُكمل البرنامج ليعرض \"حظك اليوم رائع!\" إذا كانت فصيلة الدم B.\nفصيلة الدم محددة بالمتغير bloodType، وتم تعيين القيمة B له.\nلنكتب نفس الكود في السطرين 7 و9:",
           "answer": {
-            "type": "partial",
-            "answer_code": "case \"B\":\n\n    break;",
-            "full_code": "let bloodType = \"B\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n}"
+            "type": "code",
+            "value": "let bloodType = \"B\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n}"
           },
           "label": "الثاني"
         },
@@ -147,7 +143,7 @@
               "break"
             ],
             "template": "let day = \"Sunday\";\n\n___ (___) {\n ___ \"Saturday\":\n  console.log(\"Go to lessons\");\n  ___;\n ___ \"Sunday\":\n  console.log(\"Go shopping\");\n  ___;\n ___:\n  console.log(\"Go to school\");\n  ___;\n}",
-            "full_code": "switch  day\ncase\n\nbreak\ncase\n\nbreak\ndefault\n\nbreak"
+            "full_code": "let day = \"Sunday\";\n\nswitch (day) {\n case \"Saturday\":\n  console.log(\"Go to lessons\");\n  break;\n case \"Sunday\":\n  console.log(\"Go shopping\");\n  break;\n default:\n  console.log(\"Go to school\");\n  break;\n}"
           },
           "label": "الخامس"
         }
@@ -166,9 +162,8 @@
       "1": {
         "question": "هذا برنامج يُخرج الكلمة \"Red\" إذا كانت السلسلة النصية المُسندة إلى المتغير color هي \"red\".\n① إذا كان المتغير color يساوي \"blue\"، أخرج \"Blue\" في وحدة التحكم (console)\n② إذا كان المتغير color يساوي \"green\"، أخرج \"Green\" في وحدة التحكم (console)\nومع ذلك، يُرجى كتابة البرنامج باستخدام else if.",
         "answer": {
-          "type": "partial",
-          "answer_code": "else if (color == \"blue\") {\n  console.log(\"Blue\");\n} else if (color == \"green\") {\n  console.log(\"Green\");\n}",
-          "full_code": "let color = \"green\";\n\nif (color == \"red\") {\n  console.log(\"Red\");\n} else if (color == \"blue\") {\n  console.log(\"Blue\");\n} else if (color == \"green\") {\n  console.log(\"Green\");\n}"
+          "type": "code",
+          "value": "let color = \"green\";\n\nif (color == \"red\") {\n  console.log(\"Red\");\n} else if (color == \"blue\") {\n  console.log(\"Blue\");\n} else if (color == \"green\") {\n  console.log(\"Green\");\n}"
         },
         "label": "الاول"
       },

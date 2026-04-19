@@ -11,7 +11,7 @@
               "cookies / 3"
             ],
             "template": "let cookies = 20;\nconsole.log(___);",
-            "full_code": "cookies / 3"
+            "full_code": "let cookies = 20;\nconsole.log(cookies / 3);"
           },
           "label": "الاول"
         },
@@ -30,7 +30,7 @@
               "snacks % 6"
             ],
             "template": "let snacks = 35;\nconsole.log(___);",
-            "full_code": "snacks % 6"
+            "full_code": "let snacks = 35;\nconsole.log(snacks % 6);"
           },
           "label": "الثالث"
         }
@@ -55,10 +55,8 @@
         "2": {
           "question": "سوف نقوم بإنشاء برنامج يقسم 13 وجبة خفيفة بين 3 أشخاص ويُخرج الجملة \"ريك يحصل عليها\" إذا وُجد باقي (modulo).\nتم إسناد القيمة 13 إلى المتغير snacks.\nلنُدخل نفس البرنامج ابتداءً من السطر الثاني:",
           "answer": {
-            "type": "partial",
-            "answer_code": "if (snacks % 3 > 0) {\n  console.log(\"Rick gets it\");\n}",
-            "full_code": "let snacks = 13;\nif (snacks % 3 > 0) {\n  console.log(\"Rick gets it\");\n}",
-            "note": "كتابة الكود الاتى من السطر الثاني الي الرابع"
+            "type": "code",
+            "value": "let snacks = 13;\nif (snacks % 3 > 0) {\n  console.log(\"Rick gets it\");\n}"
           },
           "label": "الثاني"
         }
@@ -88,10 +86,8 @@
         "3": {
           "question": "سنقوم بإنشاء برنامج يقسم 20 قطعة دونات بين 3 أشخاص ويُخرج رسائل مختلفة حسب الباقي.\nالآن سنضيف الحالات الخاصة بالباقي 1 والباقي 2.\nيُعرّف عدد الدونات في المتغير donuts وتُسنَد له القيمة 20.\nلندخل البرنامج ابتداءً من السطر السابع كما يلي:\n① إذا كان باقي القسمة 1، أخرج إلى وحدة التحكم \"أعطها للأم\"\n② إذا كان باقي القسمة 2، أخرج إلى وحدة التحكم \"أعطها للأم والأب\"",
           "answer": {
-            "type": "partial",
-            "answer_code": "case 1:\n    console.log(\"Give it to Mom\");\n    break;\n  case 2:\n    console.log(\"Give it to Mom and Dad\");\n    break;\n}",
-            "full_code": "let donuts = 20;\n\nswitch (donuts % 3) {\n  case 0:\n    console.log(\"Let's clean up the trash neatly\");\n    break;\n  case 1:\n    console.log(\"Give it to Mom\");\n    break;\n  case 2:\n    console.log(\"Give it to Mom and Dad\");\n    break;\n}",
-            "note": "الكود بالكامل مع مراعاة السطر الثاني فارغ"
+            "type": "code",
+            "value": "let donuts = 20;\n\nswitch (donuts % 3) {\n  case 0:\n    console.log(\"Let's clean up the trash neatly\");\n    break;\n  case 1:\n    console.log(\"Give it to Mom\");\n    break;\n  case 2:\n    console.log(\"Give it to Mom and Dad\");\n    break;\n}"
           },
           "label": "الثالث"
         }

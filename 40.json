@@ -18,7 +18,7 @@
               "let"
             ],
             "template": "___ num = 3;\nnum = 5;\nconsole.log(num);",
-            "full_code": "let"
+            "full_code": "let num = 3;\nnum = 5;\nconsole.log(num);"
           },
           "label": "الثاني"
         },
@@ -30,7 +30,7 @@
               "const"
             ],
             "template": "___ num = 3;\nnum = 5;\nconsole.log(num);",
-            "full_code": "const"
+            "full_code": "const num = 3;\nnum = 5;\nconsole.log(num);"
           },
           "label": "الثالث"
         }
@@ -77,7 +77,7 @@
               "let day = 30;"
             ],
             "template": "___\nconsole.log(\"September has \" + day + \" days\");\nday = 31;\nconsole.log(\"October has \" + day + \" days\");",
-            "full_code": "let day = 30;"
+            "full_code": "let day = 30;\nconsole.log(\"September has \" + day + \" days\");\nday = 31;\nconsole.log(\"October has \" + day + \" days\");"
           },
           "label": "الثالث"
         },
@@ -89,7 +89,7 @@
               "const myBirthday = \"September 1st\";"
             ],
             "template": "___\nconsole.log(\"My birthday is \" + myBirthday);",
-            "full_code": "const myBirthday = \"September 1st\";"
+            "full_code": "const myBirthday = \"September 1st\";\nconsole.log(\"My birthday is \" + myBirthday);"
           },
           "label": "الرابع"
         }
@@ -129,6 +129,14 @@
   },
   "review": {
     "questions": {
+      "1": {
+        "question": "يرجى كتابة تعبير الشرط لبرنامج يطبع:\n\"فلنراجع مرة أخرى!\" عندما تكون قيم answer1 و answer2 مختلفة،\nولكن استخدم الرمز !=.",
+        "answer": {
+          "type": "text",
+          "value": "const num;"
+        },
+        "label": "الاول"
+      },
       "2": {
         "question": "يرجى اختيار طريقة الإعلان (declaration) التي يجب استخدامها عندما تكون هناك حاجة لإعادة الإسناد (reassignment).",
         "answer": {
@@ -163,6 +171,7 @@
       }
     },
     "_order": [
+      "1",
       "2",
       "3",
       "4",

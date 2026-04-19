@@ -3,6 +3,13 @@
   "lessons": {
     "1": {
       "questions": {
+        "u1": {
+          "question": "ما هو الإخراج عند تشغيل هذا البرنامج؟",
+          "answer": {
+            "type": "text",
+            "value": "10"
+          }
+        },
         "1": {
           "question": "أدخل نفس البرنامج كما في الأسفل.",
           "answer": {
@@ -28,16 +35,20 @@
           "label": "الثالث"
         },
         "4": {
-          "question": "أنشئ دالة تجمع قيمتين عدديتين.\n(1) مرر الوسيطين 10 و20 إلى الدالة sum واستدعها للإخراج إلى وحدة التحكم",
+          "question": "أنشئ دالة تجمع قيمتين عدديتين.\nأنشئ البرنامج التالي.\n(1) مرر الوسيطين 10 و20 إلى الدالة sum واستدعها للإخراج إلى وحدة التحكم",
           "answer": {
-            "type": "code",
-            "value": "console.log(sum(10, 20));",
-            "note": "return result;\n}"
+            "type": "fill",
+            "blanks": [
+              "console.log(sum(10, 20));"
+            ],
+            "template": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}\n___",
+            "full_code": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}\nconsole.log(sum(10, 20));"
           },
           "label": "الرابع"
         }
       },
       "_order": [
+        "u1",
         "1",
         "2",
         "3",
@@ -94,19 +105,30 @@
           "label": "الثاني"
         },
         "3": {
-          "question": "أدخل البرنامج كما يليMath.random() >= 0.5",
+          "question": "أدخل البرنامج كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "if (Math.random() >= 0.5) { console.log(\"Lucky today\");} else { console.log(\"Unlucky today\");",
-            "note": "🟩 الاجابه نكتب في السطر الاول في المكان المخصص\nMath.random() >= 0.5\nكيف كان حظك اليوم؟\nظهر عندي الناتج “Lucky today”"
+            "type": "fill",
+            "blanks": [
+              "Math.random() >= 0.5"
+            ],
+            "template": "if (___) {\n  console.log(\"Lucky today\");\n} else {\n  console.log(\"Unlucky today\");\n}",
+            "full_code": "if (Math.random() >= 0.5) {\n  console.log(\"Lucky today\");\n} else {\n  console.log(\"Unlucky today\");\n}"
           },
           "label": "الثالث"
+        },
+        "u1": {
+          "question": "كيف كان حظك اليوم؟",
+          "answer": {
+            "type": "text",
+            "value": "ظهر عندي الناتج “Lucky today”."
+          }
         }
       },
       "_order": [
         "1",
         "2",
-        "3"
+        "3",
+        "u1"
       ]
     },
     "4": {
@@ -122,18 +144,24 @@
         "2": {
           "question": "أنشئ برنامجك كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "console.log(Math.random() * 10);",
-            "note": "يكتب في المكان المخصص\nMath.random() * 10"
+            "type": "fill",
+            "blanks": [
+              "Math.random() * 10"
+            ],
+            "template": "console.log(___);",
+            "full_code": "console.log(Math.random() * 10);"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "أنشئ برنامجك كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "console.log(Math.floor(Math.random() * 10));",
-            "note": "يكتب في المكان المخصص\nMath.floor"
+            "type": "fill",
+            "blanks": [
+              "Math.floor"
+            ],
+            "template": "console.log(___(Math.random() * 10));",
+            "full_code": "console.log(Math.floor(Math.random() * 10));"
           },
           "label": "الثالث"
         }

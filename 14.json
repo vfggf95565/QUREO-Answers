@@ -38,10 +38,8 @@
         "5": {
           "question": "أنشئ دالة بحيث عند تمرير المبلغ الكلي لها تُرجع القيمة مقسومة على 4.\nأنشئ البرنامج كما يلي:\n(1) أنشئ دالة باسم ‎split4 واسم وسيطها ‎total.\n(2) صرّح عن متغير باسم ‎result وأسند إليه المعادلة ‎total / 4.\n(3) أرجع قيمة المتغير ‎result.\n(4) مرّر الوسيط 1200 إلى الدالة ‎split4 وأخرج النتيجة في الـ console.",
           "answer": {
-            "type": "partial",
-            "answer_code": "function split4(total) {\nlet result = total / 4;",
-            "full_code": "console.log(split4(1200));",
-            "note": "return result;\n}"
+            "type": "code",
+            "value": "function split4(total) {\n  let result = total / 4;\n  return result;\n}\nconsole.log(split4(1200));"
           },
           "label": "الخامس"
         }
@@ -76,7 +74,7 @@
       "3": {
         "question": "اختر البرنامج الصحيح لإخراج القيم العددية العشوائية.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "console.log(Math.random());"
         },
         "label": "الثالث"
@@ -92,9 +90,12 @@
       "5": {
         "question": "أنشئ برنامجًا يعيد عددًا صحيحًا عشوائيًا كما يلي.\n(1) استخدم الدالة Math.random لإرجاع قيمة عددية عشوائية.\n(2) اضرب القيمة العددية العشوائية المُعادة في 10.\n(3) استخدم الدالة Math.floor لإرجاع عدد صحيح.\n*البرنامج في سطر واحد.",
         "answer": {
-          "type": "code",
-          "value": "console.log(Math.floor(Math.random() * 10 ));",
-          "note": "Math.floor(Math.random() * 10 )"
+          "type": "fill",
+          "blanks": [
+            "Math.floor(Math.random() * 10 )"
+          ],
+          "template": "console.log(___);",
+          "full_code": "console.log(Math.floor(Math.random() * 10 ));"
         },
         "label": "الخامس"
       },
@@ -102,28 +103,24 @@
         "question": "اختر البرنامج الصحيح لإنشاء دالة يكون اسمها sum واسم الوسيط num",
         "answer": {
           "type": "code",
-          "value": "function sum(num) {",
-          "note": "processing\n}"
+          "value": "function sum(num) {\n  processing\n}"
         },
         "label": "السادس"
       },
       "7": {
         "question": "أضف برنامجًا يُرجع قيمة المتغيّر result إلى البرنامج الموصوف.",
         "answer": {
-          "type": "partial",
-          "answer_code": "function calc(num) {\nlet result = num * 7;",
-          "full_code": "console.log(calc(10));",
-          "note": "يكتب في السطر الثالث\nreturn result\nreturn result\n}"
+          "type": "code",
+          "value": "function calc(num) {\n  let result = num * 7;\n  return result\n}\nconsole.log(calc(10));",
+          "note": "يكتب في السطر الثالث\nreturn result"
         },
         "label": "السابع"
       },
       "8": {
         "question": "أضف برنامجًا يستدعي الدالة calc.\nأدخل 7 كوسيط.",
         "answer": {
-          "type": "partial",
-          "answer_code": "function calc(num) {\nlet result = num * 5;",
-          "full_code": "console.log(calc(7));",
-          "note": "يكتب في السطر الخامس في المكان المخصص\ncalc(7)\nreturn result;\n}"
+          "type": "code",
+          "value": "function calc(num) {\n  let result = num * 5;\n  return result;\n}\nconsole.log(calc(7));"
         },
         "label": "الثامن"
       }

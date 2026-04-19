@@ -30,9 +30,8 @@
         "4": {
           "question": "سننشئ برنامج بطولة رياضية. وأخيرًا فلنضف صورة.\nأدخل ما يلي في السطر الثامن:",
           "answer": {
-            "type": "partial",
-            "answer_code": "<img src=\"sports.png\">",
-            "full_code": "<h1>Sports Tournament Program</h1>\n<p>Events</p>\n<ul>\n  <li>Frisbee</li>\n  <li>Softball</li>\n  <li>Bread-eating race</li>\n</ul>\n<img src=\"sports.png\">"
+            "type": "code",
+            "value": "<h1>Sports Tournament Program</h1>\n<p>Events</p>\n<ul>\n  <li>Frisbee</li>\n  <li>Softball</li>\n  <li>Bread-eating race</li>\n</ul>\n<img src=\"sports.png\">"
           },
           "label": "الرابع"
         }
@@ -76,7 +75,7 @@
               "</span>"
             ],
             "template": "<p>Let's go to the ___sea___</p>\n<p class=\"mountain\">Let's go to the mountains</p>",
-            "full_code": "<span>\n\n</span>"
+            "full_code": "<p>Let's go to the <span>sea</span></p>\n<p class=\"mountain\">Let's go to the mountains</p>"
           },
           "label": "الرابع"
         },
@@ -89,7 +88,7 @@
               "class=\"mountain\""
             ],
             "template": "<p>Let's go to the <span ___>sea</span></p>\n<p>Let's go to the <span ___>mountain</span></p>",
-            "full_code": "class=\"sea\"\n\nclass=\"mountain\""
+            "full_code": "<p>Let's go to the <span class=\"sea\">sea</span></p>\n<p>Let's go to the <span class=\"mountain\">mountain</span></p>"
           },
           "label": "الخامس"
         },
@@ -123,20 +122,16 @@
         "2": {
           "question": "سننشئ استبيانًا. أولاً، فلنُظهر حقل إدخال الرأي.\nأدخل ما يلي في السطر الثالث من المحرر:",
           "answer": {
-            "type": "partial",
-            "answer_code": "<input type=\"text\">",
-            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">",
-            "note": "الكود الكامل"
+            "type": "code",
+            "value": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "سننشئ استبيانًا. فلنُظهر زرًّا بجانب حقل إدخال الرأي.\nأدخل ما يلي في السطر الرابع من المحرر:",
           "answer": {
-            "type": "partial",
-            "answer_code": "<input type=\"button\">",
-            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\">",
-            "note": "الكود الكامل"
+            "type": "code",
+            "value": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\">"
           },
           "label": "الثالث"
         },
@@ -151,10 +146,8 @@
         "5": {
           "question": "سننشئ استبيانًا. فلنُظهر حقل إدخال رأي وزر إرسال.\n① استخدم وسم input لإظهار حقل نصي\n② استخدم وسم input لإظهار زر مكتوب عليه Submit",
           "answer": {
-            "type": "partial",
-            "answer_code": "<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
-            "full_code": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
-            "note": "الكود الكامل"
+            "type": "code",
+            "value": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">"
           },
           "label": "الخامس"
         }
@@ -173,10 +166,8 @@
       "1": {
         "question": "أنشئ قائمة نقطية باستخدام وسوم ul تتضمن العناصر: Hamburger، وPizza، وSandwich أسفل عرض كلمة Menu.",
         "answer": {
-          "type": "partial",
-          "answer_code": "<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>",
-          "full_code": "<p>Menu</p>\n<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>",
-          "note": "الكود الكامل"
+          "type": "code",
+          "value": "<p>Menu</p>\n<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>"
         },
         "label": "الاول"
       },
