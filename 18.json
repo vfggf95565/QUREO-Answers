@@ -41,7 +41,7 @@
               "</h6>"
             ],
             "template": "___Cody's Notepad___\n___Today's shopping list___",
-            "full_code": "<h3>   </h3>\n<h6>   </h6>"
+            "full_code": "<h3>Cody's Notepad</h3>\n<h6>Today's shopping list</h6>"
           },
           "label": "الرابع"
         },
@@ -55,9 +55,8 @@
         "6": {
           "question": "اعرض النص في المتصفح.\nاكتب في المحرر بنفس الطريقة كما هو موضح أدناه في السطر الثالث:\nBread",
           "answer": {
-            "type": "partial",
-            "answer_code": "<p>Bread</p>",
-            "full_code": "<h1>Cody's Notepad</h1>\n<h2>Today's shopping list</h2>\n<p>Bread</p>"
+            "type": "code",
+            "value": "<h1>Cody's Notepad</h1>\n<h2>Today's shopping list</h2>\n<p>Bread</p>"
           },
           "label": "السادس"
         },
@@ -77,7 +76,7 @@
               "<br>"
             ],
             "template": "<h1>Cody's Notepad</h1>\n<h2>Today's shopping list</h2>\n<p>Bread___\n  Ham___\n  Cheese</p>",
-            "full_code": "<br>\n<br>"
+            "full_code": "<h1>Cody's Notepad</h1>\n<h2>Today's shopping list</h2>\n<p>Bread<br>\n  Ham<br>\n  Cheese</p>"
           },
           "label": "الثامن"
         }
@@ -168,7 +167,7 @@
               "<img>"
             ],
             "template": "<h1>Cooking Wishlist</h1>\n<ul>\n  <li>Curry rice___</li>\n  <li>Japanese rice omelette</li>\n</ul>",
-            "full_code": "<img>"
+            "full_code": "<h1>Cooking Wishlist</h1>\n<ul>\n  <li>Curry rice<img></li>\n  <li>Japanese rice omelette</li>\n</ul>"
           },
           "label": "الثالث"
         },
@@ -188,7 +187,7 @@
               "<br>"
             ],
             "template": "<h1>Cooking Wishlist</h1>\n<ul>\n  <li>Curry rice___<img src=\"curry.png\"></li>\n  <li>Japanese rice omelette</li>\n</ul>",
-            "full_code": "<br>"
+            "full_code": "<h1>Cooking Wishlist</h1>\n<ul>\n  <li>Curry rice<br><img src=\"curry.png\"></li>\n  <li>Japanese rice omelette</li>\n</ul>"
           },
           "label": "الخامس"
         },
@@ -224,7 +223,7 @@
               "alt=\"Japanese rice omelette with ketchup\""
             ],
             "template": "<h1>Cooking Wishlist</h1>\n<ul>\n  <li>Curry rice<br><img src=\"miss.png\" ___></li>\n  <li>Japanese rice omelette<br><img src=\"miss.png\" ___></li>\n  <li>Pasta<br><img src=\"pasta.png\" alt=\"Tomato sauce pasta\"></li>\n</ul>",
-            "full_code": "alt=\"Rice with spicy sauce\"\nalt=\"Japanese rice omelette with ketchup\""
+            "full_code": "<h1>Cooking Wishlist</h1>\n<ul>\n  <li>Curry rice<br><img src=\"miss.png\" alt=\"Rice with spicy sauce\"></li>\n  <li>Japanese rice omelette<br><img src=\"miss.png\" alt=\"Japanese rice omelette with ketchup\"></li>\n  <li>Pasta<br><img src=\"pasta.png\" alt=\"Tomato sauce pasta\"></li>\n</ul>"
           },
           "label": "التاسع"
         }
@@ -248,14 +247,9 @@
           "answer": {
             "type": "fill",
             "blanks": [
-              "<h1>",
-              "</h1>",
-              "<p>",
-              "<br>",
-              "</p>"
+              "<h1>"
             ],
-            "template": "___Drink Menu___\n___Orange juice: 200 codycoins___\n Apple juice: 150 codycoins___",
-            "full_code": "<h1>   </h1>\n<p>   <br>\n</p>"
+            "note": "Drink Menu\nOrange juice: 200 codycoins\nApple juice: 150 codycoins\n[/CODE]"
           },
           "label": "الاول"
         },
@@ -268,8 +262,7 @@
               "-->"
             ],
             "template": "___ Prices will be revised next week. ___\n<h1>Drink Menu</h1>\n<p>Orange juice: 200 codycoins<br>\nApple juice: 150 codycoins</p>",
-            "full_code": "<!--\n-->",
-            "note": "ندخل في الخانات الناقصة"
+            "full_code": "<!-- Prices will be revised next week. -->\n<h1>Drink Menu</h1>\n<p>Orange juice: 200 codycoins<br>\nApple juice: 150 codycoins</p>"
           },
           "label": "الثاني"
         },
@@ -356,7 +349,7 @@
             "-->"
           ],
           "template": "___The h1 tag is a heading.___\n<h1>Hello</h1>",
-          "full_code": "<!--\n-->"
+          "full_code": "<!--The h1 tag is a heading.-->\n<h1>Hello</h1>"
         },
         "label": "الثامن"
       }

@@ -46,9 +46,8 @@
         "6": {
           "question": "أنشئ برنامجًا لإخراج متوسط ​​درجة الحرارة خلال فترة 6 أيام.\nأنشئ برنامجك كما يلي.\n(1) صرّح عن متغير total وأسند إليه 0.\n(2) كرّر total = total + tempList[i] ست مرات.\n(3) اطبع على وحدة التحكم القيمة العددية الناتجة عن قسمة total على عدد الأيام.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let total = 0;\nfor (let i = 0; i < 6; i++) {\n  total = total + tempList[i];\n}\nconsole.log(total / 6);",
-            "full_code": "let tempList = [5, 8, 7, 10, 6, 9];\nlet total = 0;\nfor (let i = 0; i < 6; i++) {\n  total = total + tempList[i];\n}\nconsole.log(total / 6);"
+            "type": "code",
+            "value": "let tempList = [5, 8, 7, 10, 6, 9];\nlet total = 0;\nfor (let i = 0; i < 6; i++) {\n  total = total + tempList[i];\n}\nconsole.log(total / 6);"
           },
           "label": "السادس"
         },
@@ -60,7 +59,7 @@
               "tempList.length"
             ],
             "template": "let tempList = [5, 8, 7, 10, 6, 9, 10, 7, 6, 11, 13, 8, 8, 7];\nconsole.log(___);",
-            "full_code": "tempList.length"
+            "full_code": "let tempList = [5, 8, 7, 10, 6, 9, 10, 7, 6, 11, 13, 8, 8, 7];\nconsole.log(tempList.length);"
           },
           "label": "السابع"
         }
@@ -143,12 +142,12 @@
             "num"
           ],
           "template": "let num = [2, 4, 6, 8, 10];\nconsole.log(___);",
-          "full_code": "num"
+          "full_code": "let num = [2, 4, 6, 8, 10];\nconsole.log(num);"
         },
         "label": "الثامن"
       },
       "9": {
-        "question": "sum = sum + num[i];\n}",
+        "question": "اختر ناتج تنفيذ البرنامج التالي.",
         "answer": {
           "type": "text",
           "value": "12"
@@ -159,8 +158,7 @@
         "question": "اطبع طول المصفوفة إلى وحدة التحكم.\nلا تدخل الطول العددي مباشرة.",
         "answer": {
           "type": "code",
-          "value": "let num = [2, 4, 6, 8, 10];\nconsole.log(num.length );",
-          "note": "num.length"
+          "value": "let num = [2, 4, 6, 8, 10];\nconsole.log(num.length );"
         },
         "label": "العاشر"
       }

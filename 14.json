@@ -102,25 +102,32 @@
       "6": {
         "question": "اختر البرنامج الصحيح لإنشاء دالة يكون اسمها sum واسم الوسيط num",
         "answer": {
-          "type": "code",
-          "value": "function sum(num) {\n  processing\n}"
+          "type": "text",
+          "value": "function sum(num) {\nprocessing\n}"
         },
         "label": "السادس"
       },
       "7": {
         "question": "أضف برنامجًا يُرجع قيمة المتغيّر result إلى البرنامج الموصوف.",
         "answer": {
-          "type": "code",
-          "value": "function calc(num) {\n  let result = num * 7;\n  return result\n}\nconsole.log(calc(10));",
-          "note": "يكتب في السطر الثالث\nreturn result"
+          "type": "fill",
+          "blanks": [
+            "return result"
+          ],
+          "template": "function calc(num) {\n  let result = num * 7;\n  ___\n}\nconsole.log(calc(10));",
+          "full_code": "function calc(num) {\n  let result = num * 7;\n  return result\n}\nconsole.log(calc(10));"
         },
         "label": "السابع"
       },
       "8": {
         "question": "أضف برنامجًا يستدعي الدالة calc.\nأدخل 7 كوسيط.",
         "answer": {
-          "type": "code",
-          "value": "function calc(num) {\n  let result = num * 5;\n  return result;\n}\nconsole.log(calc(7));"
+          "type": "fill",
+          "blanks": [
+            "calc(7)"
+          ],
+          "template": "function calc(num) {\n  let result = num * 5;\n  return result;\n}\nconsole.log(___);",
+          "full_code": "function calc(num) {\n  let result = num * 5;\n  return result;\n}\nconsole.log(calc(7));"
         },
         "label": "الثامن"
       }

@@ -78,9 +78,8 @@
         "10": {
           "question": "مكنك تغيير لون كل سطر عبر تحديد اسم الصنف في المُحدِّد (selector).\nاكتب CSS بالطريقة نفسها ابتداءً من السطر 8.\n.japanese{\ncolor: lime;\n}\n.english{\ncolor: purple;\n}\n.french{\ncolor: navy;\n}",
           "answer": {
-            "type": "partial",
-            "answer_code": ".japanese{\ncolor: lime;\n}\n.english{\ncolor: purple;\n}\n.french{\ncolor: navy;\n}",
-            "full_code": "h1 {\ncolor: red;\nbackground-color: yellow;\n}\np {\nfont-weight: bold;\n}\n.japanese{\ncolor: lime;\n}\n.english{\ncolor: purple;\n}\n.french{\ncolor: navy;\n}"
+            "type": "code",
+            "value": "h1 {\n  color: red;\n  background-color: yellow;\n}\np {\n  font-weight: bold;\n}\n.japanese {\n  color: lime;\n}\n.english {\n  color: purple;\n}\n.french {\n  color: navy;\n}"
           },
           "label": "العاشر"
         }
@@ -169,7 +168,7 @@
         "question": "تم تحديد اسم الصنف كما يلي. من فضلك اكتب CSS لجعل كلمة \"fish\" باللون الأزرق.\nHTML\nFish\nMeat",
         "answer": {
           "type": "code",
-          "value": ".fish{\ncolor: blue;\n}"
+          "value": ".fish{\n  color: blue;\n}"
         },
         "label": "التاسع"
       }

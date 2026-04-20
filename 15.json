@@ -6,16 +6,24 @@
         "1": {
           "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير fee وأسند له القيمة 1000.",
           "answer": {
-            "type": "code",
-            "value": "let fee = 1000;\nif (fee == 1000) {\nconsole.log(\"50 codycoins off\");\n}"
+            "type": "fill",
+            "blanks": [
+              "let fee = 1000;"
+            ],
+            "template": "___\nif (fee == 1000) {\n  console.log(\"50 codycoins off\");\n}",
+            "full_code": "let fee = 1000;\nif (fee == 1000) {\n  console.log(\"50 codycoins off\");\n}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير fee وأسند له القيمة \"1000 codycoins\".",
           "answer": {
-            "type": "code",
-            "value": "let fee = \"1000 codycoins\";\nif (fee == \"1000 codycoins\") {\nconsole.log(\"50 codycoins off\");\n}"
+            "type": "fill",
+            "blanks": [
+              "let fee = \"1000 codycoins\";"
+            ],
+            "template": "___\nif (fee == \"1000 codycoins\") {\n  console.log(\"50 codycoins off\");\n}",
+            "full_code": "let fee = \"1000 codycoins\";\nif (fee == \"1000 codycoins\") {\n  console.log(\"50 codycoins off\");\n}"
           },
           "label": "الثاني"
         }
@@ -27,32 +35,32 @@
     },
     "2": {
       "questions": {
-        "1": {
-          "question": "سلسلة نصية",
+        "u1": {
+          "question": "ما نوع البرنامج التالي؟",
           "answer": {
-            "type": "action"
-          },
-          "label": "الاول"
+            "type": "text",
+            "value": "سلسلة نصية"
+          }
         },
-        "2": {
-          "question": "القيمة العددية",
+        "u2": {
+          "question": "ما نوع البرنامج التالي؟",
           "answer": {
-            "type": "action"
-          },
-          "label": "الثاني"
+            "type": "text",
+            "value": "القيمة العددية"
+          }
         },
-        "3": {
-          "question": "سلسلة نصية",
+        "u3": {
+          "question": "ما نوع البرنامج التالي؟",
           "answer": {
-            "type": "action"
-          },
-          "label": "الثالث"
+            "type": "text",
+            "value": "سلسلة نصية"
+          }
         }
       },
       "_order": [
-        "1",
-        "2",
-        "3"
+        "u1",
+        "u2",
+        "u3"
       ]
     },
     "3": {
@@ -114,30 +122,31 @@
         "3": {
           "question": "أدخل نفس البرنامج كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "console.log(1 === 1);",
-            "note": "نكتب الناقص في الكود\n1 === 1"
+            "type": "fill",
+            "blanks": [
+              "1 === 1"
+            ],
+            "template": "console.log(___);",
+            "full_code": "console.log(1 === 1);"
           },
           "label": "الثالث"
         },
-        "4": {
-          "question": "(انتبه لعدد علامات =).",
+        "u1": {
+          "question": "ما النتيجة التي تعتقد أنها ستظهر عند تشغيل البرنامج التالي؟\n(انتبه لعدد علامات =).",
           "answer": {
             "type": "text",
             "value": "true"
-          },
-          "label": "الرابع"
+          }
         },
-        "5": {
-          "question": "(انتبه لعدد علامات =).",
+        "u2": {
+          "question": "ما النتيجة التي تعتقد أنها ستظهر عند تشغيل البرنامج التالي؟\n(انتبه لعدد علامات =).",
           "answer": {
             "type": "text",
             "value": "false"
-          },
-          "label": "الخامس"
+          }
         },
         "6": {
-          "question": "(انتبه لعدد علامات =).",
+          "question": "ما النتيجة التي تعتقد أنها ستظهر عند تشغيل البرنامج التالي؟\n(انتبه لعدد علامات =).",
           "answer": {
             "type": "text",
             "value": "true"
@@ -145,7 +154,7 @@
           "label": "السادس"
         },
         "7": {
-          "question": "(انتبه لعدد علامات =).",
+          "question": "ما النتيجة التي تعتقد أنها ستظهر عند تشغيل البرنامج التالي؟\n(انتبه لعدد علامات =).",
           "answer": {
             "type": "text",
             "value": "false"
@@ -157,8 +166,8 @@
         "1",
         "2",
         "3",
-        "4",
-        "5",
+        "u1",
+        "u2",
         "6",
         "7"
       ]
@@ -200,7 +209,7 @@
       "2": {
         "question": "اختر البرنامج الصحيح الذي يُخرج **string**.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "console.log(typeof \"1\");"
         },
         "label": "الثاني"
@@ -225,7 +234,7 @@
         "question": "أنشئ برنامجك كما يلي.\n(1) حدد نوع البيانات لـ `\"7\"` في الحاسوب واطبعه في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "console.log(typeof\"7\")"
+          "value": "console.log(typeof \"7\");"
         },
         "label": "الخامس"
       }
