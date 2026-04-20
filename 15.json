@@ -36,21 +36,21 @@
     "2": {
       "questions": {
         "u1": {
-          "question": "ما نوع البرنامج التالي؟",
+          "question": "ما نوع البرنامج التالي؟\nconsole.log(“Good morning.\");",
           "answer": {
             "type": "text",
             "value": "سلسلة نصية"
           }
         },
         "u2": {
-          "question": "ما نوع البرنامج التالي؟",
+          "question": "ما نوع البرنامج التالي؟\nconsole.log(10);",
           "answer": {
             "type": "text",
             "value": "القيمة العددية"
           }
         },
         "u3": {
-          "question": "ما نوع البرنامج التالي؟",
+          "question": "ما نوع البرنامج التالي؟\nconsole.log(“5+7\");",
           "answer": {
             "type": "text",
             "value": "سلسلة نصية"
