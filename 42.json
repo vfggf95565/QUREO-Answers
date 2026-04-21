@@ -89,8 +89,8 @@
       "4": {
         "question": "",
         "answer": {
-          "type": "code",
-          "value": "while ( condition ) {\n  process;\n}"
+          "type": "text",
+          "value": "while ( condition ) {\nprocess;\n}"
         },
         "label": "الرابع"
       },
