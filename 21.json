@@ -100,14 +100,14 @@
           "label": "الثاني"
         },
         "u1": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nlet science = 100;\nlet bonus = 5000;\nif (science == 100) {\nconsole.log(bonus + \" codycoins GET\");\n}",
           "answer": {
             "type": "text",
             "value": "النتيجة: لا ينتج عنه خطأ"
           }
         },
         "u2": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nlet science = 100;\nif (science == 100) {\nlet bonus = 5000;\n}\nconsole.log(bonus + \" codycoins GET\");",
           "answer": {
             "type": "text",
             "value": "النتيجة: ينتج عنه خطأ"
@@ -121,7 +121,7 @@
           "label": "الثالث"
         },
         "u3": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nlet score = 100;\nif (score == 100) {\nlet treat = \"book voucher\";\n}\nconsole.log(treat + \" GET\");",
           "answer": {
             "type": "text",
             "value": "النتيجة: ينتج عنه خطأ"
@@ -178,7 +178,7 @@
           "label": "الاول"
         },
         "2": {
-          "question": "سننشئ برنامجًا يطبع \"Test Passed\" إذا كان المتغيّر score أكبر من أو يساوي 80، ومن بين تلك الحالات، إذا كان المتغيّر rank يساوي 1، يطبع \"Trophy Acquired\".\nأدخل البرنامج كما يلي، مع الانتباه لمواضع عبارات if:",
+          "question": "سننشئ برنامجًا يطبع \"Test Passed\" إذا كان المتغيّر score أكبر من أو يساوي 80، ومن بين تلك الحالات، إذا كان المتغيّر rank يساوي 1، يطبع \"Trophy Acquired\".\nأدخل البرنامج كما يلي، مع الانتباه لمواضع عبارات if:\nlet score = 90;\nlet rank = 1;\nif (score >= 80) {\nconsole.log(\"\"Test Passed\"\");\nif (rank == 1) {\nconsole.log(\"\"Trophy Acquired\"\");\n}\n}",
           "answer": {
             "type": "code",
             "value": "let score = 90;\nlet rank = 1;\nif (score >= 80) {\nconsole.log(\"Test Passed\");\nif (rank == 1) {\nconsole.log(\"Trophy Acquired\");\n}\n}"

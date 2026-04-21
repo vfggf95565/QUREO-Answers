@@ -18,7 +18,7 @@
               "for ( let i = 0; i < 3; i++ )"
             ],
             "template": "___ {\n    console.log(\"She sells seashells by the seashore.\");\n}",
-            "full_code": "for ( let i = 0; i < 3; i++ )"
+            "full_code": "for ( let i = 0; i < 3; i++ ) {\n    console.log(\"She sells seashells by the seashore.\");\n}"
           },
           "label": "الثاني"
         },
@@ -30,7 +30,7 @@
               "for ( let i = 0; i < 3; i++ )"
             ],
             "template": "___ {\n    console.log(\"Six slippery snails slid slowly seaward.\");\n}",
-            "full_code": "for ( let i = 0; i < 3; i++ )"
+            "full_code": "for ( let i = 0; i < 3; i++ ) {\n    console.log(\"Six slippery snails slid slowly seaward.\");\n}"
           },
           "label": "الثالث"
         },
@@ -74,21 +74,21 @@
           }
         },
         "u2": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nfor (let i = 0; i < 5; i++) {\nconsole.log(i);\n}\nconsole.log(i);",
           "answer": {
             "type": "text",
             "value": "ينتج عنه خطأ"
           }
         },
         "u3": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nfor (let i = 0; i < 5; i++) {\nconsole.log(i);\n}",
           "answer": {
             "type": "text",
             "value": "لا ينتج عنه خطأ"
           }
         },
         "u4": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nfor (let i = 0; i < 3; i++) {\nlet num = 100;\nconsole.log(num);\n}",
           "answer": {
             "type": "text",
             "value": "لا ينتج عنه خطأ"
@@ -236,7 +236,7 @@
             "let i = 0; i < 3; i++"
           ],
           "template": "for (___) {\n  console.log(\"Programming\");\n}",
-          "full_code": "let i = 0; i < 3; i++"
+          "full_code": "for (let i = 0; i < 3; i++) {\n  console.log(\"Programming\");\n}"
         },
         "label": "الرابع"
       },
@@ -249,7 +249,7 @@
         "label": "الخامس"
       },
       "6": {
-        "question": "اختر ناتج التنفيذ للبرنامج التالي من الخيارات:",
+        "question": "اختر ناتج التنفيذ للبرنامج التالي من الخيارات:\nfor (let i = 0; i < 3; i++) {\nlet num = 100;\n}\nconsole.log(num);",
         "answer": {
           "type": "text",
           "value": "يؤدي إلى خطأ"

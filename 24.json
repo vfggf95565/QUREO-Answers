@@ -12,21 +12,21 @@
           "label": "الاول"
         },
         "u1": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
-          "answer": {
-            "type": "text",
-            "value": "لا ينتج عنه خطأ"
-          }
-        },
-        "u2": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nlet contest = 1;\nif (contest == 1) {\nlet prize = 30000;\n}\nconsole.log(prize + \" codycoins GET\");",
           "answer": {
             "type": "text",
             "value": "ينتج عنه خطأ"
           }
         },
+        "u2": {
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nfor (let i = 0; i < 7; i++) {\nconsole.log(i);\n}",
+          "answer": {
+            "type": "text",
+            "value": "لا ينتج عنه خطأ"
+          }
+        },
         "u3": {
-          "question": "هل سينتج عن هذا البرنامج خطأ؟",
+          "question": "هل سينتج عن هذا البرنامج خطأ؟\nfunction split5(total) {\nlet result = total / 5;\nreturn result;\n}\nconsole.log(result);",
           "answer": {
             "type": "text",
             "value": "ينتج عنه خطأ"

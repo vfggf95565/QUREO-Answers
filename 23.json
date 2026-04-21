@@ -55,14 +55,14 @@
           }
         },
         "u2": {
-          "question": "هل ستؤدي هذه الشيفرة إلى حدوث خطأ؟",
+          "question": "هل ستؤدي هذه الشيفرة إلى حدوث خطأ؟\nfunction split5(total) {\nlet result = total / 5;\nreturn result;\n}\nconsole.log(result);",
           "answer": {
             "type": "text",
             "value": "تؤدي إلى حدوث خطأ"
           }
         },
         "u3": {
-          "question": "هل ستؤدي هذه الشيفرة إلى خطأ؟",
+          "question": "هل ستؤدي هذه الشيفرة إلى خطأ؟\nfunction divide6(total) {\nlet result = total / 6;\nreturn result;\n}\nconsole.log(divide6(72));",
           "answer": {
             "type": "text",
             "value": "لا تؤدي إلى خطأ"
@@ -102,7 +102,7 @@
     "4": {
       "questions": {
         "1": {
-          "question": "ننشئ دالة تجمع عددين.\n(1) أنشئ دالة بالاسم sum وبمعاملين num1 و num2\n(2) أسند num1 + num2 إلى المتغير result\n(3) أرجع المتغير result",
+          "question": "ننشئ دالة تجمع عددين.\nلننشئ البرنامج التالي:\n(1) أنشئ دالة بالاسم sum وبمعاملين num1 و num2\n(2) أسند num1 + num2 إلى المتغير result\n(3) أرجع المتغير result\n* سندخل البرنامج لاستدعائه في الخطوة التالية.",
           "answer": {
             "type": "code",
             "value": "function sum(num1, num2) {\nlet result = num1 + num2;\nreturn result;\n}"
