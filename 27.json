@@ -37,9 +37,8 @@
         "4": {
           "question": "سننشئ برنامجًا يطبع القيمة ‎36.4‎ من المتغيّر ‎tempList‎ إلى وحدة التحكم.\nلننشئ البرنامج كما يلي:\n1. استخرج القيمة ‎36.4‎ من المتغيّر ‎tempList‎ وأخرجها إلى وحدة التحكم\nى يُرجى عدم إدخال ‎36.4‎ مباشرة.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(tempList[4]);",
-            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4];\nconsole.log(tempList[4]);"
+            "type": "code",
+            "value": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4];\nconsole.log(tempList[4]);"
           },
           "label": "الرابع"
         },
@@ -59,10 +58,8 @@
         "6": {
           "question": "سننشئ برنامجًا يطبع «لنكن حذرين!» إذا وُجدت درجة حرارة ‎37.0°C‎ أو أعلى بين بيانات درجات الحرارة.\nلننشئ البرنامج كما يلي:\n(1) حلقة ‎for‎ تتكرّر بعدد القيم في المتغيّر ‎tempList‎\n* اسنِد ‎0‎ إلى المتغيّر ‎i‎.\n(2) كعملية متكرّرة في (1)، إذا كانت القيمة ذات الترتيب ‎i‎ في المتغيّر ‎tempList‎ أكبر من أو تساوي ‎37.0°C‎، فاطبع «لنكن حذرين!» إلى وحدة التحكم",
           "answer": {
-            "type": "partial",
-            "answer_code": "for (let i = 0; i < tempList.length; i++) {\nif (tempList[i] >= 37.0) {\nconsole.log(\"Be careful!\");\n}\n}",
-            "full_code": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nfor (let i = 0; i < tempList.length; i++) {\nif (tempList[i] >= 37.0) {\nconsole.log(\"Be careful!\");\n}\n}",
-            "note": "الكود الكامل"
+            "type": "code",
+            "value": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nfor (let i = 0; i < tempList.length; i++) {\nif (tempList[i] >= 37.0) {\nconsole.log(\"Be careful!\");\n}\n}"
           },
           "label": "السادس"
         }
@@ -112,7 +109,7 @@
             "scoreList[4]"
           ],
           "template": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(___);",
-          "full_code": "scoreList[4]"
+          "full_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(scoreList[4]);"
         },
         "label": "الرابع"
       },
@@ -124,17 +121,15 @@
             "scoreList.length"
           ],
           "template": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(___);",
-          "full_code": "scoreList.length",
-          "note": "الكود الكامل"
+          "full_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(scoreList.length);"
         },
         "label": "الخامس"
       },
       "6": {
         "question": "سننشئ برنامجًا يطبع 'Pass' إذا كانت الدرجة 80 أو أعلى.\nأنشئ برنامجًا كما يلي:\n① حلقة for تكرارية تتكرر لعدد القيم في المتغيّر scoreList\n② كعملية متكررة في ①، إذا كانت القيمة i للمتغيّر scoreList أكبر من أو تساوي 80، اطبع 'Pass' على وحدة التحكم",
         "answer": {
-          "type": "partial",
-          "answer_code": "for (let i = 0; i < scoreList.length; i++) {\nif (scoreList[i] >= 80) {\nconsole.log(\"Pass\");\n}\n}",
-          "full_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nfor (let i = 0; i < scoreList.length; i++) {\nif (scoreList[i] >= 80) {\nconsole.log(\"Pass\");\n}\n}"
+          "type": "code",
+          "value": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nfor (let i = 0; i < scoreList.length; i++) {\nif (scoreList[i] >= 80) {\nconsole.log(\"Pass\");\n}\n}"
         },
         "label": "السادس"
       }

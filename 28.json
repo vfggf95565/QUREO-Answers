@@ -21,10 +21,8 @@
         "2": {
           "question": "لِنُنشئ برنامجًا يطبع جميع قيم المتغيّر degreeList بالترتيب.\nمن السطر 2، أدخل البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "for (let i = 0; i < 7; i++) {\nconsole.log(degreeList[i]);\n}",
-            "full_code": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < 7; i++) {\nconsole.log(degreeList[i]);\n}",
-            "note": "الكود الكامل"
+            "type": "code",
+            "value": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < 7; i++) {\nconsole.log(degreeList[i]);\n}"
           },
           "label": "الثاني"
         },
@@ -60,9 +58,8 @@
         "2": {
           "question": "سننشئ برنامجًا يعرض جميع قيم درجات الحرارة السبعة على وحدة التحكم.\nلِنكتب البرنامج كما يلي:",
           "answer": {
-            "type": "partial",
-            "answer_code": "for (let degree of degreeList) {\nconsole.log(degree);\n}",
-            "full_code": "let degreeList = [8, 6, 11, 10, 9, 7, 12];\nfor (let degree of degreeList) {\nconsole.log(degree);\n}"
+            "type": "code",
+            "value": "let degreeList = [8, 6, 11, 10, 9, 7, 12];\nfor (let degree of degreeList) {\nconsole.log(degree);\n}"
           },
           "label": "الثاني"
         }
@@ -77,9 +74,8 @@
         "1": {
           "question": "سننشئ برنامجًا يطبع جميع قيم المتغيّر numList على وحدة التحكم.\nاستخدم for...of لطباعة جميع قيم المتغيّر numList.\nولكن، يجب أن يكون المتغيّر الذي تسند إليه القيم المجتلبة من المتغيّر numList هو num.",
           "answer": {
-            "type": "partial",
-            "answer_code": "for (let num of numList) {\nconsole.log(num);\n}",
-            "full_code": "let numList = [5, 10, 15, 20];\nfor (let num of numList) {\nconsole.log(num);\n}"
+            "type": "code",
+            "value": "let numList = [5, 10, 15, 20];\nfor (let num of numList) {\nconsole.log(num);\n}"
           },
           "label": "الاول"
         },
@@ -127,18 +123,16 @@
       "4": {
         "question": "سننشئ برنامجًا يطبع جميع قيم المتغيّر numList على وحدة التحكم.\nأنشئ برنامجًا كما يلي:\n① استخدم for...of لطباعة جميع قيم المتغيّر numList\nولكن، يجب أن يكون المتغيّر الذي تسند إليه القيم المجتلبة من المتغيّر numList هو num.",
         "answer": {
-          "type": "partial",
-          "answer_code": "for (let num of numList) {\n  console.log(num);\n}",
-          "full_code": "let numList = [2, 4, 6, 8];\nfor (let num of numList) {\n  console.log(num);\n}"
+          "type": "code",
+          "value": "let numList = [2, 4, 6, 8];\nfor (let num of numList) {\n  console.log(num);\n}"
         },
         "label": "الرابع"
       },
       "5": {
         "question": "سننشئ برنامجًا يطبع جميع قيم المتغيّر wordList على وحدة التحكم.\nنحن نضيف سلاسل نصية إلى wordList.\nاستخدم for...of لطباعة جميع قيم المتغيّر wordList\nولكن، يجب أن يكون المتغيّر الذي تسند إليه القيم المجتلبة من المتغيّر wordList هو word.",
         "answer": {
-          "type": "partial",
-          "answer_code": "for (let word of wordList) {\n  console.log(word);\n}",
-          "full_code": "let wordList = [\"Good morning\", \"Good night\", \"Hello\"];\nfor (let word of wordList) {\n  console.log(word);\n}"
+          "type": "code",
+          "value": "let wordList = [\"Good morning\", \"Good night\", \"Hello\"];\nfor (let word of wordList) {\n  console.log(word);\n}"
         },
         "label": "الخامس"
       }

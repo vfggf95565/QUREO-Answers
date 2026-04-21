@@ -72,7 +72,7 @@
           "question": "ما هي درجة حرارة جسم كودي؟",
           "answer": {
             "type": "text",
-            "value": "خمن اي اختيار من الثلاث لا مشكلة (83°C)"
+            "value": "83°C"
           }
         }
       },
@@ -163,9 +163,8 @@
       "2": {
         "question": "اكتب برنامجًا يُخرج القيمة \"59\" من المتغيّر scoreList إلى وحدة التحكم (console).\nولكن، يُرجى عدم إدخال \"59\" مباشرةً.",
         "answer": {
-          "type": "partial",
-          "answer_code": "console.log(scoreList[5]);",
-          "full_code": "let scoreList = [52, 60, 79, 82, 66, 59, 88];\nconsole.log(scoreList[5]);"
+          "type": "code",
+          "value": "let scoreList = [52, 60, 79, 82, 66, 59, 88];\nconsole.log(scoreList[5]);"
         },
         "label": "الثاني"
       },
