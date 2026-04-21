@@ -247,9 +247,14 @@
           "answer": {
             "type": "fill",
             "blanks": [
-              "<h1>"
+              "<h1>",
+              "</h1>",
+              "<p>",
+              "<br>",
+              "</p>"
             ],
-            "note": "Drink Menu\nOrange juice: 200 codycoins\nApple juice: 150 codycoins\n[/CODE]"
+            "template": "___Drink Menu___\n___Orange juice: 200 codycoins___\n Apple juice: 150 codycoins___",
+            "full_code": "<h1>Drink Menu</h1>\n<p>Orange juice: 200 codycoins<br>\n Apple juice: 150 codycoins</p>"
           },
           "label": "الاول"
         },
