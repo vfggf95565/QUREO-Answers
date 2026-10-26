@@ -14,9 +14,12 @@
         "2": {
           "question": "أنشئ برنامجك كما يلي.\n1 اطبع \"Bread and coffee for 350 codycoins\" في الـ console.\n(لاحظ أن الرقم 350 يجب أن يُحسب بواسطة الكمبيوتر كـ 200+150 (سعر الخبز والقهوة).)",
           "answer": {
-            "type": "code",
-            "value": "console.log(\"Bread and coffee for \" + (200 + 150) + \" codycoins\");",
-            "note": "🟩 الاجابه نكتب قي النواقص\n+ (200 + 150) +"
+            "type": "fill",
+            "blanks": [
+              "+ (200 + 150) +"
+            ],
+            "template": "console.log(\"Bread and coffee for \" ___ \" codycoins\");",
+            "full_code": "console.log(\"Bread and coffee for \" + (200 + 150) + \" codycoins\");"
           },
           "label": "الثانى"
         },
