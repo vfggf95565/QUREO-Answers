@@ -106,8 +106,12 @@
         "2": {
           "question": "أدخل نفس البرنامج كما في الأسفل.\nوحدة النقود المستخدمة في الدرس هي \"codycoins\".",
           "answer": {
-            "type": "partial",
-            "answer_code": "+ +",
+            "type": "fill",
+            "blanks": [
+              "+",
+              "+"
+            ],
+            "template": "console.log(\"Set of 2 coffees \" ___ (250 * 2) ___ \" codycoins\");",
             "full_code": "console.log(\"Set of 2 coffees \" + (250 * 2) + \" codycoins\");",
             "note": "المطلوب هنا نكتب في النواقص علامتي"
           },
@@ -116,9 +120,12 @@
         "3": {
           "question": "أدخل نفس البرنامج كما في الأسفل.\nوحدة النقود المستخدمة في الدرس هي \"codycoins\".",
           "answer": {
-            "type": "code",
-            "value": "console.log(\"Set of 2 coffees \" + (250 * 2) + \" codycoins\");",
-            "note": "(250 * 2)"
+            "type": "fill",
+            "blanks": [
+              "(250 * 2)"
+            ],
+            "template": "console.log(\"Set of 2 coffees \" + ___ + \" codycoins\");",
+            "full_code": "console.log(\"Set of 2 coffees \" + (250 * 2) + \" codycoins\");"
           },
           "label": "الثالث"
         },
@@ -142,16 +149,24 @@
         "1": {
           "question": "أكمل السطر الثاني من البرنامج كما في الأسفل:",
           "answer": {
-            "type": "text",
-            "value": "+ (250 * 3) +"
+            "type": "fill",
+            "blanks": [
+              "+ (250 * 3) +"
+            ],
+            "template": "console.log(\"Set of 3 coffees \" ___ \" codycoins\");",
+            "full_code": "console.log(\"Set of 3 coffees \" + (250 * 3) + \" codycoins\");"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أكمل البرنامج كما في الأسفل:",
           "answer": {
-            "type": "text",
-            "value": "+ (320 * 1) +"
+            "type": "fill",
+            "blanks": [
+              "+ (320 * 1) +"
+            ],
+            "template": "console.log(\"One muffin \" ___ \" codycoins\");",
+            "full_code": "console.log(\"One muffin \" + (320 * 1) + \" codycoins\");"
           },
           "label": "الثاني"
         },
