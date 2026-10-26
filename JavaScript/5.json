@@ -75,16 +75,24 @@
         "1": {
           "question": "\"أنشئ برنامجًا يخرج على وحدة التحكم \"Increased allowance!\" إذا كان المتغيّر science يساوي 100.\nأدخل نفس البرنامج كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "if (science == 100)"
+            "type": "fill",
+            "blanks": [
+              "if (science == 100)"
+            ],
+            "template": "let science = 100;\n___{console.log(\"Increased allowance!\");}",
+            "full_code": "let science = 100;\nif (science == 100){console.log(\"Increased allowance!\");}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ برنامجًا يخرج على وحدة التحكم \"Increased allowance!\" إذا كان المتغيّر science يساوي 100.\nأدخل البرنامج كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "{console.log(\"Increased allowance!\");}"
+            "type": "fill",
+            "blanks": [
+              "{console.log(\"Increased allowance!\");}"
+            ],
+            "template": "if (science == 100)___",
+            "full_code": "if (science == 100){console.log(\"Increased allowance!\");}"
           },
           "label": "الثاني"
         },
