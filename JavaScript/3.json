@@ -6,8 +6,11 @@
         "1": {
           "question": "أنشئ برنامجًا لعرض قيمة المتغيّر fish في وحدة التحكم.\nأدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(fish);",
+            "type": "fill",
+            "blanks": [
+              "console.log(fish);"
+            ],
+            "template": "let fish;\nfish = 0;\nfish = fish + 3;\nfish = fish + 7;\n___",
             "full_code": "let fish;\nfish = 0;\nfish = fish + 3;\nfish = fish + 7;\nconsole.log(fish);"
           },
           "label": "الاول"
@@ -15,10 +18,12 @@
         "2": {
           "question": "أنشئ برنامجًا يعرض \"fish\" في وحدة التحكم.\nأدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(\"fish\");",
-            "full_code": "let fish;\nfish = 0;\nfish = fish + 3;\nfish = fish + 7;\nconsole.log(\"fish\");",
-            "note": "ليصبح"
+            "type": "fill",
+            "blanks": [
+              "console.log(\"fish\");"
+            ],
+            "template": "let fish;\nfish = 0;\nfish = fish + 3;\nfish = fish + 7;\n___",
+            "full_code": "let fish;\nfish = 0;\nfish = fish + 3;\nfish = fish + 7;\nconsole.log(\"fish\");"
           },
           "label": "الثاني"
         }
@@ -34,8 +39,7 @@
           "question": "أعلن المتغيّر fish، وأسند له 0، ثم أسند له fish + 8، ثم أسند له fish + 12، وأنشئ برنامجًا لعرض قيمة المتغيّر في وحدة التحكم.\nأدخل نفس البرنامج كما في الأسفل.",
           "answer": {
             "type": "code",
-            "value": "let fish;\nfish = 0;\nfish = fish + 8;\nfish = fish + 12;\nconsole.log(fish);",
-            "note": "🟩 الاجابه نكتب الكود كما هو"
+            "value": "let fish;\nfish = 0;\nfish = fish + 8;\nfish = fish + 12;\nconsole.log(fish);"
           },
           "label": "الاول"
         },

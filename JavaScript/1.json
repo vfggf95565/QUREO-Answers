@@ -142,24 +142,36 @@
         "1": {
           "question": "أنشئ برنامجك كما يلي:\n1. ضع تعليقًا بالجملة \"Greetings for the day\".",
           "answer": {
-            "type": "code",
-            "value": "[FILL]//[FILL]Greetings for the day.\nconsole.log(\"Good morning\");\nconsole.log(\"Hello\");\nconsole.log(\"Good evening\");"
+            "type": "fill",
+            "blanks": [
+              "//"
+            ],
+            "template": "___Greetings for the day.\nconsole.log(\"Good morning\");\nconsole.log(\"Hello\");\nconsole.log(\"Good evening\");",
+            "full_code": "//Greetings for the day.\nconsole.log(\"Good morning\");\nconsole.log(\"Hello\");\nconsole.log(\"Good evening\");"
           },
           "label": "الاول"
         },
         "2": {
           "question": "لنعدّل السطر الثاني ليصبح نفس البرنامج كما في الأسفل:",
           "answer": {
-            "type": "code",
-            "value": "console.log(\"Eggs\");\n[FILL]//[FILL]console.log(\"Apple\");\nconsole.log(\"Milk\");"
+            "type": "fill",
+            "blanks": [
+              "//"
+            ],
+            "template": "console.log(\"Eggs\");\n___console.log(\"Apple\");\nconsole.log(\"Milk\");",
+            "full_code": "console.log(\"Eggs\");\n//console.log(\"Apple\");\nconsole.log(\"Milk\");"
           },
           "label": "الثانى"
         },
         "3": {
           "question": "عدّل برنامجك كما يلي:\n1. علّق البرنامج الذي يعرض \"Fish\" في وحدة التحكم.",
           "answer": {
-            "type": "code",
-            "value": "console.log(\"Lion\");\n[FILL]//[FILL]console.log(\"Fish\");\nconsole.log(\"Elephant\");\nconsole.log(\"Giraffe\");"
+            "type": "fill",
+            "blanks": [
+              "//"
+            ],
+            "template": "console.log(\"Lion\");\n___console.log(\"Fish\");\nconsole.log(\"Elephant\");\nconsole.log(\"Giraffe\");",
+            "full_code": "console.log(\"Lion\");\n//console.log(\"Fish\");\nconsole.log(\"Elephant\");\nconsole.log(\"Giraffe\");"
           },
           "label": "الثالث"
         },
