@@ -53,8 +53,12 @@
         "2": {
           "question": "اسند 80 للمتغيّر science، وإذا كان المتغيّر science يساوي 100، أنشئ برنامجًا يخرج \"Increased allowance!\" على وحدة التحكم.\nأدخل البرنامج كما يلي.\n1 اسند 80 للمتغيّر science",
           "answer": {
-            "type": "code",
-            "value": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}",
+            "type": "fill",
+            "blanks": [
+              "80"
+            ],
+            "template": "let science = ___;\nif (science == 100){console.log(\"Increased allowance!\");}",
+            "full_code": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}",
             "note": "نكتب رقم 80 في المكان الفارغ"
           },
           "label": "الثاني"
