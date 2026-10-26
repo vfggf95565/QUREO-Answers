@@ -173,16 +173,28 @@
         "3": {
           "question": "أنشئ برنامجك كما يلي:\n1. اعرض \"Two muffins 640 codycoins\" في وحدة التحكم.\n(ولكن اجعل الكمبيوتر يحسب 320 × 2 (صيغة حساب سعر المافن × عدد المافن) ليظهر 640).",
           "answer": {
-            "type": "text",
-            "value": "\" + (320 * 2) + \""
+            "type": "fill",
+            "blanks": [
+              "\" + (320 * 2) + \""
+            ],
+            "template": "console.log(\"Two muffins ___ codycoins\");",
+            "full_code": "console.log(\"Two muffins \" + (320 * 2) + \" codycoins\");"
           },
           "label": "الثالث"
+        },
+        "u1": {
+          "question": "هل تستمتع حتى الآن؟",
+          "answer": {
+            "type": "text",
+            "value": "إنه ممتع جداً!"
+          }
         }
       },
       "_order": [
         "1",
         "2",
-        "3"
+        "3",
+        "u1"
       ]
     }
   },
