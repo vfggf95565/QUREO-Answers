@@ -80,6 +80,13 @@
     },
     "4": {
       "questions": {
+        "u1": {
+          "question": "أي نوع من البيتزا تريد؟",
+          "answer": {
+            "type": "text",
+            "value": "بيتزا المأكولات البحرية"
+          }
+        },
         "1": {
           "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
           "answer": {
@@ -91,8 +98,11 @@
         "2": {
           "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let result = total / 3;",
+            "type": "fill",
+            "blanks": [
+              "let result = total / 3;"
+            ],
+            "template": "function split3(total) {\n___",
             "full_code": "function split3(total) {\nlet result = total / 3;"
           },
           "label": "الثاني"
@@ -100,9 +110,13 @@
         "3": {
           "question": "أدخل نفس البرنامج كما هو موضح أدناه.\nreturn result;",
           "answer": {
-            "type": "code",
-            "value": "function split3(total) {\nlet result = total / 3;",
-            "note": "return result;\nreturn result;\n}"
+            "type": "fill",
+            "blanks": [
+              "return result;"
+            ],
+            "template": "function split3(total) {\nlet result = total / 3;\n___\n}",
+            "full_code": "function split3(total) {\nlet result = total / 3;\nreturn result;\n}",
+            "note": "return result;"
           },
           "label": "الثالث"
         },
@@ -117,6 +131,7 @@
         }
       },
       "_order": [
+        "u1",
         "1",
         "2",
         "3",
