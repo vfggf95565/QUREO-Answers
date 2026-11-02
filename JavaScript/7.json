@@ -6,10 +6,12 @@
         "1": {
           "question": "في السطر الثالث، أدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "partial",
-            "answer_code": "else if (num == 2){console.log(\"Pair of tickets to the aquarium\");}",
-            "full_code": "let num = 2;\nif (num == 1){console.log(\"New bicycle\");}\nelse if (num == 2){console.log(\"Pair of tickets to the aquarium\");}",
-            "note": "🟩 الاجابه نكتب هذا الكود في السطر الثالث بعد السطرين المكتوبين"
+            "type": "fill",
+            "blanks": [
+              "else if (num == 2){console.log(\"Pair of tickets to the aquarium\");}"
+            ],
+            "template": "let num = 2;\nif (num == 1){console.log(\"New bicycle\");}\n___",
+            "full_code": "let num = 2;\nif (num == 1){console.log(\"New bicycle\");}\nelse if (num == 2){console.log(\"Pair of tickets to the aquarium\");}"
           },
           "label": "الاول"
         }

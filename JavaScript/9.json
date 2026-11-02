@@ -6,18 +6,24 @@
         "1": {
           "question": "أنشئ برنامجًا يطبع \"20% off\" إذا كان المتغيّر numberOfPeople أكبر من أو يساوي 2 والمتغيّر fee أكبر من أو يساوي 3000.\nأدخل نفس البرنامج كما هو موضح أدناه.\nnumberOfPeople >= 2 && fee >= 3000",
           "answer": {
-            "type": "code",
-            "value": "let numberOfPeople = 3;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"20% off\");}",
-            "note": "numberOfPeople >= 2 && fee >= 3000"
+            "type": "fill",
+            "blanks": [
+              "numberOfPeople >= 2 && fee >= 3000"
+            ],
+            "template": "let numberOfPeople = 3;\nlet fee = 3500;\nif (___){console.log(\"20% off\");}",
+            "full_code": "let numberOfPeople = 3;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"20% off\");}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ برنامجًا يطبع \"20% off\" إذا كان المتغيّر numberOfPeople أكبر من أو يساوي 2 والمتغيّر fee أكبر من أو يساوي 3000.\nأدخل نفس البرنامج كما هو موضح أدناه.\nnumberOfPeople >= 2 && fee >= 3000",
           "answer": {
-            "type": "code",
-            "value": "let numberOfPeople = 3;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"20% off\");}",
-            "note": "numberOfPeople >= 2 && fee >= 3000"
+            "type": "fill",
+            "blanks": [
+              "numberOfPeople >= 2 && fee >= 3000"
+            ],
+            "template": "let numberOfPeople = 3;\nlet fee = 3500;\nif (___){console.log(\"20% off\");}",
+            "full_code": "let numberOfPeople = 3;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"20% off\");}"
           },
           "label": "الثانى"
         }
@@ -29,44 +35,42 @@
     },
     "2": {
       "questions": {
-        "1": {
+        "u1": {
           "question": "“الشرط 1 and الشرط 2\" يُكتب هكذا “Condition 1 && Condition 2\"، لكن ماذا تُسمّى علامة “&\"؟",
           "answer": {
             "type": "text",
             "value": "ampersand"
-          },
-          "label": "الاول"
+          }
         },
-        "2": {
+        "u2": {
           "question": "“الشرط 1 or الشرط 2\" يُكتب هكذا “Condition 1 || Condition 2\"، لكن ماذا تُسمّى علامة “|\"؟",
           "answer": {
             "type": "text",
             "value": "Vertical bar"
-          },
-          "label": "الثانى"
+          }
         },
-        "3": {
+        "1": {
           "question": "أنشئ برنامجك كما يلي.\n1 اعلن المتغير numberOfPeople وأسند له 2.\n2 اعلن المتغير fee وأسند له 3500.\n3 إذا كان المتغير numberOfPeople أكبر من أو يساوي 2 وكان المتغير fee أكبر من أو يساوي 3000، يتم إخراج \"Free mug\" إلى وحدة التحكم.",
           "answer": {
             "type": "code",
             "value": "let numberOfPeople = 2;\nlet fee = 3500;\nif (numberOfPeople >= 2 && fee >= 3000){console.log(\"Free mug\");}"
           },
-          "label": "الثالث"
+          "label": "الاول"
         },
-        "4": {
+        "2": {
           "question": "أنشئ برنامجك كما يلي.\n1 اعلن المتغير age وأسند له 15.\n2 إذا كان المتغير age أقل من أو يساوي 12 أو أكبر من أو يساوي 65، يتم إخراج \"30% off\" إلى وحدة التحكم.",
           "answer": {
             "type": "code",
             "value": "let age = 15;\nif (age <= 12 || age >= 65){console.log(\"30% off\");}"
           },
-          "label": "الرابع"
+          "label": "الثاني"
         }
       },
       "_order": [
+        "u1",
+        "u2",
         "1",
-        "2",
-        "3",
-        "4"
+        "2"
       ]
     }
   },

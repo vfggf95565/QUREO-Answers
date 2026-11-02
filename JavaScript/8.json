@@ -39,7 +39,7 @@
           "label": "الثالث"
         },
         "4": {
-          "question": "أنشئ برنامجك كما يلي:\n1. أعلن المتغيّر test وأسند له 77.\n2. إذا كان المتغيّر test = 100، اعرض \"Perfect score\".\n3. وإلا، إذا كان المتغيّر test ≥ 75، اعرض \"Pass\".",
+          "question": "أنشئ برنامجك كما يلي:\n1. أعلن المتغيّر test وأسند له 77.\n2. إذا كان المتغيّر test = 100، اعرض \"Perfect score\".\n3. وإلا، إذا كان المتغيّر test ≥ 75، اعرض \"Pass\".\n4. إذا لم يتحقق الشرط، اعرض \"Make-up exam\".",
           "answer": {
             "type": "code",
             "value": "let test = 77;\nif (test == 100){console.log(\"Perfect score\");}\nelse if (test >= 75){console.log(\"Pass\");}\nelse{console.log(\"Make-up exam\");}"
