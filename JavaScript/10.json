@@ -200,7 +200,7 @@
         "question": "أنشئ برنامجك كما يلي.\n1. أخرج \"Hello\" إلى وحدة التحكم 7 مرات.\n*اسم المتغيّر i وأعطه القيمة 0 في البداية.\n*استخدم عامل الزيادة (increment operator).",
         "answer": {
           "type": "code",
-          "value": "for (let i = 0; i < 7; i++ ) {\nconsole.log(\"Hello\");\n}"
+          "value": "for (let i=0 ; i < 7 ; i++) {\n console.log(\"Hello\");\n}"
         },
         "label": "الخامس"
       }

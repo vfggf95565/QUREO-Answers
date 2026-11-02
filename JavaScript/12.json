@@ -6,10 +6,14 @@
         "1": {
           "question": "أدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "partial",
-            "answer_code": "9.8\n\n10.3\n\n9.2",
-            "full_code": "console.log(Math.round(9.8));\nconsole.log(Math.round(10.3));\nconsole.log(Math.round(9.2));",
-            "note": "تعبئه الاماكن الفارغه بالنواقص"
+            "type": "fill",
+            "blanks": [
+              "9.8",
+              "10.3",
+              "9.2"
+            ],
+            "template": "console.log(Math.round(___));\nconsole.log(Math.round(___));\nconsole.log(Math.round(___));",
+            "full_code": "console.log(Math.round(9.8));\nconsole.log(Math.round(10.3));\nconsole.log(Math.round(9.2));"
           },
           "label": "الاول"
         }
