@@ -3,6 +3,13 @@
   "lessons": {
     "1": {
       "questions": {
+        "u1": {
+          "question": "(أجب عن سؤال ريكي!)\nالنتيجة ستظهر قريبًا، هل أنت واثق؟",
+          "answer": {
+            "type": "text",
+            "value": "أنا واثق"
+          }
+        },
         "1": {
           "question": "أنشئ برنامجك كما يلي.\n(1) صرّح عن المتغير science وأسند له القيمة 100.\n(2) إذا كان المتغير science يساوي 100، أخرج \"Increased allowance!\"",
           "answer": {
@@ -14,25 +21,30 @@
         "2": {
           "question": "أسند 80 إلى المتغير science وأخرج \"Increased allowance!\" إذا كان المتغير science يساوي 100.\nإذا لم يكن science يساوي 100، يخرج البرنامج \"Weeding the garden\".\nأدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "partial",
-            "answer_code": "else {console.log(\"Weeding the garden\");}",
-            "full_code": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}\nelse {console.log(\"Weeding the garden\");}",
-            "note": "🟩 الاجابه نضيف هذا السطر في المكان المخصص له"
+            "type": "fill",
+            "blanks": [
+              "else {console.log(\"Weeding the garden\");}"
+            ],
+            "template": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}\n___",
+            "full_code": "let science = 80;\nif (science == 100){console.log(\"Increased allowance!\");}\nelse {console.log(\"Weeding the garden\");}"
           },
           "label": "الثانى"
         },
         "3": {
           "question": "أنشئ برنامجك كما يلي.\n(1) إذا لم تكن قيمة المتغير math تساوي 100، أخرج \"No reward\".",
           "answer": {
-            "type": "partial",
-            "answer_code": "else {console.log(\"No reward\");}",
-            "full_code": "let math = 80;\nif (math == 100){console.log(\"Get reward\");}\nelse {console.log(\"No reward\");}",
-            "note": "🟩 الاجابه نضيف هذا السطر في المكان المخصص له"
+            "type": "fill",
+            "blanks": [
+              "else {console.log(\"No reward\");}"
+            ],
+            "template": "let math = 80;\nif (math == 100){console.log(\"Get reward\");}\n___",
+            "full_code": "let math = 80;\nif (math == 100){console.log(\"Get reward\");}\nelse {console.log(\"No reward\");}"
           },
           "label": "الثالث"
         }
       },
       "_order": [
+        "u1",
         "1",
         "2",
         "3"
@@ -43,9 +55,13 @@
         "1": {
           "question": "أنشئ برنامجًا يخرج \"Let's go buy some.\" إذا كان المتغير egg يساوي 0، وإلا يخرج \"I still have some.\"\nأدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "code",
-            "value": "let egg = 10;\nif (egg == 0){console.log(\"Let's go buy some.\");}\nelse {console.log(\"I still have some.\");}",
-            "note": "🟩 الاجابه نكتب النواقص في المكان المخصص لها\nif (egg == 0)\nelse"
+            "type": "fill",
+            "blanks": [
+              "if (egg == 0)",
+              "else"
+            ],
+            "template": "let egg = 10;\n___{console.log(\"Let's go buy some.\");}\n___ {console.log(\"I still have some.\");}",
+            "full_code": "let egg = 10;\nif (egg == 0){console.log(\"Let's go buy some.\");}\nelse {console.log(\"I still have some.\");}"
           },
           "label": "الاول"
         },
@@ -75,17 +91,24 @@
         "2": {
           "question": "أنشئ برنامجًا يخرج \"Add homework\" إذا كانت قيمة المتغير math أقل من أو تساوي 50، وإلا \"No homework!\".\nلنعدّل البرنامج ليكون كما في الأسفل.",
           "answer": {
-            "type": "code",
-            "value": "let math = 30;\nif (math <= 50){console.log(\"Add homework\");}\nelse {console.log(\"No homework!\");}"
+            "type": "fill",
+            "blanks": [
+              "if (math <= 50){console.log(\"Add homework\");}"
+            ],
+            "template": "let math = 30;\n___\nelse {console.log(\"No homework!\");}",
+            "full_code": "let math = 30;\nif (math <= 50){console.log(\"Add homework\");}\nelse {console.log(\"No homework!\");}"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير word أكبر من أو تساوي 70، أخرج \"pass\"، وإلا \"fail\".",
           "answer": {
-            "type": "code",
-            "value": "let word = 60;\nif (word >= 70){console.log(\"pass\");}\nelse {console.log(\"fail\");}",
-            "note": "🟩 الاجابه نكتب في النواقص\nword >= 70"
+            "type": "fill",
+            "blanks": [
+              "word >= 70"
+            ],
+            "template": "let word = 60;\nif (___){console.log(\"pass\");}\nelse {console.log(\"fail\");}",
+            "full_code": "let word = 60;\nif (word >= 70){console.log(\"pass\");}\nelse {console.log(\"fail\");}"
           },
           "label": "الثالث"
         }
