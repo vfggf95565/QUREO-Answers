@@ -31,7 +31,7 @@
     "2": {
       "questions": {
         "1": {
-          "question": "انقر على \"تشغيل الكود\" بدون تعديل البرنامج.\nاضغط تشغيل الكود",
+          "question": "انقر على \"تشغيل الكود\" بدون تعديل البرنامج.",
           "answer": {
             "type": "action"
           },
@@ -47,9 +47,12 @@
         "1": {
           "question": "أنشئ برنامجًا يطبع كلمة \"silk\" عشر مرات.\nأدخل نفس البرنامج كما هو مبيّن أدناه.",
           "answer": {
-            "type": "partial",
-            "answer_code": "( let count = 0; count < 10; count = count + 1 )",
-            "full_code": "for ( let count = 0; count < 10; count = count + 1 )\n{\nconsole.log(\"silk\");\n}"
+            "type": "fill",
+            "blanks": [
+              "( let count = 0; count < 10; count = count + 1 )"
+            ],
+            "template": "for ___\n{\n    console.log(\"silk\");\n}",
+            "full_code": "for ( let count = 0; count < 10; count = count + 1 )\n{\n    console.log(\"silk\");\n}"
           },
           "label": "الاول"
         },
@@ -57,7 +60,7 @@
           "question": "أنشئ برنامجك كما يلي.\n1. اطبع كلمة \"deer\" عشر مرات في وحدة التحكم (console).\n2. يجب أن يكون البرنامج مكوّنًا من 3 أسطر.\n3. اسم المتغيّر يجب أن يكون count.",
           "answer": {
             "type": "code",
-            "value": "for (let count = 0; count < 10; count = count + 1) {\nconsole.log(\"deer\");\n}"
+            "value": "for (let count = 0; count < 10; count = count + 1) {\n    console.log(\"deer\");\n}"
           },
           "label": "الثانى"
         },
@@ -65,7 +68,7 @@
           "question": "أنشئ برنامجك كما يلي.\n1. اطبع \"campus\" عشر مرات في وحدة التحكم.\n2. يجب أن يكون البرنامج كله مكوّناً من 3 أسطر.\n3. اسم المتغيّر يجب أن يكون count.",
           "answer": {
             "type": "code",
-            "value": "for (let count = 0; count < 10; count = count + 1) {\nconsole.log(\"campus\");\n}"
+            "value": "for (let count = 0; count < 10; count = count + 1) {\n    console.log(\"campus\");\n}"
           },
           "label": "الثالث"
         },
@@ -89,20 +92,24 @@
         "1": {
           "question": "أنشئ برنامجك كما يلي.\n1. اطبع \"campus\" عشر مرات في وحدة التحكم.\n• يجب أن يكون اسم المتغيّر count.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let count = 0; count < 10; count = count + 1",
-            "full_code": "for (let count = 0; count < 10; count = count + 1) {\nconsole.log(\"campus\");",
-            "note": "}"
+            "type": "fill",
+            "blanks": [
+              "let count = 0; count < 10; count = count + 1"
+            ],
+            "template": "for (___) {\n    console.log(\"campus\");\n}",
+            "full_code": "for (let count = 0; count < 10; count = count + 1) {\n    console.log(\"campus\");\n}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنا أُنشئ برنامجًا يَعرض \"campus\" عشر مرات في وحدة التحكم.\nأدخل نفس البرنامج كما هو مبيَّن أدناه.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let count = 0; count < 10; count++",
-            "full_code": "for (let count = 0; count < 10; count++) {\nconsole.log(\"campus\");",
-            "note": "}"
+            "type": "fill",
+            "blanks": [
+              "let count = 0; count < 10; count++"
+            ],
+            "template": "for (___) {\n    console.log(\"campus\");\n}",
+            "full_code": "for (let count = 0; count < 10; count++) {\n    console.log(\"campus\");\n}"
           },
           "label": "الثانى"
         },
