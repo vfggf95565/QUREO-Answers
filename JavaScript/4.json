@@ -78,7 +78,7 @@
         "question": "اختر الرمز الصحيح للضرب المستخدم في البرنامج.",
         "answer": {
           "type": "text",
-          "value": "[text]\n*\n[text]"
+          "value": "[text]\n*\n[/text]"
         },
         "label": "الخامس"
       },
