@@ -143,19 +143,33 @@
     },
     "5": {
       "questions": {
+        "u1": {
+          "question": "ما نوع المعالجة التي تريد أن يقوم بها Mr. 5 Split the Cost؟",
+          "answer": {
+            "type": "text",
+            "value": "أريد أن يقسم المجموع على خمسة."
+          }
+        },
         "1": {
           "question": "أنشئ برنامجك كما يلي.\n1. أنشئ دالة باسم split5 وبوسيط باسم total.",
           "answer": {
-            "type": "code",
-            "value": "function split5(total)"
+            "type": "fill",
+            "blanks": [
+              "function split5(total)"
+            ],
+            "template": "___ { \n\n}",
+            "full_code": "function split5(total) { \n\n}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ دالة باسم split5 وبوسيط باسم total.\nأنشئ برنامجك كما يلي:\n1. صرّح عن المتغيّر result واكتب فيه صيغة الحساب total / 5.",
           "answer": {
-            "type": "partial",
-            "answer_code": "let result = total / 5;",
+            "type": "fill",
+            "blanks": [
+              "let result = total / 5;"
+            ],
+            "template": "function split5(total) {\n___\n}",
             "full_code": "function split5(total) {\nlet result = total / 5;\n}"
           },
           "label": "الثاني"
@@ -163,8 +177,11 @@
         "3": {
           "question": "أنشئ دالة باسم split5 وبوسيط باسم total.\nأنشئ برنامجك كما يلي:\n1. أعد قيمة المتغيّر result.",
           "answer": {
-            "type": "partial",
-            "answer_code": "return result;",
+            "type": "fill",
+            "blanks": [
+              "return result;"
+            ],
+            "template": "function split5(total) {\nlet result = total / 5;\n___\n}",
             "full_code": "function split5(total) {\nlet result = total / 5;\nreturn result;\n}"
           },
           "label": "الثالث"
@@ -172,8 +189,11 @@
         "4": {
           "question": "أنشئ دالة باسم split5 وبوسيط باسم total.\nأنشئ برنامجك كما يلي:\n1. مرّر الوسيط 12500 إلى الدالة split5 وأخرج الناتج في وحدة التحكم.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(split5(12500));",
+            "type": "fill",
+            "blanks": [
+              "console.log(split5(12500));"
+            ],
+            "template": "function split5(total) {\nlet result = total / 5;\nreturn result;\n}\n___",
             "full_code": "function split5(total) {\nlet result = total / 5;\nreturn result;\n}\nconsole.log(split5(12500));"
           },
           "label": "الرابع"
@@ -189,18 +209,23 @@
         "6": {
           "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الثاني، أدخل البرنامج الذي أنشأته كما يلي:\n1. صرّح عن المتغير result وأسنِد إليه صيغة الحساب num * 5",
           "answer": {
-            "type": "partial",
-            "answer_code": "let result = num * 5;",
-            "full_code": "function calc5(num) {\nlet result = num * 5;\n}",
-            "note": "الكود الكامل"
+            "type": "fill",
+            "blanks": [
+              "let result = num * 5;"
+            ],
+            "template": "function calc5(num) {\n___\n}",
+            "full_code": "function calc5(num) {\nlet result = num * 5;\n}"
           },
           "label": "السادس"
         },
         "7": {
           "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي:\n1. أعد قيمة المتغير result",
           "answer": {
-            "type": "partial",
-            "answer_code": "return result;",
+            "type": "fill",
+            "blanks": [
+              "return result;"
+            ],
+            "template": "function calc5(num) {\nlet result = num * 5;\n___\n}",
             "full_code": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}"
           },
           "label": "السابع"
@@ -208,14 +233,18 @@
         "8": {
           "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الخامس، أدخل البرنامج الذي أنشأته كما يلي:\n1. مرّر الوسيط 10 إلى الدالة calc5 وأخرجه في وحدة التحكم.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(calc5(10));",
+            "type": "fill",
+            "blanks": [
+              "console.log(calc5(10));"
+            ],
+            "template": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}\n___",
             "full_code": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}\nconsole.log(calc5(10));"
           },
           "label": "الثامن"
         }
       },
       "_order": [
+        "u1",
         "1",
         "2",
         "3",
