@@ -64,10 +64,12 @@
         "2": {
           "question": "أنشئ برنامجًا يعرض \"I have to go buy more eggs\" إذا كان المتغيّر egg = 0، ويعرض \"I'm almost out of eggs\" إذا لم يكن كذلك، ويعرض \"I still have eggs\" إذا كانت قيمة egg أكبر من 3.\nأنشئ برنامجك كما يلي.\nإذا كان المتغيّر egg أصغر من أو يساوي 3، اعرض \"I'm almost out of eggs\".",
           "answer": {
-            "type": "partial",
-            "answer_code": "else if (egg <= 3){console.log(\"I'm almost out of eggs\");}",
-            "full_code": "let egg = 2;\nif (egg == 0){console.log(\"I have to go buy more eggs\");}\nelse if (egg <= 3){console.log(\"I'm almost out of eggs\");}\nelse {console.log(\"I still have eggs\");}",
-            "note": "الشكل النهائى للكود"
+            "type": "fill",
+            "blanks": [
+              "else if (egg <= 3){console.log(\"I'm almost out of eggs\");}"
+            ],
+            "template": "let egg = 2;\nif (egg == 0){console.log(\"I have to go buy more eggs\");}\n___\nelse {console.log(\"I still have eggs\");}",
+            "full_code": "let egg = 2;\nif (egg == 0){console.log(\"I have to go buy more eggs\");}\nelse if (egg <= 3){console.log(\"I'm almost out of eggs\");}\nelse {console.log(\"I still have eggs\");}"
           },
           "label": "الثاني"
         },
@@ -116,7 +118,7 @@
         "question": "في السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي.\n1. إذا لم يكن كذلك، وإذا كانت قيمة المتغيّر score أكبر من أو تساوي 80، اعرض \"Pass\".",
         "answer": {
           "type": "code",
-          "value": "let score = 82;\nif (score == 100){console.log(\"Perfect score\");}\nelse if (score >= 80){console.log(\"Pass\");}"
+          "value": "let score = 82;\nif (score == 100){console.log(\"Perfect score\");}\nelse if(score >= 80){console.log(\"Pass\");}"
         },
         "label": "الثالث"
       },

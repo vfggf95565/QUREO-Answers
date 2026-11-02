@@ -124,16 +124,24 @@
         "1": {
           "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أكبر من 130، أخرج \"Can ride\"، وإلا \"Cannot ride\".",
           "answer": {
-            "type": "code",
-            "value": "let height = 91;\nif (height > 130){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}"
+            "type": "fill",
+            "blanks": [
+              "height > 130"
+            ],
+            "template": "let height = 91;\nif (___){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}",
+            "full_code": "let height = 91;\nif (height > 130){console.log(\"Can ride\");}\nelse {console.log(\"Cannot ride\");}"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ برنامجك كما يلي.\n(1) إذا كانت قيمة المتغير height أقل من 80، يخرج البرنامج \"Cannot ride\"، وإلا \"Can ride\".\nالإخراج",
           "answer": {
-            "type": "code",
-            "value": "let height = 91;\nif (height < 80){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}"
+            "type": "fill",
+            "blanks": [
+              "height < 80"
+            ],
+            "template": "let height = 91;\nif (___){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}",
+            "full_code": "let height = 91;\nif (height < 80){console.log(\"Cannot ride\");}\nelse {console.log(\"Can ride\");}"
           },
           "label": "الثاني"
         },
