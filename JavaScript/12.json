@@ -114,8 +114,8 @@
             "blanks": [
               "return result;"
             ],
-            "template": "function split3(total) {\nlet result = total / 3;\n___\n}",
-            "full_code": "function split3(total) {\nlet result = total / 3;\nreturn result;\n}",
+            "template": "function split3(total) {\n　let result = total / 3;\n　___\n}",
+            "full_code": "function split3(total) {\n　let result = total / 3;\n　return result;\n}",
             "note": "return result;"
           },
           "label": "الثالث"
@@ -123,9 +123,12 @@
         "4": {
           "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
           "answer": {
-            "type": "code",
-            "value": "console.log(split3(2800));",
-            "note": "return result;\n}"
+            "type": "fill",
+            "blanks": [
+              "console.log(split3(2800));"
+            ],
+            "template": "function split3(total) {\n　let result = total / 3;\n　return result;\n}\n___",
+            "full_code": "function split3(total) {\n　let result = total / 3;\n　return result;\n}\nconsole.log(split3(2800));"
           },
           "label": "الرابع"
         }
