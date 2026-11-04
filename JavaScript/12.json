@@ -201,44 +201,36 @@
         "5": {
           "question": "أنشئ برنامجك كما يلي.\n1. أنشئ دالة باسم calc5 ووسيط باسم num.",
           "answer": {
-            "type": "code",
-            "value": "function calc5(num)"
+            "type": "fill",
+            "blanks": [
+              "function calc5(num)"
+            ],
+            "template": "___ {\n}",
+            "full_code": "function calc5(num) {\n}"
           },
           "label": "الخامس"
         },
         "6": {
           "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الثاني، أدخل البرنامج الذي أنشأته كما يلي:\n1. صرّح عن المتغير result وأسنِد إليه صيغة الحساب num * 5",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "let result = num * 5;"
-            ],
-            "template": "function calc5(num) {\n___\n}",
-            "full_code": "function calc5(num) {\nlet result = num * 5;\n}"
+            "type": "code",
+            "value": "function calc5(num) {\n　let result = num * 5;\n}"
           },
           "label": "السادس"
         },
         "7": {
           "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الثالث، أدخل البرنامج الذي أنشأته كما يلي:\n1. أعد قيمة المتغير result",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "return result;"
-            ],
-            "template": "function calc5(num) {\nlet result = num * 5;\n___\n}",
-            "full_code": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}"
+            "type": "code",
+            "value": "function calc5(num) {\n　let result = num * 5;\n　return result;\n}"
           },
           "label": "السابع"
         },
         "8": {
           "question": "أنشئ دالة باسم calc5 ووسيط باسم num.\nفي السطر الخامس، أدخل البرنامج الذي أنشأته كما يلي:\n1. مرّر الوسيط 10 إلى الدالة calc5 وأخرجه في وحدة التحكم.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "console.log(calc5(10));"
-            ],
-            "template": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}\n___",
-            "full_code": "function calc5(num) {\nlet result = num * 5;\nreturn result;\n}\nconsole.log(calc5(10));"
+            "type": "code",
+            "value": "function calc5(num) {\n　let result = num * 5;\n　return result;\n}\n　console.log(calc5(10));"
           },
           "label": "الثامن"
         }
