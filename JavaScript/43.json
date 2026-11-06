@@ -167,8 +167,8 @@
       "1": {
         "question": "اجعل الأجزاء المجمعة بوسم span في HTML خضراء باستخدام CSS. الرجاء تحديد التصريح الصحيح من الخيارات.\nForest is here",
         "answer": {
-          "type": "code",
-          "value": "span {\n  color: green;\n}"
+          "type": "text",
+          "value": "span {\ncolor: green;\n}"
         },
         "label": "الاول"
       },
@@ -191,7 +191,7 @@
       "4": {
         "question": "حدد الخاصية لجعل النص أو الصور شبه شفافة من الخيارات.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "opacity: 0.6;"
         },
         "label": "الرابع"
