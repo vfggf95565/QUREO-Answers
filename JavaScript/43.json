@@ -52,8 +52,8 @@
             "blanks": [
               "color: rgb(255, 255, 0);"
             ],
-            "template": "span {\n___\n}",
-            "full_code": "span {\ncolor: rgb(255, 255, 0);\n}"
+            "template": "span {\n  ___\n}",
+            "full_code": "span {\n  color: rgb(255, 255, 0);\n}"
           },
           "label": "السادس"
         },
@@ -64,8 +64,8 @@
             "blanks": [
               "color: rgb(255, 100, 0);"
             ],
-            "template": "span {\n___\n}",
-            "full_code": "span {\ncolor: rgb(255, 100, 0);\n}"
+            "template": "span {\n  ___\n}",
+            "full_code": "span {\n  color: rgb(255, 100, 0);\n}"
           },
           "label": "السابع"
         }
