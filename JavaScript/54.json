@@ -1,0 +1,205 @@
+{
+  "level": 54,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يتحقق مما إذا كانت كلمة \"bell\" موجودة في قائمة الكلمات.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) تحقق مما إذا كانت قائمة الكلمات تحتوي على كلمة \"bell\" واطبع النتيجة في وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(wordList.includes(\"bell\"));"
+            ],
+            "template": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\n___",
+            "full_code": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\nconsole.log(wordList.includes(\"bell\"));"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يتحقق من موقع كلمة \"pen\" في قائمة الكلمات.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) تحقق من موقع كلمة \"pen\" في قائمة الكلمات واعرض النتيجة على الشاشة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(wordList.indexOf(\"pen\"));"
+            ],
+            "template": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n___",
+            "full_code": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\nconsole.log(wordList.indexOf(\"pen\"));"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يُرتب قائمة الأسماء أبجديًا ويعرضها على الشاشة.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) ترتيب قائمة الأسماء",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "nameList.sort();"
+            ],
+            "template": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n___\nconsole.log(nameList);",
+            "full_code": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\nnameList.sort();\nconsole.log(nameList);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا لترتيب الأسماء في مصفوفة ترتيبًا عكسيًا.\nأنشئ البرنامج بدءًا من السطر 3 وما يليه كما يلي:\n(1) اعكس ترتيب قائمة الترتيب (rankingList)\n(2) اعرض قيم قائمة الترتيب (rankingList) في وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\nrankingList.reverse();\nconsole.log(rankingList);"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجًا يُخرج قائمة بمكونات تحضير السندويشات إلى الشاشة.\nأدخل البرنامج في السطر 3 بنفس الطريقة الموضحة أدناه:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sandwichIngredients.push(\"mayo\");"
+            ],
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "أنشئ برنامجًا يُخرج قائمة بمكونات صنع المعكرونة إلى وحدة التحكم.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) احذف القيمة الأخيرة من قائمة المكونات (invertingsList).",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "ingredientsList.pop();"
+            ],
+            "template": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\n___\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);",
+            "full_code": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\ningredientsList.pop();\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "أنشئ برنامجًا يُخرج مكونات البرجر إلى الشاشة.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) احذف القيمة الأولى لمتغير burgerIngredients.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "burgerIngredients.shift();"
+            ],
+            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+          },
+          "label": "السابع"
+        },
+        "8": {
+          "question": "أنشئ برنامجًا لعرض مكونات البرجر على الشاشة.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) أضف كلمة \"mushroom\" إلى بداية ملف burgerIngredients",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "burgerIngredients.unshift(\"mushroom\");"
+            ],
+            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\nburgerIngredients.unshift(\"mushroom\");\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+          },
+          "label": "الثامن"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى اختيار الخيار الذي يعكس ترتيب قيم قائمة الأرقام.",
+        "answer": {
+          "type": "text",
+          "value": "numList.reverse();"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار المخرجات عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "1"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى اختيار السلسلة النصية التي ستُعرض في وحدة التحكم عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "orange,banana"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى اختيار البرنامج الذي يضيف كلمة \"apple\" إلى نهاية قائمة الأحرف من بين الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "letterList.push(\"apple\");"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يُخرج القيمة \"true\" إلى وحدة التحكم إذا كانت قيم قائمة الضيوف تحتوي على \"Wilson\"، و\"false\" إذا لم تكن كذلك. أضف البرنامج إلى السطر 3.\nعند تنفيذ البرنامج المكتمل، تُخرج القيمة \"true\" إلى وحدة التحكم.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "guestList.includes(\"Wilson\")"
+          ],
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(___);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(guestList.includes(\"Wilson\"));"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اكتب برنامجًا في السطر 3 بحيث يتم إخراج قيم guestList إلى وحدة التحكم بالترتيب الأبجدي.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "guestList.sort();"
+          ],
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n___\nconsole.log(guestList);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nguestList.sort();\nconsole.log(guestList);"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "أنشئ برنامجًا يُخرج السلسلة النصية \"program\" إلى وحدة التحكم.\nأضف برنامجًا في السطر 3 لحذف القيمة الأخيرة من قائمة الأحرف (letterList).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "letterList.pop();"
+          ],
+          "template": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n___\nconsole.log(letterList);",
+          "full_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\nletterList.pop();\nconsole.log(letterList);"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "أضف برنامجًا في السطر 3 يضيف \"green\" إلى الفهرس 0 من قائمة الألوان (colorList).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "colorList.unshift(\"green\");"
+          ],
+          "template": "let colorList = [\"red\", \"blue\", \"yellow\"];\n___\nconsole.log(colorList);",
+          "full_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\ncolorList.unshift(\"green\");\nconsole.log(colorList);"
+        },
+        "label": "الثامن"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
+}

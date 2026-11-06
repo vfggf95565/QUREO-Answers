@@ -1,0 +1,140 @@
+{
+  "level": 50,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يقوم بإخراج عدد الخطوات لمسافة المشي (بالمتر) ليوم الاثنين.\nمسافة المشي مُعرَّفة باسم distanceList، وتم تعيين مسافات المشي لأسبوع كامل.\nعدد الخطوات مُعرَّف باسم stepCount.\nأنشئ البرنامج من السطر 2 فصاعدًا كما يلي:\n(1) عرّف ثابتًا باسم stepCount وعيّن له معادلة الحساب: عنصر distanceList element 0 ÷ 0.7\n(2) أخرج قيمة stepCount إلى وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[0] / 0.7;\nconsole.log(stepCount);"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بإخراج عدد الخطوات لمسافة المشي (بالمتر) ليوم السبت.\nمسافة المشي مُعرَّفة باسم distanceList، وتم تعيين مسافات المشي لأسبوع كامل.\nعدد الخطوات مُعرَّف باسم stepCount.\nأنشئ البرنامج في السطر 2 كما يلي:\n(1) عرّف ثابتًا باسم stepCount وعيّن له معادلة الحساب: قيمة عنصر distanceList element 5 ÷ 0.7",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const stepCount = distanceList[5] / 0.7;"
+            ],
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n___\nconsole.log(stepCount);",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[5] / 0.7;\nconsole.log(stepCount);"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يقوم بإخراج عدد الخطوات (بالمتر) لأسبوع كامل.\nمسافة المشي مُعرَّفة باسم distanceList، وتم تعيين مسافات المشي لأسبوع كامل.\nعدد الخطوات مُعرَّف باسم stepCount.\nأنشئ البرنامج من السطر 3 كما يلي:\n(1) استخدم for of لاستخراج جميع القيم من الثابت distanceList.\nلكن يجب أن يكون اسم الثابت الذي يخزّن القيم المستخرجة من distanceList هو distance.",
+          "answer": {
+            "type": "code",
+            "value": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nfor (const distance of distanceList){\n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "1"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يقوم بإخراج متوسط مسافة المشي اليومية اعتمادًا على بيانات مسافات المشي (بالمتر) لأسبوع كامل.\nمسافة المشي مُعرَّفة باسم distanceList، وتم تعيين مسافات المشي لأسبوع كامل.\nإجمالي مسافة المشي مُعرَّف باسم sum.\nأنشئ البرنامج من السطر 5 فصاعدًا كما يلي:\n(1) عيّن sum + distance إلى sum\n(2) أخرج قيمة sum إلى وحدة التحكم",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sum = sum + distance",
+              "console.log(sum)"
+            ],
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n  ___;\n}\n___;",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n  sum = sum + distance;\n}\nconsole.log(sum);"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بإخراج متوسط مسافة المشي اليومية اعتمادًا على بيانات مسافات المشي (بالمتر) لأسبوع كامل.\nمسافة المشي مُعرَّفة باسم distanceList، وتم تعيين مسافات المشي لأسبوع كامل.\nأنشئ البرنامج في السطر 7 كما يلي:\n(1) أخرج ناتج sum ÷ length distanceList إلى وحدة التحكم",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sum / distanceList.length"
+            ],
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n    sum = sum + distance;\n}\nconsole.log( ___ );",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n    sum = sum + distance;\n}\nconsole.log( sum / distanceList.length );"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "55"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "هذا برنامج يقوم بإخراج المجموع الكلي لقيم scoreList. يرجى اختيار ما يجب إدخاله في ① من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "const score of scoreList"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "هذا برنامج يقوم بإخراج المجموع الكلي لقيم scoreList.\nفي السطر 4، استخدم for of لاستخراج جميع القيم من الثابت scoreList.\nلكن يجب أن يكون اسم الثابت الذي تُسند إليه القيم المستخرجة من scoreList هو score.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "for (const score of scoreList) {"
+          ],
+          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n___\n  sum = sum + score;\n}\nconsole.log(sum);",
+          "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "عندما تكون المصفوفة a هي [2, 0, 0, 1]، يرجى اختيار قيمة a.length من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "4"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يقوم بإخراج المتوسط الحسابي لقيم scoreList إلى وحدة التحكم.\nأضف ما يلي إلى السطر 6 لإكمال البرنامج.\n① إخراج sum ÷ طول scoreList إلى وحدة التحكم\nيرجى الكتابة بطريقة تضمن إخراج المتوسط الحسابي الصحيح حتى إذا تم تغيير محتويات مصفوفة scoreList (وخاصة طولها).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "sum / scoreList.length"
+          ],
+          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(___);",
+          "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(sum / scoreList.length);"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

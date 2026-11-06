@@ -1,0 +1,133 @@
+{
+  "level": 45,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "استخدم RGB لتحديد لون نص العنوان.\nالرجاء تحديد RGB على النحو التالي:\nRed: 0\nGreen: 0\nBlue: 255",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "color: rgb(0, 0, 255);"
+            ],
+            "template": "h1 {\n  ___\n}",
+            "full_code": "h1 {\n  color: rgb(0, 0, 255);\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "استخدم كود اللون الستة عشري لتحديد لون نص العنوان.\nالرجاء تحديد كود اللون الستة عشري على النحو التالي:\n#0000ff",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "color: #0000ff;"
+            ],
+            "template": "h1 {\n  ___\n}",
+            "full_code": "h1 {\n  color: #0000ff;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "اجعل الصورة تصبح أكثر شفافية عندما يلمسها الفأرة.\n* تحتوي الصورة على اسم class وهو \"cody\" في HTML.\nأدخل الشيء نفسه في المحرر كما هو موضح أدناه:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "opacity: 0.5;"
+            ],
+            "template": ".cody:hover  {\n  ___\n}",
+            "full_code": ".cody:hover  {\n  opacity: 0.5;\n}"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "هذه صفحة ويب لمطعم باستا.\nالرجاء إدخال الوسوم في المحرر على النحو التالي:\n(1) حدد Delicious Pasta Restaurant كرأس للصفحة (header)\n(2) حدد قسم القائمة كوسم\ndiv (3) حدد Contact Us كتذييل للصفحة (footer)",
+          "answer": {
+            "type": "text",
+            "value": "<header>\n<h3>Delicious Pasta Restaurant</h3>\n</header>\n<div>\n<ul>\n<li>Peperoncino</li>\n<li>Carbonara</li>\n</ul>\n</div>\n<footer>\n<p>Contact Us</p>\n</footer>"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر اللون الذي يمثّله ‎rgb(255, 255, 0)‎ من الخيارات التالية.",
+        "answer": {
+          "type": "text",
+          "value": "أصفر"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر تمثيل رمز اللون الست عشري للون ‎rgb(255, 255, 0)‎ من الخيارات التالية.",
+        "answer": {
+          "type": "text",
+          "value": "#ffff00"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر المظهر الأنسب عندما يتم تحديد ‎opacity: 0‎ للنص من الخيارات التالية.",
+        "answer": {
+          "type": "text",
+          "value": "شفاف"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر الوسم الذي يجب استخدامه لاحتواء كود الترويسة عند كتابة ترويسة صفحة ويب في HTML من الخيارات التالية.",
+        "answer": {
+          "type": "text",
+          "value": "<header> </header>"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أضِف فئة باسم \"mountains\" إلى وسم div.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "<div class=\"mountains\">"
+          ],
+          "template": "___\n  <h1>Mountains of the World</h1>\n  <ul>\n    <li>Mount Everest</li>\n    <li>Mount McKinley</li>\n    <li>Mount Kilimanjaro</li>\n  </ul>\n</div>",
+          "full_code": "<div class=\"mountains\">",
+          "note": "<h1>Mountains of the World</h1>\n<ul>\n<li>Mount Everest</li>\n<li>Mount McKinley</li>\n<li>Mount Kilimanjaro</li>\n</ul>\n</div>"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اختر الوصف الأنسب في CSS لضبط لون خلفية قسم footer بالكامل على اللون الممثّل برمز اللون ‎#e0a241‎ من الخيارات التالية.",
+        "answer": {
+          "type": "text",
+          "value": "footer{\nbackground-color: #e0a241;\n}"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اختر الوسم الذي يجب استخدامه لاحتواء كود التذييل عند كتابة تذييل صفحة ويب في HTML من الخيارات التالية.",
+        "answer": {
+          "type": "text",
+          "value": "<footer> </footer>"
+        },
+        "label": "السابع"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  }
+}

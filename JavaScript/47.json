@@ -1,0 +1,139 @@
+{
+  "level": 47,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بإخراج المنتج الذي يمكنك الحصول عليه اعتمادًا على الهدف الذي تصيبه عند إدخال رقم الهدف الذي أصبته.\nالهدف المصاب مُعرّف باسم target، وتم إسناد \"1\" إليه.\nأنشئ جملة switch ابتداءً من السطر 3 كما يلي.\n(1) إذا كانت 4، اعرض \"Video game Get\" في وحدة التحكم\n(2) إذا كانت 8، اعرض \"Video game Get\" في وحدة التحكم\n(3) إذا كانت 1، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(4) إذا كانت 7، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(5) إذا لم ينطبق أيٌّ منها، اعرض \"Sticker Get\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "const target = 1;\nswitch (target){\n  case 4:\n    console.log(\"Video game Get\");\n    break;\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n    console.log(\"Candy Assortment Get\");\n    break;\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n    break;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يقوم بإخراج المنتج الذي يمكنك الحصول عليه اعتمادًا على الهدف الذي تصيبه عند إدخال رقم الهدف الذي أصبته.\nالهدف المصاب مُعرّف باسم target، وتم إسناد \"1\" إليه.\nقم بتجميع المعالجة في جملة switch ابتداءً من السطر 3 حسب الحالات المتشابهة.\n(1) إذا كانت \"4\" و\"8\"، اعرض \"Video game Get\" في وحدة التحكم\n(2) إذا كانت \"1\" و\"7\"، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(3) إذا لم ينطبق أيٌّ منها، اعرض \"Sticker Get\" في وحدة التحكم\n*يُرجى أن يكون البرنامج بالكامل من 15 سطرًا.",
+          "answer": {
+            "type": "code",
+            "value": "const target = 1;\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "عند إدخال رقم طالب، يتم إخراج أسماء المجموعات من A إلى D.\nرقم الطالب مُعرّف باسم num، وتم إسناد 2 إليه.\nأنشئ جملة switch ابتداءً من السطر 3 كما يلي.\n(1) إذا كانت 1، اعرض \"Student \" + num + \" is in Group A\" في وحدة التحكم\n(2) إذا كانت 2، اعرض \"Student \" + num + \" is in Group B\" في وحدة التحكم\n(3) إذا كانت 3، اعرض \"Student \" + num + \" is in Group C\" في وحدة التحكم\n(4) إذا كانت 4، اعرض \"Student \" + num + \" is in Group D\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "const num = 2;\nswitch (num) {\n  case 1:\n    console.log(\"Student \" + num + \" is in Group A\");\n    break;\n  case 2:\n    console.log(\"Student \" + num + \" is in Group B\");\n    break;\n  case 3:\n    console.log(\"Student \" + num + \" is in Group C\");\n    break;\n  case 4:\n    console.log(\"Student \" + num + \" is in Group D\");\n    break;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بإخراج نتائج تقسيم الطلاب إلى 4 مجموعات حسب ترتيب أرقام الطلاب.\nعدد مرات التكرار في جملة for هو عدد الأشخاص في الصف.\nأكمِل جملة switch التي تُخرج المجموعات A إلى D عندما يتطابق باقي قسمة num على 4 مع كل قيمة.",
+          "answer": {
+            "type": "code",
+            "value": "for (let num = 1; num <= 30; num++) {\n  switch (num % 4) {\n    case 0:\n      console.log(\"Student \" + num + \" is in Group D\");\n      break;\n    case 1:\n      console.log(\"Student \" + num + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + num + \" is in Group B\");\n      break;\n    case 3:\n      console.log(\"Student \" + num + \" is in Group C\");\n      break;\n  }\n}"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بإخراج \"It's sold out\" إذا كانت مقاعد دار السينما قد نفدت.\nالمقاعد مُعرّفة باسم seat، وتم إسناد sold out إليها.\nأعد كتابة التعبير الشرطي في السطر 2 كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "if (!(seat == \"available\")) {"
+            ],
+            "template": "let seat = \"sold out\";\n___\n  console.log(\"It's sold out\");\n}",
+            "full_code": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أنشئ برنامجًا يتغيّر فيه الإخراج اعتمادًا على قيمة weather باستخدام switch statement.\nأنشئ جملة switch كما يلي.\nأنشئها دون تجميع المعالجات.\n① إذا كانت sunny، اعرض \"Let's go shopping\" في وحدة التحكم\n② إذا كانت cloudy، اعرض \"Let's go shopping\" في وحدة التحكم\n③ إذا كانت rainy، اعرض \"Let's stay home\" في وحدة التحكم\nيُرجى أن يكون البرنامج بالكامل من 13 سطرًا.",
+        "answer": {
+          "type": "code",
+          "value": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "أنشئ برنامجًا يتغيّر فيه الإخراج اعتمادًا على قيمة weather باستخدام switch statement.\nأعد كتابة البرنامج المكتوب ليصبح بالمعنى التالي.\n(1) إذا كانت sunny و cloudy، اعرض \"Let's go shopping\" في وحدة التحكم\n(2) إذا كانت rainy، اعرض \"Let's stay home\" في وحدة التحكم\nيُرجى أن يكون البرنامج بالكامل من 11 سطرًا.",
+        "answer": {
+          "type": "code",
+          "value": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر نتيجة التنفيذ عند إخراج البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "strawberry\norange\napple"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "هذا برنامج لتقسيم أرقام الطلاب من 1 إلى 10 إلى مجموعات.\nيتغيّر الإخراج اعتمادًا على الباقي عند قسمة قيمة i على 3، ويتكرر الإخراج حتى تصبح i تساوي 10.\nاملأ الفراغات في البرنامج لإكماله.",
+        "answer": {
+          "type": "code",
+          "value": "for (let i = 1; i <= 10; i++) {\n  switch (i % 3) {\n    case 0:\n      console.log(\"Student \" + i + \" is in Group C\");\n      break;\n    case 1:\n      console.log(\"Student \" + i + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + i + \" is in Group B\");\n      break;\n  }\n}"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "No output"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "level": 51,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "قم بإنشاء برنامج يُخرج إجمالي المسافة التي تمّ مشيها حتى تتجاوز 100 كم.\nالمسافة التي تمّ مشيها مُعرَّفة باسم distance، ويتم إسناد 0 لها في البداية.\nأنشئ جملة while من السطر 2 كما يلي:\n(1) طالما أن distance أقل من 100، كرّر distance = distance + 6",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "while",
+              "distance < 100",
+              "distance = distance + 6"
+            ],
+            "template": "let distance = 0;\n___ (___) {\n  ___;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+            "full_code": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "المال المُودَع يصبح 1.2 مرة كل سنتين. أنشئ برنامجًا يُخرج عدد السنوات اللازمة لتجاوز 50000 من codycoins.\nالمال المُودَع مُعرَّف باسم money، ويتم إسناد 20000 له في البداية.\nعدد السنوات مُعرَّف باسم year، ويتم إسناد 0 له في البداية.\nأنشئ جملة if من السطر 5 كما يلي:\n(1) إذا كان year % 2 == 0 فاسند money * 1.2 إلى money",
+          "answer": {
+            "type": "code",
+            "value": "let money = 20000;\nlet year = 0;\nwhile (money < 50000) {\n  year++;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");",
+            "note": "احيانا المنصة بتغير ال20000 تكون 10000 اول سطر\nلو خطا نجرب نعدل الرقم"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجًا يُخرج عدد الخطوات لمسافة المشي يوم السبت.\nالمسافة الممشاة مُعرَّفة باسم distanceList، مع إسناد المسافات بدءًا من الفهرس 0 ليوم الاثنين.\nعدد الخطوات مُعرَّف باسم stepCount.\nأنشئ البرنامج في السطر 2 كما يلي:\n(1) عرّف ثابتًا stepCount واسند له صيغة الحساب: قيمة العنصر رقم 5 من distanceList ÷ 0.7",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const stepCount = distanceList[5] / 0.7;"
+            ],
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n___\nconsole.log(stepCount);",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[5] / 0.7;\nconsole.log(stepCount);"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "أنشئ برنامجًا يُخرج عدد الخطوات لأسبوع كامل.\nالمسافة الممشاة مُعرَّفة باسم distanceList، مع إسناد مسافات أسبوع كامل.\nعدد الخطوات مُعرَّف باسم stepCount.\nأنشئ البرنامج في السطر 3 كما يلي:\n(1) استخدم for of لاستخراج كل القيم من الثابت distanceList.\nلكن الثابت الذي يخزّن القيم المستخرجة من distanceList يجب أن يكون distance.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for",
+              "const distance of distanceList"
+            ],
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n___ (___){\n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nfor (const distance of distanceList){\n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}"
+          },
+          "label": "السادس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أنشئ برنامجًا يطبع جميع سنوات الأولمبياد بين 2024 و2200 في وحدة التحكم.\nإذا كان باقي قسمة المتغير year على 4 يساوي 0، فأكمل البرنامج ليطبع:\n\"XYZ is an Olympic year\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "year % 4 == 0"
+          ],
+          "template": "let year = 2024;\nwhile (year <= 2200) {\n  if (___) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}",
+          "full_code": "let year = 2024;\nwhile (year <= 2200) {\n  if (year % 4 == 0) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر ناتج التنفيذ الصحيح للبرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "Count: 0\nCount: 1\nCount: 3\nCount: 4"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أضِف البرنامج التالي من السطر 5 وما بعده داخل معالجة جملة while المكتوبة.\nإذا كان a == 5، اجعل a = a + 1 وتخطَّ بقية المعالجة.",
+        "answer": {
+          "type": "code",
+          "value": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "هذا برنامج يطبع مجموع قيم scoreList.\nفي السطر 4، استخدم for of لاستخراج جميع القيم من الثابت scoreList.\nولكن يجب أن يكون اسم الثابت الذي تُسند إليه القيم المستخرجة من الثابت scoreList هو score.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "for (const score of scoreList) {"
+          ],
+          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n___\n  sum = sum + score;\n}\nconsole.log(sum);",
+          "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يطبع متوسط قيم scoreList في وحدة التحكم.\nأضِف ما يلي إلى السطر 6 لإكمال البرنامج.\n① اطبع sum ÷ طول scoreList في وحدة التحكم\n*اكتبها بحيث يتم طباعة المتوسط الصحيح حتى لو تغيّر محتوى المصفوفة scoreList (وخاصة طولها).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "sum / scoreList.length"
+          ],
+          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(___);",
+          "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(sum / scoreList.length);"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

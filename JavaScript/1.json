@@ -36,9 +36,8 @@
         "1": {
           "question": "أدخل نفس البرنامج كما في الأسفل.",
           "answer": {
-            "type": "partial",
-            "answer_code": "console.log(\"\");",
-            "full_code": "console.log(\"Hello\");"
+            "type": "code",
+            "value": "console.log(\"Hello\");"
           },
           "label": "الاول"
         },

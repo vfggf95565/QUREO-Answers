@@ -1,0 +1,284 @@
+{
+  "level": 53,
+  "lessons": {
+    "1": {
+      "questions": {
+        "u1": {
+          "question": "ماذا تريد أن تأكل على الغداء؟",
+          "answer": {
+            "type": "text",
+            "value": "اختار اي اجابه تفضلها"
+          }
+        },
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يُخرج قائمة مكونات السندويشات إلى الشاشة.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sandwichIngredients.push(\"mayo\");"
+            ],
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا يُخرج قائمة مكونات السندويشات إلى الشاشة.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sandwichIngredients.push(\"mayo\", \"bacon\");"
+            ],
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);\n....................................................................................................................................................الدرس الثاني",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\nsandwichIngredients.push(\"mayo\", \"bacon\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "note": "....................................................................................................................................................الدرس الثاني"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يُخرج قائمة مكونات صنع السندويشات إلى الشاشة.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sandwichIngredients.pop();"
+            ],
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يُخرج قائمة مكونات السندويشات إلى الشاشة.\nأنشئ برنامجًا في السطر 3 كما يلي:\n(1) احذف القيمة الأخيرة من جدول مكونات السندويشات.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "sandwichIngredients.pop();"
+            ],
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يُخرج مكونات البرجر إلى الشاشة.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "burgerIngredients.pop();"
+            ],
+            "template": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\nburgerIngredients.pop();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يُخرج مكونات البرجر إلى الشاشة.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "burgerIngredients.shift();"
+            ],
+            "template": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا لعرض مكونات البرجر على الشاشة.\nأنشئ برنامجًا في السطر 3 كما يلي:\n(1) احذف القيمة الأولى من متغير burgerIngredients.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "burgerIngredients.shift();"
+            ],
+            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يُخرج الترتيب إلى وحدة التحكم.\nأنشئ برنامجًا في السطر 3 كما يلي:\n(1) احذف القيمة الأخيرة من قائمة الترتيب.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "rankingList.pop();"
+            ],
+            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\nrankingList.pop();\nconsole.log(rankingList);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا يُخرج الترتيب إلى وحدة التحكم.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "rankingList.unshift(\"Rick\");"
+            ],
+            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\nrankingList.unshift(\"Rick\");\nconsole.log(rankingList);"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجًا يُخرج الترتيب إلى وحدة التحكم.\nأنشئ برنامجًا في السطر 3 كما يلي:\n(1) أضف \"Cody\" إلى بداية قائمة الترتيب.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "rankingList.unshift(\"Cody\");"
+            ],
+            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\nrankingList.unshift(\"Cody\");\nconsole.log(rankingList);"
+          },
+          "label": "الخامس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى اختيار البرنامج الذي يضيف كلمة \"dog\" إلى نهاية قائمة الأحرف من بين الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "letterList.push(\"dog\");"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار البرنامج الذي يحذف القيمة الأخيرة لـ letterList من بين الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "letterList.pop();"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى اختيار السلسلة النصية التي ستُعرض في وحدة التحكم عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "cat,bird"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى اختيار البرنامج الذي يضيف السلسلة 'diary' إلى بداية قائمة الأحرف من بين الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "letterList.unshift(\"diary\");"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يُخرج السلسلة النصية \"program\" إلى وحدة التحكم.\nأضف برنامجًا في السطر 3 لحذف القيمة الأخيرة من قائمة الأحرف (letterList).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "letterList.pop();"
+          ],
+          "template": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n___\nconsole.log(letterList);",
+          "full_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\nletterList.pop();\nconsole.log(letterList);"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "أضف برنامجًا في السطر 3 يضيف \"green\" إلى الفهرس 0 من قائمة الألوان (colorList).",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "colorList.unshift(\"green\");"
+          ],
+          "template": "let colorList = [\"red\", \"blue\", \"yellow\"];\n___\nconsole.log(colorList);",
+          "full_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\ncolorList.unshift(\"green\");\nconsole.log(colorList);"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

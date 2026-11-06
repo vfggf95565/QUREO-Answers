@@ -1,0 +1,224 @@
+{
+  "level": 44,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ صفحة قائمة مقهى. اكتب العنوان والعناصر التي ستُعرض في رأس الصفحة.\nأدخل ما يلي في المحرر.\n(1) استخدم وسم h1 لعرض العنوان\nCAFE MENU (2) استخدم وسمي  و  لعرض About the Cafe و Menu",
+          "answer": {
+            "type": "text",
+            "value": "كتابة او نسخ الكود التالي\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ صفحة قائمة مقهى.\nاكتب وسم header في قسم رأس الصفحة.\nأدخل ما يلي في المحرر.\n...",
+          "answer": {
+            "type": "text",
+            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ صفحة قائمة مقهى. أضف لون خلفية إلى قسم رأس الصفحة.\nأدخل ما يلي في المحرر.\nSelector: header\nProperty: background-color",
+          "answer": {
+            "type": "code",
+            "value": "header {\n  background-color: rgb(255, 255, 180);\n}",
+            "note": "كتابة او نسخ الكود التالي"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "1"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ صفحة قائمة مقهى. أضف قائمة طعام إلى قسم المحتوى الرئيسي.\nأدخل وسم div بدءًا من السطر 9 فصاعدًا.",
+          "answer": {
+            "type": "text",
+            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<div>\n<h1>Menu List</h1>\n</div>"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ صفحة قائمة مقهى. أضف قائمة طعام إلى قسم المحتوى الرئيسي.\nأضف سمة class إلى وسم div في السطر 9. اضبط اسم الفئة على \"main\".",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "class=\"main\""
+            ],
+            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<div ___>\n<h1>Menu List</h1>\n</div>",
+            "full_code": "<div class=\"main\">",
+            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n</div>"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ صفحة قائمة مقهى. أضف قائمة طعام إلى قسم المحتوى الرئيسي.\nأدخل ما يلي بدءًا من السطر 11 فصاعدًا.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<div class=\"main\">",
+            "full_code": "<li>Donuts<img src=\"donuts.png\"></li>",
+            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ صفحة قائمة مقهى.\nأضف فاصل سطر باستخدام وسم br بين Donuts والصورة في السطر 12.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "<li>Donuts<br><img src=\"donuts.png\"></li>"
+            ],
+            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n___\n</ul>\n</div>",
+            "full_code": "<li>Donuts<br><img src=\"donuts.png\"></li>",
+            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ صفحة قائمة مقهى.\nأضف وصفًا للصورة. *لن يتم عرض الصورة حتى عند التنفيذ.\nأدخل ما يلي في السطر 12.\n(1) أضف \"Donut image\" إلى سمة alt",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "alt=\"Donut image\""
+            ],
+            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donut.png\" ___></li>\n  </ul>\n</div>",
+            "full_code": "<li>Donut<br><img src=\"donut.png\" alt=\"Donut image\"></li>",
+            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "أنشئ صفحة قائمة مقهى.\nأضف صورة مشروب.\nأدخل الصورة على النحو التالي في السطر 13.\nاسم الصورة: \"cafe_latte.png\"\nسمة alt \"Cafe latte image\"",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "<li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>"
+            ],
+            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    ___\n  </ul>\n</div>",
+            "full_code": "<li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>",
+            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+          },
+          "label": "السادس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أنشئ صفحة قائمة مقهى.\nأدخل HTML على النحو التالي بدءًا من السطر 17 فصاعدًا.\n(1) أحط قسم التذييل بأكمله بوسم\nfooter (2) أنشئ قائمة باستخدام وسمي  و  لـ Access و \"Contact",
+          "answer": {
+            "type": "partial",
+            "answer_code": "<div class=\"main\">",
+            "full_code": "<li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n<li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>",
+            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>\n<footer>\n<ul>\n<li>Access</li>\n<li>Contact</li>\n</ul>\n</footer>"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "1"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ صفحة قائمة مقهى. أضف لون خلفية إلى قسم التذييل.\nأدخل CSS على النحو التالي بدءًا من السطر 4 فصاعدًا.\nSelector: footer\nProperty: background-color\nValue: #1e90ff",
+          "answer": {
+            "type": "code",
+            "value": "header {\n  background-color: rgb(255, 255, 180);\n}\nfooter {\n  background-color: #1e90ff;\n}"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ صفحة قائمة مقهى.\nغيّر لون نص قسم التذييل.\nأدخل CSS على النحو التالي في السطر 6.\nProperty: color\nValue: #ffffff",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "color: #ffffff;"
+            ],
+            "template": "header {\n  background-color: rgb(255, 255, 180);\n}\nfooter {\n  background-color: #1e90ff;\n  ___\n}",
+            "full_code": "header {\n  background-color: rgb(255, 255, 180);\n}\nfooter {\n  background-color: #1e90ff;\n  color: #ffffff;\n}"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أدرج صورة باسم الملف \"mountain_hut.png\". أضف سمة alt إليها أيضًا. الرجاء تحديد الكود المناسب من الخيارات.",
+        "answer": {
+          "type": "code",
+          "value": "<img src=\"mountain_hut.png\" alt=\"Mountain hut photo\">"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "عند كتابة رأس صفحة ويب في HTML، الرجاء تحديد الوسم الذي يجب استخدامه لإحاطة كود قسم رأس الصفحة من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "<header> </header>"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "الرجاء إضافة class باسم \"mountains\" إلى وسم div.",
+        "answer": {
+          "type": "code",
+          "value": "<div class=\"mountains\">",
+          "note": "تعديل او مسح ونسخ الكود ليصبح هكذا\n<h1>World Mountains</h1>\n<ul>\n<li>Mount Everest</li>\n<li>Mount McKinley</li>\n<li>Mount Kilimanjaro</li>\n</ul>\n</div>"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "عند كتابة تذييل صفحة ويب في HTML، الرجاء تحديد الوسم الذي يجب استخدامه لإحاطة كود قسم التذييل من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "<footer> </footer>"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "الرجاء تحديد وصف CSS الأكثر ملاءمة من الخيارات لجعل لون خلفية قسم التذييل بأكمله هو اللون الممثل بكود اللون #e0a241.",
+        "answer": {
+          "type": "code",
+          "value": "footer{\n  background-color: #e0a241;\n}"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

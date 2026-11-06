@@ -1,0 +1,147 @@
+{
+  "level": 48,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يخبرك إذا فزت عند إدخال رقم يانصيب.\nأرقام اليانصيب مُعرّفة باسم numList، وتم إسناد أرقام اليانصيب إلى المصفوفة.\nأنشئ البرنامج كما يلي:\n・استخدم for of لإخراج القيم التي تقبل القسمة على 7 فقط من قيم الثابت numList\nلكن يجب أن يكون اسم الثابت الذي يخزّن القيمة المُخرجة من الثابت numList هو num.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "const num of numList"
+            ],
+            "template": "const numList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\nfor (___) {\n  if (num % 7 == 0) {\n    console.log(num);\n  }\n}",
+            "full_code": "const numList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\nfor (const num of numList) {\n  if (num % 7 == 0) {\n    console.log(num);\n  }\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يعدّ عدد الأرقام الفائزة ضمن أرقام اليانصيب (0-999).\nمتغير العدّ مُعرّف باسم count، وتم إسناد 0 إليه.\nأدخل البرنامج كما يلي:\n(1) في السطر 2، جملة for حيث يبدأ المتغير i من 0 ويتكرر حتى 999 (i <= 999)\n(2) من السطر 3 فصاعدًا، إذا كان الباقي عند قسمة i على 7 يساوي 0، أضف 1 إلى count\n* ولكن يُرجى استخدام معامل الزيادة.",
+          "answer": {
+            "type": "code",
+            "value": "let count = 0;\nfor (let i = 0; i <= 999; i++) {\n  if (i % 7 == 0) {\n    count++;\n  }\n}\nconsole.log(count);"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنت تنشئ برنامج دالة يبحث عن الأرقام الفائزة من مصفوفة.\nفي السطر 1، أنشئ دالة باسم checkWinningNum واسم الوسيط numList.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "function",
+              "checkWinningNum",
+              "numList"
+            ],
+            "template": "___ ___(___) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);",
+            "full_code": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجًا يقوم بإخراج المنتج الذي يمكنك الحصول عليه اعتمادًا على الهدف الذي تصيبه عند إدخال رقم الهدف الذي أصبته.\nالهدف المصاب مُعرّف باسم target، وتم إسناد \"1\" إليه.\nقم بتجميع المعالجة في جملة switch ابتداءً من السطر 3 حسب الحالات المتشابهة.\n(1) إذا كانت 4 و8، اعرض \"Video game Get\" في وحدة التحكم\n(2) إذا كانت 1 و7، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(3) إذا لم ينطبق أيٌّ منها، اعرض \"Sticker Get\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "const target = 1;\n\nswitch (target){\ncase 4:\ncase 8:\nconsole.log(\"Video game Get\");\nbreak;\ncase 1:\ncase 7:\nconsole.log(\"Candy Assortment Get\");\nbreak;\ndefault:\nconsole.log(\"Sticker Get\");\n　break;\n}"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "أنشئ برنامجًا يقوم بإخراج \"It's sold out\" إذا كانت مقاعد دار السينما قد نفدت.\nالمقاعد مُعرّفة باسم seat، وتم إسناد sold out إليها.\nأعد كتابة التعبير الشرطي في السطر 2 كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "if (!(seat == \"available\")) {"
+            ],
+            "template": "let seat = \"sold out\";\n___\n  console.log(\"It's sold out\");\n}",
+            "full_code": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}"
+          },
+          "label": "السادس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "3"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "أنشئ برنامجًا يقوم بإخراج جميع قيم الثابت numList إلى وحدة التحكم.\nأنشئ البرنامج كما يلي.\n① استخدم for of لإخراج جميع قيم الثابت numList\nلكن يجب أن يكون اسم الثابت الذي يخزّن القيمة المأخوذة من الثابت numList هو num.",
+        "answer": {
+          "type": "code",
+          "value": "const numList = [2, 4, 6, 8];\nfor (const num of numList) {\n  console.log(num);\n}"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر شرح نتيجة الإخراج عند تنفيذ البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "عدد القيم من 0 إلى 6 التي تقبل القسمة على 2"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "10"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يتغيّر فيه الإخراج اعتمادًا على قيمة weather باستخدام switch statement.\nأنشئ جملة switch كما يلي.\nأنشئها دون تجميع المعالجات.\n① إذا كانت sunny، اعرض \"Let's go shopping\" في وحدة التحكم\n② إذا كانت cloudy، اعرض \"Let's go shopping\" في وحدة التحكم\n③ إذا كانت rainy، اعرض \"Let's stay home\" في وحدة التحكم\nيُرجى أن يكون البرنامج بالكامل من 13 سطرًا.",
+        "answer": {
+          "type": "code",
+          "value": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "هذا برنامج لتقسيم أرقام الطلاب من 1 إلى 10 إلى مجموعات.\nيتغيّر الإخراج اعتمادًا على الباقي عند قسمة قيمة i على 3، ويتكرر الإخراج حتى تصبح i تساوي 10.\nاملأ الفراغات في البرنامج لإكماله.",
+        "answer": {
+          "type": "code",
+          "value": "for (let i = 1; i <= 10; i++) {\n  switch (i % 3) {\n    case 0:\n      console.log(\"Student \" + i + \" is in Group C\");\n      break;\n    case 1:\n      console.log(\"Student \" + i + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + i + \" is in Group B\");\n      break;\n  }\n}"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي من الخيارات.",
+        "answer": {
+          "type": "text",
+          "value": "No output"
+        },
+        "label": "السابع"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  }
+}

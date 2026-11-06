@@ -1,0 +1,178 @@
+{
+  "level": 49,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يقوم بإخراج إجمالي المسافة الممشاة حتى تتجاوز 100km.\nأنشئ البرنامج في السطر 1 كما يلي:\n(1) صرّح عن المتغير distance وأسنِد إليه 0",
+          "answer": {
+            "type": "code",
+            "value": "let distance = 0;"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بإخراج إجمالي المسافة الممشاة حتى تتجاوز 100km.\nالمسافة الممشاة مُعرّفة باسم distance، وتم إسناد 0 إليها في البداية.\nأنشئ جملة while ابتداءً من السطر 2 كما يلي:\n(1) طالما أن distance أقل من 100، كرّر distance = distance + 6",
+          "answer": {
+            "type": "code",
+            "value": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n}"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يقوم بإخراج إجمالي المسافة الممشاة حتى تتجاوز 100km.\nالمسافة الممشاة مُعرّفة باسم distance، وتم إسناد 0 إليها في البداية.\nأنشئ البرنامج كما يلي:\n(1) اعرض \"Walked a total of XYZkm\" والمسافة إلى وحدة التحكم",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "distance"
+            ],
+            "template": "let ___ = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+            "full_code": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "questions": {
+        "u1": {
+          "question": "ما هو البرنامج المستخدم عندما ترغب في التكرار فقط طالما تحقق شرط معين؟",
+          "answer": {
+            "type": "text",
+            "value": "while statements"
+          }
+        },
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "المال المُودَع يصبح 1.2 مرة كل سنتين. أنشئ برنامجًا يُخرج عدد السنوات التي يستغرقها لتجاوز 50000 codycoins.\nالمال المُودَع مُعرّف باسم money، وتم إسناد 20000 إليه في البداية.\nعدد السنوات مُعرّف باسم year، وتم إسناد 0 إليه في البداية.\nأنشئ جملة while ابتداءً من السطر 3 كما يلي:\n(1) طالما أن money أقل من 50000، كرّر year++",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "while",
+              "money < 50000",
+              "year++"
+            ],
+            "template": "let money = 20000;\nlet year = 0;\n___ (___) {\n  ___;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");",
+            "full_code": "let money = 20000;\nlet year = 0;\nwhile (money < 50000) {\n  year++;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "2"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يُخرج عدد بطولات كأس العالم، التي تُقام مرة كل 4 سنوات، التي ستُقام من 2026 إلى 2100.\nالسنة مُعرّفة باسم year، وتم إسناد 2026 إليها في البداية.\nعدد البطولات مُعرّف باسم tournamentCount، وتم إسناد 0 إليه في البداية.\nأنشئ جملة while ابتداءً من السطر 4 كما يلي:\n(1) طالما أن year تساوي 2100 أو أقل، كرّر tournamentCount++ و year = year + 4",
+          "answer": {
+            "type": "code",
+            "value": "let year = 2026;\nlet tournamentCount = 0;\nwhile (year <= 2100) {\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");"
+          },
+          "label": "الثاني"
+        },
+        "u1": {
+          "question": "هل تتم إضافة 1 إلى tournamentCount في 2034؟",
+          "answer": {
+            "type": "text",
+            "value": "تُضاف القيمة 1 إلى tournamentCount في 2034."
+          }
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يُخرج عدد بطولات كأس العالم، التي تُقام مرة كل 4 سنوات، التي ستُقام من 2026 إلى 2100.\nالسنة مُعرّفة باسم year، وتم إسناد 2026 إليها في البداية.\nعدد البطولات مُعرّف باسم tournamentCount، وتم إسناد 0 إليه في البداية.\nأنشئ جملة if ابتداءً من السطر 5 كما يلي:\n(1) إذا كانت year تساوي 2050، نفّذ year = year + 4 ثم continue",
+          "answer": {
+            "type": "code",
+            "value": "let year = 2026;\nlet tournamentCount = 0;\nwhile (year <= 2100) {\n  if (year == 2050) {\n    year = year + 4;\n    continue;\n  }\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "u1",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أنشئ برنامجًا باستخدام while statement يزيد قيمة num بمقدار 7 طالما أن num أقل من 100. استخدم count لإخراج عدد مرات التكرار في النهاية.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "num < 100"
+          ],
+          "template": "let num = 0;\nlet count = 0;\nwhile (___) {\n  num += 7;\n  count++;\n}\nconsole.log(count);",
+          "full_code": "let num = 0;\nlet count = 0;\nwhile (num < 100) {\n  num += 7;\n  count++;\n}\nconsole.log(count);"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي:",
+        "answer": {
+          "type": "text",
+          "value": "3\n6\n9"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجًا يقوم بإخراج جميع سنوات الألعاب الأولمبية بين 2024 و2200 إلى وحدة التحكم.\nإذا كان باقي قسمة المتغير year على 4 يساوي 0، فأكمل البرنامج ليخرج\n\"XYZ is an Olympic year\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "year % 4 == 0"
+          ],
+          "template": "let year = 2024;\nwhile (year <= 2200) {\n  if (___) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}",
+          "full_code": "let year = 2024;\nwhile (year <= 2200) {\n  if (year % 4 == 0) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي:",
+        "answer": {
+          "type": "text",
+          "value": "Count: 0\nCount: 1\nCount: 3\nCount: 4"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أضف البرنامج التالي ابتداءً من السطر 5 داخل معالجة while statement المكتوبة.\nإذا كان a == 5، نفّذ a = a + 1 وتخطَّ بقية المعالجة.",
+        "answer": {
+          "type": "code",
+          "value": "let a = 0;\nlet b = 0;\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

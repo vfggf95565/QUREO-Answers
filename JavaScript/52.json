@@ -1,0 +1,217 @@
+{
+  "level": 52,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يتحقق مما إذا كانت كلمة \"dag\" موجودة في قائمة الكلمات.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "wordList.includes"
+            ],
+            "template": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\nconsole.log(___(\"dag\"));",
+            "full_code": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\nconsole.log(wordList.includes(\"dag\"));"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يتحقق مما إذا كانت كلمة \"bell\" موجودة في قائمة الكلمات.\nأنشئ برنامجًا في السطر 3 كما يلي:\n(1) تحقق مما إذا كانت قائمة الكلمات تحتوي على كلمة \"bell\" واطبع النتيجة في وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(wordList.includes(\"bell\"));"
+            ],
+            "template": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\n___",
+            "full_code": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\nconsole.log(wordList.includes(\"bell\"));"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يتحقق من فهرس كلمة \"sun\" في قائمة الكلمات.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "wordList.indexOf"
+            ],
+            "template": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\nconsole.log(___(\"sun\"));",
+            "full_code": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\nconsole.log(wordList.indexOf(\"sun\"));"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يتحقق من فهرس كلمة \"pen\" في قائمة الكلمات.\nأنشئ برنامجًا في السطر 3 كما يلي:\n(1) تحقق من فهرس كلمة \"pen\" في قائمة الكلمات، واعرض النتيجة في وحدة التحكم.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "console.log(wordList.indexOf(\"pen\"));"
+            ],
+            "template": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n___",
+            "full_code": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\nconsole.log(wordList.indexOf(\"pen\"));"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يُعيد ترتيب الأسماء في المصفوفة أبجديًا.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "nameList.sort();"
+            ],
+            "template": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\n___\nconsole.log(nameList);",
+            "full_code": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\nnameList.sort();\nconsole.log(nameList);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا لترتيب الأسماء في المصفوفة أبجديًا.\nأنشئ البرنامج من السطر 3 فصاعدًا كما يلي:\n(1) ترتيب قائمة الأسماء (nameList)\n(2) عرض قيم قائمة الأسماء (nameList) في وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\nnameList.sort();\nconsole.log(nameList);"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يُعيد ترتيب الأسماء في المصفوفة أبجديًا.\nأدخل البرنامج في السطر 3 كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "rankingList.reverse();"
+            ],
+            "template": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\nrankingList.reverse();\nconsole.log(rankingList);"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يعكس ترتيب الأسماء في المصفوفة.\nأنشئ برنامجًا بدءًا من السطر 3 كما يلي:\n(1) اعكس ترتيب القيم في قائمة الترتيب (rankingList).\n(2) اعرض قيم قائمة الترتيب (rankingList) في وحدة التحكم.",
+          "answer": {
+            "type": "code",
+            "value": "const rankingList = [\"Mason\", \"Isabella\", \"William\", \"Charlotte\", \"Rick\"];\nrankingList.reverse();\nconsole.log(rankingList);"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى اختيار الناتج المطلوب عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "false"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى اختيار المخرجات عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "answer": {
+          "type": "text",
+          "value": "1"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجًا يُخرج أسماء الفواكه بالترتيب الأبجدي.\nيرجى اختيار البرنامج المراد إضافته في قسم \"أضف البرنامج أسفل هذا السطر\" من الخيارات المتاحة.\n//أضف البرنامج أسفل هذا السطر",
+        "answer": {
+          "type": "code",
+          "value": "fruitList.sort();"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى اختيار الخيار الذي يعكس ترتيب قيم قائمة الأرقام.",
+        "answer": {
+          "type": "text",
+          "value": "numList.reverse();"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يُخرج القيمة \"true\" إلى وحدة التحكم إذا كانت قيم قائمة الضيوف تحتوي على \"Wilson\"، و\"false\" إذا لم تكن كذلك. أضف البرنامج إلى السطر 3.\nعند تنفيذ البرنامج المكتمل، تُخرج القيمة \"true\" إلى وحدة التحكم.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "guestList.includes(\"Wilson\")"
+          ],
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(___);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(guestList.includes(\"Wilson\"));"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اكتب برنامجًا في السطر 3 بحيث يتم إخراج قيم guestList إلى وحدة التحكم بالترتيب الأبجدي.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "guestList.sort();"
+          ],
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n___\nconsole.log(guestList);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nguestList.sort();\nconsole.log(guestList);"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}
