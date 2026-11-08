@@ -110,7 +110,7 @@
           "question": "أي من البرامج التالية سيطبع True أو False؟\nmath = 80\nprint(math == 80)",
           "answer": {
             "type": "text",
-            "value": "true"
+            "value": "True"
           }
         }
       },
