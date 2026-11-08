@@ -117,13 +117,8 @@
         "2": {
           "question": "عدّل السطر الأول ليكون مثل البرنامج التالي.#When executed, characters are print to the console",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "#"
-            ],
-            "template": "___When executed, characters are print to the console\nprint(\"Hello\")",
-            "full_code": "print(\"Hello\")",
-            "note": "#When executed, characters are print to the console"
+            "type": "code",
+            "value": "#When executed, characters are print to the console\nprint(\"Hello\")"
           },
           "label": "الثاني"
         }
@@ -143,8 +138,7 @@
               "#"
             ],
             "template": "___This is a practice memo\nprint(\"Good morning\")\nprint(\"Hello\")\nprint(\"Good evening\")",
-            "full_code": "print(\"Good morning\")\nprint(\"Hello\")\nprint(\"Good evening\")",
-            "note": "#This is a practice memo"
+            "full_code": "#This is a practice memo\nprint(\"Good morning\")\nprint(\"Hello\")\nprint(\"Good evening\")"
           },
           "label": "الاول"
         },
