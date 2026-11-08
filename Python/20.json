@@ -1,0 +1,144 @@
+{
+  "level": 20,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا للتحقق مما إذا كانت منصة الفصل الدراسي جاهزة.\nقم بتعيين True للمتغير is_ready، وإذا كان جاهزًا، فقم بإخراج \"Ready to go!\"\nأنشئ برنامجك على النحو التالي.\n① قم بتعيين True للمتغير is_ready\n② إذا كان is_ready، فأخرج \"Ready to go!\"",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "if is_ready:"
+            ],
+            "template": "is_ready = True\n___\n    print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")",
+            "full_code": "print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")",
+            "note": "if is_ready:"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "تحقق من نوع البيانات للقيمة المعينة لـ is_ready، وقم بإخراجها إلى الشاشة.\nاكتب في المحرر بنفس الطريقة الموضحة أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(type(is_ready))"
+            ],
+            "template": "is_ready = True\n___",
+            "full_code": "is_ready = True\nprint(type(is_ready))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "يمكنك إنشاء كشك إذا جمعت 8 تذاكر أو أكثر وقدمت المساعدة 4 مرات أو أكثر.\nتحقق من كلا الشرطين، ticket_count و help_count، وقم بتعيين True أو False للنتيجة.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "ticket_count = 8\nhelp_count = 5\nresult = False\nif ticket_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False",
+            "full_code": "print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+            "note": "if result:"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "احسب عدد العناصر التي تتسع على الرف كعدد صحيح، ثم اعرضه على الشاشة.\nيبلغ عرض الرف 64.8 سم، ويبلغ حجم كل صندوق جوائز 9.5 سم.\nأنشئ برنامجك على النحو التالي.\n① اكتب import math في الأعلى\n② استخدم math.floor لحذف الجزء العشري من 64.8 / 9.5، واعرض الناتج",
+          "answer": {
+            "type": "code",
+            "value": "print(math.floor(64.8 / 9.5))",
+            "note": "يفضل نسخ كل سطر في مرة منفصلة\nimport math"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجًا يعرض رقم سحب عشوائيًا (عددًا صحيحًا من 0 إلى 9).\nأنشئ برنامجك على النحو التالي.\n① اكتب import math و import random\n② اعرض math.floor(random.random() * 10) على الشاشة",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "import math",
+              "math.floor(random.random() * 10)"
+            ],
+            "template": "___\nimport random\nprint(___)",
+            "full_code": "print(math.floor(random.random() * 10))",
+            "note": "import math\nimport random"
+          },
+          "label": "الخامس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر مخرجات البرنامج التالي من الخيارات المتاحة.\nTrue تعني تشغيل و False تعني إيقاف تشغيل لـ lamp_on.\nlamp_on = True\nif lamp_on:\nprint(\"ON\")\nelse:\nprint(\"OFF\")",
+        "answer": {
+          "type": "text",
+          "value": "ON"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "ما هو نوع البيانات للقيمة المعينة للمتغير team_name أدناه؟",
+        "answer": {
+          "type": "text",
+          "value": "str"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر مخرجات البرنامج التالي من الخيارات المتاحة.\nis_ready = False\nprint(type(is_ready))",
+        "answer": {
+          "type": "text",
+          "value": "<class 'bool'>"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر البرنامج الصحيح الذي يستخدم math.floor.",
+        "answer": {
+          "type": "text",
+          "value": "import math\nprint(math.floor(4.7))"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يعرض عددًا صحيحًا عشوائيًا مكونًا من رقم واحد، كما يلي.\n① اكتب import math و import random\n② اعرض math.floor(random.random() * 10) على الشاشة",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(math.floor(random.random() * 10))"
+          ],
+          "template": "import math\nimport random\n___",
+          "full_code": "print(math.floor(random.random() * 10))",
+          "note": "import math\nimport random"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "في البرنامج، أدخل تعبيرًا شرطيًا يقول إذا \"the random value is 0.7 or greater.\"\nاستخدم الدالة random.random().",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "if random.random() >= 0.7:"
+          ],
+          "template": "import random\n___\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")",
+          "full_code": "if random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")",
+          "note": "import random"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

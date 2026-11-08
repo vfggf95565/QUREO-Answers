@@ -1,0 +1,142 @@
+{
+  "level": 3,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا يطبع قيمة المتغير apples في وحدة التحكم.\nأدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(apples)"
+            ],
+            "template": "apples = 0\napples = apples + 3\napples = apples + 7\n___",
+            "full_code": "apples = 0\napples = apples + 3\napples = apples + 7\nprint(apples)"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا يطبع \"apples\" في وحدة التحكم.\nأدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(\"apples\")"
+            ],
+            "template": "apples = 0\napples = apples + 3\napples = apples + 7\n___",
+            "full_code": "apples = 0\napples = apples + 3\napples = apples + 7\nprint(\"apples\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "عيّن 0 للمتغير grapes، ثم عيّن قيمة grapes مضافا إليها 8، ثم عيّن قيمة grapes مضافا إليها 12،\nوأنشئ برنامجا يطبع قيمة المتغير في وحدة التحكم.\nأدخل البرنامج نفسه كما هو موضح أدناه.\ngrapes + 8\ngrapes + 12",
+          "answer": {
+            "type": "code",
+            "value": "grapes = 0\ngrapes = grapes + 8\ngrapes = grapes + 12\nprint(grapes)",
+            "note": "لنجاح النسخ انسخ كل سطر في مرة منفصلة او اول سطر في مرة والباقي في مرة\nتاكد من عدم وجود اسطر زيادة"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) عيّن 0 إلى strawberries\n(2) عيّن قيمة strawberries مضافا إليها 5\n(3) عيّن قيمة strawberries مضافا إليها 8\n(4) اطبع قيمة strawberries في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "strawberries = 0\nstrawberries = strawberries + 5\nstrawberries = strawberries + 8\nprint(strawberries)",
+            "note": "في حالة عدم نجاح النسخ انسخ اول سطر وانسخ الباقي او اكتب الكود يدويا"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) عيّن 4 إلى pears\n(2) عيّن قيمة pears مضافا إليها 6\n(3) عيّن قيمة pears مضافا إليها 7\n(4) اطبع قيمة pears في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "pears = 4\npears = pears + 6\npears = pears + 7\nprint(pears)",
+            "note": "في حاله النسخ انسخ كل سطر في مرة لتخطى حمايه المنصة مع تشغيل الكود في كل مرة"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لإنشاء المتغير score.",
+        "answer": {
+          "type": "code",
+          "value": "score = 0;"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح لطباعة قيمة المتغير score في وحدة التحكم.\n*المتغير score لديه قيمة بالفعل.",
+        "answer": {
+          "type": "text",
+          "value": "print(score)"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجا كما يلي.\n(1) أسند 0 إلى المتغير number\n*حتى إذا ضغطت \"Run Code\"، فلن تتم طباعة أي شيء في وحدة التحكم.\nبعد الإدخال، انقر على \"Answer\".",
+        "answer": {
+          "type": "code",
+          "value": "number = 0;",
+          "note": "يكتب في سطر واحد فقط"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "في السطر الثاني، أدخل البرنامج الذي تم إنشاؤه كما يلي.\n(1) أسند 100 إلى المتغير number\n*حتى إذا ضغطت \"Run Code\"، فلن تتم طباعة أي شيء في وحدة التحكم.\nبعد الإدخال، انقر على \"Answer\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "number = 100;"
+          ],
+          "template": "number = 0;\n___",
+          "full_code": "number = 0;\nnumber = 100;"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "في السطر الثالث، أدخل البرنامج الذي تم إنشاؤه كما يلي.\n(1) اطبع قيمة المتغير number في وحدة التحكم\nاكتب برنامجا يطبع قيمة number في وحدة التحكم.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(number)"
+          ],
+          "template": "number = 0;\nnumber = 10;\n___",
+          "full_code": "number = 0;\nnumber = 10;\nprint(number)"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "ابتداء من السطر الثاني، أدخل البرنامج الذي تم إنشاؤه كما يلي.\n(1) أسند قيمة المتغير number زائد 10\n(2) اطبع قيمة المتغير number في وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "number = 3;\nnumber = number + 10;\nprint(number)"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

@@ -1,2 +1,257 @@
-
-
+{
+  "level": 1,
+  "lessons": {
+    "1": {
+      "questions": {
+        "u1": {
+          "question": "لنجرِ محادثةً مع الجميع.\nكودي هو أيضًا AI",
+          "answer": {
+            "type": "text",
+            "value": "سيرد كودي أيضًا."
+          }
+        }
+      },
+      "_order": [
+        "u1"
+      ]
+    },
+    "2": {
+      "questions": {
+        "u1": {
+          "question": "كم عدد لغات البرمجة في العالم؟",
+          "answer": {
+            "type": "text",
+            "value": "أكثر من 100 نوع"
+          }
+        }
+      },
+      "_order": [
+        "u1"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Hello\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Good morning\")",
+            "note": "وتاكد من عدم اضافه اسطر زيادة"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "4": {
+      "questions": {
+        "u1": {
+          "question": "ماذا تسمّي وحدة التحكم السوداء التي تكتب فيها برنامجًا؟",
+          "answer": {
+            "type": "text",
+            "value": "المحرر"
+          }
+        },
+        "1": {
+          "question": "أدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Good evening\")",
+            "note": "تاكد من عدم اضافه اسطر زيادة"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا كما يلي.\n(1) اطبع \"Good night\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Good night\")",
+            "note": "تاكد من عدم اضافه اسطر زيادة"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجًا كما يلي.\n(1) اطبع \"Let's do our best\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Let's do our best\")"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "عدّل السطر الأول ليكون مثل البرنامج التالي.#When executed, characters are print to the console",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "#"
+            ],
+            "template": "___When executed, characters are print to the console\nprint(\"Hello\")",
+            "full_code": "print(\"Hello\")",
+            "note": "#When executed, characters are print to the console"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "6": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا كما يلي.\n(1) اجعل الجملة \"This is a practice memo\" تعليقًا",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "#"
+            ],
+            "template": "___This is a practice memo\nprint(\"Good morning\")\nprint(\"Hello\")\nprint(\"Good evening\")",
+            "full_code": "print(\"Good morning\")\nprint(\"Hello\")\nprint(\"Good evening\")",
+            "note": "#This is a practice memo"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "عدّل السطر الثاني ليكون مثل البرنامج التالي.#print(\"Grapes\")",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "#"
+            ],
+            "template": "print(\"Bread\")\n___print(\"Grapes\")\nprint(\"Yogurt\")",
+            "full_code": "print(\"Bread\")\n#print(\"Grapes\")\nprint(\"Yogurt\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "عدّل البرنامج كما يلي.\n(1) علّق البرنامج الذي يطبع \"Fish\" في وحدة التحكم",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "#"
+            ],
+            "template": "print(\"Mercury\")\n___print(\"Fish\")\nprint(\"Venus\")\nprint(\"Mars\")",
+            "full_code": "print(\"Mercury\")\n#print(\"Fish\")\nprint(\"Venus\")\nprint(\"Mars\")"
+          },
+          "label": "الثالث"
+        },
+        "u1": {
+          "question": "هل كل شيء ممتاز حتى الآن؟",
+          "answer": {
+            "type": "text",
+            "value": "ممتاز"
+          }
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "u1"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لطباعة \"Hello\" في وحدة التحكم.",
+        "answer": {
+          "type": "text",
+          "value": "print(\"Hello\")"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "يرجى إنشاء البرنامج كما هو موضح أدناه.\n(1) تتم طباعة \"Good morning\" في وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "print(\"Good morning\")"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى إنشاء البرنامج كما هو موضح أدناه.\n(1) اطبع \"programming\" في وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "print(\"programming\")",
+          "note": "مع التاكيد ان يكون البرنامج مكون من سطر واحد فقط"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "يرجى إنشاء البرنامج كما هو موضح أدناه.\n(1) اطبع \"hello\" في وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "print(\"hello\")",
+          "note": "مع التاكيد ان يكون البرنامج مكون من سطر واحد فقط"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يرجى اختيار الطريقة الصحيحة لكتابة تعليق.",
+        "answer": {
+          "type": "text",
+          "value": "#Write a comment here"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "علّق البرنامج بحيث تكون الطباعة كما هو موضح أدناه.\nHello\nmy name is\nCody",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "#"
+          ],
+          "template": "print(\"Hello\")\nprint(\"My name is\")\n___print(\"Rick\")\nprint(\"Cody\")",
+          "full_code": "print(\"Hello\")\nprint(\"My name is\")\n#print(\"Rick\")\nprint(\"Cody\")"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

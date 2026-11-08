@@ -1,0 +1,151 @@
+{
+  "level": 14,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) استخدم دالة التقريب (round) لتقريب العدد 5.7، ثم اعرض الناتج على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "print(round(5.7))"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) استورد مكتبة math\n(2) مرر القيمة 5.5 إلى دالة round، واعرضها على الشاشة\n(3) مرر القيمة 5.5 إلى دالة math.floor، واعرضها على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "print(round(5.5))\nprint(math.floor(5.5))",
+            "note": "import math"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) مرر الوسيطين 10 و20 إلى الدالة max، واعرض الناتج على الشاشة.\n(2) مرر الوسيطين 10 و20 إلى الدالة min، واعرض الناتج على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "print(max(10, 20))\nprint(min(10, 20))"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) استورد الدالة random\n(2) استدعِ الدالة random.random واعرض النتيجة على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "print(random.random())",
+            "note": "import random"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "ستقوم بإنشاء دالة، عند تمرير مبلغ إجمالي إليها، تُعيد القيمة مقسومة على 4.\nأنشئ برنامجك كما يلي:\n(1) أنشئ دالة باسم split4، واسم وسيطها total.\n(2) عرّف المتغير result، وأسند إليه معادلة الحساب total / 4.\n(3) أعد قيمة المتغير result.\n(4) مرر الوسيط 1200 إلى الدالة split4، واعرض النتيجة على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "def split4(total):\n    result = total / 4\n    return result\n\nprint(split4(1200))",
+            "note": "ملحوظة : لنجاح النسخ وعدم ظهور خطا رجاء نسخ كل سطر وحده ومراعاه السطر الفارغ او كتابة الكود يدوي"
+          },
+          "label": "الخامس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "يرجى تحديد الدالة الصحيحة لتقريب العدد.",
+        "answer": {
+          "type": "text",
+          "value": "round(1.8)"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "حدد نتيجة تشغيل البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "60"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "يرجى اختيار البرنامج الصحيح لإخراج قيمة عددية عشوائية.\n* افترض أنه تم استيراده مسبقًا.",
+        "answer": {
+          "type": "text",
+          "value": "print(random.random())"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر نتيجة تشغيل البرنامج أدناه.\nimport math\nprint(math.floor(12.8))",
+        "answer": {
+          "type": "text",
+          "value": "12"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يُعيد عددًا صحيحًا عشوائيًا كما يلي:\n(1) استخدم الدالة \"random.random\" لإعادة قيمة عددية عشوائية.\n(2) اضرب القيمة العددية العشوائية المُعادة في 10.\n(3) استخدم الدالة \"math.floor\" لإعادة عدد صحيح.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(math.floor(random.random() * 10))"
+          ],
+          "template": "import math\nimport random\n___",
+          "full_code": "print(math.floor(random.random() * 10))",
+          "note": "import math\nimport random"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "يرجى تحديد البرنامج الصحيح لإنشاء دالة باسم الدالة calc واسم الوسيط num.",
+        "answer": {
+          "type": "code",
+          "value": "def calc(num):",
+          "note": "المعالجة"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "أضف إلى البرنامج المكتوب سطرًا يُعيد قيمة المتغير \"result\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "return result;"
+          ],
+          "template": "def calc(num):\n    result = num * 7;\n    ___\nprint(calc(10))",
+          "full_code": "def calc(num):\n    result = num * 7;\n    return result;\nprint(calc(10))"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "أضف برنامجًا يستدعي الدالة \"calc\".\nاستخدم \"3\" كوسيط.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(calc(3))"
+          ],
+          "template": "def calc(num):\n    result = num * 5;\n    return result;\n___",
+          "full_code": "def calc(num):\n    result = num * 5;\n    return result;\nprint(calc(3))"
+        },
+        "label": "الثامن"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
+}

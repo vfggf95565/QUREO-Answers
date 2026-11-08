@@ -1,0 +1,242 @@
+{
+  "level": 12,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "1"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "print(round(10.6))"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) استخدم دالة التقريب (round) لتقريب العدد 9.7، ثم اطبع الناتج على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "print(round(9.7))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "print(max(10, 25, 18))"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "print(min(5, 10, 50))"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.\nimport math",
+          "answer": {
+            "type": "code",
+            "value": "print(round(9.5))\nprint(math.floor(9.5))",
+            "note": "تعديل الكود ليكون هكذا\nimport math"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) اكتب import math في بداية البرنامج.\n(2) مرر الوسيط 7.8 إلى دالة math.floor، واطبع الناتج على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "print(math.floor(7.8))",
+            "note": "import math"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل برنامجك كما يلي:\nimport random",
+          "answer": {
+            "type": "code",
+            "value": "print(random.random())",
+            "note": "import random"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل برنامجك كما يلي:\nimport random",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "import random",
+              "random.random() >= 0.5:"
+            ],
+            "template": "___\n___",
+            "full_code": "import random\nrandom.random() >= 0.5:"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) استورد الدالة random\n(2) استدعِ الدالة random.random واطبع النتيجة على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "print(random.random())",
+            "note": "import random"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي:\nimport random",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "random.random() * 10"
+            ],
+            "template": "print(___)",
+            "full_code": "print(random.random() * 10)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\nimport random\nimport math",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "math.floor(random.random() * 10)"
+            ],
+            "template": "print(___)",
+            "full_code": "print(math.floor(random.random() * 10))"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر الطريقة الصحيحة لكتابة دالة تقوم بتقريب عدد.",
+        "answer": {
+          "type": "text",
+          "value": "round(1.8)"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح لطباعة رقم عشوائي.\n* افترض أن عملية الاستيراد قد تمت بالفعل.",
+        "answer": {
+          "type": "text",
+          "value": "print(random.random())"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر الطريقة الصحيحة لكتابة دالة تقوم بتقريب عدد عشري إلى الأسفل.",
+        "answer": {
+          "type": "text",
+          "value": "print(math.floor(10.5))"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أدخل برنامجك كما يلي:\n(1) استخدم دالة لتقريب العدد \"5.5\" وطباعته على الشاشة.\n(2) استخدم دالة لتقريب العدد العشري \"8.8\" إلى أقرب عدد صحيح أصغر، وطباعته على الشاشة.\nاستخدم الدالتين \"math.floor\" و\"round\".",
+        "answer": {
+          "type": "code",
+          "value": "print(round(5.5))\nprint(math.floor(8.8))",
+          "note": "ملحوظة : في حالة نسخك للاجابة قم بنسخ كل سطر في كل مره وليس الكود بالكامل مرة واحده مع مراعاه السطر الثاني فارغ لا ينسخ\nimport math"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجًا يطبع \"A bright day\" إذا كان الرقم العشوائي يساوي 0.5 أو أكثر، و\"Take it slow and do your best\" في غير ذلك.\nأدخل التعبير الشرطي لـ \"إذا كانت القيمة العشوائية تساوي 0.5 أو أكثر\".\nاستخدم الدالة \"random.random()\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "if random.random() >= 0.5:"
+          ],
+          "template": "import random\n___\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")",
+          "full_code": "if random.random() >= 0.5:\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")",
+          "note": "import random"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "أنشئ برنامجًا يُعيد عددًا صحيحًا عشوائيًا كما يلي:\n(1) استخدم الدالة \"random.random\" لإعادة عدد عشوائي.\n(2) اضرب العدد العشوائي الناتج في 10.\n(3) استخدم الدالة \"math.floor\" لإعادة عدد صحيح.",
+        "answer": {
+          "type": "code",
+          "value": "print(math.floor(random.random() * 10))",
+          "note": "تعديل الكود ليصبح من سطر واحد هكذا"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

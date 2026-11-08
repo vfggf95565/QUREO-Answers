@@ -1,0 +1,249 @@
+{
+  "level": 6,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) أسند 100 إلى المتغير books\n(2) إذا كان المتغير books يساوي 100، فاطبع \"Reading Champion Badge!\"",
+          "answer": {
+            "type": "code",
+            "value": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أسند 80 إلى المتغير books، وإذا كان المتغير books يساوي 100، فاطبع \"Reading Champion Badge!\"\nإذا لم يكن 100، فأنشئ برنامجا يطبع \"Let's try a little more!\"\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge\")\nelse:\n    print(\"Let's try a little more!\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) إذا كانت قيمة المتغير english لا تساوي 100، فاطبع \"No reward\"",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(\"No reward\")"
+            ],
+            "template": "english = 80\nif english == 100:\n    print(\"Get a reward\")\nelse:\n    ___",
+            "full_code": "english = 80\nif english == 100:\n    print(\"Get a reward\")\nelse:\n    print(\"No reward\")"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا يطبع \"Let's go buy some\" إذا كان المتغير cookie يساوي 0، ويطبع \"There is still some\" خلاف ذلك.\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "if cookie == 0"
+            ],
+            "template": "cookie = 10\n___:\n    print(\"Let's go buy some\")\nelse:\n    print(\"There is still some\")",
+            "full_code": "cookie = 10\nif cookie == 0:\n    print(\"Let's go buy some\")\nelse:\n    print(\"There is still some\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) أسند 777 إلى المتغير lucky\n(2) إذا كان المتغير lucky يساوي 777، فاطبع \"Lucky!\"\n(3) إذا لم يكن كذلك، فاطبع \"Try again\"",
+          "answer": {
+            "type": "code",
+            "value": "lucky = 777\nif lucky == 777:\n    print(\"Lucky\")\nelse:\n    print(\"Try again\")",
+            "note": "يكتب الكود الاتى او نسخه بنفس المسافات في السطور الثالث والخامس والتاكد من عدم اضافة سطور زيادة ونسخ كل سطر منفصل"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا يطبع \"Practice worksheet\" إذا كان المتغير chem أقل من أو يساوي 40، وإلا يطبع \"No worksheet\".\nعدّله ليطابق البرنامج أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "if chem <= 40:"
+            ],
+            "template": "chem = 28\n___\n    print(\"Practice worksheet\")\nelse:\n    print(\"No worksheet\")",
+            "full_code": "chem = 28\nif chem <= 40:\n    print(\"Practice worksheet\")\nelse:\n    print(\"No worksheet\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) إذا كانت قيمة المتغير english تساوي 65 أو أكبر، فاطبع \"Pass\"، وإلا فاطبع \"Fail\"",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "english >= 65"
+            ],
+            "template": "english = 60\nif ___:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")",
+            "full_code": "english = 60\nif english >= 65:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) إذا كانت قيمة المتغير height أكبر من 132، فاطبع \"Available\"، وإلا فاطبع \"Unavailable\".",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "height > 132"
+            ],
+            "template": "height = 91\nif ___:\n    print(\"Available\")\nelse:\n    print(\"Unavailable\")",
+            "full_code": "print(\"Available\")\nelse:\n    print(\"Unavailable\")",
+            "note": "if height > 132:"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) إذا كانت قيمة المتغير height أقل من 90، فاطبع \"Unavailable\"، وإلا فاطبع \"Available\".",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "height < 90"
+            ],
+            "template": "height = 91\nif ___:\n    print(\"Unavailable\")\nelse:\n    print(\"Available\")",
+            "full_code": "print(\"Unavailable\")\nelse:\n    print(\"Available\")",
+            "note": "if height < 90:"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجا يطبع \"Entry not allowed\" إذا كان المتغير age يساوي 16 أو أقل، ويطبع \"Entry allowed\" خلاف ذلك.\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "age = 15\nif age <= 16:\n    print(\"Entry not allowed\")\nelse:\n    print(\"Entry allowed\")",
+            "note": "في حالة اخطاء انسخ اول سطر منفصل والباقي مع بعض وتشغيل الكود"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) عرّف المتغير age وأسند إليه 15\n(2) إذا كان المتغير age يساوي 65 أو أكبر، فاطبع \"Slide closed\"\n(3) إذا لم يكن كذلك، فاطبع \"Slide OK\"",
+          "answer": {
+            "type": "code",
+            "value": "age = 15\nif age >= 65:\n    print(\"Tube dive closed\")\nelse:\n    print(\"Tube dive OK\")",
+            "note": "انسخ اول سطر في مرة والباقي في مرة"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "إذا كان الثابت weather لا يساوي \"Rainy\"، فأنشئ برنامجا يطبع \"Play soccer\" في وحدة التحكم.\nتم إسناد \"Cloudy\" إلى weather.\nأدخل برنامج التعبير الشرطي في السطر الثالث كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "weather != \"Rainy\""
+            ],
+            "template": "weather = \"Cloudy\"\n\nif ___:\n    print(\"Play soccer\")",
+            "full_code": "weather = \"Cloudy\"\n\nif weather != \"Rainy\":\n    print(\"Play soccer\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "إذا لم تكن نتيجتك 100، فأنشئ برنامجا يطبع \"Aim for a perfect score!\"\nتم تعريف نتيجتك والتصريح بها كثابت باسم myScore.\nأدخل التعبير الشرطي \"إذا كان الثابت myScore لا يساوي 100\" في السطر الثالث.",
+          "answer": {
+            "type": "code",
+            "value": "myScore = 90\n\nif myScore != 100:\n    print(\"Aim for a perfect score!\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر الشكل الصحيح للبرنامج: إذا كان ~ فافعل A، وإلا فافعل B.",
+        "answer": {
+          "type": "text",
+          "value": "if condition::\nA\nelse:\nB"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "أنشئ برنامجا كما يلي.\n(1) أسند 5 إلى المتغير num\n(2) إذا كان المتغير num يساوي 10، فاطبع \"Win\"\n(3) إذا لم يكن كذلك، فاطبع \"No prize\".",
+        "answer": {
+          "type": "code",
+          "value": "num = 5;\nif num == 10:\n    print(\"Win\")\nelse:\n    print(\"No prize\")",
+          "note": "انسخ اول سطر في مرة منفصلة والباقي في مرة لتجنب الاخطاء مع مراعاه المسافات وعدم اضافاه اسطر زيادة فارغه"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر البرنامج الذي يحتوي على التعبير الشرطي \"قيمة المتغير num تساوي 80 أو أقل\".",
+        "answer": {
+          "type": "text",
+          "value": "num <= 80"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر البرنامج الذي يحتوي على التعبير الشرطي \"قيمة المتغير num أكبر من 30\".",
+        "answer": {
+          "type": "text",
+          "value": "num > 30"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجا كما يلي.\n(1) إذا كانت قيمة المتغير score تساوي 60 أو أكبر، فستكون \"Pass\"، وإلا فستكون \"Fail\".\nاطبع\n*لا تحذف البرنامج المكتوب مسبقا، بل أدخل جزء التعبير الشرطي.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "score >= 60"
+          ],
+          "template": "score = 80;\nif ___:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")",
+          "full_code": "score = 80;\nif score >= 60:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

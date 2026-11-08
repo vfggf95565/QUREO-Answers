@@ -1,0 +1,418 @@
+{
+  "level": 22,
+  "lessons": {
+    "1": {
+      "questions": {
+        "u1": {
+          "question": "إذا كان الهدف هو عملية الضرب \"repeating\" ... فما نوع البرنامج الذي يجب عليك استخدامه؟",
+          "answer": {
+            "type": "text",
+            "value": "for statement"
+          }
+        },
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا لحساب 3×3×3×3.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(4):\n    num = num * 3\nprint(num)"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا لحساب 5×5×5.\nأنشئ برنامجك على النحو التالي.\n(1) قم بتعيين القيمة 1 للمتغير num\n(2) كرر صيغة الحساب num = num * 5 ثلاث مرات\n(3) اطبع قيمة المتغير num على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(3):\n    num = num * 5\nprint(num)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا لحساب 5×5×5.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for i in range(1, 4):",
+              "num = num * 5"
+            ],
+            "template": "num = 1\n___\n    ___\nprint(num)",
+            "full_code": "num = 1\nfor i in range(1, 4):\n    num = num * 5\nprint(num)"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا لحساب 2×3×4×5×6.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(2, 7):\n    num = num * i\nprint(num)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يقوم بضرب الأرقام من 2 إلى 9 بالترتيب.\nأنشئ برنامجك على النحو التالي.\n(1) قم بتعيين القيمة 1 للمتغير num\n(2) كرر إسناد صيغة الحساب num * i إلى المتغير num ثماني مرات\n(3) اطبع قيمة المتغير num على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(2, 10):\n    num = num * i\nprint(num)"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "u1": {
+          "question": "ما اسم الأداة التي تتيح لك دمج قيم متعددة في قيمة واحدة؟",
+          "answer": {
+            "type": "text",
+            "value": "قائمة"
+          }
+        },
+        "1": {
+          "question": "قم بإنشاء برنامج يقوم بتعيين بيانات درجة حرارة الجسم للمتغير body_temp_list.\nدرجات الحرارة هي 36.1، 36.4، 36.6، 36.5، و 36.7 درجة.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]"
+          },
+          "label": "الاول"
+        },
+        "u2": {
+          "question": "لقد شغّلت هذا البرنامج. ما رأيك في الناتج المتوقع؟\nbody_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\nprint(body_temp_list[2])",
+          "answer": {
+            "type": "text",
+            "value": "36.6"
+          }
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يقوم بطباعة القيمة الثانية للمتغير body_temp_list على الشاشة.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(body_temp_list[2])"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\n___",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\nprint(body_temp_list[2])"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجًا يقوم بطباعة قيمة \"36.5\" للمتغير body_temp_list على الشاشة.\nأنشئ برنامجك على النحو التالي.\n(1) استخرج القيمة \"36.5\" من المتغير body_temp_list واعرضها على الشاشة\n*لا تدخل \"36.5\" مباشرة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(body_temp_list[3])"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\n___",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\nprint(body_temp_list[3])"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "u2",
+        "2",
+        "3"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "قم بإنشاء برنامج يقوم بتعيين بيانات درجة حرارة الجسم للمتغير body_temp_list.\nدرجات الحرارة هي 36.1، 36.4، 36.6، 36.5، 36.7، 36.0، و 36.2 درجة.\nأنشئ برنامجك على النحو التالي.\n(1) قم بتعيين قيم درجة حرارة الجسم للمتغير body_temp_list",
+          "answer": {
+            "type": "code",
+            "value": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2]"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجًا يطبع متوسط درجة حرارة الجسم على مدار 7 أيام.\nابتداءً من السطر الثاني، أنشئ برنامجك على النحو التالي.\n(1) قم بتعريف المتغير total وقم بتعيين القيمة 0 له\n(2) كرر total = total + body_temp_list[i] سبع مرات\n(3) اطبع على الشاشة القيمة التي تم الحصول عليها بقسمة المتغير total الإجمالي على عدد الأيام",
+          "answer": {
+            "type": "code",
+            "value": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2]\ntotal = 0\nfor i in range(7):\n    total = total + body_temp_list[i]\nprint(total / 7)"
+          },
+          "label": "الثاني"
+        },
+        "u1": {
+          "question": "ما هي درجة حرارة جسم كودي؟",
+          "answer": {
+            "type": "text",
+            "value": "اختر اي واحده"
+          }
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "u1"
+      ]
+    },
+    "6": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا يطبع عدد القيم في القائمة.\nأدخل برنامجك كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(len(body_temp_list))"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\n___",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\nprint(len(body_temp_list))"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "قم بإنشاء برنامج يقوم بطباعة متوسط درجة حرارة الجسم على مدار 14 يومًا من البيانات في المتغير body_temp_list.\nأدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for i in range(14):",
+              "total / 14"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\n___\n    total = total + body_temp_list[i]\nprint(___)",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\nfor i in range(14):\n    total = total + body_temp_list[i]\nprint(total / 14)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "قم بإنشاء برنامج يقوم بطباعة متوسط درجة حرارة الجسم على مدار 14 يومًا من البيانات في المتغير body_temp_list.\nأدخل برنامجك كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for i in range(len(body_temp_list)):",
+              "total / len(body_temp_list)"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\n___\n    total = total + body_temp_list[i]\nprint(___)",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\nfor i in range(len(body_temp_list)):\n    total = total + body_temp_list[i]\nprint(total / len(body_temp_list))"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "7": {
+      "questions": {
+        "1": {
+          "question": "قم بإنشاء برنامج يقوم بطباعة \"Caution!\" إذا كانت أي من بيانات درجة حرارة الجسم 37.0 درجة أو أعلى.\nأنشئ برنامجك على النحو التالي.\n(1) جملة for تتكرر بعدد مرات يساوي عدد القيم في المتغير body_temp_list\n(2) في العملية المتكررة of (1)، إذا كانت قيمة المتغير body_temp_list تساوي 37.0 درجة أو أعلى، اطبع \"Caution!\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 37.1, 36.5, 36.9, 36.4, 36.7, 37.2]\nfor i in range(len(body_temp_list)):\n    if body_temp_list[i] >= 37.0:\n        print(\"Caution!\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "قم بإنشاء برنامج يقوم بطباعة \"Take a rest!\" إذا كانت أي من بيانات درجة حرارة الجسم 37.5 درجة أو أعلى.\nأنشئ برنامجك على النحو التالي.\n(1) جملة for تتكرر بعدد مرات يساوي عدد القيم في المتغير body_temp_list\n(2) في العملية المتكررة of (1)، إذا كانت قيمة المتغير body_temp_list تساوي 37.5 درجة أو أعلى، اطبع \"Take a rest!\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 37.1, 36.5, 36.9, 36.4, 36.7, 37.2]\nfor i in range(len(body_temp_list)):\n    if body_temp_list[i] >= 37.5:\n        print(\"Take a rest!\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "8": {
+      "questions": {
+        "1": {
+          "question": "ستقوم بإنشاء برنامج يقوم بحساب 3×3×3×3.\nأنشئ برنامجك على النحو التالي.\n(1) قم بتعيين القيمة 1 للمتغير num\n(2) كرر العملية الحسابية num = num * 3 أربع مرات\n(3) اطبع قيمة المتغير num على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(4):\n    num = num * 3\nprint(num)"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ستقوم بإنشاء برنامج يقوم بحساب 2×3×4×5×6.\nأدخل برنامجك كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(2, 7):\n    num = num * i\nprint(num)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ستقوم بإنشاء برنامج يقوم بضرب الأرقام من 2 إلى 9 بالترتيب.\nأنشئ برنامجك على النحو التالي.\n(1) قم بتعيين القيمة 1 للمتغير num\n(2) كرر إسناد العملية الحسابية num * i إلى المتغير num ثماني مرات\n(3) اطبع قيمة المتغير num على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "num = 1\nfor i in range(2, 10):\n    num = num * i\nprint(num)"
+          },
+          "label": "الثالث"
+        },
+        "u1": {
+          "question": "ماذا سيطبع هذا البرنامج عند تشغيله؟\nbody_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\nprint(body_temp_list[2])",
+          "answer": {
+            "type": "text",
+            "value": "36.6"
+          }
+        },
+        "4": {
+          "question": "ستقوم بإنشاء برنامج يقوم بطباعة القيمة \"36.8\" من المتغير body_temp_list على الشاشة.\nأنشئ برنامجك على النحو التالي.\n(1) استخرج القيمة \"36.8\" من المتغير body_temp_list واعرضها على الشاشة\n* لا تكتب \"36.8\" مباشرة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(body_temp_list[3])"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.8, 36.7]\n___",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.8, 36.7]\nprint(body_temp_list[3])"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "ستقوم بإنشاء برنامج يطبع متوسط درجة حرارة الجسم من بيانات درجة الحرارة المخصصة للمتغير body_temp_list.\nبالنسبة لعدد مرات تكرار عملية الجمع، وعدد الأيام التي يتم القسمة عليها في النهاية، أدخل len(variable name).",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for i in range(len(body_temp_list)):",
+              "total / len(body_temp_list)"
+            ],
+            "template": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\n___\n    total = total + body_temp_list[i]\nprint(___)",
+            "full_code": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\nfor i in range(len(body_temp_list)):\n    total = total + body_temp_list[i]\nprint(total / len(body_temp_list))"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "ستقوم بإنشاء برنامج يقوم بطباعة \"Watch out!\" إذا كانت أي من بيانات درجة حرارة الجسم 37.0 درجة مئوية أو أعلى.\nأنشئ برنامجك على النحو التالي.\n(1) جملة for تتكرر لعدد القيم في المتغير body_temp_list\n(2) في العملية المتكررة in (1)، إذا كانت قيمة المتغير body_temp_list تساوي 37.0 درجة مئوية أو أعلى، اطبع \"Watch out!\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 37.1, 36.5, 36.9, 36.4, 36.7, 37.2]\nfor i in range(len(body_temp_list)):\n    if body_temp_list[i] >= 37.0:\n        print(\"Watch out!\")"
+          },
+          "label": "السادس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "u1",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "أنشئ برنامجًا يقوم بحساب \"7x7x7x7x7\".\nاكتب البرنامج على النحو التالي.\n(1) أنشئ المتغير num وقم بتعيين قيمته إلى 1\n(2) كرر العملية الحسابية \"num = num * 7\" خمس مرات\n* بالنسبة لجملة for، استخدم range(5) بحيث تتكرر 5 مرات.\n(3) في النهاية، اطبع قيمة المتغير num على الشاشة مرة واحدة",
+        "answer": {
+          "type": "code",
+          "value": "num = 1;\nfor i in range(5):\n    num = num * 7;\nprint(num)"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر الخيار الذي يوضح بصورة صحيحة كيفية تغير قيمة المتغير i في البرنامج الآتي.\nnum = 1\nfor i in range(1, 8):\nnum = num * 2\nprint(num)",
+        "answer": {
+          "type": "text",
+          "value": "1->2->3->4->5->6->7"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "ستقوم بإنشاء برنامج يقوم بحساب \"5040/1/2/3/4/5\".\nاكتب البرنامج على النحو التالي.\n(1) أنشئ المتغير num وقم بتعيين القيمة 5040 له\n(2) كرر إسناد العملية الحسابية \"variable num divided by i\" إلى المتغير num خمس مرات\n* بالنسبة لجملة for، استخدم range(1, 6) بحيث يتغير المتغير i من 1 إلى 5 بالترتيب.\n(3) في النهاية، اطبع قيمة المتغير num على الشاشة مرة واحدة",
+        "answer": {
+          "type": "code",
+          "value": "num = 5040;\nfor i in range(1, 6):\n    num = num / i;\nprint(num)"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أدخل برنامجًا يقوم بطباعة القيمة \"57\" من المتغير mark_list على الشاشة.\nلا تكتب \"57\" مباشرة.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(mark_list[5])"
+          ],
+          "template": "mark_list = [48, 55, 74, 85, 63, 57, 91];\n___",
+          "full_code": "mark_list = [48, 55, 74, 85, 63, 57, 91];\nprint(mark_list[5])"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أدخل برنامجًا يقوم بطباعة عدد القيم الموجودة في المتغير mark_list على الشاشة.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(len(mark_list))"
+          ],
+          "template": "mark_list = [48, 55, 74, 85, 63, 57, 91];\n___",
+          "full_code": "mark_list = [48, 55, 74, 85, 63, 57, 91];\nprint(len(mark_list))"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "ستقوم بإنشاء برنامج يقوم بطباعة \"85 or above\" إذا كانت النتيجة 85 أو أعلى.\nأنشئ برنامجك على النحو التالي.\n(1) جملة for تتكرر لعدد القيم في المتغير mark_list\n(2) في العملية المتكررة in (1)، إذا كانت قيمة المتغير mark_list تساوي 85 أو أعلى، اطبع \"85 or above\" على الشاشة",
+        "answer": {
+          "type": "code",
+          "value": "mark_list = [48, 55, 74, 85, 63, 57, 91];\nfor i in range(len(mark_list)):\n    if mark_list[i] >= 85:\n        print(\"85 or above\")"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "level": 10,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "ابتداءً من السطر الثالث، أدخل نفس البرنامج الموضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"Save 20%\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ابتداءً من السطر الخامس، أدخل نفس البرنامج الموضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")\nelif people >= 2 or points >= 3000:\n    print(\"Save 10%\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "u1": {
+          "question": "(حاول أن ترددها عشر مرات في ذهنك!) warm، warm، warm... ما هي الحشرة المعروفة بقرونها الباردة؟ worm",
+          "answer": {
+            "type": "text",
+            "value": "worm"
+          }
+        },
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "u1",
+        "1"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "ستقوم بإنشاء برنامج يُخرج القيمة \"warm\" عشر مرات.\nأدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "count in range(10)"
+            ],
+            "template": "for ___:\n    print(\"warm\")",
+            "full_code": "for count in range(10):\n    print(\"warm\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) اطبع \"deer\" على الشاشة 10 مرات.\n* اجعل البرنامج بأكمله 3 أسطر.\n*استخدم count كاسم للمتغير.",
+          "answer": {
+            "type": "code",
+            "value": "for count in range(10):\n    print(\"deer\")",
+            "note": "ونفس التعليمات السابقة للنسخ"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) اطبع \"campus\" على الشاشة 10 مرات.\n* اجعل البرنامج بأكمله 3 أسطر.\n*استخدم count كاسم للمتغير.",
+          "answer": {
+            "type": "code",
+            "value": "for count in range(10):\n    print(\"campus\")",
+            "note": "نفس التعليمات السابقة للنسخ"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "i in range(3)"
+            ],
+            "template": "for ___:\n  print(\"She sells seashells\")",
+            "full_code": "for i in range(3):\n  print(\"She sells seashells\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "for i in range(1, 3):\n    print(\"She sells seashells\")",
+            "note": "كتابة الكود التالي مع مراعاه السطر الثاني يبدا بعد عدد 2 مسافه\nنفس التعليمات السابقة للنسخ"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) اطبع \"She sells seashells\" على الشاشة 100 مرة.\n* اجعل البرنامج سطرين فقط.\n* استخدم i كاسم للمتغير.\n* يُحدد عدد مرات التكرار بواسطة الرقم الموجود داخل range( ).",
+          "answer": {
+            "type": "code",
+            "value": "for i in range(100):\n    print(\"She sells seashells\")",
+            "note": "نفس تعليمات النسخ السابقة"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "عندما تقوم بكتابة \"تكرار طباعة كلمة apple على الشاشة 10 مرات\" كبرنامج، حدد ما تكتبه في بداية البرنامج.",
+        "answer": {
+          "type": "text",
+          "value": "for"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح لإضافة 1 إلى المتغير i في كل مرة.",
+        "answer": {
+          "type": "text",
+          "value": "i = i + 1"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر البرنامج الصحيح لتكرار عملية محددة 10 مرات.",
+        "answer": {
+          "type": "text",
+          "value": "for i in range(10):\nالكود الخاص بك"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجك كما يلي:\n(1) اعرض \"Hello\" على الشاشة خمس مرات.\n*استخدم \"i\" كاسم للمتغير، واستخدم range(5).",
+        "answer": {
+          "type": "partial",
+          "answer_code": "for i in range(5):",
+          "full_code": "for i in range(5):\n    print(\"Hello\")",
+          "note": "تعديل الكود بالسطر الاول ليكون هكذا\nملحوظة في حالة نسخك للاجابة واعطاك الاجابة خطا رجاء كتابة الكود يدويا اول سطر فقط\nوشكل الكود النهائي هكذا"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجك كما يلي:\n(1) اعرض \"Hello\" على الشاشة 7 مرات.\n*استخدم \"i\" كاسم للمتغير، واستخدم range(7).",
+        "answer": {
+          "type": "code",
+          "value": "for i in range(7):\n    print(\"Hello\")",
+          "note": "كتابة الكود الاتى مع مراعاه السطر الثاني يبدا بعد اربع مسافات\nملحوظة في حالة نسخك للاجابة واعطاك الاجابة خطا رجاء كتابة الكود يدويا"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

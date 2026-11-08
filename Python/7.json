@@ -1,0 +1,149 @@
+{
+  "level": 7,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه في السطرين الرابع والخامس.",
+          "answer": {
+            "type": "code",
+            "value": "ticket = 2\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "1"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "كنت تعمل على برنامج يطبع \"Free drink\" على الشاشة إذا كان المتغير ticket يساوي 1، أو \"Includes popcorn\" إذا كان المتغير ticket يساوي 2.\nفي السطرين السادس والسابع، أدخل البرنامج كما يلي.\n(1) إذا كان المتغير ticket يساوي 3، فاطبع \"Mini snack set\"",
+          "answer": {
+            "type": "code",
+            "value": "ticket = 3\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")\nelif ticket == 3:\n    print(\"Mini snack set\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "كنت تعمل على برنامج يطبع \"Free drink\" إذا كان المتغير ticket يساوي 1، و\"Includes popcorn\" إذا كان المتغير ticket يساوي 2، و\"Mini snack set\" إذا كان المتغير ticket يساوي 3.\nفي السطرين الثامن والتاسع، أدخل البرنامج كما يلي.\n(1) إذا كان المتغير ticket يساوي 4، فاطبع \"Goods voucher\"",
+          "answer": {
+            "type": "code",
+            "value": "ticket = 4\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")\nelif ticket == 3:\n    print(\"Mini snack set\")\nelif ticket == 4:\n    print(\"Goods voucher\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "كنت تعمل على برنامج يطبع \"Free drink\" إذا كان المتغير ticket يساوي 1، ويطبع الرسالة المناسبة إذا كان المتغير ticket يساوي 2 أو 3 أو 4.\nفي السطرين العاشر والحادي عشر، أدخل البرنامج كما يلي.\n(1) إذا لم يطابق أي تعبير شرطي، فاطبع \"No prize\"\n*تمت كتابة برنامج يسند 10 إلى المتغير ticket بالفعل.",
+          "answer": {
+            "type": "code",
+            "value": "ticket = 10\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")\nelif ticket == 3:\n    print(\"Mini snack set\")\nelif ticket == 4:\n    print(\"Goods voucher\")\nelse:\n    print(\"No prize\")"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا يطبع \"10% off\" إذا كان المتغير people يساوي 2، و\"20% off\" إذا كان المتغير people يساوي 3 أو أكثر، و\"Regular price\" خلاف ذلك.\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "people = 3\nif people == 2:\n    print(\"Save 10%\")\nelif people >= 3:\n    print(\"Save 20%\")\nelse:\n    print(\"Regular price\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا يطبع \"We need to go buy some!\" إذا كان المتغير cup يساوي 0، و\"It's almost gone\" إذا كان المتغير cup يساوي 3 أو أقل، و\"There is still some\" خلاف ذلك.\nأنشئ البرنامج كما يلي.\n(1) إذا كان المتغير cup يساوي 3 أو أقل، فاطبع \"It's almost gone\"",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(\"It's almost gone\")"
+            ],
+            "template": "cup = 2\nif cup == 0:\n    print(\"We need to go buy some!\")\nelif cup <= 3:\n    ___\nelse:\n    print(\"There is still some\")",
+            "full_code": "cup = 2\nif cup == 0:\n    print(\"We need to go buy some!\")\nelif cup <= 3:\n    print(\"It's almost gone\")\nelse:\n    print(\"There is still some\")"
+          },
+          "label": "الثاني"
+        },
+        "u1": {
+          "question": "عند تشغيل هذا البرنامج، ماذا ستكون نتيجة الطباعة؟",
+          "answer": {
+            "type": "text",
+            "value": "تتم طباعة \"10"
+          }
+        },
+        "3": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "u1",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الذي يقول: \"إذا... فافعل A. وإلا، إذا... فافعل B.\"",
+        "answer": {
+          "type": "text",
+          "value": "If condition:\nA\nelif conditions:\nB"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "من السطر بعد print(\"It's 1\")، أدخل البرنامج كما هو موضح أدناه.\n(1) وإلا، إذا كان المتغير num يساوي 2، فاطبع \"2\"",
+        "answer": {
+          "type": "code",
+          "value": "num = 2;\nif num == 1:\n    print(\"It's 1\")\nelif num == 2:\n    print(\"It's 2\")"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أدخل البرنامج كما هو موضح أدناه، بدءا من السطر بعد print(\"Perfect score\").\n(1) وإلا، إذا كانت قيمة المتغير score تساوي 80 أو أكثر، فاطبع \"Pass\"",
+        "answer": {
+          "type": "code",
+          "value": "score = 82;\nif score == 100:\n    print(\"Perfect score\")\nelif score >= 80:\n    print(\"Pass\")"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر نتيجة الطباعة عند تشغيل البرنامج أدناه.\nscore = 62\nif score == 100:\nprint(\"Perfect score\")\nelif score >= 80:\nprint(\"Pass\")\nelif score >= 60:\nprint(\"So close\")",
+        "answer": {
+          "type": "text",
+          "value": "So close"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ البرنامج كما هو موضح أدناه.\n(1) أسند 5 إلى المتغير egg\n(2) إذا كان المتغير egg يساوي 0، فاطبع \"Out of stock\"\n(3) وإلا، إذا كان المتغير egg يساوي 3 أو أقل، فاطبع \"Low stock\"\n(4) إذا لم يكن كذلك، فاطبع \"In stock\"",
+        "answer": {
+          "type": "code",
+          "value": "egg = 5;\nif egg == 0:\n    print(\"Out of stock\")\nelif egg <= 3:\n    print(\"Low stock\")\nelse:\n    print(\"In stock\")",
+          "note": "السطور الثالث والخامس والسابع بعد اربع مسافات باقي السطور بدون مسافات\nملحوظة في حالة نسخك للاجابة واعطاك الاجابة خطا رجاء كتابة الكود يدويا او نسخ كل سطر منفصل وبعد كل مرة تشغيل الكود"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

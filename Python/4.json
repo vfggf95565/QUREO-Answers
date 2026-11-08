@@ -1,0 +1,124 @@
+{
+  "level": 4,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) اكتب البرنامج الموجود في السطر أدناه كتعليق\n(2) اطبع \"Good evening\" في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Good evening\")",
+            "note": "#\n# Write the program on the line below\nثم كتابه الكود في السطر الثاني"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) اطبع \"Cookies and juice cost 200 codycoins\" في وحدة التحكم\n*لكن بالنسبة إلى 200، اجعل الكمبيوتر يحسب 80+120 (سعر الكوكيز والعصير)",
+          "answer": {
+            "type": "code",
+            "value": "print(\"Cookies and juice cost \" + str(120 + 80) + \" codycoins\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) عيّن 2 إلى apples\n(2) عيّن قيمة apples مضافا إليها 8\n(3) اطبع قيمة apples في وحدة التحكم",
+          "answer": {
+            "type": "code",
+            "value": "apples = 2\napples = apples + 8\nprint(apples)",
+            "note": "انسخ كل سطر بشكل منفصل والتاكد من عدم وجود اسطر فارغه زيادة او الكتابة يدويا"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح لطباعة \"Hello\" في وحدة التحكم.",
+        "answer": {
+          "type": "text",
+          "value": "print(\"Hello\")"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اطبع \"hello\" في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "print(\"hello\")"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجا كما يلي.\nحوّل الجملة \"Leave this text\" إلى تعليق.\n*عند التنفيذ، ستتم طباعة الرسالة \"Make the first line a comment\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "#"
+          ],
+          "template": "___Leave this text\nprint(\"Make the first line a comment\")",
+          "full_code": "print(\"Make the first line a comment\")",
+          "note": "#Leave this text"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر البرنامج الصحيح الذي يجعل الكمبيوتر يحسب \"7+5\" ويطبع نتيجة الحساب في وحدة التحكم.",
+        "answer": {
+          "type": "text",
+          "value": "print(5 + 7)"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اختر رمز الضرب الصحيح المستخدم في البرنامج.",
+        "answer": {
+          "type": "text",
+          "value": "*"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اجعل الكمبيوتر يحسب \"3*4\" ويطبع \".The answer is 12\" في وحدة التحكم.",
+        "answer": {
+          "type": "code",
+          "value": "print(\"The answer is \" + str(3 * 4))"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "اختر البرنامج الصحيح لإنشاء المتغير number.",
+        "answer": {
+          "type": "code",
+          "value": "number = 0;"
+        },
+        "label": "السابع"
+      },
+      "8": {
+        "question": "أنشئ برنامجا كما يلي.\n(1) أسند 5 إلى num\n(2) اطبع قيمة num في وحدة التحكم",
+        "answer": {
+          "type": "code",
+          "value": "num = 5;\nprint(num)",
+          "note": "مع التاكد من عدم اضافة سطر فارغ وفي حالة وجود سطر فارغ يتم مسحه\nوانسخ كل سطر بشكل منفصل لضمان نجاح النسخ وضغط تشغيل الكود في كل مرة"
+        },
+        "label": "الثامن"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
+}

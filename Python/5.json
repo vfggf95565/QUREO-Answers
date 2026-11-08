@@ -1,0 +1,166 @@
+{
+  "level": 5,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "عيّن 80 للمتغير books، وإذا كان المتغير books يساوي 100، فأنشئ برنامجا يطبع \"Reading Champion Badge!\" في وحدة التحكم.\nأدخل البرنامج كما يلي.\n(1) عيّن 80 للمتغير books",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "books = 80"
+            ],
+            "template": "___\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+            "full_code": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge!\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "إذا كان المتغير books يساوي 100، فأنشئ برنامجا يطبع \"Reading Champion Badge!\" في وحدة التحكم.\nأدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "if books == 100:"
+            ],
+            "template": "books = 100\n___\n    print(\"Reading Champion Badge!\")",
+            "full_code": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "إذا كان المتغير books يساوي 100، فأنشئ برنامجا يطبع \"Reading Champion Badge!\" في وحدة التحكم.\nأدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(\"Reading Champion Badge\")"
+            ],
+            "template": "books = 100\nif books == 100:\n    ___",
+            "full_code": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "إذا كان المتغير books يساوي 100، فأنشئ برنامجا يطبع \"Reading Champion Badge!\" في وحدة التحكم.\nأدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge\")",
+            "note": "لتجنب خطا النسخ انسخ كل سطر في مرة وبعد كل مرة تشغيل الكود ومسح اي اسطر زيادة"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) عيّن 100 إلى المتغير books\n(2) إذا كان المتغير books يساوي 100، فاطبع \"Reading Champion Badge!\"",
+          "answer": {
+            "type": "code",
+            "value": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge\")",
+            "note": "لتجنب خطا النسخ انسخ كل سطر في مرة وبعد كل مرة تشغيل الكود ومسح اي اسطر زيادة"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ البرنامج كما يلي.\n(1) عيّن 100 إلى المتغير english\n(2) إذا كان المتغير english يساوي 100، فاطبع \"Get a reward\"",
+          "answer": {
+            "type": "code",
+            "value": "english = 100\nif english == 100:\n    print(\"Get a reward\")",
+            "note": "لتجنب خطا النسخ انسخ كل سطر في مرة وبعد كل مرة تشغيل الكود ومسح اي اسطر زيادة او الكتابة يدويا"
+          },
+          "label": "الخامس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "u1": {
+          "question": "أي من البرامج التالية سيطبع True أو False؟\nmath = 80\nprint(math == 80)",
+          "answer": {
+            "type": "text",
+            "value": "true"
+          }
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "u1"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "سؤال1 اختر الشكل الصحيح لبرنامج \"إذا...، فافعل شيئا\".",
+        "answer": {
+          "type": "text",
+          "value": "if condition:\nprocess"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "سؤال2 اختر التعبير الشرطي \"قيمة المتغير num تساوي 50\".",
+        "answer": {
+          "type": "text",
+          "value": "num == 50"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "أنشئ برنامجا كما يلي. (1)\nأسند 100 إلى المتغير num\n(2) إذا كان المتغير num يساوي 100، فاطبع \"Correct\"",
+        "answer": {
+          "type": "code",
+          "value": "num = 100;\nif num == 100:\n    print(\"Correct\")"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر نتيجة الطباعة للبرنامج التالي.\nnum = 200\nprint(num == 100)",
+        "answer": {
+          "type": "text",
+          "value": "False"
+        },
+        "label": "الرابع"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  }
+}

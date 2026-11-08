@@ -1,0 +1,359 @@
+{
+  "level": 25,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "لننشئ دالة تجمع رقمين.\nحاول كتابة البرنامج التالي.\n(1) أنشئ دالة باسم \"sum\" مع الوسائط \"stage1_time\" و \"stage2_time\"\n(2) قم بتعيين \"stage1_time + stage2_time\" للمتغير \"result\"\n(3) أعد المتغير \"result\"\n* ستدخل البرنامج الذي يستدعي هذه الدالة في الجزء التالي من \"لنجرب\".",
+          "answer": {
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time):\n    result = stage1_time + stage2_time\n    return result"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ دالة تجمع أوقات stage1_time وstage2_time.\nحاول إدخالها في المحرر بالشكل التالي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(sum(37.5, 62.5))"
+            ],
+            "template": "def sum(stage1_time, stage2_time):\n    result = stage1_time + stage2_time\n    return result\n___",
+            "full_code": "def sum(stage1_time, stage2_time):\n    result = stage1_time + stage2_time\n    return result\nprint(sum(37.5, 62.5))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ دالة تجمع أوقات stage1_time وstage2_time.\nابتداءً من السطر السادس، حاول إدخاله في المحرر بالشكل التالي.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "def sum(stage1_time, stage2_time):\n    time = stage1_time + stage2_time\n    return time",
+            "full_code": "teamA = sum(37.5, 62.5)\nprint(teamA)",
+            "note": "# Write your program below this line."
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ دالة تجمع أوقات 3 مراحل.\nقم بإنشاء الوسيط \"stage3_time\" وأضفه إلى عملية جمع الوسائط.\nعند استدعاء الدالة \"sum\"، مرر الوسيط \"56.5\".",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "stage3_time",
+              "stage3_time",
+              "56.5"
+            ],
+            "template": "def sum(stage1_time, stage2_time, ___):\n    time = stage1_time + stage2_time + ___\n    return time\nteamA = sum(37.5, 62.5, ___)\nprint(teamA)",
+            "full_code": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "استدعِ دالة تجمع ثلاثة أرقام.\nحاول كتابة البرنامج أدناه بدءًا من السطر 7 فصاعدًا.\n(1) قم بإنشاء المتغير \"teamB\" وقم بتعيين نتيجة استدعاء الدالة \"sum\"\nومع ذلك، مرر الوسائط \"44\" و\"57\" و\"64\" إلى الدالة \"sum\".\n(2) اطبع قيمة المتغير \"teamB\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "استدعِ دالة تجمع ثلاثة أرقام.\nحاول كتابة البرنامج أدناه بدءًا من السطر 9 فصاعدًا.\n(1) قم بإنشاء المتغير \"teamC\" وقم بتعيين نتيجة استدعاء الدالة \"sum\"\nومع ذلك، مرر الوسائط \"42\" و\"63.5\" و\"59\" إلى الدالة \"sum\".\n(2) اطبع قيمة المتغير \"teamC\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "اطبع أسرع وقت من بين إجمالي أوقات الفرق الثلاثة.\nفي السطر الأخير، أدخل البرنامج أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "str(min(156.5, 165, 164.5))"
+            ],
+            "template": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)\nprint(\"The fastest time is \" + ___)",
+            "full_code": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)\nprint(\"The fastest time is \" + str(min(156.5, 165, 164.5)))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "اطبع أسرع وقت من بين إجمالي أوقات الفرق الثلاثة.\nفي السطر الأخير، أدخل البرنامج أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "str(min(teamA, teamB, teamC))"
+            ],
+            "template": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)\nprint(\"The fastest time is \" + ___)",
+            "full_code": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)\nprint(\"The fastest time is \" + str(min(teamA, teamB, teamC)))"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "سوف تقوم اطبع بتجميع جميع القيم في قائمة.\nأدخل نفس البرنامج كما هو موضح أدناه.\nfor day in record_list:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for day in record_list:"
+            ],
+            "template": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\n___\n    print(day)",
+            "full_code": "print(day)",
+            "note": "for day in record_list:"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ستقوم بإنشاء برنامج يقوم بحساب وطباعة عدد قيم \"present\" في القائمة.\nابتداءً من السطر 4 فصاعدًا، أدخل نفس البرنامج كما هو موضح أدناه.\nfor day in record_list:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if day == \"present\":\n        count = count + 1",
+            "full_code": "if day == \"present\":\n        count = count + 1\nprint(count)",
+            "extra_codes": [
+              "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0"
+            ],
+            "note": "كتابة الكود الاتى في السطرين الرابع والخامس وترحيل الخامس الي السادس ومراعاه المسافات\nالكود الكامل\nfor day in record_list:"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ستقوم بإنشاء برنامج يقوم بحساب وطباعة عدد قيم \"absent\" في القائمة.\nقم بإنشاء البرنامج على النحو التالي بدءًا من السطر 4 فصاعدًا.\n(1) إذا كان المتغير day هو \"absent\"، فأضف 1 إلى المتغير count.\nلإضافة 1 إلى المتغير count، استخدم count = count + 1.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "if day == \"absent\":\n        count = count + 1",
+            "full_code": "if day == \"absent\":\n        count = count + 1\nprint(count)",
+            "extra_codes": [
+              "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0"
+            ],
+            "note": "كتابة الكود الاتى في السطرين الرابع والخامس وترحيل الخامس الي السادس ومراعاه المسافات\nالكود الكامل\nfor day in record_list:"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "6": {
+      "questions": {
+        "1": {
+          "question": "أنشئ البرنامج على النحو التالي.\n(1) إذا كان المتغير ticket_type هو \"main dish\"، اطبع \"Check the type of ticket\" إلى الشاشة؛ وإلا اطبع \"Use the cake ticket\".",
+          "answer": {
+            "type": "code",
+            "value": "ticket_type = \"dessert\"\nif ticket_type == \"main dish\":\n    print(\"Check the type of ticket\")\nelse:\n    print(\"Use the cake ticket\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ستقوم بإنشاء برنامج يقوم، بالنسبة لتذكرة main-dish، بطباعة \"Exchange it with Cody\" إذا كانت تذكرة سمك وبطاطس مقلية، وإلا فإنه يطبع \"Use the steak ticket\".\nقم بإنشاء البرنامج على النحو التالي بدءًا من السطر 4 فصاعدًا.\n(1) إذا كان المتغير main_ticket هو \"fish and chips ticket\"، اطبع \"Exchange it with Cody\" إلى الشاشة؛ وإلا اطبع \"Use the steak ticket\".",
+          "answer": {
+            "type": "code",
+            "value": "ticket_type = \"main dish\"\nmain_ticket = \"fish and chips ticket\"\nif ticket_type == \"main dish\":\n    if main_ticket == \"fish and chips ticket\":\n        print(\"Exchange it with Cody\")\n    else:\n        print(\"Use the steak ticket\")\nelse:\n    print(\"Use the cake ticket\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "7": {
+      "questions": {
+        "1": {
+          "question": "ستنشئ دالة تجمع أوقات ثلاث مراحل.\nأنشئ البرنامج التالي:\n(1) أنشئ دالة باسم \"sum\" مع المعاملات \"stage1_time\" و \"stage2_time\" و \"stage3_time\"\n(2) قم بتعيين \"stage1_time + stage2_time + stage3_time\" للمتغير \"time\"\n(3) أعد المتغير \"time\"\n* البرنامج الذي يستدعي هذه الدالة موجود في قسم \"لنجرب\" التالي",
+          "answer": {
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ستنشئ دالة تجمع أوقات ثلاث مراحل.\nأدخل البرنامج التالي من السطر 5 فصاعدًا.",
+          "answer": {
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ستستدعي دالة تجمع ثلاثة أرقام.\nأنشئ البرنامج التالي من السطر 7 فصاعدًا.\n(1) قم بتعريف المتغير teamB وقم بتعيين الدالة sum له\nومع ذلك، مرر الوسائط 55 و55 و55 إلى الدالة sum.\n(2) اطبع قيمة المتغير teamB على الشاشة\n(3) قم بتعريف المتغير teamC وقم بتعيين الدالة sum له\nومع ذلك، مرر الوسائط 54.5 و55 و55 إلى الدالة sum.",
+          "answer": {
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(55, 55, 55)\nprint(teamB)\nteamC = sum(54.5, 55, 55)\nprint(teamC)"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "لقد حققت أسرع زمن إجمالي بين الفرق الثلاثة.\nأدخل البرنامج التالي في السطر 11.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "min(teamA, teamB, teamC)"
+            ],
+            "template": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(55, 55, 55)\nprint(teamB)\nteamC = sum(54.5, 55, 55)\nprint(teamC)\nprint(\"The fastest time is \" + str(___))",
+            "full_code": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(55, 55, 55)\nprint(teamB)\nteamC = sum(54.5, 55, 55)\nprint(teamC)\nprint(\"The fastest time is \" + str(min(teamA, teamB, teamC)))"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنت اطبع كل قيمة مخزنة in قائمة.\nأدخل البرنامج التالي.\nfor day in record_list:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "for day in record_list:"
+            ],
+            "template": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\n___\n    print(day)",
+            "full_code": "print(day)",
+            "note": "for day in record_list:"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "تقوم بإنشاء برنامج يقوم بحساب وطباعة عدد القيم \"Present\" في قائمة.\nأدخل البرنامج التالي من السطر 4 فصاعدًا.\nfor day in record_list:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\ncount = 0",
+            "full_code": "if day == \"Present\":\n        count = count + 1\nprint(count)",
+            "note": "for day in record_list:"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "تقوم بإنشاء برنامج بناءً على مخطط انسيابي.\nأنشئ البرنامج التالي من السطر 2 فصاعدًا.\n(1) إذا كان المتغير weather هو \"sunny\"، اطبع \"Play in the park\" على الشاشة، وإلا اطبع \"Watch a movie\"",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nif weather == \"sunny\":\n    print(\"Play in the park\")\nelse:\n    print(\"Watch a movie\")"
+          },
+          "label": "السابع"
+        },
+        "8": {
+          "question": "تقوم بإنشاء برنامج يطبع \"Exchange with Cody\" إذا كانت التذكرة الرئيسية هي \"fish and chips ticket\"، وإلا فإنه يطبع \"Use the steak ticket\".\nأنشئ البرنامج التالي من السطر 4 فصاعدًا.\n(1) إذا كان المتغير main_ticket هو \"fish and chips ticket\"، اطبع \"Exchange with Cody\"، وإلا اطبع \"Use the steak ticket\"",
+          "answer": {
+            "type": "code",
+            "value": "ticket_type = \"main dish\"\nmain_ticket = \"fish and chips ticket\"\nif ticket_type == \"main dish\":\n    if main_ticket == \"fish and chips ticket\":\n        print(\"Exchange it with Cody\")\n    else:\n        print(\"Use the steak ticket\")\nelse:\n    print(\"Use the cake ticket\")"
+          },
+          "label": "الثامن"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الصحيح الذي يمرر الوسائط الثلاثة \"3\" و \"5\" و \"10\" إلى الدالة \"calculation3\" ويطبع النتيجة على الشاشة.",
+        "answer": {
+          "type": "text",
+          "value": "print(calculation3(3, 5, 10))"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "تقوم بإنشاء برنامج حيث تعطي طباعة قيمة المتغير num1 على الشاشة نفس نتيجة حساب الدالة \"calculation3\".\nدون حذف البرنامج الأصلي، قم بإنشاء برنامجك فوق السطر print(num1).\n(1) أنشئ المتغير \"num1\" وأسند إليه نتيجة الدالة \"calculation3\"",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "num1 = calculation3(5, 10, 15);"
+          ],
+          "template": "def calculation3(a, b, c):\n    result = a * b * c;\n    return result;\n___\nprint(num1)",
+          "full_code": "def calculation3(a, b, c):\n    result = a * b * c;\n    return result;\nnum1 = calculation3(5, 10, 15);\nprint(num1)"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "تقوم بإنشاء برنامج حيث تعطي طباعة قيمة المتغير num2 على الشاشة نفس نتيجة حساب الدالة \"calculation3\".\nدون حذف البرنامج الأصلي، أنشئ برنامجك من السطر 7 فصاعدًا.\n(1) قم بإنشاء المتغير \"num2\" وقم بتعيين نتيجة الدالة \"calculation3\" إليه، مع تمرير الوسائط \"4\" و \"4\" و \"4\"",
+        "answer": {
+          "type": "code",
+          "value": "def calculation3(a, b, c):\n    result = a * b * c;\n    return result;\nnum1 = calculation3(5, 10, 15);\nprint(num1)\nnum2 = calculation3(4, 4, 4);\nprint(num2)"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "تقوم الدالة min بإرجاع أصغر قيمة بين وسائطها.\nاختر البرنامج الذي يطبع أصغر قيمة بين num1 و num2 و num3.",
+        "answer": {
+          "type": "text",
+          "value": "print(min(num1, num2, num3))"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "حدد ناتج البرنامج الآتي.\nfor score in score_list:",
+        "answer": {
+          "type": "text",
+          "value": "80\n88\n92"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "اكتب برنامجًا يطبع فقط قيم المتغير score التي تساوي 80 أو أعلى.\nلا تقم بحذف البرنامج الأصلي.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "score_list = [70, 80, 66, 88, 92];",
+          "full_code": "if score >= 80:\n        print(score)",
+          "note": "for score in score_list:"
+        },
+        "label": "السادس"
+      },
+      "7": {
+        "question": "يُستخدم المخطط الانسيابي أدناه لتحديد ما إذا كان الشخص يستطيع ركوب الأفعوانية أم لا.\nمن بين الخيارات أدناه، اختر العبارة الخاطئة بناءً على ما يمكن استنتاجه من هذا المخطط الانسيابي.",
+        "answer": {
+          "type": "text",
+          "value": "إذا كان عمرك 12 سنة أو أكثر وكان طولك 140 سم أو أكثر، يمكنك الركوب بمفردك."
+        },
+        "label": "السابع"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  }
+}

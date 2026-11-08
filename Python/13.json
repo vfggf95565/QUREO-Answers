@@ -1,0 +1,263 @@
+{
+  "level": 13,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "1"
+      ]
+    },
+    "2": {
+      "questions": {
+        "u1": {
+          "question": "أي نوع من أنواع الحساء الساخن ترغب بتناوله؟\nاختر اي اجابة\nمثلا",
+          "answer": {
+            "type": "text",
+            "value": "Seafood hot pot"
+          }
+        },
+        "1": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "def split3(total):"
+            ],
+            "template": "___",
+            "full_code": "def split3(total):"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "result = total / 3"
+            ],
+            "template": "___",
+            "full_code": "result = total / 3"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "return result"
+            ],
+            "template": "___",
+            "full_code": "return result"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(split3(5000))"
+            ],
+            "template": "___",
+            "full_code": "print(split3(5000))"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "3": {
+      "questions": {
+        "u1": {
+          "question": "ما الإجراء (المعالجة) الذي تريد أن يقوم به \"السيد 7 سبليت\"؟",
+          "answer": {
+            "type": "text",
+            "value": "أريد أن يقسم المبلغ الإجمالي على 7"
+          }
+        },
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) أنشئ دالة باسم split7 تأخذ الوسيط total.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "def split7(total):"
+            ],
+            "template": "___",
+            "full_code": "def split7(total):"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "لقد أنشأتَ الدالة split7 مع الوسيط total.\nأنشئ برنامجك كما يلي:\n(1) عيّن الصيغة total / 7 للمتغير result.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "result = total / 7"
+            ],
+            "template": "def split7(total):\n    ___",
+            "full_code": "def split7(total):\n    result = total / 7"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "لقد أنشأتَ الدالة split7 مع الوسيط total.\nأنشئ برنامجك كما يلي:\n(1) أعد قيمة المتغير result",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "return result"
+            ],
+            "template": "def split7(total):\n    result = total / 7\n    ___",
+            "full_code": "def split7(total):\n    result = total / 7\n    return result"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "لقد أنشأتَ الدالة split7 مع الوسيط total.\nأنشئ برنامجك كما يلي:\n(1) مرّر الوسيط 14000 إلى الدالة split7 واطبعه على الشاشة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(split7(14000))"
+            ],
+            "template": "def split7(total):\n    result = total / 7\n    return result\n\n___",
+            "full_code": "def split7(total):\n    result = total / 7\n    return result\n\nprint(split7(14000))"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) أنشئ دالة باسم calc7 تأخذ وسيطًا باسم num.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "def calc7(num):"
+            ],
+            "template": "___\n    print(\"process\")",
+            "full_code": "def calc7(num):\n    print(\"process\")"
+          },
+          "label": "الخامس"
+        },
+        "6": {
+          "question": "لقد أنشأتَ الدالة calc7 باستخدام الوسيط num.\nفي السطر الثاني، أدخل البرنامج كما يلي:\n(1) عيّن الصيغة num * 7 للمتغير result.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "result = num * 7"
+            ],
+            "template": "def calc7(num):\n    ___",
+            "full_code": "def calc7(num):\n    result = num * 7"
+          },
+          "label": "السادس"
+        },
+        "7": {
+          "question": "لقد أنشأتَ الدالة calc7 باستخدام الوسيط num.\nفي السطر الثالث، أدخل البرنامج كما يلي:\n(1) أعد قيمة المتغير result.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "return result"
+            ],
+            "template": "def calc7(num):\n    result = num * 7\n    ___",
+            "full_code": "def calc7(num):\n    result = num * 7\n    return result"
+          },
+          "label": "السابع"
+        },
+        "8": {
+          "question": "لقد أنشأتَ الدالة calc7 باستخدام الوسيط num.\nفي السطر الخامس، أدخل البرنامج كما يلي:\n(1) مرّر الوسيط 10 إلى الدالة calc7 واطبعه على الشاشة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(calc7(10))"
+            ],
+            "template": "def calc7(num):\n    result = num * 7\n    return result\n\n___",
+            "full_code": "def calc7(num):\n    result = num * 7\n    return result\n\nprint(calc7(10))"
+          },
+          "label": "الثامن"
+        }
+      },
+      "_order": [
+        "u1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر نتيجة البرنامج التالي.\nprint(max(20, 40, 60))",
+        "answer": {
+          "type": "text",
+          "value": "60"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الصحيح لإنشاء دالة باسم calc مع وسيط باسم num.",
+        "answer": {
+          "type": "code",
+          "value": "def calc(num):",
+          "note": "المعالجة"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "حدد ما سيظهر على الشاشة بعد تشغيل البرنامج التالي.",
+        "answer": {
+          "type": "text",
+          "value": "15"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أضف برنامجًا يستدعي الدالة \"calc\".\nضع الرقم \"3\" كوسيط.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(calc(3))"
+          ],
+          "template": "def calc(num):\n    result = num * 5;\n    return result;\n___",
+          "full_code": "def calc(num):\n    result = num * 5;\n    return result;\nprint(calc(3))"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أضف إلى البرنامج المكتوب برنامجًا يقوم بإرجاع قيمة المتغير \"result\".",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "return result;"
+          ],
+          "template": "def calc(num):\n    result = num * 7;\n    ___\nprint(calc(10))",
+          "full_code": "def calc(num):\n    result = num * 7;\n    return result;\nprint(calc(10))"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

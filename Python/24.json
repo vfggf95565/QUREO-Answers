@@ -1,0 +1,266 @@
+{
+  "level": 24,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجًا وفقًا للشروط التالية.\n①أنشئ متغيرًا باسم score وقم بتعيين قيمة 100 له\n②إذا كانت النتيجة تساوي 100، فاعرض \"Got a Gold Badge\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "score = 100\nif score == 100:\n    print(\"Got a Gold Badge\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Got a Gold Badge\" إذا كانت درجة الامتحان 100، و \"Reward: Parfait\" إذا كانت الدرجة 85 أو أكثر.\nستكون درجة الامتحان 88.\nابدأ من السطر 4، وقم بإنشاء برنامجك وفقًا للشروط التالية.\n①كشرط ثانٍ، إذا كانت قيمة المتغير score تساوي 85 أو أكثر، فقم بإخراج \"Reward: Parfait\"",
+          "answer": {
+            "type": "code",
+            "value": "score = 88\nif score == 100:\n    print(\"Got a Gold Badge\")\nelif score >= 85:\n    print(\"Reward: Parfait\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Got a Gold Badge\" إذا كانت درجة الامتحان 100، و\"Reward: Parfait\" إذا كانت الدرجة 85 أو أكثر، و\"Review weak topics\" خلاف ذلك.\nستكون درجة الامتحان 65.\nابدأ من السطر 6، وقم بإنشاء برنامجك وفقًا للشروط التالية.\n①إذا لم يتم استيفاء أي من الشرطين، فقم بإخراج \"Review weak topics\"",
+          "answer": {
+            "type": "code",
+            "value": "score = 65\nif score == 100:\n    print(\"Got a Gold Badge\")\nelif score >= 85:\n    print(\"Reward: Parfait\")\nelse:\n    print(\"Review weak topics\")"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Got a Rare Beetle!\" إذا كان حجم الحشرة التي تم اصطيادها 45 مم أو أكثر.\n①أنشئ متغيرًا باسم bug وأسند إليه القيمة 45\n②إذا كان رقم الخطأ 45 أو أكثر، فسيتم عرض \"Got a Rare Beetle!\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "bug = 45\nif bug >= 45:\n    print(\"Got a Rare Beetle!\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Got a Rare Beetle!\" إذا كان حجم الحشرة التي تم اصطيادها 45 مم أو أكثر، ويقوم بإخراج عدد الخنافس النادرة التي تم اصطيادها إلى \"Rare Beetle Counter\".\nاكتب ما يلي في المحرر.",
+          "answer": {
+            "type": "code",
+            "value": "bug = 45\nrare_count = 0\nif bug >= 45:\n    print(\"Got a Rare Beetle!\")\n    rare_count = rare_count + 1\n    print(\"Rare Beetle Counter:\" + str(rare_count))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سنقوم بإنشاء برنامج يقوم بإخراج \"Super Rare Beetle Get\" إذا كان حجم الحشرة التي تم اصطيادها 90 مم أو أكثر، ويقوم بإخراج عدد الخنافس النادرة للغاية التي تم اصطيادها كـ \"Super Rare Beetle Counter\".\nاكتب البرنامج وفقًا للتعليمات التالية.\n① إذا كان الخطأ 90 أو أكبر، فسيتم عرض \"Super Rare Beetle Get!\" على الشاشة\n② إذا تم اصطياد حشرة بحجم 90 مم أو أكثر، فقم بتعيين super_rare_count + 1 للمتغير super_rare_count\n③ إخراج عداد الخنافس النادرة جدًا: قيمة super_rare_count على الشاشة\nومع ذلك، أدخل ② و ③ داخل جملة if من ①.",
+          "answer": {
+            "type": "code",
+            "value": "bug = 95\nsuper_rare_count = 0\nif bug >= 90:\n    print(\"Super Rare Beetle Get!\")\n    super_rare_count = super_rare_count + 1\n    print(\"Super Rare Beetle Counter:\" + str(super_rare_count))"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "سنقوم بإنشاء برنامج حيث إذا كانت الشمس مشرقة، نذهب لمراقبة النجوم على قمة تل، وإلا فإننا نشاهد قرص DVD للقبة السماوية في المنزل.\nيتم إنشاء المتغير weather وتعيين القيمة \"sunny\".\n① إذا كان المتغير weather مشمسًا، فاعرض \"Stargazing on the hilltop\" على الشاشة\n② إذا لم يتحقق الشرط، يتم إخراج \"Planetarium DVD at home\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nif weather == \"sunny\":\n    print(\"Stargazing on the hilltop\")\nelse:\n    print(\"Planetarium DVD at home\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سنقوم بإنشاء برنامج حيث إذا كانت الشمس مشرقة وكان متجر الفلك مفتوحًا، فإننا \"Buy a star chart and go stargazing\"، وإلا فإننا نشاهد قرص DVD للقبة السماوية في المنزل.\nيتم إنشاء المتغير weather وتعيين القيمة \"sunny\".\nأكمل البرنامج على النحو التالي.\n① قم بإنشاء المتغير shop وقم بتعيين القيمة \"open\"\n② إذا كان المتغير shop مفتوحًا، فاعرض \"Buy a star chart and go stargazing\" على الشاشة",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "shop = \"open\"",
+              "if shop == \"open\":"
+            ],
+            "template": "weather = \"sunny\"\n___\nif weather == \"sunny\":\n    ___\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")",
+            "full_code": "weather = \"sunny\"\nshop = \"open\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سنقوم بإنشاء برنامج حيث إذا كانت الشمس مشرقة وكان متجر الفلك مفتوحًا، فإننا \"Buy a star chart and go stargazing\"، وإذا كان المتجر مغلقًا، فإننا \"Buy snacks at the convenience store and go stargazing\"، وإذا كانت السماء ملبدة بالغيوم، فإننا نشاهد \"Planetarium DVD at home\".\nتم تعيين القيمة \"closed\" للمتغير shop.\nأكمل البرنامج على النحو التالي.\n① إذا لم يتحقق الشرط، يتم إخراج \"Buy snacks at the convenience store and go stargazing\" على الشاشة",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "else:",
+              "print(\"Buy snacks at the convenience store and go stargazing\")"
+            ],
+            "template": "weather = \"sunny\"\nshop = \"closed\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\n    ___\n        ___\nelse:\n    print(\"Planetarium DVD at home\")",
+            "full_code": "weather = \"sunny\"\nshop = \"closed\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\n    else:\n        print(\"Buy snacks at the convenience store and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "سنقوم بإنشاء برنامج يقوم بإخراج \"Let's go on the field trip\" إذا كانت الشمس مشرقة، وإلا يقوم بإخراج \"Field trip canceled\".\nيتم إنشاء المتغير weather وتعيين القيمة \"sunny\".\n① إذا كان المتغير weather مشمسًا، فاعرض \"Let's go on the field trip\" على الشاشة\n② إذا لم يتحقق الشرط، يتم إخراج \"Field trip canceled\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nif weather == \"sunny\":\n    print(\"Let's go on the field trip\")\nelse:\n    print(\"Field trip canceled\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "سنقوم بإنشاء برنامج يقوم بإخراج \"Destination: the farm\" إذا كانت الشمس مشرقة وكان الفريق هو الفريق الأحمر، وإذا لم يكن الفريق هو الفريق الأحمر، فسيتم إخراج \"Destination: the science museum\"، وإذا كانت السماء ممطرة، فسيتم إخراج \"Field trip canceled\".\nتم تعيين القيمة \"Red Team\" للمتغير team.\nأكمل البرنامج على النحو التالي.\n① إذا كانت الشمس مشرقة، وإذا كان المتغير team هو الفريق الأحمر، فسيتم عرض \"Destination: the farm\" على الشاشة\n② إذا لم يتحقق الشرط، يتم إخراج \"Destination: the science museum\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nteam = \"Red Team\"\nif weather == \"sunny\":\n    if team == \"Red Team\":\n        print(\"Destination: the farm\")\n    else:\n        print(\"Destination: the science museum\")\nelse:\n    print(\"Field trip canceled\")"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "سنقوم بإنشاء برنامج يقوم بإخراج \"Destination: the farm\" إذا كان الجو مشمسًا وكان الفريق هو الفريق الأحمر، و\"Destination: the science museum\" إذا كان الفريق الأزرق، و\"Destination: the candy factory\" إذا كان الفريق الأخضر، و\"Field trip canceled\" إذا كان الجو ممطرًا.\nتم تعيين القيمة \"Green Team\" للمتغير team.\nأكمل البرنامج على النحو التالي.\n① إذا كانت الشمس مشرقة، وإذا كان المتغير team هو الفريق الأزرق، فسيتم عرض \"Destination: the science museum\" على الشاشة\n② إذا لم يتحقق الشرط، يتم إخراج \"Destination: the candy factory\" على الشاشة",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nteam = \"Green Team\"\nif weather == \"sunny\":\n    if team == \"Red Team\":\n        print(\"Destination: the farm\")\n    elif team == \"Blue Team\":\n        print(\"Destination: the science museum\")\n    else:\n        print(\"Destination: the candy factory\")\nelse:\n    print(\"Field trip canceled\")"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم درجات الحرارة السبع على الشاشة.\nأدخل البرنامج تمامًا كما يلي.\nfor temp in cold_temp_list:",
+          "answer": {
+            "type": "partial",
+            "answer_code": "cold_temp_list = [6, 8, 10, 9, 11, 7, 13]",
+            "full_code": "print(temp)",
+            "note": "for temp in cold_temp_list:"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير food_list على الشاشة.\nالسلاسل المراد وضعها في food_list: tomato, carrot, onion\nاكتب القائمة بعد in، واطبع جميع قيم المتغير food_list.\nاستخدم المتغير food لتخزين كل قيمة يتم استخراجها من المتغير food_list.",
+          "answer": {
+            "type": "partial",
+            "answer_code": "food_list = [\"tomato\", \"carrot\", \"onion\"]",
+            "full_code": "print(food)",
+            "note": "for food in food_list:"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ستقوم بإنشاء برنامج يطبع \"Rare beetle caught!\" إذا كان حجم الحشرة التي تم اصطيادها 45 مم أو أكثر، ويطبع عدد الخنافس النادرة التي تم اصطيادها إلى \"rare_beetle_counter\".\nأدخل برنامجًا مشابهًا للبرنامج أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "bug = 50\nrare_count = 0\nif bug >= 45:\n    print(\"Rare beetle caught!\")\n    rare_count = rare_count + 1\n    print(\"rare_beetle_counter:\" + str(rare_count))"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "ستقوم بإنشاء برنامج يطبع \"Buy a star chart and go stargazing\" إذا كانت الشمس مشرقة وكان متجر الفلك مفتوحًا، وإلا فإنه يطبع \"Watch a planetarium DVD at home\".\nتم إنشاء المتغير weather لتمثيل الطقس، وتم تعيين \"sunny\" له.\nأكمل البرنامج على النحو التالي.\n(1) في السطر 2، قم بإنشاء المتغير shop وقم بتعيين القيمة \"open\" له.\n(2) إذا كانت الشمس مشرقة، وإذا كان المتغير shop هو \"open\"، اطبع \"Buy a star chart and go stargazing\" إلى الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nshop = \"open\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Watch a planetarium DVD at home\")"
+          },
+          "label": "الرابع"
+        },
+        "5": {
+          "question": "ستقوم بإنشاء برنامج يطبع \"Destination is the farm\" إذا كان الجو مشمسًا وكان الفريق أحمر، و\"Destination is the science museum\" إذا كان الفريق أزرق، و\"Destination is the sweets factory\" إذا كان الفريق أخضر، و\"Field trip cancelled\" إذا كان الجو ممطرًا.\nتم تعيين القيمة \"Team Blue\" للمتغير team.\nأكمل برنامجًا يطبع وجهة الحقيبة المشمسة.\n(1) إذا كان المتغير team هو الفريق الأحمر، اطبع \"Destination is the farm\" إلى الشاشة.\n(2) إذا كان المتغير team هو الفريق الأزرق، اطبع \"Destination is the science museum\" إلى الشاشة.\n(3) إذا لم يتم استيفاء الشرط، اطبع \"Destination is the sweets factory\" إلى الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "weather = \"sunny\"\nteam = \"Team Blue\"\n\nif weather == \"sunny\":\n    if team == \"Team Red\":\n        print(\"Destination is the farm\")\n    elif team == \"Team Blue\":\n        print(\"Destination is the science museum\")\n    else:\n        print(\"Destination is the sweets factory\")\nelse:\n    print(\"Field trip cancelled\")"
+          },
+          "label": "الخامس"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "حدد نتيجة تنفيذ البرنامج الآتي.",
+        "answer": {
+          "type": "text",
+          "value": "8\n11\n14"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير point_list على الشاشة.\nأنشئ البرنامج على النحو التالي.\n(1) اكتب القائمة بعد in واطبع جميع قيم المتغير point_list.\nاستخدم النقطة المتغيرة للاحتفاظ بكل قيمة يتم إخراجها من المتغير point_list.",
+        "answer": {
+          "type": "partial",
+          "answer_code": "point_list = [2, 5, 8, 11];",
+          "full_code": "print(point)",
+          "note": "for point in point_list:"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير word_list على الشاشة.\nالسلاسل المراد وضعها في word_list: good morning, good night, hello\nأنشئ البرنامج على النحو التالي.\n(1) أضف قيمًا إلى المتغير word_list.\n(2) اكتب القائمة بعد in، واطبع جميع قيم المتغير word_list.\nاستخدم الكلمة المتغيرة للاحتفاظ بكل قيمة يتم إخراجها من المتغير word_list.\nنسخة النص: good morning good night hello",
+        "answer": {
+          "type": "partial",
+          "answer_code": "word_list = [\"good morning\", \"good night\", \"hello\"];",
+          "full_code": "print(word)",
+          "note": "يفضل نسخ كل سطر في مره او الكتابة يدويا لتجنب اعطاء الاجابة خطا\nfor word in word_list:"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "حدد ناتج البرنامج الآتي.",
+        "answer": {
+          "type": "text",
+          "value": "100"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "حدد ناتج البرنامج الآتي.",
+        "answer": {
+          "type": "text",
+          "value": "الوجهة هي مدينة الملاهي"
+        },
+        "label": "الخامس"
+      },
+      "6": {
+        "question": "ستقوم بإنشاء برنامج يقوم، في حالة هطول الأمطار، بتغيير الوجهة حسب وقت اليوم، وإلا فإنه يذهب في نزهة.\nإذا كان الجو ممطراً، فإن الوجهة هي دار السينما في الصباح، والمكتبة في الظهر، وإلا فالمنزل.\nاتبع الخطوات التالية لإكمال البرنامج.\n(1) قم بتفرع العملية بناءً على ما إذا كان المتغير weather ممطرًا أم لا.\n(2) قم بإنشاء البرنامج لحالة المطر.\n- إذا كان المتغير time هو الصباح، اطبع \"Let's go to the movie theater\".\n- إذا كان المتغير time هو الظهر، اطبع \"Let's go to the library\".\n- وإلا، اطبع \"Let's stay home\".\n(3) إذا لم يكن المتغير weather ممطرًا، اطبع \"Let's go for a walk\".",
+        "answer": {
+          "type": "code",
+          "value": "weather = \"rainy\";\ntime = \"morning\";\nif weather == \"rainy\":\n    if time == \"morning\":\n        print(\"Let's go to the movie theater\")\n    elif time == \"noon\":\n        print(\"Let's go to the library\")\n    else:\n        print(\"Let's stay home\")\nelse:\n    print(\"Let's go for a walk\")"
+        },
+        "label": "السادس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  }
+}

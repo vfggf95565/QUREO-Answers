@@ -1,0 +1,130 @@
+{
+  "level": 9,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجا يطبع \"20% off\" إذا كان المتغير people يساوي 2 أو أكثر وكان المتغير points يساوي 3000 أو أكثر.\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "people >= 2 and points >= 3000:"
+            ],
+            "template": "people = 3\npoints = 3500\nif ___\n    print(\"20% off\")",
+            "full_code": "people = 3\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا يطبع \"10% off\" إذا كان المتغير people يساوي 2 أو أكثر أو كان المتغير points يساوي 3000 أو أكثر.\nأدخل البرنامج نفسه كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "people >= 2 or points >= 3000:"
+            ],
+            "template": "people = 3\npoints = 2500\nif ___\n    print(\"10% off\")",
+            "full_code": "people = 3\npoints = 2500\nif people >= 2 or points >= 3000:\n    print(\"10% off\")"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "u1": {
+          "question": "أي مما يلي يدل على تحقق الشرطين 1 و2 معا؟",
+          "answer": {
+            "type": "text",
+            "value": "التعبير الشرطي 1 and التعبير الشرطي 2"
+          }
+        },
+        "u2": {
+          "question": "أي مما يلي يدل على تحقق الشرط 1 أو الشرط 2؟",
+          "answer": {
+            "type": "text",
+            "value": "التعبير الشرطي 1 or التعبير الشرطي 2"
+          }
+        },
+        "1": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) أسند 2 إلى المتغير people\n(2) أسند 3500 إلى المتغير points\n(3) إذا كان المتغير people يساوي 2 أو أكثر وكان المتغير points يساوي 3000 أو أكثر، فاطبع \"Get an eco bag\"",
+          "answer": {
+            "type": "code",
+            "value": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"Get an eco bag\")",
+            "note": "مع مراعاه السطر الرابع بعد اربع مسافات او يمكنك النسخ ولصق الاجابه\nنفس التعليمات الماضية نسخ كل سطر منفصل"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أنشئ برنامجا كما يلي.\n(1) أسند 15 إلى المتغير age\n(2) إذا كان المتغير age يساوي 12 أو أقل، أو كان age يساوي 65 أو أكثر، فاطبع \"30% off\"",
+          "answer": {
+            "type": "code",
+            "value": "age = 15\nif age <= 12 or age >= 65:\n    print(\"Save 30%\")",
+            "note": "مع مراعاه السطر الثالث بعد اربع مسافات او يمكنك النسخ ولصق الاجابه\nنفس التعليمات الماضية نسخ كل سطر منفصل"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "u1",
+        "u2",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر البرنامج الذي يعني \"A and B\".",
+        "answer": {
+          "type": "text",
+          "value": "A and B"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر البرنامج الذي يعني \"A or B\".",
+        "answer": {
+          "type": "text",
+          "value": "A or B"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اختر نتيجة الطباعة للبرنامج التالي.\nage = 20\nif age = 60:\nprint(\"20% off\")\nelse:\nprint(\"Regular price\")",
+        "answer": {
+          "type": "text",
+          "value": "Regular price"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "أنشئ برنامجا كما يلي.\n(1) إذا كان المتغير a يساوي 5 أو كان b يساوي 10، فاطبع \"The condition is met\"\n*يرجى إدخال التعبير الشرطي فقط.",
+        "answer": {
+          "type": "code",
+          "value": "a == 5 or b == 10\na = 5;\nb = 10;\nif a == 5 or b == 10:\n    print(\"The condition is met\")"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "أنشئ برنامجا كما يلي.\n(1) إذا كان المتغير a أكبر من أو يساوي 2 وكان b أكبر من أو يساوي 3، فاطبع \"The condition is met\".\n*أدخل التعبير الشرطي فقط.",
+        "answer": {
+          "type": "code",
+          "value": "a >= 2 and b >= 3\na = 4;\nb = 3;\nif a >= 2 and b >= 3:\n    print(\"The condition is met\")"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "level": 18,
+  "lessons": {
+    "1": {
+      "questions": {
+        "u1": {
+          "question": "ماذا ستكون النتيجة؟",
+          "answer": {
+            "type": "text",
+            "value": "\"Practice in the gym\" هو الناتج"
+          }
+        },
+        "1": {
+          "question": "قم بتعيين True إلى is_sunny وقم بإنشاء برنامج يقوم بإخراج \"Practice on the field\".\nأنشئ برنامجك على النحو التالي.\n① قم بتعيين True للمتغير is_sunny",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "True"
+            ],
+            "template": "is_sunny = ___\nif is_sunny:\n    print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")",
+            "full_code": "print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")",
+            "note": "if is_sunny:"
+          },
+          "label": "الاول"
+        }
+      },
+      "_order": [
+        "u1",
+        "1"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "تحقق من نوع البيانات للقيمة المعينة لـ is_sunny وقم بإخراجها.\nاكتب في المحرر بنفس الطريقة الموضحة أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(type(is_sunny))"
+            ],
+            "template": "is_sunny = \"True\"\n___",
+            "full_code": "is_sunny = \"True\"\nprint(type(is_sunny))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "تحقق من نوع البيانات للقيمة المعينة لـ is_sunny وقم بإخراجها.\nاكتب في المحرر بنفس الطريقة الموضحة أدناه.\n① اجعل الحاسوب يحدد نوع بيانات قيمة is_sunny ويعرضها على الشاشة",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(type(is_sunny))"
+            ],
+            "template": "is_sunny = True\n___",
+            "full_code": "is_sunny = True\nprint(type(is_sunny))"
+          },
+          "label": "الثالث"
+        },
+        "u1": {
+          "question": "ما هو نوع بيانات قيمة العلم في البرنامج التالي؟\nflag = \"False\"",
+          "answer": {
+            "type": "text",
+            "value": "نوع السلسلة النصية"
+          }
+        },
+        "u2": {
+          "question": "ما هو نوع بيانات قيمة العلم في البرنامج التالي؟\nflag = False",
+          "answer": {
+            "type": "text",
+            "value": "نوع bool"
+          }
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "u1",
+        "u2"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Booth approved!\" إذا قمت بجمع 8 طوابع أو أكثر وقمت بالمساعدة 4 مرات أو أكثر.\nلنفترض أن stamp_count هو عدد الطوابع و help_count هو عدد المرات التي ساعدت فيها.\nأنشئ برنامجك بنفس الطريقة الموضحة أدناه.\n① إذا كانت قيمة stamp_count تساوي 8 أو أكثر، وقيمة help_count تساوي 4 أو أكثر، فسيتم تشغيل المعالجة",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "stamp_count >= 8 and help_count >= 4:"
+            ],
+            "template": "stamp_count = 8\nhelp_count = 5\nif ___\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+            "full_code": "stamp_count = 8\nhelp_count = 5\nif stamp_count >= 8 and help_count >= 4:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Booth approved!\" إذا قمت بجمع 8 طوابع أو أكثر، وساعدت 4 مرات أو أكثر، وحصلت على 75 درجة أو أكثر في الاختبار.\nلنفترض أن stamp_count هو عدد الطوابع، وhelp_count هو عدد المرات التي ساعدت فيها، وquiz_score هي درجة الاختبار.\nأدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "code",
+            "value": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "قم بإنشاء برنامج يقوم بإخراج \"Food stall approved!\" إذا قمت بجمع 8 طوابع أو أكثر، وساعدت 4 مرات أو أكثر، وحصلت على 75 درجة أو أكثر في الاختبار.\nلنفترض أن stamp_count هو عدد الطوابع، وhelp_count هو عدد المرات التي ساعدت فيها، وquiz_score هي درجة الاختبار.\nأدخل البرنامج كما يلي.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "result and quiz_score >= 75:"
+            ],
+            "template": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\nif ___\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+            "full_code": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\nif result and quiz_score >= 75:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "اختر مخرجات البرنامج التالي من الخيارات المتاحة.\nTrue تعني تشغيل و False تعني إيقاف تشغيل لـ lamp_on.\nlamp_on = True\nif lamp_on:\nprint(\"ON\")\nelse:\nprint(\"OFF\")",
+        "answer": {
+          "type": "text",
+          "value": "ON"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر مخرجات البرنامج التالي من الخيارات المتاحة.\nis_ready = False\nprint(type(is_ready))",
+        "answer": {
+          "type": "text",
+          "value": "<class 'bool'>"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "ما هو نوع البيانات للقيمة المعينة للمتغير team_name أدناه؟",
+        "answer": {
+          "type": "text",
+          "value": "str"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر ناتج البرنامج التالي من الخيارات المتاحة.\ncan_play = False\nif can_play:\nprint(\"A\")\nelse:\nprint(\"B\")",
+        "answer": {
+          "type": "text",
+          "value": "B"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "يشغّل البرنامج التالي مصباح الغرفة أو يطفئه وفقًا للوقت الحالي.\nاختر ناتج هذا البرنامج من الخيارات المتاحة.\nفي المتغير lamp_on، تعني True أن المصباح يعمل، وتعني False أنه متوقف، وتمثل hour الوقت الحالي.\nlamp_on = False\nhour = 21\nif hour > 17 and hour < 23:\nlamp_on = True\nelse:\nlamp_on = False\nif lamp_on:\nprint(\"ON\")\nelse:\nprint(\"OFF\")",
+        "answer": {
+          "type": "text",
+          "value": "ON"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

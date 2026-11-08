@@ -1,0 +1,269 @@
+{
+  "level": 15,
+  "lessons": {
+    "1": {
+      "questions": {
+        "1": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "انقر على \"تشغيل الكود\" دون تعديل البرنامج.",
+          "answer": {
+            "type": "action"
+          },
+          "label": "الثاني"
+        }
+      },
+      "_order": [
+        "1",
+        "2"
+      ]
+    },
+    "2": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "temp_list = [35, 34, 26, 29, 31, 33, 35]"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل برنامجك كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(temp_list[2])"
+            ],
+            "template": "___",
+            "full_code": "print(temp_list[2])"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) استخرج القيمة 33 المخزنة في المتغير temp_list واعرضها على الشاشة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(temp_list[5])"
+            ],
+            "template": "___",
+            "full_code": "print(temp_list[5])"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) اعرض قيم المتغير temp_list على الشاشة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(temp_list)"
+            ],
+            "template": "___",
+            "full_code": "print(temp_list)"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "3": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:",
+          "answer": {
+            "type": "code",
+            "value": "temp_list = [35, 34, 26, 29, 31, 33, 35]"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "temp_list = [35, 34, 26, 29, 31, 33, 35]\ntotal = 0\nfor i in range(7):\n    total = total + temp_list[i]\nprint(total)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أدخل نفس البرنامج كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "total / 7"
+            ],
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35]\ntotal = 0\nfor i in range(7):\n    total = total + temp_list[i]\nprint(___)",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35]\ntotal = 0\nfor i in range(7):\n    total = total + temp_list[i]\nprint(total / 7)"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "4": {
+      "questions": {
+        "1": {
+          "question": "أوقات القراءة هي 25، 40، 15، 50، 30، و35 دقيقة.\nأنشئ برنامجك كما يلي.\n(1) أسند قائمة إلى المتغير read_list.\n*ضع أرقام أوقات القراءة داخل القائمة.",
+          "answer": {
+            "type": "code",
+            "value": "read_list = [25, 40, 15, 50, 30, 35]"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "ستقوم بإنشاء برنامج لحساب متوسط وقت القراءة.\nفي الأسطر من 2 إلى 5، أدخل نفس البرنامج الموضح أدناه.",
+          "answer": {
+            "type": "code",
+            "value": "read_list = [25, 40, 15, 50, 30, 35]\ntotal = 0\nfor i in range(6):\n    total = total + read_list[i]\nprint(total)"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "ستقوم بإنشاء برنامج لحساب متوسط وقت القراءة.\nأدخل برنامجك كما يلي:",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(total / 6)"
+            ],
+            "template": "read_list = [25, 40, 15, 50, 30, 35]\ntotal = 0\nfor i in range(6):\n    total = total + read_list[i]\n___",
+            "full_code": "read_list = [25, 40, 15, 50, 30, 35]\ntotal = 0\nfor i in range(6):\n    total = total + read_list[i]\nprint(total / 6)"
+          },
+          "label": "الثالث"
+        },
+        "4": {
+          "question": "ستقوم بكتابة برنامج لحساب متوسط عدد الصفحات خلال 6 أيام.\nاكتب برنامجك كما يلي:\n*ابدأ كتابة البرنامج من السطر الثاني.\n(1) عرّف المتغير total وأسند إليه القيمة 0.\n(2) كرر العملية total = total + page_list[i] ست مرات.\n(3) اعرض قيمة total مقسومة على عدد الأيام على الشاشة.",
+          "answer": {
+            "type": "code",
+            "value": "page_list = [44, 70, 26, 88, 53, 61]\ntotal = 0\nfor i in range(6):\n    total = total + page_list[i]\nprint(total / 6)"
+          },
+          "label": "الرابع"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "5": {
+      "questions": {
+        "1": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) أضف القيم إلى القائمة.\nالقيم المراد إضافتها: 32، 27، 30",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "32, 27, 30"
+            ],
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35, ___]",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30]"
+          },
+          "label": "الاول"
+        },
+        "2": {
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(len(temp_list))"
+            ],
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30]\n___",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30]\nprint(len(temp_list))"
+          },
+          "label": "الثاني"
+        },
+        "3": {
+          "question": "أنشئ برنامجك كما يلي:\n(1) اعرض طول القائمة على الشاشة.",
+          "answer": {
+            "type": "fill",
+            "blanks": [
+              "print(len(temp_list))"
+            ],
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30, 26, 30, 31, 28]\n___",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30, 26, 30, 31, 28]\nprint(len(temp_list))"
+          },
+          "label": "الثالث"
+        }
+      },
+      "_order": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "review": {
+    "questions": {
+      "1": {
+        "question": "ضع القيم التالية في القائمة:\n5، 10، 15\n* لا يظهر أي ناتج حتى عند تشغيل البرنامج.",
+        "answer": {
+          "type": "code",
+          "value": "num = [5, 10, 15];",
+          "note": "تعديل الكود ليكون هكذا"
+        },
+        "label": "الاول"
+      },
+      "2": {
+        "question": "اختر نتيجة تشغيل البرنامج التالي.\nnum = [5, 10, 15, 20, 25]\nprint(num[2])",
+        "answer": {
+          "type": "text",
+          "value": "15"
+        },
+        "label": "الثاني"
+      },
+      "3": {
+        "question": "اعرض جميع القيم الموجودة في القائمة على الشاشة.\n* لا تُدخل القيم مباشرةً.\n* دون حذف البرنامج المكتوب، أضف ما بداخل أقواس print إلى البرنامج.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(num)"
+          ],
+          "template": "num = [5, 10, 15, 20, 25];\n___",
+          "full_code": "num = [5, 10, 15, 20, 25];\nprint(num)"
+        },
+        "label": "الثالث"
+      },
+      "4": {
+        "question": "اختر نتيجة تشغيل البرنامج التالي.\nnum = [1, 2, 3]\nsum = 0\nfor i in range(3):\nsum = sum + num[i]\nprint(sum)",
+        "answer": {
+          "type": "text",
+          "value": "6"
+        },
+        "label": "الرابع"
+      },
+      "5": {
+        "question": "اعرض طول القائمة على الشاشة.\n* لا تُدخل رقم الطول مباشرةً.",
+        "answer": {
+          "type": "fill",
+          "blanks": [
+            "print(len(num))"
+          ],
+          "template": "num = [5, 10, 15, 20, 25];\n___",
+          "full_code": "num = [5, 10, 15, 20, 25];\nprint(len(num))"
+        },
+        "label": "الخامس"
+      }
+    },
+    "_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}
