@@ -59,8 +59,8 @@
               "sum = sum + distance",
               "console.log(sum)"
             ],
-            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n  ___;\n}\n___;",
-            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n  sum = sum + distance;\n}\nconsole.log(sum);"
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){\n  ___;\n}\n___;",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){\n  sum = sum + distance;\n}\nconsole.log(sum);"
           },
           "label": "الاول"
         },
@@ -71,8 +71,8 @@
             "blanks": [
               "sum / distanceList.length"
             ],
-            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n    sum = sum + distance;\n}\nconsole.log( ___ );",
-            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\nfor (const distance of distanceList){\n    sum = sum + distance;\n}\nconsole.log( sum / distanceList.length );"
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){\n    sum = sum + distance;\n}\nconsole.log( ___ );",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){\n    sum = sum + distance;\n}\nconsole.log( sum / distanceList.length );"
           },
           "label": "الثاني"
         }

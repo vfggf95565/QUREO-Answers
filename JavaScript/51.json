@@ -111,9 +111,9 @@
         "answer": {
           "type": "fill",
           "blanks": [
-            "for (const score of scoreList) {"
+            "const score of scoreList"
           ],
-          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n___\n  sum = sum + score;\n}\nconsole.log(sum);",
+          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (___) {\n  sum = sum + score;\n}\nconsole.log(sum);",
           "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);"
         },
         "label": "الرابع"

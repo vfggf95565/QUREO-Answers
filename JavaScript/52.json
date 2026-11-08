@@ -8,10 +8,10 @@
           "answer": {
             "type": "fill",
             "blanks": [
-              "wordList.includes"
+              "console.log(wordList.includes(\"dag\"));"
             ],
-            "template": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\nconsole.log(___(\"dag\"));",
-            "full_code": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\nconsole.log(wordList.includes(\"dag\"));"
+            "template": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\n\n___",
+            "full_code": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\n\nconsole.log(wordList.includes(\"dag\"));"
           },
           "label": "الاول"
         },
@@ -22,8 +22,8 @@
             "blanks": [
               "console.log(wordList.includes(\"bell\"));"
             ],
-            "template": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\n___",
-            "full_code": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\nconsole.log(wordList.includes(\"bell\"));"
+            "template": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\n\n___",
+            "full_code": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\n\nconsole.log(wordList.includes(\"bell\"));"
           },
           "label": "الثاني"
         }
@@ -47,10 +47,10 @@
           "answer": {
             "type": "fill",
             "blanks": [
-              "wordList.indexOf"
+              "console.log(wordList.indexOf(\"sun\"));"
             ],
-            "template": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\nconsole.log(___(\"sun\"));",
-            "full_code": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\nconsole.log(wordList.indexOf(\"sun\"));"
+            "template": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\n\n___",
+            "full_code": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\n\nconsole.log(wordList.indexOf(\"sun\"));"
           },
           "label": "الثاني"
         },
@@ -61,8 +61,8 @@
             "blanks": [
               "console.log(wordList.indexOf(\"pen\"));"
             ],
-            "template": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n___",
-            "full_code": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\nconsole.log(wordList.indexOf(\"pen\"));"
+            "template": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\n___",
+            "full_code": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\nconsole.log(wordList.indexOf(\"pen\"));"
           },
           "label": "الثالث"
         }
@@ -89,8 +89,8 @@
             "blanks": [
               "nameList.sort();"
             ],
-            "template": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\n___\nconsole.log(nameList);",
-            "full_code": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\nnameList.sort();\nconsole.log(nameList);"
+            "template": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\n\n___\nconsole.log(nameList);",
+            "full_code": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\n\nnameList.sort();\nconsole.log(nameList);"
           },
           "label": "الثاني"
         },
@@ -125,8 +125,8 @@
             "blanks": [
               "rankingList.reverse();"
             ],
-            "template": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n___\nconsole.log(rankingList);",
-            "full_code": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\nrankingList.reverse();\nconsole.log(rankingList);"
+            "template": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);"
           },
           "label": "الثاني"
         },
@@ -167,7 +167,7 @@
       "3": {
         "question": "أنشئ برنامجًا يُخرج أسماء الفواكه بالترتيب الأبجدي.\nيرجى اختيار البرنامج المراد إضافته في قسم \"أضف البرنامج أسفل هذا السطر\" من الخيارات المتاحة.\n//أضف البرنامج أسفل هذا السطر",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "fruitList.sort();"
         },
         "label": "الثالث"
@@ -185,10 +185,10 @@
         "answer": {
           "type": "fill",
           "blanks": [
-            "guestList.includes(\"Wilson\")"
+            "Wilson"
           ],
-          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(___);",
-          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(guestList.includes(\"Wilson\"));"
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"___\"));",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"Wilson\"));"
         },
         "label": "الخامس"
       },
@@ -199,8 +199,8 @@
           "blanks": [
             "guestList.sort();"
           ],
-          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n___\nconsole.log(guestList);",
-          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nguestList.sort();\nconsole.log(guestList);"
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\n___\nconsole.log(guestList);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nguestList.sort();\nconsole.log(guestList);"
         },
         "label": "السادس"
       }
