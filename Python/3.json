@@ -75,8 +75,8 @@
       "1": {
         "question": "اختر البرنامج الصحيح لإنشاء المتغير score.",
         "answer": {
-          "type": "code",
-          "value": "score = 0;"
+          "type": "text",
+          "value": "score = 0"
         },
         "label": "الاول"
       },

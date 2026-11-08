@@ -7,8 +7,7 @@
           "question": "أنشئ برنامجا كما يلي.\n(1) اكتب البرنامج الموجود في السطر أدناه كتعليق\n(2) اطبع \"Good evening\" في وحدة التحكم",
           "answer": {
             "type": "code",
-            "value": "print(\"Good evening\")",
-            "note": "#\n# Write the program on the line below\nثم كتابه الكود في السطر الثاني"
+            "value": "#Write the program on the line below\nprint(\"Good evening\")"
           },
           "label": "الاول"
         },
@@ -24,8 +23,7 @@
           "question": "أنشئ برنامجا كما يلي.\n(1) عيّن 2 إلى apples\n(2) عيّن قيمة apples مضافا إليها 8\n(3) اطبع قيمة apples في وحدة التحكم",
           "answer": {
             "type": "code",
-            "value": "apples = 2\napples = apples + 8\nprint(apples)",
-            "note": "انسخ كل سطر بشكل منفصل والتاكد من عدم وجود اسطر فارغه زيادة او الكتابة يدويا"
+            "value": "apples = 2\napples = apples + 8\nprint(apples)"
           },
           "label": "الثالث"
         }
@@ -63,8 +61,7 @@
             "#"
           ],
           "template": "___Leave this text\nprint(\"Make the first line a comment\")",
-          "full_code": "print(\"Make the first line a comment\")",
-          "note": "#Leave this text"
+          "full_code": "#Leave this text\nprint(\"Make the first line a comment\")"
         },
         "label": "الثالث"
       },
@@ -95,8 +92,8 @@
       "7": {
         "question": "اختر البرنامج الصحيح لإنشاء المتغير number.",
         "answer": {
-          "type": "code",
-          "value": "number = 0;"
+          "type": "text",
+          "value": "number = 0"
         },
         "label": "السابع"
       },
@@ -104,8 +101,7 @@
         "question": "أنشئ برنامجا كما يلي.\n(1) أسند 5 إلى num\n(2) اطبع قيمة num في وحدة التحكم",
         "answer": {
           "type": "code",
-          "value": "num = 5;\nprint(num)",
-          "note": "مع التاكد من عدم اضافة سطر فارغ وفي حالة وجود سطر فارغ يتم مسحه\nوانسخ كل سطر بشكل منفصل لضمان نجاح النسخ وضغط تشغيل الكود في كل مرة"
+          "value": "num = 5;\nprint(num)"
         },
         "label": "الثامن"
       }

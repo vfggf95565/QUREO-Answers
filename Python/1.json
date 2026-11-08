@@ -118,7 +118,7 @@
           "question": "عدّل السطر الأول ليكون مثل البرنامج التالي.#When executed, characters are print to the console",
           "answer": {
             "type": "code",
-            "value": "#When executed, characters are print to the console\nprint(\"Hello\")"
+            "value": "#When executed, characters are printed to the console\nprint(\"Hello\")"
           },
           "label": "الثاني"
         }
@@ -234,7 +234,7 @@
             "#"
           ],
           "template": "print(\"Hello\")\nprint(\"My name is\")\n___print(\"Rick\")\nprint(\"Cody\")",
-          "full_code": "print(\"Hello\")\nprint(\"My name is\")\n#print(\"Rick\")\nprint(\"Cody\")"
+          "full_code": "print(\"Hello\")\nprint(\"My name is\")\n#print(\"Riki\")\nprint(\"Cody\")"
         },
         "label": "السادس"
       }
