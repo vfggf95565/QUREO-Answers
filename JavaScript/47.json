@@ -46,8 +46,13 @@
         "2": {
           "question": "أنشئ برنامجًا يقوم بإخراج نتائج تقسيم الطلاب إلى 4 مجموعات حسب ترتيب أرقام الطلاب.\nعدد مرات التكرار في جملة for هو عدد الأشخاص في الصف.\nأكمِل جملة switch التي تُخرج المجموعات A إلى D عندما يتطابق باقي قسمة num على 4 مع كل قيمة.",
           "answer": {
-            "type": "code",
-            "value": "for (let num = 1; num <= 30; num++) {\n  switch (num % 4) {\n    case 0:\n      console.log(\"Student \" + num + \" is in Group D\");\n      break;\n    case 1:\n      console.log(\"Student \" + num + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + num + \" is in Group B\");\n      break;\n    case 3:\n      console.log(\"Student \" + num + \" is in Group C\");\n      break;\n  }\n}"
+            "type": "fill",
+            "blanks": [
+              "switch",
+              "num % 4"
+            ],
+            "template": "for (let num = 1; num <= 30; num++) {\n  ___ (___) {\n    case 0:\n      console.log(\"Student \" + num + \" is in Group D\");\n      break;\n    case 1:\n      console.log(\"Student \" + num + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + num + \" is in Group B\");\n      break;\n    case 3:\n      console.log(\"Student \" + num + \" is in Group C\");\n      break;\n  }\n}",
+            "full_code": "for (let num = 1; num <= 30; num++) {\n  switch (num % 4) {\n    case 0:\n      console.log(\"Student \" + num + \" is in Group D\");\n      break;\n    case 1:\n      console.log(\"Student \" + num + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + num + \" is in Group B\");\n      break;\n    case 3:\n      console.log(\"Student \" + num + \" is in Group C\");\n      break;\n  }\n}"
           },
           "label": "الثاني"
         }
