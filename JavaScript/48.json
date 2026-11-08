@@ -55,12 +55,8 @@
         "6": {
           "question": "أنشئ برنامجًا يقوم بإخراج \"It's sold out\" إذا كانت مقاعد دار السينما قد نفدت.\nالمقاعد مُعرّفة باسم seat، وتم إسناد sold out إليها.\nأعد كتابة التعبير الشرطي في السطر 2 كما يلي.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "if (!(seat == \"available\")) {"
-            ],
-            "template": "let seat = \"sold out\";\n___\n  console.log(\"It's sold out\");\n}",
-            "full_code": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}"
+            "type": "code",
+            "value": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}"
           },
           "label": "السادس"
         }

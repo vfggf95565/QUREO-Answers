@@ -34,8 +34,13 @@
         "1": {
           "question": "أنشئ برنامجًا يقوم بإخراج عدد الخطوات (بالمتر) لأسبوع كامل.\nمسافة المشي مُعرَّفة باسم distanceList، وتم تعيين مسافات المشي لأسبوع كامل.\nعدد الخطوات مُعرَّف باسم stepCount.\nأنشئ البرنامج من السطر 3 كما يلي:\n(1) استخدم for of لاستخراج جميع القيم من الثابت distanceList.\nلكن يجب أن يكون اسم الثابت الذي يخزّن القيم المستخرجة من distanceList هو distance.",
           "answer": {
-            "type": "code",
-            "value": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nfor (const distance of distanceList){\n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}"
+            "type": "fill",
+            "blanks": [
+              "for",
+              "const distance of distanceList"
+            ],
+            "template": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n\n___ (___){\n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}",
+            "full_code": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n\nfor (const distance of distanceList){\n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}"
           },
           "label": "الاول"
         }

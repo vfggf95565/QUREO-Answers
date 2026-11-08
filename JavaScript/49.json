@@ -26,7 +26,7 @@
             "blanks": [
               "distance"
             ],
-            "template": "let ___ = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+            "template": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + ___ + \"km\");\n}",
             "full_code": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}"
           },
           "label": "الثالث"
@@ -103,7 +103,7 @@
           "question": "أنشئ برنامجًا يُخرج عدد بطولات كأس العالم، التي تُقام مرة كل 4 سنوات، التي ستُقام من 2026 إلى 2100.\nالسنة مُعرّفة باسم year، وتم إسناد 2026 إليها في البداية.\nعدد البطولات مُعرّف باسم tournamentCount، وتم إسناد 0 إليه في البداية.\nأنشئ جملة if ابتداءً من السطر 5 كما يلي:\n(1) إذا كانت year تساوي 2050، نفّذ year = year + 4 ثم continue",
           "answer": {
             "type": "code",
-            "value": "let year = 2026;\nlet tournamentCount = 0;\nwhile (year <= 2100) {\n  if (year == 2050) {\n    year = year + 4;\n    continue;\n  }\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");"
+            "value": "let year = 2026;\nlet tournamentCount = 0;\n\nwhile (year <= 2100) {\n  if (year == 2050) {\n    year = year + 4;\n    continue;\n  }\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");"
           },
           "label": "الثالث"
         }
