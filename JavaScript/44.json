@@ -50,8 +50,13 @@
         "1": {
           "question": "أنشئ صفحة قائمة مقهى. أضف قائمة طعام إلى قسم المحتوى الرئيسي.\nأدخل وسم div بدءًا من السطر 9 فصاعدًا.",
           "answer": {
-            "type": "code",
-            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div>\n<h1>Menu List</h1>\n</div>"
+            "type": "fill",
+            "blanks": [
+              "<div>",
+              "</div>"
+            ],
+            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n___\n<h1>Menu List</h1>\n___",
+            "full_code": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div>\n<h1>Menu List</h1>\n</div>"
           },
           "label": "الاول"
         },
@@ -78,12 +83,8 @@
         "4": {
           "question": "أنشئ صفحة قائمة مقهى.\nأضف فاصل سطر باستخدام وسم br بين Donuts والصورة في السطر 12.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "<li>Donuts<br><img src=\"donuts.png\"></li>"
-            ],
-            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n___\n</ul>\n</div>",
-            "full_code": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n<li>Donuts<br><img src=\"donuts.png\"></li>\n</ul>\n</div>"
+            "type": "code",
+            "value": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donuts<br><img src=\"donuts.png\"></li>\n  </ul>\n</div>"
           },
           "label": "الرابع"
         },
@@ -102,12 +103,8 @@
         "6": {
           "question": "أنشئ صفحة قائمة مقهى.\nأضف صورة مشروب.\nأدخل الصورة على النحو التالي في السطر 13.\nاسم الصورة: \"cafe_latte.png\"\nسمة alt \"Cafe latte image\"",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "<li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>"
-            ],
-            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    ___\n  </ul>\n</div>",
-            "full_code": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>\n  </ul>\n</div>"
+            "type": "code",
+            "value": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>\n  </ul>\n</div>"
           },
           "label": "السادس"
         }

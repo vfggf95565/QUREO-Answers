@@ -42,8 +42,17 @@
         "4": {
           "question": "هذه صفحة ويب لمطعم باستا.\nالرجاء إدخال الوسوم في المحرر على النحو التالي:\n(1) حدد Delicious Pasta Restaurant كرأس للصفحة (header)\n(2) حدد قسم القائمة كوسم\ndiv (3) حدد Contact Us كتذييل للصفحة (footer)",
           "answer": {
-            "type": "code",
-            "value": "<header>\n  <h3>Delicious Pasta Restaurant</h3>\n</header>\n<div>\n  <ul>\n    <li>Peperoncino</li>\n    <li>Carbonara</li>\n  </ul>\n</div>\n<footer>\n  <p>Contact Us</p>\n</footer>"
+            "type": "fill",
+            "blanks": [
+              "<header>",
+              "</header>",
+              "<div>",
+              "</div>",
+              "<footer>",
+              "</footer>"
+            ],
+            "template": "___\n  <h3>Delicious Pasta Restaurant</h3>\n___\n___\n  <ul>\n    <li>Peperoncino</li>\n    <li>Carbonara</li>\n  </ul>\n___\n___\n  <p>Contact Us</p>\n___",
+            "full_code": "<header>\n  <h3>Delicious Pasta Restaurant</h3>\n</header>\n<div>\n  <ul>\n    <li>Peperoncino</li>\n    <li>Carbonara</li>\n  </ul>\n</div>\n<footer>\n  <p>Contact Us</p>\n</footer>"
           },
           "label": "الرابع"
         }
