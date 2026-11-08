@@ -22,7 +22,7 @@
           "question": "أنشئ برنامجًا يقوم بإخراج المنتج الذي يمكنك الحصول عليه اعتمادًا على الهدف الذي تصيبه عند إدخال رقم الهدف الذي أصبته.\nالهدف المصاب مُعرّف باسم target، وتم إسناد \"1\" إليه.\nقم بتجميع المعالجة في جملة switch ابتداءً من السطر 3 حسب الحالات المتشابهة.\n(1) إذا كانت \"4\" و\"8\"، اعرض \"Video game Get\" في وحدة التحكم\n(2) إذا كانت \"1\" و\"7\"، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(3) إذا لم ينطبق أيٌّ منها، اعرض \"Sticker Get\" في وحدة التحكم\n*يُرجى أن يكون البرنامج بالكامل من 15 سطرًا.",
           "answer": {
             "type": "code",
-            "value": "const target = 1;\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}"
+            "value": "const target = 1;\n\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}"
           },
           "label": "الثالث"
         }
