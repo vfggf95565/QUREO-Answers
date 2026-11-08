@@ -10,8 +10,8 @@
             "blanks": [
               "console.log(wordList.includes(\"bell\"));"
             ],
-            "template": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\n___",
-            "full_code": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\nconsole.log(wordList.includes(\"bell\"));"
+            "template": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\n\n___",
+            "full_code": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\n\nconsole.log(wordList.includes(\"bell\"));"
           },
           "label": "الاول"
         },
@@ -22,8 +22,8 @@
             "blanks": [
               "console.log(wordList.indexOf(\"pen\"));"
             ],
-            "template": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n___",
-            "full_code": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\nconsole.log(wordList.indexOf(\"pen\"));"
+            "template": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\n___",
+            "full_code": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\nconsole.log(wordList.indexOf(\"pen\"));"
           },
           "label": "الثاني"
         },
@@ -34,8 +34,8 @@
             "blanks": [
               "nameList.sort();"
             ],
-            "template": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n___\nconsole.log(nameList);",
-            "full_code": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\nnameList.sort();\nconsole.log(nameList);"
+            "template": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\n___\nconsole.log(nameList);",
+            "full_code": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\nnameList.sort();\nconsole.log(nameList);"
           },
           "label": "الثالث"
         },
@@ -54,8 +54,8 @@
             "blanks": [
               "sandwichIngredients.push(\"mayo\");"
             ],
-            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
-            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
           },
           "label": "الخامس"
         },
@@ -66,8 +66,8 @@
             "blanks": [
               "ingredientsList.pop();"
             ],
-            "template": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\n___\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);",
-            "full_code": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\ningredientsList.pop();\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);"
+            "template": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\n\n___\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);",
+            "full_code": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\n\ningredientsList.pop();\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);"
           },
           "label": "السادس"
         },
@@ -78,8 +78,8 @@
             "blanks": [
               "burgerIngredients.shift();"
             ],
-            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
-            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
           },
           "label": "السابع"
         },
@@ -90,8 +90,8 @@
             "blanks": [
               "burgerIngredients.unshift(\"mushroom\");"
             ],
-            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
-            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\nburgerIngredients.unshift(\"mushroom\");\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.unshift(\"mushroom\");\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
           },
           "label": "الثامن"
         }
@@ -149,8 +149,8 @@
           "blanks": [
             "guestList.includes(\"Wilson\")"
           ],
-          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(___);",
-          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nconsole.log(guestList.includes(\"Wilson\"));"
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(___);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"Wilson\"));"
         },
         "label": "الخامس"
       },
@@ -161,8 +161,8 @@
           "blanks": [
             "guestList.sort();"
           ],
-          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n___\nconsole.log(guestList);",
-          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\nguestList.sort();\nconsole.log(guestList);"
+          "template": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\n___\nconsole.log(guestList);",
+          "full_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nguestList.sort();\nconsole.log(guestList);"
         },
         "label": "السادس"
       },
@@ -173,8 +173,8 @@
           "blanks": [
             "letterList.pop();"
           ],
-          "template": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n___\nconsole.log(letterList);",
-          "full_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\nletterList.pop();\nconsole.log(letterList);"
+          "template": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\n___\nconsole.log(letterList);",
+          "full_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\nletterList.pop();\nconsole.log(letterList);"
         },
         "label": "السابع"
       },
@@ -185,8 +185,8 @@
           "blanks": [
             "colorList.unshift(\"green\");"
           ],
-          "template": "let colorList = [\"red\", \"blue\", \"yellow\"];\n___\nconsole.log(colorList);",
-          "full_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\ncolorList.unshift(\"green\");\nconsole.log(colorList);"
+          "template": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\n___\nconsole.log(colorList);",
+          "full_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\ncolorList.unshift(\"green\");\nconsole.log(colorList);"
         },
         "label": "الثامن"
       }

@@ -7,7 +7,7 @@
           "question": "ماذا تريد أن تأكل على الغداء؟",
           "answer": {
             "type": "text",
-            "value": "اختار اي اجابه تفضلها"
+            "value": "ساندوتش المأكولات البحرية"
           }
         },
         "1": {
@@ -31,8 +31,8 @@
             "blanks": [
               "sandwichIngredients.push(\"mayo\");"
             ],
-            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
-            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
           },
           "label": "الثالث"
         },
@@ -43,9 +43,8 @@
             "blanks": [
               "sandwichIngredients.push(\"mayo\", \"bacon\");"
             ],
-            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);\n....................................................................................................................................................الدرس الثاني",
-            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\nsandwichIngredients.push(\"mayo\", \"bacon\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
-            "note": "....................................................................................................................................................الدرس الثاني"
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\", \"bacon\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
           },
           "label": "الرابع"
         }
@@ -74,8 +73,8 @@
             "blanks": [
               "sandwichIngredients.pop();"
             ],
-            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
-            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\n\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\n\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
           },
           "label": "الثاني"
         },
@@ -86,8 +85,8 @@
             "blanks": [
               "sandwichIngredients.pop();"
             ],
-            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
-            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
+            "template": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\n\n___\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+            "full_code": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\n\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);"
           },
           "label": "الثالث"
         }
@@ -107,8 +106,8 @@
             "blanks": [
               "burgerIngredients.pop();"
             ],
-            "template": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
-            "full_code": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\nburgerIngredients.pop();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+            "template": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\nburgerIngredients.pop();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
           },
           "label": "الاول"
         },
@@ -126,8 +125,8 @@
             "blanks": [
               "burgerIngredients.shift();"
             ],
-            "template": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
-            "full_code": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+            "template": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
           },
           "label": "الثالث"
         },
@@ -138,8 +137,8 @@
             "blanks": [
               "burgerIngredients.shift();"
             ],
-            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
-            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+            "template": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\n___\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+            "full_code": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
           },
           "label": "الرابع"
         }
@@ -167,8 +166,8 @@
             "blanks": [
               "rankingList.pop();"
             ],
-            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\n___\nconsole.log(rankingList);",
-            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\nrankingList.pop();\nconsole.log(rankingList);"
+            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\n\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\n\nrankingList.pop();\nconsole.log(rankingList);"
           },
           "label": "الثاني"
         },
@@ -186,8 +185,8 @@
             "blanks": [
               "rankingList.unshift(\"Rick\");"
             ],
-            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n___\nconsole.log(rankingList);",
-            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\nrankingList.unshift(\"Rick\");\nconsole.log(rankingList);"
+            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\nrankingList.unshift(\"Rick\");\nconsole.log(rankingList);"
           },
           "label": "الرابع"
         },
@@ -198,8 +197,8 @@
             "blanks": [
               "rankingList.unshift(\"Cody\");"
             ],
-            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n___\nconsole.log(rankingList);",
-            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\nrankingList.unshift(\"Cody\");\nconsole.log(rankingList);"
+            "template": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\n___\nconsole.log(rankingList);",
+            "full_code": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\nrankingList.unshift(\"Cody\");\nconsole.log(rankingList);"
           },
           "label": "الخامس"
         }
@@ -254,8 +253,8 @@
           "blanks": [
             "letterList.pop();"
           ],
-          "template": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n___\nconsole.log(letterList);",
-          "full_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\nletterList.pop();\nconsole.log(letterList);"
+          "template": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\n___\nconsole.log(letterList);",
+          "full_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\nletterList.pop();\nconsole.log(letterList);"
         },
         "label": "الخامس"
       },
@@ -266,8 +265,8 @@
           "blanks": [
             "colorList.unshift(\"green\");"
           ],
-          "template": "let colorList = [\"red\", \"blue\", \"yellow\"];\n___\nconsole.log(colorList);",
-          "full_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\ncolorList.unshift(\"green\");\nconsole.log(colorList);"
+          "template": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\n___\nconsole.log(colorList);",
+          "full_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\ncolorList.unshift(\"green\");\nconsole.log(colorList);"
         },
         "label": "السادس"
       }
