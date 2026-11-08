@@ -56,8 +56,8 @@
             "blanks": [
               "checkWinningNum(myNumList);"
             ],
-            "template": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\n___",
-            "full_code": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);"
+            "template": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\n\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\n___",
+            "full_code": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\n\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);"
           },
           "label": "الثاني"
         }
@@ -71,7 +71,7 @@
   "review": {
     "questions": {
       "1": {
-        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي.",
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي.\nconst numList = [1, 2, 3, 4, 5];\nfor (const number of numList) {\nif (number % 3 == 0) {\nconsole.log(number);\n}\n}",
         "answer": {
           "type": "text",
           "value": "3"
@@ -87,7 +87,7 @@
         "label": "الثاني"
       },
       "3": {
-        "question": "اختر الشرح المناسب لنتيجة الإخراج عند تنفيذ البرنامج التالي.",
+        "question": "اختر الشرح المناسب لنتيجة الإخراج عند تنفيذ البرنامج التالي.\nlet count = 0;\nfor (let i = 0; i < 6; i++) {\nif (i % 2 == 0) {\ncount++;\n}\n}\nconsole.log(count);",
         "answer": {
           "type": "text",
           "value": "من بين القيم من 0 إلى 6، عدد القيم التي تقبل القسمة على 2"
@@ -107,7 +107,7 @@
         "label": "الرابع"
       },
       "5": {
-        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي.",
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي.\nfunction check(numList) {\nfor (const number of numList) {\nif (number % 5 == 0) {\nconsole.log(number);\n}\n}\n}\nconst myNumList = [2, 4, 6, 8, 10];\ncheck(myNumList);",
         "answer": {
           "type": "text",
           "value": "10"

@@ -81,7 +81,7 @@
   "review": {
     "questions": {
       "1": {
-        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي.",
+        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي.\nconst scoreList = [40, 55, 67, 52, 120];\nconsole.log(scoreList[1]);",
         "answer": {
           "type": "text",
           "value": "55"
@@ -89,7 +89,7 @@
         "label": "الاول"
       },
       "2": {
-        "question": "هذا برنامج يقوم بإخراج المجموع الكلي لقيم scoreList. يرجى اختيار ما يجب إدخاله في ① من الخيارات.",
+        "question": "هذا برنامج يقوم بإخراج المجموع الكلي لقيم scoreList. يرجى اختيار ما يجب إدخاله في ① من الخيارات.\nconst scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor(①){\nsum = sum + score;\n}\nconsole.log(sum);",
         "answer": {
           "type": "text",
           "value": "const score of scoreList"
@@ -103,8 +103,8 @@
           "blanks": [
             "for (const score of scoreList) {"
           ],
-          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n___\n  sum = sum + score;\n}\nconsole.log(sum);",
-          "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);"
+          "template": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n\n___\n  sum = sum + score;\n}\nconsole.log(sum);",
+          "full_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);"
         },
         "label": "الثالث"
       },

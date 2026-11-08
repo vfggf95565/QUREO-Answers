@@ -91,7 +91,7 @@
         "label": "الاول"
       },
       "2": {
-        "question": "اختر ناتج التنفيذ الصحيح للبرنامج التالي.",
+        "question": "اختر ناتج التنفيذ الصحيح للبرنامج التالي.\nlet num = 0;\nwhile (num < 5) {\nif (num == 2) {\nnum+= 1;\ncontinue;\n}\nconsole.log(\"Count: \" + num);\nnum+= 1;\n}",
         "answer": {
           "type": "text",
           "value": "Count: 0\nCount: 1\nCount: 3\nCount: 4"
@@ -102,7 +102,7 @@
         "question": "أضِف البرنامج التالي من السطر 5 وما بعده داخل معالجة جملة while المكتوبة.\nإذا كان a == 5، اجعل a = a + 1 وتخطَّ بقية المعالجة.",
         "answer": {
           "type": "code",
-          "value": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");"
+          "value": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \" + a + \" times\");\nconsole.log(\"b: \" + b + \" times\");"
         },
         "label": "الثالث"
       },

@@ -43,7 +43,7 @@
           "question": "أنشئ برنامجًا لترتيب الأسماء في مصفوفة ترتيبًا عكسيًا.\nأنشئ البرنامج بدءًا من السطر 3 وما يليه كما يلي:\n(1) اعكس ترتيب قائمة الترتيب (rankingList)\n(2) اعرض قيم قائمة الترتيب (rankingList) في وحدة التحكم.",
           "answer": {
             "type": "code",
-            "value": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\nrankingList.reverse();\nconsole.log(rankingList);"
+            "value": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);"
           },
           "label": "الرابع"
         },
@@ -119,7 +119,7 @@
         "label": "الاول"
       },
       "2": {
-        "question": "يرجى اختيار المخرجات عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "question": "يرجى اختيار المخرجات عند تنفيذ البرنامج التالي من الخيارات المتاحة.\nconst letterList = [\"o\", \"g\", \"o\", \"o\", \"o\", \"o\"];\nconsole.log(letterList.indexOf(\"g\"));",
         "answer": {
           "type": "text",
           "value": "1"
@@ -127,7 +127,7 @@
         "label": "الثاني"
       },
       "3": {
-        "question": "يرجى اختيار السلسلة النصية التي ستُعرض في وحدة التحكم عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "question": "يرجى اختيار السلسلة النصية التي ستُعرض في وحدة التحكم عند تنفيذ البرنامج التالي من الخيارات المتاحة.\nlet letterList = [\"apple\", \"orange\", \"banana\"];\nletterList.shift();\nconsole.log(letterList);",
         "answer": {
           "type": "text",
           "value": "orange,banana"

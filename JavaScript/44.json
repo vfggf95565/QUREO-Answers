@@ -6,16 +6,21 @@
         "1": {
           "question": "أنشئ صفحة قائمة مقهى. اكتب العنوان والعناصر التي ستُعرض في رأس الصفحة.\nأدخل ما يلي في المحرر.\n(1) استخدم وسم h1 لعرض العنوان\nCAFE MENU (2) استخدم وسمي  و  لعرض About the Cafe و Menu",
           "answer": {
-            "type": "text",
-            "value": "كتابة او نسخ الكود التالي\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>"
+            "type": "code",
+            "value": "<h1>CAFE MENU</h1>\n<ul>\n  <li>About the Cafe</li>\n  <li>Menu</li>\n</ul>"
           },
           "label": "الاول"
         },
         "2": {
           "question": "أنشئ صفحة قائمة مقهى.\nاكتب وسم header في قسم رأس الصفحة.\nأدخل ما يلي في المحرر.\n...",
           "answer": {
-            "type": "text",
-            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>"
+            "type": "fill",
+            "blanks": [
+              "<header>",
+              "</header>"
+            ],
+            "template": "___\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n___",
+            "full_code": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>"
           },
           "label": "الثاني"
         }
@@ -31,8 +36,7 @@
           "question": "أنشئ صفحة قائمة مقهى. أضف لون خلفية إلى قسم رأس الصفحة.\nأدخل ما يلي في المحرر.\nSelector: header\nProperty: background-color",
           "answer": {
             "type": "code",
-            "value": "header {\n  background-color: rgb(255, 255, 180);\n}",
-            "note": "كتابة او نسخ الكود التالي"
+            "value": "header {\n  background-color: rgb(255, 255, 180);\n}"
           },
           "label": "الاول"
         }
@@ -46,8 +50,8 @@
         "1": {
           "question": "أنشئ صفحة قائمة مقهى. أضف قائمة طعام إلى قسم المحتوى الرئيسي.\nأدخل وسم div بدءًا من السطر 9 فصاعدًا.",
           "answer": {
-            "type": "text",
-            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<div>\n<h1>Menu List</h1>\n</div>"
+            "type": "code",
+            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div>\n<h1>Menu List</h1>\n</div>"
           },
           "label": "الاول"
         },
@@ -58,19 +62,16 @@
             "blanks": [
               "class=\"main\""
             ],
-            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<div ___>\n<h1>Menu List</h1>\n</div>",
-            "full_code": "<div class=\"main\">",
-            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n</div>"
+            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div ___>\n<h1>Menu List</h1>\n</div>",
+            "full_code": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div class=\"main\">\n<h1>Menu List</h1>\n</div>"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "أنشئ صفحة قائمة مقهى. أضف قائمة طعام إلى قسم المحتوى الرئيسي.\nأدخل ما يلي بدءًا من السطر 11 فصاعدًا.",
           "answer": {
-            "type": "partial",
-            "answer_code": "<div class=\"main\">",
-            "full_code": "<li>Donuts<img src=\"donuts.png\"></li>",
-            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+            "type": "code",
+            "value": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donuts<img src=\"donuts.png\"></li>\n  </ul>\n</div>"
           },
           "label": "الثالث"
         },
@@ -81,9 +82,8 @@
             "blanks": [
               "<li>Donuts<br><img src=\"donuts.png\"></li>"
             ],
-            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n___\n</ul>\n</div>",
-            "full_code": "<li>Donuts<br><img src=\"donuts.png\"></li>",
-            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+            "template": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n___\n</ul>\n</div>",
+            "full_code": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n<li>Donuts<br><img src=\"donuts.png\"></li>\n</ul>\n</div>"
           },
           "label": "الرابع"
         },
@@ -94,9 +94,8 @@
             "blanks": [
               "alt=\"Donut image\""
             ],
-            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donut.png\" ___></li>\n  </ul>\n</div>",
-            "full_code": "<li>Donut<br><img src=\"donut.png\" alt=\"Donut image\"></li>",
-            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donut.png\" ___></li>\n  </ul>\n</div>",
+            "full_code": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donut.png\" alt=\"Donut image\"></li>\n  </ul>\n</div>"
           },
           "label": "الخامس"
         },
@@ -107,9 +106,8 @@
             "blanks": [
               "<li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>"
             ],
-            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    ___\n  </ul>\n</div>",
-            "full_code": "<li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>",
-            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>"
+            "template": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    ___\n  </ul>\n</div>",
+            "full_code": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>\n  </ul>\n</div>"
           },
           "label": "السادس"
         }
@@ -128,10 +126,8 @@
         "1": {
           "question": "أنشئ صفحة قائمة مقهى.\nأدخل HTML على النحو التالي بدءًا من السطر 17 فصاعدًا.\n(1) أحط قسم التذييل بأكمله بوسم\nfooter (2) أنشئ قائمة باستخدام وسمي  و  لـ Access و \"Contact",
           "answer": {
-            "type": "partial",
-            "answer_code": "<div class=\"main\">",
-            "full_code": "<li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n<li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>",
-            "note": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n<h1>Menu List</h1>\n<ul>\n</ul>\n</div>\n<footer>\n<ul>\n<li>Access</li>\n<li>Contact</li>\n</ul>\n</footer>"
+            "type": "code",
+            "value": "<header>\n<h1>CAFE MENU</h1>\n<ul>\n<li>About the Cafe</li>\n<li>Menu</li>\n</ul>\n</header>\n\n<div class=\"main\">\n<h1>Menu List</h1>\n<ul>\n<li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n<li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>\n</ul>\n</div>\n\n<footer>\n<ul>\n<li>Access</li>\n<li>Contact</li>\n</ul>\n</footer>"
           },
           "label": "الاول"
         }
@@ -174,7 +170,7 @@
       "1": {
         "question": "أدرج صورة باسم الملف \"mountain_hut.png\". أضف سمة alt إليها أيضًا. الرجاء تحديد الكود المناسب من الخيارات.",
         "answer": {
-          "type": "code",
+          "type": "text",
           "value": "<img src=\"mountain_hut.png\" alt=\"Mountain hut photo\">"
         },
         "label": "الاول"
@@ -191,8 +187,8 @@
         "question": "الرجاء إضافة class باسم \"mountains\" إلى وسم div.",
         "answer": {
           "type": "code",
-          "value": "<div class=\"mountains\">",
-          "note": "تعديل او مسح ونسخ الكود ليصبح هكذا\n<h1>World Mountains</h1>\n<ul>\n<li>Mount Everest</li>\n<li>Mount McKinley</li>\n<li>Mount Kilimanjaro</li>\n</ul>\n</div>"
+          "value": "<div class=\"mountains\">\n  <h1>World Mountains</h1>\n  <ul>\n    <li>Mount Everest</li>\n    <li>Mount McKinley</li>\n    <li>Mount Kilimanjaro</li>\n  </ul>\n</div>",
+          "note": "تعديل او مسح ونسخ الكود ليصبح هكذا"
         },
         "label": "الثالث"
       },
@@ -207,8 +203,8 @@
       "5": {
         "question": "الرجاء تحديد وصف CSS الأكثر ملاءمة من الخيارات لجعل لون خلفية قسم التذييل بأكمله هو اللون الممثل بكود اللون #e0a241.",
         "answer": {
-          "type": "code",
-          "value": "footer{\n  background-color: #e0a241;\n}"
+          "type": "text",
+          "value": "footer{\nbackground-color: #e0a241;\n}"
         },
         "label": "الخامس"
       }

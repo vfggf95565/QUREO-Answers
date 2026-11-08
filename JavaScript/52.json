@@ -98,7 +98,7 @@
           "question": "أنشئ برنامجًا لترتيب الأسماء في المصفوفة أبجديًا.\nأنشئ البرنامج من السطر 3 فصاعدًا كما يلي:\n(1) ترتيب قائمة الأسماء (nameList)\n(2) عرض قيم قائمة الأسماء (nameList) في وحدة التحكم.",
           "answer": {
             "type": "code",
-            "value": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\nnameList.sort();\nconsole.log(nameList);"
+            "value": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\nnameList.sort();\nconsole.log(nameList);"
           },
           "label": "الثالث"
         }
@@ -134,7 +134,7 @@
           "question": "أنشئ برنامجًا يعكس ترتيب الأسماء في المصفوفة.\nأنشئ برنامجًا بدءًا من السطر 3 كما يلي:\n(1) اعكس ترتيب القيم في قائمة الترتيب (rankingList).\n(2) اعرض قيم قائمة الترتيب (rankingList) في وحدة التحكم.",
           "answer": {
             "type": "code",
-            "value": "const rankingList = [\"Mason\", \"Isabella\", \"William\", \"Charlotte\", \"Rick\"];\nrankingList.reverse();\nconsole.log(rankingList);"
+            "value": "const rankingList = [\"Mason\", \"Isabella\", \"William\", \"Charlotte\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);"
           },
           "label": "الثالث"
         }
@@ -149,7 +149,7 @@
   "review": {
     "questions": {
       "1": {
-        "question": "يرجى اختيار الناتج المطلوب عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "question": "يرجى اختيار الناتج المطلوب عند تنفيذ البرنامج التالي من الخيارات المتاحة.\nconst score = [48, 50, 56, 62, 72, 86, 98, 100];\nconst mathScore = 67;\nconsole.log(score.includes(mathScore));",
         "answer": {
           "type": "text",
           "value": "false"
@@ -157,7 +157,7 @@
         "label": "الاول"
       },
       "2": {
-        "question": "يرجى اختيار المخرجات عند تنفيذ البرنامج التالي من الخيارات المتاحة.",
+        "question": "يرجى اختيار المخرجات عند تنفيذ البرنامج التالي من الخيارات المتاحة.\nconst characterList = [\"m\", \"n\", \"m\", \"m\", \"m\", \"m\"];\nconsole.log(characterList.indexOf(\"n\"));",
         "answer": {
           "type": "text",
           "value": "1"

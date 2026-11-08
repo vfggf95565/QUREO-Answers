@@ -42,8 +42,8 @@
         "4": {
           "question": "هذه صفحة ويب لمطعم باستا.\nالرجاء إدخال الوسوم في المحرر على النحو التالي:\n(1) حدد Delicious Pasta Restaurant كرأس للصفحة (header)\n(2) حدد قسم القائمة كوسم\ndiv (3) حدد Contact Us كتذييل للصفحة (footer)",
           "answer": {
-            "type": "text",
-            "value": "<header>\n<h3>Delicious Pasta Restaurant</h3>\n</header>\n<div>\n<ul>\n<li>Peperoncino</li>\n<li>Carbonara</li>\n</ul>\n</div>\n<footer>\n<p>Contact Us</p>\n</footer>"
+            "type": "code",
+            "value": "<header>\n  <h3>Delicious Pasta Restaurant</h3>\n</header>\n<div>\n  <ul>\n    <li>Peperoncino</li>\n    <li>Carbonara</li>\n  </ul>\n</div>\n<footer>\n  <p>Contact Us</p>\n</footer>"
           },
           "label": "الرابع"
         }
@@ -98,8 +98,7 @@
             "<div class=\"mountains\">"
           ],
           "template": "___\n  <h1>Mountains of the World</h1>\n  <ul>\n    <li>Mount Everest</li>\n    <li>Mount McKinley</li>\n    <li>Mount Kilimanjaro</li>\n  </ul>\n</div>",
-          "full_code": "<div class=\"mountains\">",
-          "note": "<h1>Mountains of the World</h1>\n<ul>\n<li>Mount Everest</li>\n<li>Mount McKinley</li>\n<li>Mount Kilimanjaro</li>\n</ul>\n</div>"
+          "full_code": "<div class=\"mountains\">\n  <h1>Mountains of the World</h1>\n  <ul>\n    <li>Mount Everest</li>\n    <li>Mount McKinley</li>\n    <li>Mount Kilimanjaro</li>\n  </ul>\n</div>"
         },
         "label": "الخامس"
       },

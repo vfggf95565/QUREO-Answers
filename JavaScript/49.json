@@ -88,7 +88,7 @@
           "question": "أنشئ برنامجًا يُخرج عدد بطولات كأس العالم، التي تُقام مرة كل 4 سنوات، التي ستُقام من 2026 إلى 2100.\nالسنة مُعرّفة باسم year، وتم إسناد 2026 إليها في البداية.\nعدد البطولات مُعرّف باسم tournamentCount، وتم إسناد 0 إليه في البداية.\nأنشئ جملة while ابتداءً من السطر 4 كما يلي:\n(1) طالما أن year تساوي 2100 أو أقل، كرّر tournamentCount++ و year = year + 4",
           "answer": {
             "type": "code",
-            "value": "let year = 2026;\nlet tournamentCount = 0;\nwhile (year <= 2100) {\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");"
+            "value": "let year = 2026;\nlet tournamentCount = 0;\n\nwhile (year <= 2100) {\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");"
           },
           "label": "الثاني"
         },
@@ -131,7 +131,7 @@
         "label": "الاول"
       },
       "2": {
-        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي:",
+        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي:\nlet num = 0;\nwhile (num < 10) {\nnum += 1;\nif (num % 3 == 0) {\nconsole.log(num);\n}\n}",
         "answer": {
           "type": "text",
           "value": "3\n6\n9"
@@ -151,7 +151,7 @@
         "label": "الثالث"
       },
       "4": {
-        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي:",
+        "question": "يرجى اختيار ناتج التنفيذ الصحيح للبرنامج التالي:\nlet num = 0;\nwhile (num < 5) {\nif (num == 2) {\nnum+= 1;\ncontinue;\n}\nconsole.log(\"Count: \" + num);\nnum+= 1; }",
         "answer": {
           "type": "text",
           "value": "Count: 0\nCount: 1\nCount: 3\nCount: 4"
@@ -162,7 +162,7 @@
         "question": "أضف البرنامج التالي ابتداءً من السطر 5 داخل معالجة while statement المكتوبة.\nإذا كان a == 5، نفّذ a = a + 1 وتخطَّ بقية المعالجة.",
         "answer": {
           "type": "code",
-          "value": "let a = 0;\nlet b = 0;\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");"
+          "value": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \" + a + \" times\");\nconsole.log(\"b: \" + b + \" times\");"
         },
         "label": "الخامس"
       }

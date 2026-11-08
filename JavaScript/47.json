@@ -14,7 +14,7 @@
           "question": "أنشئ برنامجًا يقوم بإخراج المنتج الذي يمكنك الحصول عليه اعتمادًا على الهدف الذي تصيبه عند إدخال رقم الهدف الذي أصبته.\nالهدف المصاب مُعرّف باسم target، وتم إسناد \"1\" إليه.\nأنشئ جملة switch ابتداءً من السطر 3 كما يلي.\n(1) إذا كانت 4، اعرض \"Video game Get\" في وحدة التحكم\n(2) إذا كانت 8، اعرض \"Video game Get\" في وحدة التحكم\n(3) إذا كانت 1، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(4) إذا كانت 7، اعرض \"Candy Assortment Get\" في وحدة التحكم\n(5) إذا لم ينطبق أيٌّ منها، اعرض \"Sticker Get\" في وحدة التحكم",
           "answer": {
             "type": "code",
-            "value": "const target = 1;\nswitch (target){\n  case 4:\n    console.log(\"Video game Get\");\n    break;\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n    console.log(\"Candy Assortment Get\");\n    break;\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n    break;\n}"
+            "value": "const target = 1;\n\nswitch (target){\n  case 4:\n    console.log(\"Video game Get\");\n    break;\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n    console.log(\"Candy Assortment Get\");\n    break;\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n    break;\n}"
           },
           "label": "الثاني"
         },
@@ -39,7 +39,7 @@
           "question": "عند إدخال رقم طالب، يتم إخراج أسماء المجموعات من A إلى D.\nرقم الطالب مُعرّف باسم num، وتم إسناد 2 إليه.\nأنشئ جملة switch ابتداءً من السطر 3 كما يلي.\n(1) إذا كانت 1، اعرض \"Student \" + num + \" is in Group A\" في وحدة التحكم\n(2) إذا كانت 2، اعرض \"Student \" + num + \" is in Group B\" في وحدة التحكم\n(3) إذا كانت 3، اعرض \"Student \" + num + \" is in Group C\" في وحدة التحكم\n(4) إذا كانت 4، اعرض \"Student \" + num + \" is in Group D\" في وحدة التحكم",
           "answer": {
             "type": "code",
-            "value": "const num = 2;\nswitch (num) {\n  case 1:\n    console.log(\"Student \" + num + \" is in Group A\");\n    break;\n  case 2:\n    console.log(\"Student \" + num + \" is in Group B\");\n    break;\n  case 3:\n    console.log(\"Student \" + num + \" is in Group C\");\n    break;\n  case 4:\n    console.log(\"Student \" + num + \" is in Group D\");\n    break;\n}"
+            "value": "const num = 2;\n\nswitch (num) {\n  case 1:\n    console.log(\"Student \" + num + \" is in Group A\");\n    break;\n  case 2:\n    console.log(\"Student \" + num + \" is in Group B\");\n    break;\n  case 3:\n    console.log(\"Student \" + num + \" is in Group C\");\n    break;\n  case 4:\n    console.log(\"Student \" + num + \" is in Group D\");\n    break;\n}"
           },
           "label": "الاول"
         },
@@ -104,7 +104,7 @@
         "label": "الثاني"
       },
       "3": {
-        "question": "اختر نتيجة التنفيذ عند إخراج البرنامج التالي.",
+        "question": "اختر نتيجة التنفيذ عند إخراج البرنامج التالي.\nfor (let i = 1; i <= 3; i++) {\nswitch (i % 3) {\ncase 0:\nconsole.log(\"apple\");\nbreak;\ncase 1:\nconsole.log(\"strawberry\");\nbreak;\ncase 2:\nconsole.log(\"orange\");\nbreak;\n}\n}",
         "answer": {
           "type": "text",
           "value": "strawberry\norange\napple"
@@ -120,7 +120,7 @@
         "label": "الرابع"
       },
       "5": {
-        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي من الخيارات.",
+        "question": "اختر نتيجة الإخراج عند تنفيذ البرنامج التالي من الخيارات.\nconst num1 = 10;\nconst num2 = 10;\nif (!(num1 == num2)) {\nconsole.log(\"Hello\");\n}",
         "answer": {
           "type": "text",
           "value": "No output"
