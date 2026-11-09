@@ -67,11 +67,10 @@
           "label": "الاول"
         },
         "2": {
-          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.\nimport math",
+          "question": "أدخل البرنامج نفسه كما هو موضح أدناه.",
           "answer": {
             "type": "code",
-            "value": "print(round(9.5))\nprint(math.floor(9.5))",
-            "note": "تعديل الكود ليكون هكذا\nimport math"
+            "value": "import math\nprint(round(9.5))\nprint(math.floor(9.5))"
           },
           "label": "الثاني"
         },
@@ -79,8 +78,7 @@
           "question": "أنشئ برنامجك كما يلي:\n(1) اكتب import math في بداية البرنامج.\n(2) مرر الوسيط 7.8 إلى دالة math.floor، واطبع الناتج على الشاشة.",
           "answer": {
             "type": "code",
-            "value": "print(math.floor(7.8))",
-            "note": "import math"
+            "value": "import math\nprint(math.floor(7.8))"
           },
           "label": "الثالث"
         }
@@ -101,24 +99,23 @@
           "label": "الاول"
         },
         "2": {
-          "question": "أدخل برنامجك كما يلي:\nimport random",
+          "question": "أدخل برنامجك كما يلي:",
           "answer": {
             "type": "code",
-            "value": "print(random.random())",
-            "note": "import random"
+            "value": "import random\nprint(random.random())"
           },
           "label": "الثاني"
         },
         "3": {
-          "question": "أدخل برنامجك كما يلي:\nimport random",
+          "question": "أدخل برنامجك كما يلي:",
           "answer": {
             "type": "fill",
             "blanks": [
               "import random",
               "random.random() >= 0.5:"
             ],
-            "template": "___\n___",
-            "full_code": "import random\nrandom.random() >= 0.5:"
+            "template": "___\n\nif ___\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")",
+            "full_code": "import random\n\nif random.random() >= 0.5:\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")"
           },
           "label": "الثالث"
         }
@@ -135,32 +132,31 @@
           "question": "أنشئ برنامجك كما يلي:\n(1) استورد الدالة random\n(2) استدعِ الدالة random.random واطبع النتيجة على الشاشة.",
           "answer": {
             "type": "code",
-            "value": "print(random.random())",
-            "note": "import random"
+            "value": "import random\nprint(random.random())"
           },
           "label": "الاول"
         },
         "2": {
-          "question": "أنشئ برنامجك كما يلي:\nimport random",
+          "question": "أنشئ برنامجك كما يلي:",
           "answer": {
             "type": "fill",
             "blanks": [
               "random.random() * 10"
             ],
-            "template": "print(___)",
-            "full_code": "print(random.random() * 10)"
+            "template": "import random\nprint(___)",
+            "full_code": "import random\nprint(random.random() * 10)"
           },
           "label": "الثاني"
         },
         "3": {
-          "question": "أنشئ برنامجك كما يلي:\nimport random\nimport math",
+          "question": "أنشئ برنامجك كما يلي:",
           "answer": {
             "type": "fill",
             "blanks": [
               "math.floor(random.random() * 10)"
             ],
-            "template": "print(___)",
-            "full_code": "print(math.floor(random.random() * 10))"
+            "template": "import random\nimport math\nprint(___)",
+            "full_code": "import random\nimport math\nprint(math.floor(random.random() * 10))"
           },
           "label": "الثالث"
         }
@@ -202,8 +198,7 @@
         "question": "أدخل برنامجك كما يلي:\n(1) استخدم دالة لتقريب العدد \"5.5\" وطباعته على الشاشة.\n(2) استخدم دالة لتقريب العدد العشري \"8.8\" إلى أقرب عدد صحيح أصغر، وطباعته على الشاشة.\nاستخدم الدالتين \"math.floor\" و\"round\".",
         "answer": {
           "type": "code",
-          "value": "print(round(5.5))\nprint(math.floor(8.8))",
-          "note": "ملحوظة : في حالة نسخك للاجابة قم بنسخ كل سطر في كل مره وليس الكود بالكامل مرة واحده مع مراعاه السطر الثاني فارغ لا ينسخ\nimport math"
+          "value": "import math\nprint(round(5.5))\nprint(math.floor(8.8))"
         },
         "label": "الرابع"
       },
@@ -215,8 +210,7 @@
             "if random.random() >= 0.5:"
           ],
           "template": "import random\n___\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")",
-          "full_code": "if random.random() >= 0.5:\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")",
-          "note": "import random"
+          "full_code": "import random\nif random.random() >= 0.5:\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")"
         },
         "label": "الخامس"
       },
@@ -224,8 +218,7 @@
         "question": "أنشئ برنامجًا يُعيد عددًا صحيحًا عشوائيًا كما يلي:\n(1) استخدم الدالة \"random.random\" لإعادة عدد عشوائي.\n(2) اضرب العدد العشوائي الناتج في 10.\n(3) استخدم الدالة \"math.floor\" لإعادة عدد صحيح.",
         "answer": {
           "type": "code",
-          "value": "print(math.floor(random.random() * 10))",
-          "note": "تعديل الكود ليصبح من سطر واحد هكذا"
+          "value": "print(math.floor(random.random() * 10))"
         },
         "label": "السادس"
       }
