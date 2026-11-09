@@ -15,7 +15,7 @@
           "question": "ابتداءً من السطر الخامس، أدخل نفس البرنامج الموضح أدناه.",
           "answer": {
             "type": "code",
-            "value": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")\nelif people >= 2 or points >= 3000:\n    print(\"Save 10%\")"
+            "value": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"Save 20%\")\nelif people >= 2 or points >= 3000:\n    print(\"Save 10%\")"
           },
           "label": "الثاني"
         }

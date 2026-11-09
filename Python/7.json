@@ -75,7 +75,7 @@
           "question": "عند تشغيل هذا البرنامج، ماذا ستكون نتيجة الطباعة؟",
           "answer": {
             "type": "text",
-            "value": "تتم طباعة \"10"
+            "value": "تتم طباعة \"Up to 10\""
           }
         },
         "3": {
@@ -100,7 +100,7 @@
         "question": "اختر البرنامج الذي يقول: \"إذا... فافعل A. وإلا، إذا... فافعل B.\"",
         "answer": {
           "type": "text",
-          "value": "If condition:\nA\nelif conditions:\nB"
+          "value": "if condition:\nA\nelif condition:\nB"
         },
         "label": "الاول"
       },

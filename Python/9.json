@@ -8,9 +8,9 @@
           "answer": {
             "type": "fill",
             "blanks": [
-              "people >= 2 and points >= 3000:"
+              "people >= 2 and points >= 3000"
             ],
-            "template": "people = 3\npoints = 3500\nif ___\n    print(\"20% off\")",
+            "template": "people = 3\npoints = 3500\nif ___:\n    print(\"20% off\")",
             "full_code": "people = 3\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")"
           },
           "label": "الاول"
@@ -20,9 +20,9 @@
           "answer": {
             "type": "fill",
             "blanks": [
-              "people >= 2 or points >= 3000:"
+              "people >= 2 or points >= 3000"
             ],
-            "template": "people = 3\npoints = 2500\nif ___\n    print(\"10% off\")",
+            "template": "people = 3\npoints = 2500\nif ___:\n    print(\"10% off\")",
             "full_code": "people = 3\npoints = 2500\nif people >= 2 or points >= 3000:\n    print(\"10% off\")"
           },
           "label": "الثاني"
@@ -39,14 +39,14 @@
           "question": "أي مما يلي يدل على تحقق الشرطين 1 و2 معا؟",
           "answer": {
             "type": "text",
-            "value": "التعبير الشرطي 1 and التعبير الشرطي 2"
+            "value": "condition 1 and condition 2"
           }
         },
         "u2": {
           "question": "أي مما يلي يدل على تحقق الشرط 1 أو الشرط 2؟",
           "answer": {
             "type": "text",
-            "value": "التعبير الشرطي 1 or التعبير الشرطي 2"
+            "value": "condition 1 or condition 2"
           }
         },
         "1": {
@@ -105,16 +105,24 @@
       "4": {
         "question": "أنشئ برنامجا كما يلي.\n(1) إذا كان المتغير a يساوي 5 أو كان b يساوي 10، فاطبع \"The condition is met\"\n*يرجى إدخال التعبير الشرطي فقط.",
         "answer": {
-          "type": "code",
-          "value": "a == 5 or b == 10\na = 5;\nb = 10;\nif a == 5 or b == 10:\n    print(\"The condition is met\")"
+          "type": "fill",
+          "blanks": [
+            "a == 5 or b == 10"
+          ],
+          "template": "a = 5;\nb = 10;\n\nif ___:\n    print(\"The condition is met\")",
+          "full_code": "a = 5;\nb = 10;\n\nif a == 5 or b == 10:\n    print(\"The condition is met\")"
         },
         "label": "الرابع"
       },
       "5": {
         "question": "أنشئ برنامجا كما يلي.\n(1) إذا كان المتغير a أكبر من أو يساوي 2 وكان b أكبر من أو يساوي 3، فاطبع \"The condition is met\".\n*أدخل التعبير الشرطي فقط.",
         "answer": {
-          "type": "code",
-          "value": "a >= 2 and b >= 3\na = 4;\nb = 3;\nif a >= 2 and b >= 3:\n    print(\"The condition is met\")"
+          "type": "fill",
+          "blanks": [
+            "a >= 2 and b >= 3"
+          ],
+          "template": "a = 4;\nb = 3;\nif ___:\n    print(\"The condition is met\")",
+          "full_code": "a = 4;\nb = 3;\nif a >= 2 and b >= 3:\n    print(\"The condition is met\")"
         },
         "label": "الخامس"
       }

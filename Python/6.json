@@ -21,8 +21,13 @@
         "2": {
           "question": "أسند 80 إلى المتغير books، وإذا كان المتغير books يساوي 100، فاطبع \"Reading Champion Badge!\"\nإذا لم يكن 100، فأنشئ برنامجا يطبع \"Let's try a little more!\"\nأدخل البرنامج نفسه كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge\")\nelse:\n    print(\"Let's try a little more!\")"
+            "type": "fill",
+            "blanks": [
+              "else:",
+              "print(\"Let's try a little more\")"
+            ],
+            "template": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge\")\n___\n    ___",
+            "full_code": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge\")\nelse:\n    print(\"Let's try a little more\")"
           },
           "label": "الثاني"
         },
@@ -186,8 +191,12 @@
         "2": {
           "question": "إذا لم تكن نتيجتك 100، فأنشئ برنامجا يطبع \"Aim for a perfect score!\"\nتم تعريف نتيجتك والتصريح بها كثابت باسم myScore.\nأدخل التعبير الشرطي \"إذا كان الثابت myScore لا يساوي 100\" في السطر الثالث.",
           "answer": {
-            "type": "code",
-            "value": "myScore = 90\n\nif myScore != 100:\n    print(\"Aim for a perfect score!\")"
+            "type": "fill",
+            "blanks": [
+              "my_score != 100"
+            ],
+            "template": "myScore = 90\n\nif ___:\n    print(\"Aim for a perfect score!\")",
+            "full_code": "myScore = 90\n\nif my_score != 100:\n    print(\"Aim for a perfect score!\")"
           },
           "label": "الثاني"
         }
@@ -204,7 +213,7 @@
         "question": "اختر الشكل الصحيح للبرنامج: إذا كان ~ فافعل A، وإلا فافعل B.",
         "answer": {
           "type": "text",
-          "value": "if condition::\nA\nelse:\nB"
+          "value": "if condition:\nA\nelse:\nB"
         },
         "label": "الاول"
       },
