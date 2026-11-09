@@ -7,8 +7,7 @@
           "question": "سنضع مستويات التحذير في مصفوفة من الأعداد الصحيحة فقط.\n2 تعني \"خطر\"، و1 تعني \"تحذير\".\nأنشئ برنامجك كما يلي:\n(1) اكتب import array في بداية البرنامج.\n(2) عيّن قيمة array.array('i', [2, 2, 1, 1, 2, 1, 2]) إلى warn_array.\n(3) اطبع العنصرين 0 و5 من warn_array في وحدة التحكم.",
           "answer": {
             "type": "code",
-            "value": "warn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])\nprint(warn_array[5])",
-            "note": "import array"
+            "value": "import array\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])\nprint(warn_array[5])"
           },
           "label": "الاول"
         },
@@ -20,8 +19,7 @@
               "print(len(warn_array))"
             ],
             "template": "import array\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\n___",
-            "full_code": "warn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(len(warn_array))",
-            "note": "import array"
+            "full_code": "import array\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(len(warn_array))"
           },
           "label": "الثاني"
         },
@@ -29,8 +27,7 @@
           "question": "هذا تمرين لإنشاء مصفوفة تحتوي على أعداد صحيحة فقط.\nأنشئ برنامجك كما يلي:\n(1) اكتب import array في بداية البرنامج.\n(2) عيّن قيمة array.array('i', [2, 2, 1, 1, 2, 1, 2]) إلى warn_array.",
           "answer": {
             "type": "code",
-            "value": "warn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])",
-            "note": "import array"
+            "value": "import array\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])"
           },
           "label": "الثالث"
         }
@@ -51,8 +48,7 @@
               "day_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])"
             ],
             "template": "import array\n___",
-            "full_code": "day_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])",
-            "note": "import array"
+            "full_code": "import array\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])"
           },
           "label": "الاول"
         },
@@ -60,8 +56,7 @@
           "question": "أنشئ برنامجك كما يلي:\n(1) اطبع العنصر رقم 0 من مصفوفة day_array في وحدة التحكم.\n(2) اطبع العنصر رقم 6 من مصفوفة day_array في وحدة التحكم.",
           "answer": {
             "type": "code",
-            "value": "day_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(day_array[0])\nprint(day_array[6])",
-            "note": "import array"
+            "value": "import array\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(day_array[0])\nprint(day_array[6])"
           },
           "label": "الثاني"
         },
@@ -73,8 +68,7 @@
               "print(len(day_array))"
             ],
             "template": "import array\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\n___",
-            "full_code": "day_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(len(day_array))",
-            "note": "import array"
+            "full_code": "import array\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(len(day_array))"
           },
           "label": "الثالث"
         }
@@ -92,8 +86,7 @@
         "question": "اختر البرنامج الصحيح لإنشاء مصفوفة تحتوي على أعداد صحيحة فقط.",
         "answer": {
           "type": "code",
-          "value": "rank_array = array.array('i', [3, 1, 3, 2, 1]);",
-          "note": "import array"
+          "value": "import array\nrank_array = array.array('i', [3, 1, 3, 2, 1]);"
         },
         "label": "الاول"
       },
@@ -109,8 +102,7 @@
         "question": "أدخل البرنامج كما يلي:\n(1) اكتب import array في بداية البرنامج.\n(2) عيّن المتغير round_array باستخدام array.array('i', [1, 2, 3, 4, 5]).\n(3) اطبع العنصرين 1 و4 من round_array في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "round_array = array.array('i', [1, 2, 3, 4, 5]);\nprint(round_array[1])\nprint(round_array[4])",
-          "note": "import array"
+          "value": "import array\nround_array = array.array('i', [1, 2, 3, 4, 5]);\nprint(round_array[1])\nprint(round_array[4])"
         },
         "label": "الثالث"
       },

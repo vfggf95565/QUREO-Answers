@@ -31,8 +31,8 @@
             "blanks": [
               "def split3(total):"
             ],
-            "template": "___",
-            "full_code": "def split3(total):"
+            "template": "___\n    print(\"process\")",
+            "full_code": "def split3(total):\n    print(\"process\")"
           },
           "label": "الاول"
         },
@@ -43,8 +43,8 @@
             "blanks": [
               "result = total / 3"
             ],
-            "template": "___",
-            "full_code": "result = total / 3"
+            "template": "def split3(total):\n    ___",
+            "full_code": "def split3(total):\n    result = total / 3"
           },
           "label": "الثاني"
         },
@@ -55,8 +55,8 @@
             "blanks": [
               "return result"
             ],
-            "template": "___",
-            "full_code": "return result"
+            "template": "def split3(total):\n    result = total / 3\n    ___",
+            "full_code": "def split3(total):\n    result = total / 3\n    return result"
           },
           "label": "الثالث"
         },
@@ -67,8 +67,8 @@
             "blanks": [
               "print(split3(5000))"
             ],
-            "template": "___",
-            "full_code": "print(split3(5000))"
+            "template": "def split3(total):\n    result = total / 3\n    return result\n\n___",
+            "full_code": "def split3(total):\n    result = total / 3\n    return result\n\nprint(split3(5000))"
           },
           "label": "الرابع"
         }
@@ -97,44 +97,32 @@
             "blanks": [
               "def split7(total):"
             ],
-            "template": "___",
-            "full_code": "def split7(total):"
+            "template": "___\n    print(\"process\")",
+            "full_code": "def split7(total):\n    print(\"process\")"
           },
           "label": "الاول"
         },
         "2": {
           "question": "لقد أنشأتَ الدالة split7 مع الوسيط total.\nأنشئ برنامجك كما يلي:\n(1) عيّن الصيغة total / 7 للمتغير result.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "result = total / 7"
-            ],
-            "template": "def split7(total):\n    ___",
-            "full_code": "def split7(total):\n    result = total / 7"
+            "type": "code",
+            "value": "def split7(total):\n    result = total / 7"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "لقد أنشأتَ الدالة split7 مع الوسيط total.\nأنشئ برنامجك كما يلي:\n(1) أعد قيمة المتغير result",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "return result"
-            ],
-            "template": "def split7(total):\n    result = total / 7\n    ___",
-            "full_code": "def split7(total):\n    result = total / 7\n    return result"
+            "type": "code",
+            "value": "def split7(total):\n    result = total / 7\n    return result"
           },
           "label": "الثالث"
         },
         "4": {
           "question": "لقد أنشأتَ الدالة split7 مع الوسيط total.\nأنشئ برنامجك كما يلي:\n(1) مرّر الوسيط 14000 إلى الدالة split7 واطبعه على الشاشة.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "print(split7(14000))"
-            ],
-            "template": "def split7(total):\n    result = total / 7\n    return result\n\n___",
-            "full_code": "def split7(total):\n    result = total / 7\n    return result\n\nprint(split7(14000))"
+            "type": "code",
+            "value": "def split7(total):\n    result = total / 7\n    return result\n\nprint(split7(14000))"
           },
           "label": "الرابع"
         },
@@ -153,36 +141,24 @@
         "6": {
           "question": "لقد أنشأتَ الدالة calc7 باستخدام الوسيط num.\nفي السطر الثاني، أدخل البرنامج كما يلي:\n(1) عيّن الصيغة num * 7 للمتغير result.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "result = num * 7"
-            ],
-            "template": "def calc7(num):\n    ___",
-            "full_code": "def calc7(num):\n    result = num * 7"
+            "type": "code",
+            "value": "def calc7(num):\n    result = num * 7"
           },
           "label": "السادس"
         },
         "7": {
           "question": "لقد أنشأتَ الدالة calc7 باستخدام الوسيط num.\nفي السطر الثالث، أدخل البرنامج كما يلي:\n(1) أعد قيمة المتغير result.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "return result"
-            ],
-            "template": "def calc7(num):\n    result = num * 7\n    ___",
-            "full_code": "def calc7(num):\n    result = num * 7\n    return result"
+            "type": "code",
+            "value": "def calc7(num):\n    result = num * 7\n    return result"
           },
           "label": "السابع"
         },
         "8": {
           "question": "لقد أنشأتَ الدالة calc7 باستخدام الوسيط num.\nفي السطر الخامس، أدخل البرنامج كما يلي:\n(1) مرّر الوسيط 10 إلى الدالة calc7 واطبعه على الشاشة.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "print(calc7(10))"
-            ],
-            "template": "def calc7(num):\n    result = num * 7\n    return result\n\n___",
-            "full_code": "def calc7(num):\n    result = num * 7\n    return result\n\nprint(calc7(10))"
+            "type": "code",
+            "value": "def calc7(num):\n    result = num * 7\n    return result\n\nprint(calc7(10))"
           },
           "label": "الثامن"
         }
@@ -213,9 +189,8 @@
       "2": {
         "question": "اختر البرنامج الصحيح لإنشاء دالة باسم calc مع وسيط باسم num.",
         "answer": {
-          "type": "code",
-          "value": "def calc(num):",
-          "note": "المعالجة"
+          "type": "text",
+          "value": "def calc(num):\nالمعالجة"
         },
         "label": "الثاني"
       },
@@ -230,24 +205,16 @@
       "4": {
         "question": "أضف برنامجًا يستدعي الدالة \"calc\".\nضع الرقم \"3\" كوسيط.",
         "answer": {
-          "type": "fill",
-          "blanks": [
-            "print(calc(3))"
-          ],
-          "template": "def calc(num):\n    result = num * 5;\n    return result;\n___",
-          "full_code": "def calc(num):\n    result = num * 5;\n    return result;\nprint(calc(3))"
+          "type": "code",
+          "value": "def calc(num):\n    result = num * 5;\n    return result;\nprint(calc(3))"
         },
         "label": "الرابع"
       },
       "5": {
         "question": "أضف إلى البرنامج المكتوب برنامجًا يقوم بإرجاع قيمة المتغير \"result\".",
         "answer": {
-          "type": "fill",
-          "blanks": [
-            "return result;"
-          ],
-          "template": "def calc(num):\n    result = num * 7;\n    ___\nprint(calc(10))",
-          "full_code": "def calc(num):\n    result = num * 7;\n    return result;\nprint(calc(10))"
+          "type": "code",
+          "value": "def calc(num):\n    result = num * 7;\n    return result;\nprint(calc(10))"
         },
         "label": "الخامس"
       }

@@ -40,8 +40,8 @@
             "blanks": [
               "print(temp_list[2])"
             ],
-            "template": "___",
-            "full_code": "print(temp_list[2])"
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35]\n___",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list[2])"
           },
           "label": "الثاني"
         },
@@ -52,8 +52,8 @@
             "blanks": [
               "print(temp_list[5])"
             ],
-            "template": "___",
-            "full_code": "print(temp_list[5])"
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35]\n___",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list[5])"
           },
           "label": "الثالث"
         },
@@ -64,8 +64,8 @@
             "blanks": [
               "print(temp_list)"
             ],
-            "template": "___",
-            "full_code": "print(temp_list)"
+            "template": "temp_list = [35, 34, 26, 29, 31, 33, 35]\n___",
+            "full_code": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list)"
           },
           "label": "الرابع"
         }

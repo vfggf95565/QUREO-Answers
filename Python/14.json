@@ -15,8 +15,7 @@
           "question": "أنشئ برنامجك كما يلي:\n(1) استورد مكتبة math\n(2) مرر القيمة 5.5 إلى دالة round، واعرضها على الشاشة\n(3) مرر القيمة 5.5 إلى دالة math.floor، واعرضها على الشاشة",
           "answer": {
             "type": "code",
-            "value": "print(round(5.5))\nprint(math.floor(5.5))",
-            "note": "import math"
+            "value": "import math\nprint(round(5.5))\nprint(math.floor(5.5))"
           },
           "label": "الثاني"
         },
@@ -32,8 +31,7 @@
           "question": "أنشئ برنامجك كما يلي:\n(1) استورد الدالة random\n(2) استدعِ الدالة random.random واعرض النتيجة على الشاشة.",
           "answer": {
             "type": "code",
-            "value": "print(random.random())",
-            "note": "import random"
+            "value": "import random\nprint(random.random())"
           },
           "label": "الرابع"
         },
@@ -41,8 +39,7 @@
           "question": "ستقوم بإنشاء دالة، عند تمرير مبلغ إجمالي إليها، تُعيد القيمة مقسومة على 4.\nأنشئ برنامجك كما يلي:\n(1) أنشئ دالة باسم split4، واسم وسيطها total.\n(2) عرّف المتغير result، وأسند إليه معادلة الحساب total / 4.\n(3) أعد قيمة المتغير result.\n(4) مرر الوسيط 1200 إلى الدالة split4، واعرض النتيجة على الشاشة.",
           "answer": {
             "type": "code",
-            "value": "def split4(total):\n    result = total / 4\n    return result\n\nprint(split4(1200))",
-            "note": "ملحوظة : لنجاح النسخ وعدم ظهور خطا رجاء نسخ كل سطر وحده ومراعاه السطر الفارغ او كتابة الكود يدوي"
+            "value": "def split4(total):\n    result = total / 4\n    return result\n\nprint(split4(1200))"
           },
           "label": "الخامس"
         }
@@ -93,13 +90,8 @@
       "5": {
         "question": "أنشئ برنامجًا يُعيد عددًا صحيحًا عشوائيًا كما يلي:\n(1) استخدم الدالة \"random.random\" لإعادة قيمة عددية عشوائية.\n(2) اضرب القيمة العددية العشوائية المُعادة في 10.\n(3) استخدم الدالة \"math.floor\" لإعادة عدد صحيح.",
         "answer": {
-          "type": "fill",
-          "blanks": [
-            "print(math.floor(random.random() * 10))"
-          ],
-          "template": "import math\nimport random\n___",
-          "full_code": "print(math.floor(random.random() * 10))",
-          "note": "import math\nimport random"
+          "type": "code",
+          "value": "import math\nimport random\nprint(math.floor(random.random() * 10))"
         },
         "label": "الخامس"
       },
@@ -107,8 +99,7 @@
         "question": "يرجى تحديد البرنامج الصحيح لإنشاء دالة باسم الدالة calc واسم الوسيط num.",
         "answer": {
           "type": "code",
-          "value": "def calc(num):",
-          "note": "المعالجة"
+          "value": "def calc(num):\nالمعالجة"
         },
         "label": "السادس"
       },
