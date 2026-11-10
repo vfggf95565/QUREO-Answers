@@ -191,8 +191,7 @@
           "question": "أنشئ برنامجك على النحو التالي.\n① قم بتعريف متغير sauce_temp وقم بتعيين القيمة 98 له\n② إذا كانت قيمة المتغير sauce_temp أكبر من أو تساوي 95، فقم بإخراج \"Sauce is ready\" إلى الشاشة",
           "answer": {
             "type": "code",
-            "value": "sauce_temp = 98\nif sauce_temp >= 95:\n    print(\"Sauce is ready\")",
-            "note": "كتابة الكود الاتى مع مراعاه المسافة في السطر الثالث"
+            "value": "sauce_temp = 98\nif sauce_temp >= 95:\n    print(\"Sauce is ready\")"
           },
           "label": "الثالث"
         },
@@ -631,13 +630,8 @@
       "1": {
         "question": "أضف شرطًا ثانيًا إلى البرنامج الموضح،\nبحيث إذا كان A أصغر من B، فإن اطبع \"B is bigger\" إلى الشاشة.\nيجب أن يكون التعبير الشرطي الثاني هو \"A < B\".",
         "answer": {
-          "type": "partial",
-          "answer_code": "A = 5;\nB = 10;",
-          "full_code": "print(\"B is bigger\")",
-          "extra_codes": [
-            "print(\"A is bigger\")"
-          ],
-          "note": "if A > B:\nelif A < B:"
+          "type": "code",
+          "value": "A = 5\nB = 10\nif A > B:\n    print(\"A is bigger\")\nelif A < B:\n    print(\"B is bigger\")"
         },
         "label": "الاول"
       },
