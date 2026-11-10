@@ -698,9 +698,8 @@
       "9": {
         "question": "اختر البرنامج الصحيح لإنشاء حركة الدالة motion وسائط.",
         "answer": {
-          "type": "code",
-          "value": "def motion()",
-          "note": "البرنامج المراد تشغيله"
+          "type": "text",
+          "value": "def motion()\nالبرنامج المراد تشغيله"
         },
         "label": "التاسع"
       },
