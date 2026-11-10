@@ -56,12 +56,10 @@
           "label": "الاول"
         },
         "2": {
-          "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم درجات الحرارة السبع على الشاشة.\nأدخل برنامجك كما يلي.\nfor temp in past_temp_list:",
+          "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم درجات الحرارة السبع على الشاشة.\nأدخل برنامجك كما يلي.",
           "answer": {
-            "type": "partial",
-            "answer_code": "past_temp_list = [7, 10, 12, 9, 11, 8, 15]",
-            "full_code": "print(temp)",
-            "note": "for temp in past_temp_list:"
+            "type": "code",
+            "value": "past_temp_list = [7, 10, 12, 9, 11, 8, 15]\nfor temp in past_temp_list:\n    print(temp)"
           },
           "label": "الثاني"
         }
@@ -76,20 +74,16 @@
         "1": {
           "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير num_list على الشاشة.\nاكتب القائمة بعد in، واطبع جميع قيم المتغير num_list.\nومع ذلك، يجب أن يكون المتغير الذي يخزن كل قيمة مأخوذة من المتغير num_list هو num.",
           "answer": {
-            "type": "partial",
-            "answer_code": "num_list = [4, 8, 12, 16]",
-            "full_code": "print(num)",
-            "note": "for num in num_list:"
+            "type": "code",
+            "value": "num_list = [4, 8, 12, 16]\nfor num in num_list:\n    print(num)"
           },
           "label": "الاول"
         },
         "2": {
           "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير fruit_list على الشاشة.\nالسلاسل المراد وضعها في fruit_list: lime, berry, mango\nاكتب القائمة بعد in، واطبع جميع قيم المتغير fruit_list.\nومع ذلك، يجب أن يكون المتغير الذي يخزن كل قيمة مأخوذة من المتغير fruit_list هو فاكهة.",
           "answer": {
-            "type": "partial",
-            "answer_code": "fruit_list = [\"lime\", \"berry\", \"mango\"]",
-            "full_code": "print(fruit)",
-            "note": "for fruit in fruit_list:"
+            "type": "code",
+            "value": "fruit_list = [\"lime\", \"berry\", \"mango\"]\nfor fruit in fruit_list:\n    print(fruit)"
           },
           "label": "الثاني"
         }
@@ -129,20 +123,17 @@
       "4": {
         "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير point_list على الشاشة.\nأنشئ برنامجك على النحو التالي.\n(1) اكتب القائمة بعد in، واطبع جميع قيم المتغير point_list\nومع ذلك، يجب أن يكون المتغير الذي يخزن كل قيمة مأخوذة من المتغير point_list هو نقطة.",
         "answer": {
-          "type": "partial",
-          "answer_code": "point_list = [2, 5, 8, 11];",
-          "full_code": "print(point)",
-          "note": "for point in point_list:"
+          "type": "code",
+          "value": "point_list = [2, 5, 8, 11];\nfor point in point_list:\n    print(point)"
         },
         "label": "الرابع"
       },
       "5": {
         "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير word_list على الشاشة.\nالسلاسل المراد وضعها في word_list: Good morning, Good night, Hello\nأنشئ برنامجك على النحو التالي.\n(1) أضف قيمًا إلى المتغير word_list\n(2) اكتب القائمة بعد in، واطبع جميع قيم المتغير word_list\nومع ذلك، يجب أن يكون المتغير الذي يخزن كل قيمة مأخوذة من المتغير word_list كلمة.",
         "answer": {
-          "type": "partial",
-          "answer_code": "word_list = [\"Good morning\", \"Good night\", \"Hello\"];",
-          "full_code": "print(word)",
-          "note": "وفي حاله خطا في النسخ اكتب السطر الثالث يدويا بدون نسخ ولصق مع مراعاه المسافه\nfor word in word_list:"
+          "type": "code",
+          "value": "word_list = [\"Good morning\", \"Good night\", \"Hello\"];\nfor word in word_list:\n    print(word)",
+          "note": "وفي حاله خطا في النسخ اكتب السطر الثالث يدويا بدون نسخ ولصق مع مراعاه المسافه"
         },
         "label": "الخامس"
       }
