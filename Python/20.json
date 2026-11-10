@@ -10,9 +10,8 @@
             "blanks": [
               "if is_ready:"
             ],
-            "template": "is_ready = True\n___\n    print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")",
-            "full_code": "print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")",
-            "note": "if is_ready:"
+            "template": "is_ready = True\n\n___\n    print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")",
+            "full_code": "is_ready = True\n\nif is_ready:\n    print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")"
           },
           "label": "الاول"
         },
@@ -23,17 +22,21 @@
             "blanks": [
               "print(type(is_ready))"
             ],
-            "template": "is_ready = True\n___",
-            "full_code": "is_ready = True\nprint(type(is_ready))"
+            "template": "is_ready = True\n\n___",
+            "full_code": "is_ready = True\n\nprint(type(is_ready))"
           },
           "label": "الثاني"
         },
         "3": {
           "question": "يمكنك إنشاء كشك إذا جمعت 8 تذاكر أو أكثر وقدمت المساعدة 4 مرات أو أكثر.\nتحقق من كلا الشرطين، ticket_count و help_count، وقم بتعيين True أو False للنتيجة.",
           "answer": {
-            "type": "partial",
-            "answer_code": "ticket_count = 8\nhelp_count = 5\nresult = False\nif ticket_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False",
-            "full_code": "if result:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
+            "type": "fill",
+            "blanks": [
+              "result = True",
+              "result = False"
+            ],
+            "template": "ticket_count = 8\nhelp_count = 5\nresult = False\n\nif ticket_count >= 8 and help_count >= 4:\n    ___\nelse:\n    ___\n\nif result:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+            "full_code": "ticket_count = 8\nhelp_count = 5\nresult = False\n\nif ticket_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\n\nif result:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
           },
           "label": "الثالث"
         },
