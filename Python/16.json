@@ -85,8 +85,8 @@
       "1": {
         "question": "اختر البرنامج الصحيح لإنشاء مصفوفة تحتوي على أعداد صحيحة فقط.",
         "answer": {
-          "type": "code",
-          "value": "import array\nrank_array = array.array('i', [3, 1, 3, 2, 1]);"
+          "type": "text",
+          "value": "import array\nrank_array = array.array('i', [3, 1, 3, 2, 1])"
         },
         "label": "الاول"
       },
@@ -102,7 +102,7 @@
         "question": "أدخل البرنامج كما يلي:\n(1) اكتب import array في بداية البرنامج.\n(2) عيّن المتغير round_array باستخدام array.array('i', [1, 2, 3, 4, 5]).\n(3) اطبع العنصرين 1 و4 من round_array في وحدة التحكم.",
         "answer": {
           "type": "code",
-          "value": "import array\nround_array = array.array('i', [1, 2, 3, 4, 5]);\nprint(round_array[1])\nprint(round_array[4])"
+          "value": "import array\n\nround_array = array.array('i', [1, 2, 3, 4, 5])\nprint(round_array[1])\nprint(round_array[4])"
         },
         "label": "الثالث"
       },

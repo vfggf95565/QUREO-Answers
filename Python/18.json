@@ -17,9 +17,8 @@
             "blanks": [
               "True"
             ],
-            "template": "is_sunny = ___\nif is_sunny:\n    print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")",
-            "full_code": "print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")",
-            "note": "if is_sunny:"
+            "template": "is_sunny = ___\n\nif is_sunny:\n    print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")",
+            "full_code": "is_sunny = True\n\nif is_sunny:\n    print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")"
           },
           "label": "الاول"
         }
@@ -45,8 +44,8 @@
             "blanks": [
               "print(type(is_sunny))"
             ],
-            "template": "is_sunny = \"True\"\n___",
-            "full_code": "is_sunny = \"True\"\nprint(type(is_sunny))"
+            "template": "is_sunny = \"True\"\n\n___",
+            "full_code": "is_sunny = \"True\"\n\nprint(type(is_sunny))"
           },
           "label": "الثاني"
         },
@@ -57,8 +56,8 @@
             "blanks": [
               "print(type(is_sunny))"
             ],
-            "template": "is_sunny = True\n___",
-            "full_code": "is_sunny = True\nprint(type(is_sunny))"
+            "template": "is_sunny = True\n\n___",
+            "full_code": "is_sunny = True\n\nprint(type(is_sunny))"
           },
           "label": "الثالث"
         },
@@ -94,8 +93,8 @@
             "blanks": [
               "stamp_count >= 8 and help_count >= 4:"
             ],
-            "template": "stamp_count = 8\nhelp_count = 5\nif ___\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
-            "full_code": "stamp_count = 8\nhelp_count = 5\nif stamp_count >= 8 and help_count >= 4:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
+            "template": "stamp_count = 8\nhelp_count = 5\n\nif ___\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+            "full_code": "stamp_count = 8\nhelp_count = 5\n\nif stamp_count >= 8 and help_count >= 4:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
           },
           "label": "الاول"
         },
@@ -109,8 +108,13 @@
         "3": {
           "question": "قم بإنشاء برنامج يقوم بإخراج \"Booth approved!\" إذا قمت بجمع 8 طوابع أو أكثر، وساعدت 4 مرات أو أكثر، وحصلت على 75 درجة أو أكثر في الاختبار.\nلنفترض أن stamp_count هو عدد الطوابع، وhelp_count هو عدد المرات التي ساعدت فيها، وquiz_score هي درجة الاختبار.\nأدخل البرنامج كما يلي.",
           "answer": {
-            "type": "code",
-            "value": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False"
+            "type": "fill",
+            "blanks": [
+              "result = True",
+              "result = False"
+            ],
+            "template": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\n\nif stamp_count >= 8 and help_count >= 4:\n    ___\nelse:\n    ___",
+            "full_code": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\n\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False"
           },
           "label": "الثالث"
         },
@@ -121,8 +125,8 @@
             "blanks": [
               "result and quiz_score >= 75:"
             ],
-            "template": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\nif ___\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
-            "full_code": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\nif result and quiz_score >= 75:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
+            "template": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\n\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\n\nif ___\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+            "full_code": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\n\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\n\nif result and quiz_score >= 75:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
           },
           "label": "الرابع"
         }

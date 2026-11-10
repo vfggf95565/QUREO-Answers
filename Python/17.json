@@ -39,21 +39,15 @@
           "question": "سنضع مستويات التحذير في مصفوفة من الأعداد الصحيحة فقط.\n2 تعني \"خطر\"، و1 تعني \"تحذير\".\nأنشئ برنامجك كما يلي:\n(1) اكتب import array في بداية البرنامج.\n(2) عيّن قيمة array.array('i', [2, 2, 1, 1, 2, 1, 2]) إلى warn_array.\n(3) اطبع العنصرين 0 و5 من warn_array على الشاشة.",
           "answer": {
             "type": "code",
-            "value": "warn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])\nprint(warn_array[5])",
-            "note": "import array"
+            "value": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])\nprint(warn_array[5])"
           },
           "label": "الرابع"
         },
         "5": {
           "question": "أنشئ برنامجك كما يلي:\n(1) اطبع طول المصفوفة warn_array على الشاشة.",
           "answer": {
-            "type": "fill",
-            "blanks": [
-              "print(len(warn_array))"
-            ],
-            "template": "import array\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\n___",
-            "full_code": "warn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(len(warn_array))",
-            "note": "import array"
+            "type": "code",
+            "value": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(len(warn_array))"
           },
           "label": "الخامس"
         },
@@ -61,8 +55,7 @@
           "question": "سننشئ مصفوفة تمثل أيام الأسبوع بالأرقام.\nالأسبوع الذي يبدأ من الثلاثاء هو: 2، 3، 4، 5، 6، 7، 1.\nأنشئ برنامجك كما يلي:\n(1) اكتب import array في بداية البرنامج.\n(2) عيّن قيمة array.array('i', [2, 3, 4, 5, 6, 7, 1]) إلى day_array.\n(3) اطبع العنصرين 0 و6 من day_array على الشاشة.",
           "answer": {
             "type": "code",
-            "value": "day_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(day_array[0])\nprint(day_array[6])",
-            "note": "تعديل الكود ليكون هكذا\nملحوظة: يفضل تعديل السطر الاول والثالث اولا باضافه الزيادات ثم وضع السطر الثالث والرابع حتي لا تواجه رساله الكود خطا\nimport array"
+            "value": "import array\n\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(day_array[0])\nprint(day_array[6])"
           },
           "label": "السادس"
         }
@@ -108,7 +101,7 @@
         "label": "الثالث"
       },
       "4": {
-        "question": "حدد ناتج تشغيل البرنامج التالي.\nimport array",
+        "question": "حدد ناتج تشغيل البرنامج التالي.",
         "answer": {
           "type": "text",
           "value": "30"
@@ -119,13 +112,12 @@
         "question": "اختر البرنامج الصحيح لإنشاء مصفوفة من الأعداد الصحيحة فقط.",
         "answer": {
           "type": "code",
-          "value": "rank_array = array.array('i', [3, 1, 3, 2, 1]);",
-          "note": "import array"
+          "value": "import array\nrank_array = array.array('i', [3, 1, 3, 2, 1])"
         },
         "label": "الخامس"
       },
       "6": {
-        "question": "حدد ناتج تشغيل البرنامج التالي.\nimport array",
+        "question": "حدد ناتج تشغيل البرنامج التالي.",
         "answer": {
           "type": "text",
           "value": "6"

@@ -7,17 +7,16 @@
           "question": "في جناح الفصل الدراسي في مهرجان المدرسة، يبلغ عرض الرف 87.5 سم ويبلغ عرض كل صندوق جوائز 12.3 سم.\nأنشئ برنامجًا يحسب عدد الصناديق التي تتسع كعدد صحيح ويعرضها على الشاشة.\nأنشئ برنامجك على النحو التالي.\n① اكتب import math في الأعلى\n② استخدم math.floor لتقريب 87.5 / 12.3 إلى الأسفل واعرض الناتج على الشاشة",
           "answer": {
             "type": "code",
-            "value": "print(math.floor(87.5 / 12.3))",
-            "note": "في حالة النسخ يفضل نسخ كل سطر علي مرة وليس الكود بالكامل\nimport math"
+            "value": "import math\n\nprint(math.floor(87.5 / 12.3))",
+            "note": "في حالة النسخ يفضل نسخ كل سطر علي مرة وليس الكود بالكامل"
           },
           "label": "الاول"
         },
         "2": {
-          "question": "دعونا نتحقق من الفرق بين التقريب إلى الأسفل والتقريب إلى الأعلى.\nأدخل نفس البرنامج كما هو موضح أدناه.\nimport math",
+          "question": "دعونا نتحقق من الفرق بين التقريب إلى الأسفل والتقريب إلى الأعلى.\nأدخل نفس البرنامج كما هو موضح أدناه.",
           "answer": {
             "type": "code",
-            "value": "print(math.floor(7.6))\nprint(round(7.6))",
-            "note": "في حالة النسخ يفضل نسخ كل سطر علي مرة وليس الكود بالكامل\nimport math"
+            "value": "import math\n\nprint(math.floor(7.6))\nprint(round(7.6))"
           },
           "label": "الثاني"
         },
@@ -25,8 +24,7 @@
           "question": "لنكتشف عدد الصناديق التي تتسع على الرف الآخر أيضاً.\nيبلغ عرض الرف 64.8 سم، ويبلغ عرض كل صندوق جوائز 9.5 سم.\nأنشئ برنامجك على النحو التالي.\n① اكتب import math في الأعلى\n② استخدم math.floor لتقريب 64.8 / 9.5 إلى الأسفل واعرض الناتج على الشاشة",
           "answer": {
             "type": "code",
-            "value": "print(math.floor(64.8 / 9.5))",
-            "note": "import math"
+            "value": "import math\n\nprint(math.floor(64.8 / 9.5))"
           },
           "label": "الثالث"
         }
@@ -43,8 +41,7 @@
           "question": "لنستعد لتوليد أرقام عشوائية لتذاكر السحب.\nأنشئ برنامجك على النحو التالي.\n① اكتب import random في الأعلى\n② استدعِ random.random واعرضه على الشاشة",
           "answer": {
             "type": "code",
-            "value": "print(random.random())",
-            "note": "import random"
+            "value": "import random\n\nprint(random.random())"
           },
           "label": "الاول"
         },
@@ -55,9 +52,8 @@
             "blanks": [
               "print(random.random() * 10)"
             ],
-            "template": "import random\n___",
-            "full_code": "print(random.random() * 10)",
-            "note": "import random"
+            "template": "import random\n\n___",
+            "full_code": "import random\n\nprint(random.random() * 10)"
           },
           "label": "الثاني"
         },
@@ -70,21 +66,19 @@
               "math.floor(random.random() * 10)"
             ],
             "template": "___\nimport random\nprint(___)",
-            "full_code": "print(math.floor(random.random() * 10))",
-            "note": "import math\nimport random"
+            "full_code": "import math\nimport random\nprint(math.floor(random.random() * 10))"
           },
           "label": "الثالث"
         },
         "4": {
-          "question": "أنشئ برنامجًا يقرر عشوائيًا ما إذا كنت ستفوز أم ستخسر.\nأدخل البرنامج التالي.\nimport random",
+          "question": "أنشئ برنامجًا يقرر عشوائيًا ما إذا كنت ستفوز أم ستخسر.\nأدخل البرنامج التالي.",
           "answer": {
             "type": "fill",
             "blanks": [
               "random.random() >= 0.5:"
             ],
             "template": "import random\nif ___\n    print(\"You win!\")\nelse:\n    print(\"You lose...\")",
-            "full_code": "if random.random() >= 0.5:\n    print(\"You win!\")\nelse:\n    print(\"You lose...\")",
-            "note": "import random"
+            "full_code": "import random\nif random.random() >= 0.5:\n    print(\"You win!\")\nelse:\n    print(\"You lose...\")"
           },
           "label": "الرابع"
         }
@@ -127,8 +121,7 @@
         "question": "أنشئ برنامجًا يعرض عددًا صحيحًا عشوائيًا مكونًا من رقم واحد، كما يلي.\n① اكتب import math و import random\n② اعرض math.floor(random.random() * 10) على الشاشة",
         "answer": {
           "type": "code",
-          "value": "print(math.floor(random.random() * 10))",
-          "note": "تعديل السطر الثالث في الكود ليكون هكذا\nويكون شكل الكود النهائي\nimport math\nimport random"
+          "value": "import math\nimport random\nprint(math.floor(random.random() * 10))"
         },
         "label": "الرابع"
       },
@@ -140,8 +133,7 @@
             "if random.random() >= 0.7:"
           ],
           "template": "import random\n___\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")",
-          "full_code": "if random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")",
-          "note": "import random"
+          "full_code": "import random\nif random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")"
         },
         "label": "الخامس"
       }

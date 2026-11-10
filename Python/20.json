@@ -33,8 +33,7 @@
           "answer": {
             "type": "partial",
             "answer_code": "ticket_count = 8\nhelp_count = 5\nresult = False\nif ticket_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False",
-            "full_code": "print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
-            "note": "if result:"
+            "full_code": "if result:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")"
           },
           "label": "الثالث"
         },
@@ -42,8 +41,7 @@
           "question": "احسب عدد العناصر التي تتسع على الرف كعدد صحيح، ثم اعرضه على الشاشة.\nيبلغ عرض الرف 64.8 سم، ويبلغ حجم كل صندوق جوائز 9.5 سم.\nأنشئ برنامجك على النحو التالي.\n① اكتب import math في الأعلى\n② استخدم math.floor لحذف الجزء العشري من 64.8 / 9.5، واعرض الناتج",
           "answer": {
             "type": "code",
-            "value": "print(math.floor(64.8 / 9.5))",
-            "note": "يفضل نسخ كل سطر في مرة منفصلة\nimport math"
+            "value": "import math\nprint(math.floor(64.8 / 9.5))"
           },
           "label": "الرابع"
         },
@@ -56,8 +54,7 @@
               "math.floor(random.random() * 10)"
             ],
             "template": "___\nimport random\nprint(___)",
-            "full_code": "print(math.floor(random.random() * 10))",
-            "note": "import math\nimport random"
+            "full_code": "import math\nimport random\nprint(math.floor(random.random() * 10))"
           },
           "label": "الخامس"
         }
@@ -113,8 +110,7 @@
             "print(math.floor(random.random() * 10))"
           ],
           "template": "import math\nimport random\n___",
-          "full_code": "print(math.floor(random.random() * 10))",
-          "note": "import math\nimport random"
+          "full_code": "import math\nimport random\nprint(math.floor(random.random() * 10))"
         },
         "label": "الخامس"
       },
@@ -126,8 +122,7 @@
             "if random.random() >= 0.7:"
           ],
           "template": "import random\n___\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")",
-          "full_code": "if random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")",
-          "note": "import random"
+          "full_code": "import random\nif random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")"
         },
         "label": "السادس"
       }
