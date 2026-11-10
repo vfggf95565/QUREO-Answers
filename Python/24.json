@@ -146,22 +146,18 @@
     "5": {
       "questions": {
         "1": {
-          "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم درجات الحرارة السبع على الشاشة.\nأدخل البرنامج تمامًا كما يلي.\nfor temp in cold_temp_list:",
+          "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم درجات الحرارة السبع على الشاشة.\nأدخل البرنامج تمامًا كما يلي.",
           "answer": {
-            "type": "partial",
-            "answer_code": "cold_temp_list = [6, 8, 10, 9, 11, 7, 13]",
-            "full_code": "print(temp)",
-            "note": "for temp in cold_temp_list:"
+            "type": "code",
+            "value": "cold_temp_list = [6, 8, 10, 9, 11, 7, 13]\nfor temp in cold_temp_list:\n    print(temp)"
           },
           "label": "الاول"
         },
         "2": {
           "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير food_list على الشاشة.\nالسلاسل المراد وضعها في food_list: tomato, carrot, onion\nاكتب القائمة بعد in، واطبع جميع قيم المتغير food_list.\nاستخدم المتغير food لتخزين كل قيمة يتم استخراجها من المتغير food_list.",
           "answer": {
-            "type": "partial",
-            "answer_code": "food_list = [\"tomato\", \"carrot\", \"onion\"]",
-            "full_code": "print(food)",
-            "note": "for food in food_list:"
+            "type": "code",
+            "value": "food_list = [\"tomato\", \"carrot\", \"onion\"]\nfor food in food_list:\n    print(food)"
           },
           "label": "الثاني"
         },
@@ -212,20 +208,16 @@
       "2": {
         "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير point_list على الشاشة.\nأنشئ البرنامج على النحو التالي.\n(1) اكتب القائمة بعد in واطبع جميع قيم المتغير point_list.\nاستخدم النقطة المتغيرة للاحتفاظ بكل قيمة يتم إخراجها من المتغير point_list.",
         "answer": {
-          "type": "partial",
-          "answer_code": "point_list = [2, 5, 8, 11];",
-          "full_code": "print(point)",
-          "note": "for point in point_list:"
+          "type": "code",
+          "value": "point_list = [2, 5, 8, 11];\nfor point in point_list:\n    print(point)"
         },
         "label": "الثاني"
       },
       "3": {
         "question": "ستقوم بإنشاء برنامج يقوم بطباعة جميع قيم المتغير word_list على الشاشة.\nالسلاسل المراد وضعها في word_list: good morning, good night, hello\nأنشئ البرنامج على النحو التالي.\n(1) أضف قيمًا إلى المتغير word_list.\n(2) اكتب القائمة بعد in، واطبع جميع قيم المتغير word_list.\nاستخدم الكلمة المتغيرة للاحتفاظ بكل قيمة يتم إخراجها من المتغير word_list.\nنسخة النص: good morning good night hello",
         "answer": {
-          "type": "partial",
-          "answer_code": "word_list = [\"good morning\", \"good night\", \"hello\"];",
-          "full_code": "print(word)",
-          "note": "يفضل نسخ كل سطر في مره او الكتابة يدويا لتجنب اعطاء الاجابة خطا\nfor word in word_list:"
+          "type": "code",
+          "value": "word_list = [\"good morning\", \"good night\", \"hello\"];\nfor word in word_list:\n    print(word)"
         },
         "label": "الثالث"
       },

@@ -28,8 +28,7 @@
           "answer": {
             "type": "partial",
             "answer_code": "def sum(stage1_time, stage2_time):\n    time = stage1_time + stage2_time\n    return time",
-            "full_code": "teamA = sum(37.5, 62.5)\nprint(teamA)",
-            "note": "# Write your program below this line."
+            "full_code": "# Write your program below this line.\nteamA = sum(37.5, 62.5)\nprint(teamA)"
           },
           "label": "الثالث"
         }
@@ -129,21 +128,17 @@
               "for day in record_list:"
             ],
             "template": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\n___\n    print(day)",
-            "full_code": "print(day)",
-            "note": "for day in record_list:"
+            "full_code": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\nfor day in record_list:\n    print(day)"
           },
           "label": "الاول"
         },
         "2": {
-          "question": "ستقوم بإنشاء برنامج يقوم بحساب وطباعة عدد قيم \"present\" في القائمة.\nابتداءً من السطر 4 فصاعدًا، أدخل نفس البرنامج كما هو موضح أدناه.\nfor day in record_list:",
+          "question": "ستقوم بإنشاء برنامج يقوم بحساب وطباعة عدد قيم \"present\" في القائمة.\nابتداءً من السطر 4 فصاعدًا، أدخل نفس البرنامج كما هو موضح أدناه.",
           "answer": {
             "type": "partial",
             "answer_code": "if day == \"present\":\n        count = count + 1",
-            "full_code": "if day == \"present\":\n        count = count + 1\nprint(count)",
-            "extra_codes": [
-              "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0"
-            ],
-            "note": "كتابة الكود الاتى في السطرين الرابع والخامس وترحيل الخامس الي السادس ومراعاه المسافات\nالكود الكامل\nfor day in record_list:"
+            "full_code": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0\nfor day in record_list:\n    if day == \"present\":\n        count = count + 1\nprint(count)",
+            "note": "كتابة الكود الاتى في السطرين الرابع والخامس وترحيل الخامس الي السادس ومراعاه المسافات\nالكود الكامل"
           },
           "label": "الثاني"
         },
@@ -152,11 +147,8 @@
           "answer": {
             "type": "partial",
             "answer_code": "if day == \"absent\":\n        count = count + 1",
-            "full_code": "if day == \"absent\":\n        count = count + 1\nprint(count)",
-            "extra_codes": [
-              "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0"
-            ],
-            "note": "كتابة الكود الاتى في السطرين الرابع والخامس وترحيل الخامس الي السادس ومراعاه المسافات\nالكود الكامل\nfor day in record_list:"
+            "full_code": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0\nfor day in record_list:\n    if day == \"absent\":\n        count = count + 1\nprint(count)",
+            "note": "كتابة الكود الاتى في السطرين الرابع والخامس وترحيل الخامس الي السادس ومراعاه المسافات\nالكود الكامل"
           },
           "label": "الثالث"
         }
@@ -237,18 +229,15 @@
               "for day in record_list:"
             ],
             "template": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\n___\n    print(day)",
-            "full_code": "print(day)",
-            "note": "for day in record_list:"
+            "full_code": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\nfor day in record_list:\n    print(day)"
           },
           "label": "الخامس"
         },
         "6": {
           "question": "تقوم بإنشاء برنامج يقوم بحساب وطباعة عدد القيم \"Present\" في قائمة.\nأدخل البرنامج التالي من السطر 4 فصاعدًا.\nfor day in record_list:",
           "answer": {
-            "type": "partial",
-            "answer_code": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\ncount = 0",
-            "full_code": "if day == \"Present\":\n        count = count + 1\nprint(count)",
-            "note": "for day in record_list:"
+            "type": "code",
+            "value": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\ncount = 0\nfor day in record_list:\n    if day == \"Present\":\n        count = count + 1\nprint(count)"
           },
           "label": "السادس"
         },
@@ -320,7 +309,7 @@
         "label": "الرابع"
       },
       "5": {
-        "question": "حدد ناتج البرنامج الآتي.\nfor score in score_list:",
+        "question": "حدد ناتج البرنامج الآتي.",
         "answer": {
           "type": "text",
           "value": "80\n88\n92"
@@ -330,10 +319,8 @@
       "6": {
         "question": "اكتب برنامجًا يطبع فقط قيم المتغير score التي تساوي 80 أو أعلى.\nلا تقم بحذف البرنامج الأصلي.",
         "answer": {
-          "type": "partial",
-          "answer_code": "score_list = [70, 80, 66, 88, 92];",
-          "full_code": "if score >= 80:\n        print(score)",
-          "note": "for score in score_list:"
+          "type": "code",
+          "value": "score_list = [70, 80, 66, 88, 92];\nfor score in score_list:\n    if score >= 80:\n        print(score)"
         },
         "label": "السادس"
       },
