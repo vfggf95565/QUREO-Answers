@@ -26,9 +26,8 @@
         "3": {
           "question": "أنشئ دالة تجمع أوقات stage1_time وstage2_time.\nابتداءً من السطر السادس، حاول إدخاله في المحرر بالشكل التالي.",
           "answer": {
-            "type": "partial",
-            "answer_code": "def sum(stage1_time, stage2_time):\n    time = stage1_time + stage2_time\n    return time",
-            "full_code": "# Write your program below this line.\nteamA = sum(37.5, 62.5)\nprint(teamA)"
+            "type": "code",
+            "value": "def sum(stage1_time, stage2_time):\n    time = stage1_time + stage2_time\n    return time\n# Write your program below this line.\nteamA = sum(37.5, 62.5)\nprint(teamA)"
           },
           "label": "الثالث"
         }
@@ -320,7 +319,7 @@
         "question": "اكتب برنامجًا يطبع فقط قيم المتغير score التي تساوي 80 أو أعلى.\nلا تقم بحذف البرنامج الأصلي.",
         "answer": {
           "type": "code",
-          "value": "score_list = [70, 80, 66, 88, 92];\nfor score in score_list:\n    if score >= 80:\n        print(score)"
+          "value": "score_list = [70, 80, 66, 88, 92]\n\nfor score in score_list:\n    if score >= 80:\n        print(score)"
         },
         "label": "السادس"
       },

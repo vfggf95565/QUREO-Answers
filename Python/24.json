@@ -86,7 +86,7 @@
               "if shop == \"open\":"
             ],
             "template": "weather = \"sunny\"\n___\nif weather == \"sunny\":\n    ___\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")",
-            "full_code": "weather = \"sunny\"\nshop = \"open\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")"
+            "full_code": "weather = \"sunny\"\nshop = \"open\"\n\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")"
           },
           "label": "الثاني"
         },
@@ -173,7 +173,7 @@
           "question": "ستقوم بإنشاء برنامج يطبع \"Buy a star chart and go stargazing\" إذا كانت الشمس مشرقة وكان متجر الفلك مفتوحًا، وإلا فإنه يطبع \"Watch a planetarium DVD at home\".\nتم إنشاء المتغير weather لتمثيل الطقس، وتم تعيين \"sunny\" له.\nأكمل البرنامج على النحو التالي.\n(1) في السطر 2، قم بإنشاء المتغير shop وقم بتعيين القيمة \"open\" له.\n(2) إذا كانت الشمس مشرقة، وإذا كان المتغير shop هو \"open\"، اطبع \"Buy a star chart and go stargazing\" إلى الشاشة.",
           "answer": {
             "type": "code",
-            "value": "weather = \"sunny\"\nshop = \"open\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Watch a planetarium DVD at home\")"
+            "value": "weather = \"sunny\"\nshop = \"open\"\n\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Watch a planetarium DVD at home\")"
           },
           "label": "الرابع"
         },
